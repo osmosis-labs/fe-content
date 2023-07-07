@@ -1,0 +1,13 @@
+{
+  "banners": [
+    {
+      "name": "Place limit orders",
+      "start_date": "2022-06-22T14:30:00.123Z",
+      "end_date": "2023-06-22T14:30:00.123Z",
+      "description": "Experience pro trading with TFM",
+      "link_url": "https://osmosis.tfm.com/",
+      "link_text": "osmosis.tfm.com",
+      "featured": true
+    }
+  ]
+}
