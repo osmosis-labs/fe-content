@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/swap-rotating-banner.schema.json",
   "banners": [
     {
       "name": "milkTIA",
