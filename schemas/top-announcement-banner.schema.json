@@ -45,6 +45,16 @@
         "bg": {
           "type": "string",
           "$comment": "Custom Background color."
+        },
+        "startDate": {
+          "type": "string",
+          "format": "date-time",
+          "$comment": "ISO 8601 date-time string. Banner will not show until this date."
+        },
+        "endDate": {
+          "type": "string",
+          "format": "date-time",
+          "$comment": "ISO 8601 date-time string. Banner will not show after this date."
         }
       },
       "required": ["enTextOrLocalizationPath"]
