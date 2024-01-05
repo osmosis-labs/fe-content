@@ -1,0 +1,4 @@
+{
+  "$schema": "../schemas/is-chain-halted.schema.json",
+  "isChainHalted": false
+}
