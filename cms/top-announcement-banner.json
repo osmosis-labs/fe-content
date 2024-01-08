@@ -1,15 +1,5 @@
 {
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
-  "banner": {
-    "enTextOrLocalizationPath": "This is a test of the top announcement banner.",
-    "link": {
-      "enTextOrLocalizationKey": "Click here to learn more.",
-      "isExternal": true,
-      "url": "https://www.google.com"
-    },
-    "localStorageKey": "top-announcement-banner-test",
-    "startDate": "2024-01-08T00:00:00.000Z",
-    "endDate": "2024-02-01T00:00:00.000Z"
-  }
+  "banner": null
 }
