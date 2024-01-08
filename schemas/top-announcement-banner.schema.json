@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "isChainHalted": {
+      "type": "boolean"
+    },
+    "banner": {
+      "type": ["object", "null"],
+      "properties": {
+        "localStorageKey": {
+          "type": "string"
+        },
+        "pageRoute": {
+          "type": "string",
+          "$comment": "Leave undefined to include all pages."
+        },
+        "enTextOrLocalizationPath": {
+          "type": "string",
+          "$comment": "English text or key into localization jsons."
+        },
+        "link": {
+          "type": "object",
+          "properties": {
+            "enTextOrLocalizationKey": {
+              "type": "string",
+              "$comment": "English text or key into localization jsons."
+            },
+            "url": {
+              "type": "string"
+            },
+            "isExternal": {
+              "type": "boolean",
+              "$comment": "External to Osmosis. Show disclaimer before linking out of app."
+            }
+          },
+          "$comment": "Link to external page.",
+          "required": ["url"]
+        },
+        "isWarning": {
+          "type": "boolean",
+          "$comment": "Use orange styling, persist on page reloads."
+        },
+        "persistent": {
+          "type": "boolean",
+          "$comment": "Will always show on page reload. Use with caution. (Warnings persist)"
+        },
+        "bg": {
+          "type": "string",
+          "$comment": "Custom Background color."
+        },
+        "startDate": {
+          "type": "string",
+          "format": "date-time",
+          "$comment": "ISO 8601 date-time string. Banner will not show until this date."
+        },
+        "endDate": {
+          "type": "string",
+          "format": "date-time",
+          "$comment": "ISO 8601 date-time string. Banner will not show after this date."
+        }
+      },
+      "required": ["enTextOrLocalizationPath"]
+    }
+  },
+  "required": ["banner", "isChainHalted"]
+}
