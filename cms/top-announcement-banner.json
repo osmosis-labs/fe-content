@@ -8,7 +8,6 @@
       "isExternal": true,
       "url": "https://www.google.com"
     },
-    "localStorageKey": "top-announcement-banner-test",
-    "persistent": true
+    "localStorageKey": "top-announcement-banner-test"
   }
 }
