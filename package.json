@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "machine-translate": "inlang machine translate --project ./project.inlang"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "ajv": "^8.12.0",
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^2.1.1",
-    "vitest": "^1.1.3"
+    "vitest": "^1.1.3",
+    "@inlang/cli": "^2.0.0"
   }
 }

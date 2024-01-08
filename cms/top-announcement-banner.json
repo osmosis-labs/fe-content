@@ -2,9 +2,9 @@
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
   "banner": {
-    "enTextOrLocalizationPath": "This is a test of the top announcement banner.",
+    "enTextOrLocalizationPath": "topAnnouncementBanner.title",
     "link": {
-      "enTextOrLocalizationKey": "Click here to learn more.",
+      "enTextOrLocalizationKey": "topAnnouncementBanner.linkLearnMore",
       "isExternal": true,
       "url": "https://www.google.com"
     },
