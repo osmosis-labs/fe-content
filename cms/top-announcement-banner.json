@@ -8,6 +8,8 @@
       "isExternal": true,
       "url": "https://www.google.com"
     },
-    "localStorageKey": "top-announcement-banner-test"
+    "localStorageKey": "top-announcement-banner-test",
+    "startDate": "2024-01-30T00:00:00.000Z",
+    "endDate": "2024-02-01T00:00:00.000Z"
   }
 }
