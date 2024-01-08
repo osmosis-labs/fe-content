@@ -1,9 +1,8 @@
 {
   "$schema": "../schemas/top-announcement-banner.schema.json",
-  "isChainHalted": true,
+  "isChainHalted": false,
   "banner": {
     "enTextOrLocalizationPath": "This is a test of the top announcement banner.",
-    "isWarning": true,
     "link": {
       "enTextOrLocalizationKey": "Click here to learn more.",
       "isExternal": true,
