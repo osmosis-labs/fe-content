@@ -2,7 +2,5 @@
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
   "banner": null,
-  "localization": {
-    "en": {}
-  }
+  "localization": {}
 }
