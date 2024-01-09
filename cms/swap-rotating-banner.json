@@ -58,5 +58,150 @@
       "featured": true
     }
   ],
-  "localization": {}
+  "localization": {
+    "en": {
+      "swap-rotating-banner": {
+        "milkHeader": "Got Milk?",
+        "milkSubheader": "$milkTIA now available on Osmosis",
+        "tfmHeader": "Place limit orders",
+        "tfmSubheader": "Experience pro trading with TFM",
+        "calcFiHeader": "Looking to DCA?",
+        "calcFiSubheader": "Set up recurring swaps with CalcFi",
+        "marginedHeader": "Feeling bullish?",
+        "marginedSubheader": "Try quadratic leverage on Margined"
+      }
+    },
+    "es": {
+      "swap-rotating-banner": {
+        "milkHeader": "¿Tienes leche?",
+        "milkSubheader": "$milkTIA ya disponible en Osmosis",
+        "tfmHeader": "Realizar órdenes limitadas",
+        "tfmSubheader": "Experimente el comercio profesional con TFM",
+        "calcFiHeader": "¿Buscando al DCA?",
+        "calcFiSubheader": "Configure swaps recurrentes con CalcFi",
+        "marginedHeader": "¿Te sientes optimista?",
+        "marginedSubheader": "Pruebe el apalancamiento cuadrático en Margined"
+      }
+    },
+    "fa": {
+      "swap-rotating-banner": {
+        "milkHeader": "شیر دارید؟",
+        "milkSubheader": "$milkTIA اکنون در Osmosis موجود است",
+        "tfmHeader": "ثبت سفارشات محدود",
+        "tfmSubheader": "تجارت حرفه ای را با TFM تجربه کنید",
+        "calcFiHeader": "به دنبال DCA هستید؟",
+        "calcFiSubheader": "تبادلات مکرر را با CalcFi تنظیم کنید",
+        "marginedHeader": "احساس صعود؟",
+        "marginedSubheader": "اهرم درجه دوم را روی Margined امتحان کنید"
+      }
+    },
+    "fr": {
+      "swap-rotating-banner": {
+        "milkHeader": "Avoir du lait?",
+        "milkSubheader": "$milkTIA maintenant disponible sur Osmosis",
+        "tfmHeader": "Passer des ordres limités",
+        "tfmSubheader": "Faites l'expérience du trading professionnel avec TFM",
+        "calcFiHeader": "Vous envisagez le DCA ?",
+        "calcFiSubheader": "Mettre en place des swaps récurrents avec CalcFi",
+        "marginedHeader": "Vous vous sentez optimiste ?",
+        "marginedSubheader": "Essayez l'effet de levier quadratique sur Margined"
+      }
+    },
+    "ko": {
+      "swap-rotating-banner": {
+        "milkHeader": "우유를 얻었다?",
+        "milkSubheader": "이제 Osmosis에서 $milkTIA를 이용할 수 있습니다.",
+        "tfmHeader": "지정가 주문하기",
+        "tfmSubheader": "TFM으로 프로 트레이딩을 경험해보세요",
+        "calcFiHeader": "DCA를 찾고 계십니까?",
+        "calcFiSubheader": "CalcFi로 반복 스왑 설정",
+        "marginedHeader": "낙관적인 느낌?",
+        "marginedSubheader": "Margined에서 2차 레버리지를 사용해 보세요."
+      }
+    },
+    "pl": {
+      "swap-rotating-banner": {
+        "milkHeader": "Masz mleko?",
+        "milkSubheader": "$milkTIA jest teraz dostępny na Osmosis",
+        "tfmHeader": "Składaj zamówienia z limitem",
+        "tfmSubheader": "Doświadcz profesjonalnego handlu z TFM",
+        "calcFiHeader": "Szukasz DCA?",
+        "calcFiSubheader": "Konfiguruj cykliczne wymiany za pomocą CalcFi",
+        "marginedHeader": "Czujesz się uparty?",
+        "marginedSubheader": "Wypróbuj dźwignię kwadratową na Margined"
+      }
+    },
+    "pt-br": {
+      "swap-rotating-banner": {
+        "milkHeader": "Tenho leite?",
+        "milkSubheader": "$milkTIA agora disponível em Osmose",
+        "tfmHeader": "Faça pedidos com limite",
+        "tfmSubheader": "Experimente negociação profissional com TFM",
+        "calcFiHeader": "Olhando para o DCA?",
+        "calcFiSubheader": "Configure swaps recorrentes com CalcFi",
+        "marginedHeader": "Sentindo-se otimista?",
+        "marginedSubheader": "Experimente a alavancagem quadrática em Margined"
+      }
+    },
+    "ro": {
+      "swap-rotating-banner": {
+        "milkHeader": "Am lapte?",
+        "milkSubheader": "$milkTIA acum disponibil pe Osmosis",
+        "tfmHeader": "Plasați comenzi limită",
+        "tfmSubheader": "Experiență de tranzacționare profesională cu TFM",
+        "calcFiHeader": "Cauți DCA?",
+        "calcFiSubheader": "Configurați schimburi recurente cu CalcFi",
+        "marginedHeader": "Te simți optimist?",
+        "marginedSubheader": "Încercați pârghia pătratică pe Margined"
+      }
+    },
+    "tr": {
+      "swap-rotating-banner": {
+        "milkHeader": "Süt var mı?",
+        "milkSubheader": "$milkTIA artık Osmosis'te mevcut",
+        "tfmHeader": "Limit emirleri ver",
+        "tfmSubheader": "TFM ile profesyonel ticareti deneyimleyin",
+        "calcFiHeader": "DCA'yı mı arıyorsunuz?",
+        "calcFiSubheader": "CalcFi ile yinelenen takaslar ayarlayın",
+        "marginedHeader": "Yükseliş mi hissediyorsunuz?",
+        "marginedSubheader": "Margined'de ikinci dereceden kaldıracı deneyin"
+      }
+    },
+    "zh-cn": {
+      "swap-rotating-banner": {
+        "milkHeader": "有牛奶吗？",
+        "milkSubheader": "$milkTIA 现已在 Osmosis 上发售",
+        "tfmHeader": "下限价单",
+        "tfmSubheader": "通过 TFM 体验专业交易",
+        "calcFiHeader": "正在寻找 DCA？",
+        "calcFiSubheader": "使用 CalcFi 设置定期交换",
+        "marginedHeader": "感觉看涨吗？",
+        "marginedSubheader": "尝试在保证金上使用二次杠杆"
+      }
+    },
+    "zh-hk": {
+      "swap-rotating-banner": {
+        "milkHeader": "有牛奶嗎？",
+        "milkSubheader": "$milkTIA 現已在 Osmosis 上架",
+        "tfmHeader": "下限價單",
+        "tfmSubheader": "透過 TFM 體驗專業交易",
+        "calcFiHeader": "正在尋找 DCA？",
+        "calcFiSubheader": "使用 CalcFi 設定定期交換",
+        "marginedHeader": "感覺看漲嗎？",
+        "marginedSubheader": "試試在保證金上使用二次槓桿"
+      }
+    },
+    "zh-tw": {
+      "swap-rotating-banner": {
+        "milkHeader": "有牛奶嗎？",
+        "milkSubheader": "$milkTIA 現已在 Osmosis 上架",
+        "tfmHeader": "下限價單",
+        "tfmSubheader": "透過 TFM 體驗專業交易",
+        "calcFiHeader": "正在尋找 DCA？",
+        "calcFiSubheader": "使用 CalcFi 設定定期交換",
+        "marginedHeader": "感覺看漲嗎？",
+        "marginedSubheader": "試試在保證金上使用二次槓桿"
+      }
+    }
+  }
 }
