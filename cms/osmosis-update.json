@@ -1,4 +1,5 @@
 {
   "$schema": "../schemas/osmosis-update.schema.json",
-  "iframeUrl": null
+  "iframeUrl": null,
+  "localization": {}
 }
