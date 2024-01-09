@@ -2,5 +2,15 @@
   "top-announcement-banner": {
     "title": "테스트!",
     "linkLearnMore": "자세한 내용을 보려면 여기를 클릭하세요."
+  },
+  "swap-rotating-banner": {
+    "milkHeader": "우유를 얻었다?",
+    "milkSubheader": "이제 Osmosis에서 $milkTIA를 이용할 수 있습니다.",
+    "tfmHeader": "지정가 주문하기",
+    "tfmSubheader": "TFM으로 프로 트레이딩을 경험해보세요",
+    "calcFiHeader": "DCA를 찾고 계십니까?",
+    "calcFiSubheader": "CalcFi로 반복 스왑 설정",
+    "marginedHeader": "낙관적인 느낌?",
+    "marginedSubheader": "Margined에서 2차 레버리지를 사용해 보세요."
   }
 }

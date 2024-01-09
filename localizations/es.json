@@ -2,5 +2,15 @@
   "top-announcement-banner": {
     "title": "¡Pruebas!",
     "linkLearnMore": "Clic aquí para saber más."
+  },
+  "swap-rotating-banner": {
+    "milkHeader": "¿Tienes leche?",
+    "milkSubheader": "$milkTIA ya disponible en Osmosis",
+    "tfmHeader": "Realizar órdenes limitadas",
+    "tfmSubheader": "Experimente el comercio profesional con TFM",
+    "calcFiHeader": "¿Buscando al DCA?",
+    "calcFiSubheader": "Configure swaps recurrentes con CalcFi",
+    "marginedHeader": "¿Te sientes optimista?",
+    "marginedSubheader": "Pruebe el apalancamiento cuadrático en Margined"
   }
 }

@@ -2,5 +2,15 @@
   "top-announcement-banner": {
     "title": "Test yapmak!",
     "linkLearnMore": "Daha fazlasını öğrenmek için buraya tıklayın."
+  },
+  "swap-rotating-banner": {
+    "milkHeader": "Süt var mı?",
+    "milkSubheader": "$milkTIA artık Osmosis'te mevcut",
+    "tfmHeader": "Limit emirleri ver",
+    "tfmSubheader": "TFM ile profesyonel ticareti deneyimleyin",
+    "calcFiHeader": "DCA'yı mı arıyorsunuz?",
+    "calcFiSubheader": "CalcFi ile yinelenen takaslar ayarlayın",
+    "marginedHeader": "Yükseliş mi hissediyorsunuz?",
+    "marginedSubheader": "Margined'de ikinci dereceden kaldıracı deneyin"
   }
 }

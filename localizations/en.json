@@ -2,5 +2,15 @@
   "top-announcement-banner": {
     "title": "Testing!",
     "linkLearnMore": "Click here to learn more."
+  },
+  "swap-rotating-banner": {
+    "milkHeader": "Got Milk?",
+    "milkSubheader": "$milkTIA now available on Osmosis",
+    "tfmHeader": "Place limit orders",
+    "tfmSubheader": "Experience pro trading with TFM",
+    "calcFiHeader": "Looking to DCA?",
+    "calcFiSubheader": "Set up recurring swaps with CalcFi",
+    "marginedHeader": "Feeling bullish?",
+    "marginedSubheader": "Try quadratic leverage on Margined"
   }
 }

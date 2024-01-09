@@ -2,5 +2,15 @@
   "top-announcement-banner": {
     "title": "测试！",
     "linkLearnMore": "点击这里了解更多。"
+  },
+  "swap-rotating-banner": {
+    "milkHeader": "有牛奶吗？",
+    "milkSubheader": "$milkTIA 现已在 Osmosis 上发售",
+    "tfmHeader": "下限价单",
+    "tfmSubheader": "通过 TFM 体验专业交易",
+    "calcFiHeader": "正在寻找 DCA？",
+    "calcFiSubheader": "使用 CalcFi 设置定期交换",
+    "marginedHeader": "感觉看涨吗？",
+    "marginedSubheader": "尝试在保证金上使用二次杠杆"
   }
 }
