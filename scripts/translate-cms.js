@@ -39,7 +39,6 @@ function spawnPromise(...command) {
     });
 
     child.on("close", (code) => {
-      console.log(`child process exited with code ${code}`);
       if (code === 0) {
         resolve();
       } else {
@@ -51,7 +50,6 @@ function spawnPromise(...command) {
 
 async function main() {
   // Create language files
-
   for (const languageTag of inlangSettings.languageTags) {
     const languageFilePath = path.resolve(
       cacheLocationDirectory,
@@ -69,7 +67,12 @@ async function main() {
         fs.readFileSync(path.resolve(cmsDirectoryPath, filePath), "utf8")
       );
 
-      languageContent[namespace] = fileContent?.localization[languageTag] ?? {};
+      if (!fileContent.localization) {
+        continue;
+      }
+
+      languageContent[namespace] =
+        fileContent?.localization?.[languageTag] ?? {};
     }
 
     // Create en.json file with all namespaces
@@ -95,9 +98,7 @@ async function main() {
     );
 
     if (!content.localization) {
-      content.localization = {};
-      await writeFile(path.resolve(cmsDirectoryPath, filePath), content);
-      return;
+      continue;
     }
 
     // Create localization file for each language tag
