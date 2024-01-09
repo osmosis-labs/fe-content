@@ -97,7 +97,7 @@
       "calcFiHeader": "به دنبال DCA هستید؟",
       "calcFiSubheader": "تبادلات مکرر را با CalcFi تنظیم کنید",
       "calcFiImageAlt": "نمودار به سمت راست بالا با علائم دلار در حال افزایش است",
-      "marginedHeader": "احساس صعود؟",
+      "marginedHeader": "احساس صعودی بودن؟",
       "marginedSubheader": "اهرم درجه دوم را روی Margined امتحان کنید",
       "marginedImageAlt": "نمودار به صورت تصاعدی به سمت راست بالا در پس زمینه ای از نقاط افزایش می یابد"
     },
@@ -108,7 +108,7 @@
       "tfmHeader": "Passer des ordres limités",
       "tfmSubheader": "Faites l'expérience du trading professionnel avec TFM",
       "tfmImageAlt": "Graphique variable décroissant vers le bas à droite, puis augmentant vers le haut à droite avec des signes dollar",
-      "calcFiHeader": "Vous cherchez à DCA?",
+      "calcFiHeader": "Vous envisagez le DCA ?",
       "calcFiSubheader": "Mettre en place des swaps récurrents avec CalcFi",
       "calcFiImageAlt": "Graphique croissant vers le coin supérieur droit avec des signes dollar",
       "marginedHeader": "Vous vous sentez optimiste ?",
