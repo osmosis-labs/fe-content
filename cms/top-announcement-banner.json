@@ -1,5 +1,79 @@
 {
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
-  "banner": null
+  "banner": null,
+  "localization": {
+    "en": {
+      "top-announcement-banner": {
+        "title": "Testing!",
+        "linkLearnMore": "Click here to learn more."
+      }
+    },
+    "es": {
+      "top-announcement-banner": {
+        "title": "¡Pruebas!",
+        "linkLearnMore": "Clic aquí para saber más."
+      }
+    },
+    "fa": {
+      "top-announcement-banner": {
+        "title": "آزمایش کردن!",
+        "linkLearnMore": "برای اطلاعات بیشتر اینجا کلیک کنید."
+      }
+    },
+    "fr": {
+      "top-announcement-banner": {
+        "title": "Essai!",
+        "linkLearnMore": "Cliquez ici pour en savoir plus."
+      }
+    },
+    "ko": {
+      "top-announcement-banner": {
+        "title": "테스트!",
+        "linkLearnMore": "자세한 내용을 보려면 여기를 클릭하세요."
+      }
+    },
+    "pl": {
+      "top-announcement-banner": {
+        "title": "Testowanie!",
+        "linkLearnMore": "Kliknij tutaj, aby dowiedzieć się więcej."
+      }
+    },
+    "pt-br": {
+      "top-announcement-banner": {
+        "title": "Testando!",
+        "linkLearnMore": "Clique aqui para saber mais."
+      }
+    },
+    "ro": {
+      "top-announcement-banner": {
+        "title": "Testare!",
+        "linkLearnMore": "Apasa aici pentru a afla mai multe."
+      }
+    },
+    "tr": {
+      "top-announcement-banner": {
+        "title": "Test yapmak!",
+        "linkLearnMore": "Daha fazlasını öğrenmek için buraya tıklayın."
+      }
+    },
+    "zh-cn": {
+      "top-announcement-banner": {
+        "title": "测试！",
+        "linkLearnMore": "点击这里了解更多。"
+      }
+    },
+    "zh-hk": {
+      "top-announcement-banner": {
+        "title": "測試！",
+        "linkLearnMore": "點這裡了解更多。"
+      }
+    },
+    "zh-tw": {
+      "top-announcement-banner": {
+        "title": "測試！",
+        "linkLearnMore": "點這裡了解更多。"
+      }
+    }
+  }
 }
