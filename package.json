@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "machine-translate": "inlang machine translate --project ./project.inlang",
     "inline-translations": "tsx ./scripts/translate-cms.js"
   },
   "keywords": [],
