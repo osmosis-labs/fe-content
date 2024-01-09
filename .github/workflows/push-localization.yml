@@ -2,7 +2,7 @@ name: Push a new commit with inline localization on cms files
 
 on:
   pull_request:
-    branches:
+    branches-ignore:
       - main
 
 jobs:
