@@ -18,10 +18,10 @@
             "type": "string",
             "format": "date-time"
           },
-          "header": {
+          "headerOrTranslationKey": {
             "type": "string"
           },
-          "subheader": {
+          "subheaderOrTranslationKey": {
             "type": "string"
           },
           "externalUrl": {
@@ -31,7 +31,7 @@
             "type": "string",
             "format": "uri"
           },
-          "iconImageAlt": {
+          "iconImageAltOrTranslationKey": {
             "type": "string"
           },
           "gradient": {
@@ -51,11 +51,11 @@
           "name",
           "startDate",
           "endDate",
-          "header",
-          "subheader",
+          "headerOrTranslationKey",
+          "subheaderOrTranslationKey",
           "externalUrl",
           "iconImageUrl",
-          "iconImageAlt",
+          "iconImageAltOrTranslationKey",
           "gradient",
           "fontColor",
           "arrowColor",
