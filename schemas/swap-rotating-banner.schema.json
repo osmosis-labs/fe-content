@@ -10,37 +10,37 @@
           "name": {
             "type": "string"
           },
-          "start_date": {
+          "startDate": {
             "type": "string",
             "format": "date-time"
           },
-          "end_date": {
+          "endDate": {
             "type": "string",
             "format": "date-time"
           },
-          "header": {
+          "headerOrTranslationKey": {
             "type": "string"
           },
-          "subheader": {
+          "subheaderOrTranslationKey": {
             "type": "string"
           },
-          "external_url": {
+          "externalUrl": {
             "type": "string"
           },
-          "icon_image_url": {
+          "iconImageUrl": {
             "type": "string",
             "format": "uri"
           },
-          "icon_image_alt": {
+          "iconImageAltOrTranslationKey": {
             "type": "string"
           },
           "gradient": {
             "type": "string"
           },
-          "font_color": {
+          "fontColor": {
             "type": "string"
           },
-          "arrow_color": {
+          "arrowColor": {
             "type": "string"
           },
           "featured": {
@@ -49,16 +49,16 @@
         },
         "required": [
           "name",
-          "start_date",
-          "end_date",
-          "header",
-          "subheader",
-          "external_url",
-          "icon_image_url",
-          "icon_image_alt",
+          "startDate",
+          "endDate",
+          "headerOrTranslationKey",
+          "subheaderOrTranslationKey",
+          "externalUrl",
+          "iconImageUrl",
+          "iconImageAltOrTranslationKey",
           "gradient",
-          "font_color",
-          "arrow_color",
+          "fontColor",
+          "arrowColor",
           "featured"
         ]
       }
