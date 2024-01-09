@@ -1,5 +1,18 @@
 {
   "$schema": "../schemas/osmosis-update.schema.json",
   "iframeUrl": null,
-  "localization": {}
+  "localization": {
+    "en": {},
+    "es": {},
+    "fa": {},
+    "fr": {},
+    "ko": {},
+    "pl": {},
+    "pt-br": {},
+    "ro": {},
+    "tr": {},
+    "zh-cn": {},
+    "zh-hk": {},
+    "zh-tw": {}
+  }
 }
