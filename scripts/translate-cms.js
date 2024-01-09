@@ -51,7 +51,8 @@ function spawnPromise(...command) {
 
 async function main() {
   // Create language files
-  inlangSettings.languageTags.forEach((languageTag) => {
+
+  for (const languageTag of inlangSettings.languageTags) {
     const languageFilePath = path.resolve(
       cacheLocationDirectory,
       `${languageTag}.json`
@@ -60,23 +61,23 @@ async function main() {
     if (!fs.existsSync(languageFilePath)) {
       writeFile(languageFilePath, {}, { encoding: "utf8" });
     }
-  });
 
-  const enJsonContent = {};
-  for (const filePath of cmsFiles) {
-    const namespace = filePath.split(".")[0];
-    const fileContent = JSON.parse(
-      fs.readFileSync(path.resolve(cmsDirectoryPath, filePath), "utf8")
+    const languageContent = {};
+    for (const filePath of cmsFiles) {
+      const namespace = filePath.split(".")[0];
+      const fileContent = JSON.parse(
+        fs.readFileSync(path.resolve(cmsDirectoryPath, filePath), "utf8")
+      );
+
+      languageContent[namespace] = fileContent?.localization[languageTag] ?? {};
+    }
+
+    // Create en.json file with all namespaces
+    await writeFile(
+      path.resolve(cacheLocationDirectory, `${languageTag}.json`),
+      languageContent
     );
-
-    enJsonContent[namespace] = fileContent?.localization["en"] ?? {};
   }
-
-  // Create en.json file with all namespaces
-  await writeFile(
-    path.resolve(cacheLocationDirectory, "en.json"),
-    enJsonContent
-  );
 
   await spawnPromise("inlang", [
     "machine",
