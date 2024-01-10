@@ -62,7 +62,10 @@
           "featured"
         ]
       }
+    },
+    "localization": {
+      "type": "object"
     }
   },
-  "required": ["banners"]
+  "required": ["banners", "localization"]
 }

@@ -2,52 +2,53 @@
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
   "banner": {
-    "enTextOrLocalizationPath": "title",
+    "enTextOrLocalizationPath": "header",
     "link": {
-      "enTextOrLocalizationKey": "linkLearnMore",
-      "isExternal": true,
-      "url": "https://www.google.com"
+      "enTextOrLocalizationKey": "link",
+      "url": "https://tally.so/r/3jPPqY",
+      "isExternal": true
     },
-    "localStorageKey": "top-announcement-banner-test",
-    "startDate": "2024-01-08T00:00:00.000Z",
-    "endDate": "2024-02-01T00:00:00.000Z"
+    "localStorageKey": "shape-the-future-of-osmosis-10-jan"
   },
   "localization": {
-    "en": { "title": "Testing!", "linkLearnMore": "Click here to learn more." },
+    "en": {
+      "header": "Help shape the future of Osmosis.",
+      "link": "Give us feedback"
+    },
     "es": {
-      "title": "¡Pruebas!",
-      "linkLearnMore": "Clic aquí para saber más."
+      "header": "Ayuda a dar forma al futuro de Osmosis.",
+      "link": "Danos tu opinión"
     },
     "fa": {
-      "title": "آزمایش کردن!",
-      "linkLearnMore": "برای اطلاعات بیشتر اینجا کلیک کنید."
+      "header": "در شکل‌گیری آینده اسموز کمک کنید.",
+      "link": "بازخورد خود را به ما بدهید"
     },
     "fr": {
-      "title": "Essai!",
-      "linkLearnMore": "Cliquez ici pour en savoir plus."
+      "header": "Aidez à façonner l'avenir d'Osmosis.",
+      "link": "Donnez-nous votre avis"
     },
     "ko": {
-      "title": "테스트!",
-      "linkLearnMore": "자세한 내용을 보려면 여기를 클릭하세요."
+      "header": "Osmosis의 미래를 함께 만들어 가세요.",
+      "link": "피드백 주기"
     },
     "pl": {
-      "title": "Testowanie!",
-      "linkLearnMore": "Kliknij tutaj, aby dowiedzieć się więcej."
+      "header": "Pomóż kształtować przyszłość Osmosis.",
+      "link": "Przekaż nam swoją opinię"
     },
     "pt-br": {
-      "title": "Testando!",
-      "linkLearnMore": "Clique aqui para saber mais."
+      "header": "Ajude a moldar o futuro da Osmosis.",
+      "link": "Dê seu feedback"
     },
     "ro": {
-      "title": "Testare!",
-      "linkLearnMore": "Apasa aici pentru a afla mai multe."
+      "header": "Ajutați la conturarea viitorului Osmosis.",
+      "link": "Dați-ne feedback"
     },
     "tr": {
-      "title": "Test yapmak!",
-      "linkLearnMore": "Daha fazlasını öğrenmek için buraya tıklayın."
+      "header": "Osmosis'in geleceğini şekillendirmeye yardım edin.",
+      "link": "Bize geri bildirim verin"
     },
-    "zh-cn": { "title": "测试！", "linkLearnMore": "点击这里了解更多。" },
-    "zh-hk": { "title": "測試！", "linkLearnMore": "點這裡了解更多。" },
-    "zh-tw": { "title": "測試！", "linkLearnMore": "點這裡了解更多。" }
+    "zh-cn": { "header": "帮助塑造渗透的未来。", "link": "给我们反馈" },
+    "zh-hk": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" },
+    "zh-tw": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" }
   }
 }
