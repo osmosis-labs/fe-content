@@ -1,5 +1,12 @@
 {
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
-  "banner": null
+  "banner": {
+    "enTextOrLocalizationPath": "Help shape the future of Osmosis.",
+    "link": {
+      "enTextOrLocalizationKey": "Give us feedback",
+      "url": "https://tally.so/r/3jPPqY",
+      "isExternal": true
+    }
+  }
 }
