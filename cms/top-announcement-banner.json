@@ -5,10 +5,11 @@
     "enTextOrLocalizationPath": "header",
     "link": {
       "enTextOrLocalizationKey": "link",
-      "url": "https://tally.so/r/3jPPqY",
-      "isExternal": true
+      "url": "https://tally.so/r/3jPPqY"
     },
-    "localStorageKey": "shape-the-future-of-osmosis-10-jan"
+    "localStorageKey": "shape-the-future-of-osmosis-10-jan",
+    "startDate": "2024-01-10T00:00:00Z",
+    "endDate": "2024-01-24T00:00:00Z"
   },
   "localization": {
     "en": {
