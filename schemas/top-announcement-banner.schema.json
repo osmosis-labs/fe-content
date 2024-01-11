@@ -61,7 +61,10 @@
         }
       },
       "required": ["enTextOrLocalizationPath"]
+    },
+    "localization": {
+      "type": "object"
     }
   },
-  "required": ["banner", "isChainHalted"]
+  "required": ["banner", "isChainHalted", "localization"]
 }

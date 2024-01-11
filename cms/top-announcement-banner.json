@@ -2,13 +2,54 @@
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
   "banner": {
-    "enTextOrLocalizationPath": "Help shape the future of Osmosis.",
+    "enTextOrLocalizationPath": "header",
     "link": {
-      "enTextOrLocalizationKey": "Give us feedback",
+      "enTextOrLocalizationKey": "link",
       "url": "https://tally.so/r/3jPPqY"
     },
     "localStorageKey": "shape-the-future-of-osmosis-10-jan",
     "startDate": "2024-01-10T00:00:00Z",
     "endDate": "2024-01-24T00:00:00Z"
+  },
+  "localization": {
+    "en": {
+      "header": "Help shape the future of Osmosis.",
+      "link": "Give us feedback"
+    },
+    "es": {
+      "header": "Ayuda a dar forma al futuro de Osmosis.",
+      "link": "Danos tu opinión"
+    },
+    "fa": {
+      "header": "در شکل‌گیری آینده اسموز کمک کنید.",
+      "link": "بازخورد خود را به ما بدهید"
+    },
+    "fr": {
+      "header": "Aidez à façonner l'avenir d'Osmosis.",
+      "link": "Donnez-nous votre avis"
+    },
+    "ko": {
+      "header": "Osmosis의 미래를 함께 만들어 가세요.",
+      "link": "피드백 주기"
+    },
+    "pl": {
+      "header": "Pomóż kształtować przyszłość Osmosis.",
+      "link": "Przekaż nam swoją opinię"
+    },
+    "pt-br": {
+      "header": "Ajude a moldar o futuro da Osmosis.",
+      "link": "Dê seu feedback"
+    },
+    "ro": {
+      "header": "Ajutați la conturarea viitorului Osmosis.",
+      "link": "Dați-ne feedback"
+    },
+    "tr": {
+      "header": "Osmosis'in geleceğini şekillendirmeye yardım edin.",
+      "link": "Bize geri bildirim verin"
+    },
+    "zh-cn": { "header": "帮助塑造渗透的未来。", "link": "给我们反馈" },
+    "zh-hk": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" },
+    "zh-tw": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" }
   }
 }
