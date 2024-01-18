@@ -59,6 +59,20 @@
     }
   ],
   "localization": {
+    "de": {
+      "milkHeader": "Hast du Milch?",
+      "milkSubheader": "$milkTIA jetzt bei Osmosis erhältlich",
+      "milkImageAlt": "MilkTIA-Logo",
+      "tfmHeader": "Limit-Orders aufgeben",
+      "tfmSubheader": "Erleben Sie professionellen Handel mit TFM",
+      "tfmImageAlt": "Variablendiagramm, das nach rechts unten abnimmt und dann nach rechts oben zunimmt, mit Dollarzeichen",
+      "calcFiHeader": "Suchen Sie nach DCA?",
+      "calcFiSubheader": "Richten Sie wiederkehrende Swaps mit CalcFi ein",
+      "calcFiImageAlt": "Das Diagramm steigt nach rechts oben mit Dollarzeichen",
+      "marginedHeader": "Fühlen Sie sich bullisch?",
+      "marginedSubheader": "Versuchen Sie es mit einer quadratischen Hebelwirkung auf Margined",
+      "marginedImageAlt": "Diagramm, das vor einem Hintergrund aus Punkten exponentiell nach rechts oben zunimmt"
+    },
     "en": {
       "milkHeader": "Got Milk?",
       "milkSubheader": "$milkTIA now available on Osmosis",
@@ -115,6 +129,48 @@
       "marginedSubheader": "Essayez l'effet de levier quadratique sur Margined",
       "marginedImageAlt": "Graphique augmentant de façon exponentielle vers le coin supérieur droit sur un fond de points"
     },
+    "gu": {
+      "milkHeader": "દૂધ મળ્યું?",
+      "milkSubheader": "$milkTIA હવે ઓસ્મોસિસ પર ઉપલબ્ધ છે",
+      "milkImageAlt": "milkTIA લોગો",
+      "tfmHeader": "મર્યાદા ઓર્ડર મૂકો",
+      "tfmSubheader": "TFM સાથે પ્રો ટ્રેડિંગનો અનુભવ કરો",
+      "tfmImageAlt": "વેરિયેબલ ચાર્ટ નીચે જમણી તરફ ઘટે છે, પછી ડોલર ચિહ્નો સાથે ઉપર જમણી તરફ વધે છે",
+      "calcFiHeader": "DCA જોઈએ છીએ?",
+      "calcFiSubheader": "CalcFi સાથે રિકરિંગ સ્વેપ સેટ કરો",
+      "calcFiImageAlt": "ડોલર ચિહ્નો સાથે ઉપર જમણી તરફ વધતો ચાર્ટ",
+      "marginedHeader": "બુલિશ લાગે છે?",
+      "marginedSubheader": "માર્જિન પર ક્વાડ્રેટિક લિવરેજ અજમાવો",
+      "marginedImageAlt": "બિંદુઓની પૃષ્ઠભૂમિ પર ઉપર જમણી બાજુએ ઝડપથી વધતો ચાર્ટ"
+    },
+    "hi": {
+      "milkHeader": "दूध मिल गया?",
+      "milkSubheader": "$मिल्कटीआईए अब ऑस्मोसिस पर उपलब्ध है",
+      "milkImageAlt": "दूधTIA लोगो",
+      "tfmHeader": "सीमा आदेश रखें",
+      "tfmSubheader": "टीएफएम के साथ प्रो ट्रेडिंग का अनुभव लें",
+      "tfmImageAlt": "परिवर्तनीय चार्ट नीचे दाईं ओर घट रहा है, फिर डॉलर चिह्नों के साथ ऊपरी दाईं ओर बढ़ रहा है",
+      "calcFiHeader": "डीसीए खोज रहे हैं?",
+      "calcFiSubheader": "CalcFi के साथ आवर्ती स्वैप सेट करें",
+      "calcFiImageAlt": "डॉलर चिह्नों के साथ चार्ट ऊपर दाईं ओर बढ़ रहा है",
+      "marginedHeader": "तेजी महसूस हो रही है?",
+      "marginedSubheader": "मार्जिन्ड पर द्विघात उत्तोलन का प्रयास करें",
+      "marginedImageAlt": "चार्ट बिंदुओं की पृष्ठभूमि पर ऊपर दाईं ओर तेजी से बढ़ रहा है"
+    },
+    "ja": {
+      "milkHeader": "ミルクを得た？",
+      "milkSubheader": "$milkTIA が Osmosis で利用可能になりました",
+      "milkImageAlt": "ミルクTIAのロゴ",
+      "tfmHeader": "指値注文を出す",
+      "tfmSubheader": "TFM でプロの取引を体験してください",
+      "tfmImageAlt": "右下に向かって減少し、その後右上に向かってドル記号が増加する変動グラフ",
+      "calcFiHeader": "DCAをお探しですか?",
+      "calcFiSubheader": "CalcFi で定期的なスワップを設定する",
+      "calcFiImageAlt": "右上に向かってドル記号が増加するチャート",
+      "marginedHeader": "強気な気分ですか？",
+      "marginedSubheader": "マージンで二次レバレッジを試す",
+      "marginedImageAlt": "ドットの背景上で右上に向かって指数関数的に増加するグラフ"
+    },
     "ko": {
       "milkHeader": "우유를 얻었다?",
       "milkSubheader": "이제 Osmosis에서 $milkTIA를 이용할 수 있습니다.",
@@ -170,6 +226,20 @@
       "marginedHeader": "Te simți optimist?",
       "marginedSubheader": "Încercați pârghia pătratică pe Margined",
       "marginedImageAlt": "Graficul crește exponențial în dreapta sus pe un fundal de puncte"
+    },
+    "ru": {
+      "milkHeader": "Есть молоко?",
+      "milkSubheader": "$milkTIA теперь доступен на Osmosis",
+      "milkImageAlt": "молокоTIA логотип",
+      "tfmHeader": "Размещайте лимитные ордера",
+      "tfmSubheader": "Опыт профессионального трейдинга с TFM",
+      "tfmImageAlt": "График переменных уменьшается в правом нижнем углу, затем увеличивается в правом верхнем углу со знаками доллара.",
+      "calcFiHeader": "Ищете DCA?",
+      "calcFiSubheader": "Настройте повторяющиеся свопы с помощью CalcFi",
+      "calcFiImageAlt": "Диаграмма увеличивается в правом верхнем углу со знаками доллара",
+      "marginedHeader": "Чувствуете оптимизм?",
+      "marginedSubheader": "Попробуйте квадратичное кредитное плечо на маржинальном рынке",
+      "marginedImageAlt": "Диаграмма увеличивается в геометрической прогрессии вверху справа на фоне точек."
     },
     "tr": {
       "milkHeader": "Süt var mı?",
