@@ -9,22 +9,56 @@
     "persistent": true
   },
   "localization": {
-    "de": { "header": "PRÜFEN" },
-    "en": { "header": "TEST" },
-    "es": { "header": "PRUEBA" },
-    "fa": { "header": "تست" },
-    "fr": { "header": "TEST" },
-    "gu": { "header": "ટેસ્ટ" },
-    "hi": { "header": "परीक्षा" },
-    "ja": { "header": "テスト" },
-    "ko": { "header": "시험" },
-    "pl": { "header": "TEST" },
-    "pt-br": { "header": "TESTE" },
-    "ro": { "header": "TEST" },
-    "ru": { "header": "ТЕСТ" },
-    "tr": { "header": "ÖLÇEK" },
-    "zh-cn": { "header": "测试" },
-    "zh-hk": { "header": "測試" },
-    "zh-tw": { "header": "測試" }
+    "de": {
+      "header": "Um die Belohnungen dieses Pools zu erhalten, müssen Sie mehrere Stunden in Position sein, bevor Sie eine Auszahlung erhalten. Im Gegensatz dazu erhalten andere Pools Belohnungen pro Block. Das Entfernen der Position vor der Auszahlung führt zum Verlust der Prämien. Die Konsistenz mit anderen Pools wird im nächsten Upgrade implementiert."
+    },
+    "en": {
+      "header": "This pool's rewards require multiple hours of being in position before getting a payout. In contrast, other pools receive rewards on a per-block basis. Removing position before the payout results in forfeitting the rewards. Consistency with other pools will be implemented in the next upgrade."
+    },
+    "es": {
+      "header": "Las recompensas de este grupo requieren varias horas de estar en posición antes de recibir un pago. Por el contrario, otros grupos reciben recompensas por bloque. Quitar la posición antes del pago da como resultado la pérdida de las recompensas. La coherencia con otros grupos se implementará en la próxima actualización."
+    },
+    "fa": {
+      "header": "پاداش‌های این استخر قبل از دریافت پرداخت نیاز به چندین ساعت حضور در موقعیت دارند. در مقابل، سایر استخرها بر اساس هر بلوک پاداش دریافت می کنند. حذف موقعیت قبل از پرداخت منجر به از دست دادن پاداش می شود. سازگاری با دیگر استخرها در ارتقاء بعدی اجرا خواهد شد."
+    },
+    "fr": {
+      "header": "Les récompenses de ce pool nécessitent plusieurs heures de position avant de recevoir un paiement. En revanche, d'autres pools reçoivent des récompenses par bloc. Supprimer une position avant le paiement entraîne la perte des récompenses. La cohérence avec les autres pools sera mise en œuvre lors de la prochaine mise à niveau."
+    },
+    "gu": {
+      "header": "આ પૂલના પુરસ્કારોને ચૂકવણી મેળવતા પહેલા ઘણા કલાકોની સ્થિતિમાં રહેવાની જરૂર છે. તેનાથી વિપરીત, અન્ય પૂલ પ્રતિ-બ્લોકના આધારે પુરસ્કારો મેળવે છે. ચૂકવણી પહેલાં સ્થિતિ દૂર કરવાથી પુરસ્કારો જપ્ત થઈ જાય છે. અન્ય પૂલ સાથે સુસંગતતા આગામી અપગ્રેડમાં લાગુ કરવામાં આવશે."
+    },
+    "hi": {
+      "header": "इस पूल के पुरस्कारों के लिए भुगतान प्राप्त करने से पहले कई घंटों तक स्थिति में रहने की आवश्यकता होती है। इसके विपरीत, अन्य पूल प्रति-ब्लॉक आधार पर पुरस्कार प्राप्त करते हैं। भुगतान से पहले स्थिति हटाने पर पुरस्कार जब्त हो जाएगा। अन्य पूलों के साथ संगति अगले अपग्रेड में लागू की जाएगी।"
+    },
+    "ja": {
+      "header": "このプールの報酬を得るには、支払いを受け取るまでに数時間その位置に留まっている必要があります。対照的に、他のプールはブロックごとに報酬を受け取ります。支払い前にポジションを削除すると、報酬は失われます。他のプールとの整合性は、次のアップグレードで実装される予定です。"
+    },
+    "ko": {
+      "header": "이 풀의 보상은 지급을 받기 전에 여러 시간 동안 위치를 유지해야 합니다. 대조적으로, 다른 풀은 블록별로 보상을 받습니다. 지불금이 지급되기 전에 위치를 제거하면 보상이 상실됩니다. 다른 풀과의 일관성은 다음 업그레이드에서 구현될 예정입니다."
+    },
+    "pl": {
+      "header": "Nagrody z tej puli wymagają wielu godzin przebywania na pozycji przed otrzymaniem wypłaty. Natomiast inne pule otrzymują nagrody za blok. Usunięcie pozycji przed wypłatą skutkuje utratą nagród. Spójność z innymi pulami zostanie wdrożona przy następnej aktualizacji."
+    },
+    "pt-br": {
+      "header": "As recompensas deste pool exigem várias horas de posição antes de receber um pagamento. Em contraste, outros pools recebem recompensas por bloco. A remoção da posição antes do pagamento resulta na perda das recompensas. A consistência com outros pools será implementada na próxima atualização."
+    },
+    "ro": {
+      "header": "Recompensele acestui grup necesită mai multe ore de a fi în poziție înainte de a primi o plată. În schimb, alte grupuri primesc recompense pe bloc. Eliminarea poziției înainte de plată duce la pierderea recompenselor. Consecvența cu alte grupuri va fi implementată în următoarea actualizare."
+    },
+    "ru": {
+      "header": "Награды этого пула требуют нескольких часов нахождения на позиции, прежде чем получить выплату. Напротив, другие пулы получают вознаграждение за каждый блок. Удаление позиции до выплаты приведет к потере вознаграждения. Согласованность с другими пулами будет реализована в следующем обновлении."
+    },
+    "tr": {
+      "header": "Bu havuzun ödülleri, ödeme almadan önce birkaç saat pozisyonda kalmayı gerektirir. Bunun aksine, diğer havuzlar blok başına ödül alır. Ödeme yapılmadan önce pozisyonun kaldırılması, ödüllerin kaybedilmesine neden olur. Bir sonraki yükseltmede diğer havuzlarla tutarlılık uygulanacaktır."
+    },
+    "zh-cn": {
+      "header": "该池的奖励需要多个小时才能获得支付。相比之下，其他矿池按每个区块获得奖励。在支付之前删除仓位将导致奖励被没收。与其他矿池的一致性将在下次升级中实现。"
+    },
+    "zh-hk": {
+      "header": "该池的奖励需要多个小时才能获得支付。相比之下，其他矿池按每个区块获得奖励。在支付之前删除仓位将导致奖励被没收。与其他矿池的一致性将在下次升级中实现。"
+    },
+    "zh-tw": {
+      "header": "该池的奖励需要多个小时才能获得支付。相比之下，其他矿池按每个区块获得奖励。在支付之前删除仓位将导致奖励被没收。与其他矿池的一致性将在下次升级中实现。"
+    }
   }
 }
