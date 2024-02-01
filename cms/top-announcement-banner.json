@@ -13,7 +13,7 @@
       "header": "Um die Belohnungen dieses Pools zu erhalten, müssen Sie mehrere Stunden in Position sein, bevor Sie eine Auszahlung erhalten. Im Gegensatz dazu erhalten andere Pools Belohnungen pro Block. Das Entfernen der Position vor der Auszahlung führt zum Verlust der Prämien. Die Konsistenz mit anderen Pools wird im nächsten Upgrade implementiert."
     },
     "en": {
-      "header": "This pool's rewards require multiple hours of being in position before getting a payout. In contrast, other pools receive rewards on a per-block basis. Removing position before the payout results in forfeitting the rewards.  Consistency with other pools will be implemented in the next upgrade."
+      "header": "This pool's reward distribution requires multiple hours of being in position and requires the position remain until the distribution is complete. Other pools are on a per-block distribution basis. Consistency with other pools will be implemented in the next upgrade."
     },
     "es": {
       "header": "Las recompensas de este grupo requieren varias horas de estar en posición antes de recibir un pago. Por el contrario, otros grupos reciben recompensas por bloque. Quitar la posición antes del pago da como resultado la pérdida de las recompensas. La coherencia con otros grupos se implementará en la próxima actualización."
