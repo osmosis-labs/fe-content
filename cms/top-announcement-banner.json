@@ -9,8 +9,22 @@
     "persistent": true
   },
   "localization": {
-    "en": {
-      "header": "TEST"
-    }
+    "de": { "header": "PRÜFEN" },
+    "en": { "header": "TEST" },
+    "es": { "header": "PRUEBA" },
+    "fa": { "header": "تست" },
+    "fr": { "header": "TEST" },
+    "gu": { "header": "ટેસ્ટ" },
+    "hi": { "header": "परीक्षा" },
+    "ja": { "header": "テスト" },
+    "ko": { "header": "시험" },
+    "pl": { "header": "TEST" },
+    "pt-br": { "header": "TESTE" },
+    "ro": { "header": "TEST" },
+    "ru": { "header": "ТЕСТ" },
+    "tr": { "header": "ÖLÇEK" },
+    "zh-cn": { "header": "测试" },
+    "zh-hk": { "header": "測試" },
+    "zh-tw": { "header": "測試" }
   }
 }
