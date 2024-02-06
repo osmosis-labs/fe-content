@@ -4,8 +4,8 @@
   "banner": {
     "enTextOrLocalizationPath": "header",
     "pageRoute": "/pool/1423",
-    "startDate": "2024-01-31T00:00:00Z",
-    "endDate": "2024-02-02T00:00:00Z",
+    "startDate": "2024-02-05T00:00:00Z",
+    "endDate": "2024-02-28T00:00:00Z",
     "persistent": true
   },
   "localization": {
@@ -13,7 +13,7 @@
       "header": "Die Belohnungsverteilung dieses Pools erfordert mehrere Stunden an Position und erfordert, dass die Position so lange verbleibt, bis die Verteilung abgeschlossen ist. Bei anderen Pools erfolgt die Verteilung pro Block. Die Konsistenz mit anderen Pools wird im nächsten Upgrade implementiert."
     },
     "en": {
-      "header": "This pool's reward distribution requires multiple hours of being in position and requires the position remain until the distribution is complete. Other pools are on a per-block distribution basis. Consistency with other pools will be implemented in the next upgrade."
+      "header": "Incentives on pool 1423 are not distributing as normal, the pool itself is unaffected. Incentives will resume automatically following the software upgrade scheduled for mid-February"
     },
     "es": {
       "header": "La distribución de recompensas de este grupo requiere varias horas de estar en posición y requiere que la posición permanezca hasta que se complete la distribución. Otros grupos se distribuyen por bloque. La coherencia con otros grupos se implementará en la próxima actualización."
