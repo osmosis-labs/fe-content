@@ -4,61 +4,61 @@
   "banner": {
     "enTextOrLocalizationPath": "header",
     "pageRoute": "/pool/1423",
-    "startDate": "2024-01-31T00:00:00Z",
-    "endDate": "2024-02-02T00:00:00Z",
+    "startDate": "2024-02-05T00:00:00Z",
+    "endDate": "2024-02-28T00:00:00Z",
     "persistent": true
   },
   "localization": {
     "de": {
-      "header": "Die Belohnungsverteilung dieses Pools erfordert mehrere Stunden an Position und erfordert, dass die Position so lange verbleibt, bis die Verteilung abgeschlossen ist. Bei anderen Pools erfolgt die Verteilung pro Block. Die Konsistenz mit anderen Pools wird im nächsten Upgrade implementiert."
+      "header": "Anreize für Pool 1423 werden nicht wie gewohnt verteilt, der Pool selbst ist davon nicht betroffen. Die Anreize werden nach dem für Mitte Februar geplanten Software-Upgrade automatisch wieder aufgenommen"
     },
     "en": {
-      "header": "This pool's reward distribution requires multiple hours of being in position and requires the position remain until the distribution is complete. Other pools are on a per-block distribution basis. Consistency with other pools will be implemented in the next upgrade."
+      "header": "Incentives on pool 1423 are not distributing as normal, the pool itself is unaffected. Incentives will resume automatically following the software upgrade scheduled for mid-February"
     },
     "es": {
-      "header": "La distribución de recompensas de este grupo requiere varias horas de estar en posición y requiere que la posición permanezca hasta que se complete la distribución. Otros grupos se distribuyen por bloque. La coherencia con otros grupos se implementará en la próxima actualización."
+      "header": "Los incentivos en el grupo 1423 no se distribuyen normalmente y el grupo en sí no se ve afectado. Los incentivos se reanudarán automáticamente tras la actualización del software prevista para mediados de febrero."
     },
     "fa": {
-      "header": "توزیع پاداش این استخر به چندین ساعت حضور در موقعیت نیاز دارد و مستلزم آن است که موقعیت تا زمانی که توزیع کامل شود باقی بماند. سایر استخرها بر اساس توزیع هر بلوک هستند. سازگاری با دیگر استخرها در ارتقای بعدی اجرا خواهد شد."
+      "header": "مشوق ها در استخر 1423 به صورت عادی توزیع نمی شود، خود استخر تحت تأثیر قرار نمی گیرد. پس از ارتقای نرم افزار برنامه ریزی شده برای اواسط فوریه، مشوق ها به طور خودکار از سر گرفته می شوند"
     },
     "fr": {
-      "header": "La distribution des récompenses de ce pool nécessite plusieurs heures de position et nécessite que la position reste jusqu'à ce que la distribution soit terminée. Les autres pools sont distribués par bloc. La cohérence avec les autres pools sera mise en œuvre lors de la prochaine mise à niveau."
+      "header": "Les incitations sur le pool 1423 ne sont pas distribuées comme d'habitude, le pool lui-même n'est pas affecté. Les incentives reprendront automatiquement suite à la mise à jour logicielle prévue à la mi-février"
     },
     "gu": {
-      "header": "આ પૂલના પુરસ્કાર વિતરણ માટે ઘણા કલાકોની સ્થિતિમાં રહેવાની જરૂર છે અને જ્યાં સુધી વિતરણ પૂર્ણ ન થાય ત્યાં સુધી સ્થિતિ જાળવી રાખવાની જરૂર છે. અન્ય પૂલ પ્રતિ-બ્લોક વિતરણના આધારે છે. અન્ય પૂલ સાથે સુસંગતતા આગામી અપગ્રેડમાં લાગુ કરવામાં આવશે."
+      "header": "પૂલ 1423 પરના પ્રોત્સાહનો સામાન્ય રીતે વિતરિત થતા નથી, પૂલ પોતે જ અપ્રભાવિત છે. ફેબ્રુઆરીના મધ્યમાં સુનિશ્ચિત થયેલ સોફ્ટવેર અપગ્રેડને પગલે પ્રોત્સાહનો આપમેળે ફરી શરૂ થશે"
     },
     "hi": {
-      "header": "इस पूल के इनाम वितरण के लिए कई घंटों तक स्थिति में रहने की आवश्यकता होती है और वितरण पूरा होने तक स्थिति में बने रहने की आवश्यकता होती है। अन्य पूल प्रति-ब्लॉक वितरण के आधार पर हैं। अन्य पूलों के साथ संगति अगले अपग्रेड में लागू की जाएगी।"
+      "header": "पूल 1423 पर प्रोत्साहन सामान्य रूप से वितरित नहीं हो रहा है, पूल स्वयं अप्रभावित है। फरवरी के मध्य में निर्धारित सॉफ़्टवेयर अपग्रेड के बाद प्रोत्साहन स्वचालित रूप से फिर से शुरू हो जाएगा"
     },
     "ja": {
-      "header": "このプールの報酬分配には、ポジションに数時間滞在する必要があり、分配が完了するまでポジションを維持する必要があります。他のプールはブロックごとに分散されます。他のプールとの整合性は、次のアップグレードで実装される予定です。"
+      "header": "プール 1423 のインセンティブは通常どおりには配布されません。プール自体は影響を受けません。インセンティブは、2 月中旬に予定されているソフトウェア アップグレード後に自動的に再開されます"
     },
     "ko": {
-      "header": "이 풀의 보상 분배에는 여러 시간 동안 위치를 유지해야 하며 분배가 완료될 때까지 위치가 유지되어야 합니다. 다른 풀은 블록별로 배포됩니다. 다른 풀과의 일관성은 다음 업그레이드에서 구현될 예정입니다."
+      "header": "풀 1423의 인센티브는 정상적으로 배포되지 않으며 풀 자체는 영향을 받지 않습니다. 2월 중순으로 예정된 소프트웨어 업그레이드 이후 인센티브가 자동으로 재개됩니다."
     },
     "pl": {
-      "header": "Dystrybucja nagród z tej puli wymaga wielu godzin przebywania na pozycji i utrzymywania tej pozycji do zakończenia dystrybucji. Inne pule są oparte na dystrybucji na blok. Spójność z innymi pulami zostanie wdrożona przy następnej aktualizacji."
+      "header": "Zachęty w ramach puli 1423 nie są rozdzielane normalnie, nie ma to wpływu na samą pulę. Programy motywacyjne zostaną wznowione automatycznie po aktualizacji oprogramowania zaplanowanej na połowę lutego"
     },
     "pt-br": {
-      "header": "A distribuição de recompensas deste pool requer várias horas de posição e exige que a posição permaneça até que a distribuição seja concluída. Outros pools são distribuídos por bloco. A consistência com outros pools será implementada na próxima atualização."
+      "header": "Os incentivos no pool 1423 não estão sendo distribuídos normalmente, o pool em si não é afetado. Os incentivos serão retomados automaticamente após a atualização do software agendada para meados de fevereiro"
     },
     "ro": {
-      "header": "Distribuția recompensei acestui grup necesită mai multe ore de a fi pe poziție și necesită ca poziția să rămână până când distribuirea este completă. Alte pool-uri sunt pe o bază de distribuție pe bloc. Consecvența cu alte grupuri va fi implementată în următoarea actualizare."
+      "header": "Stimulentele pentru grupul 1423 nu sunt distribuite în mod normal, piscina în sine nu este afectată. Stimulentele vor fi reluate automat în urma upgrade-ului software programat pentru mijlocul lunii februarie"
     },
     "ru": {
-      "header": "Распределение вознаграждений в этом пуле требует нескольких часов нахождения на позиции и сохранения этой позиции до завершения распределения. Другие пулы распределяются по блокам. Согласованность с другими пулами будет реализована в следующем обновлении."
+      "header": "Поощрения в пуле 1423 не распределяются должным образом, сам пул не затрагивается. Поощрения возобновятся автоматически после обновления программного обеспечения, запланированного на середину февраля."
     },
     "tr": {
-      "header": "Bu havuzun ödül dağıtımı, pozisyonda birkaç saat kalmayı gerektirir ve dağıtım tamamlanana kadar pozisyonun korunmasını gerektirir. Diğer havuzlar blok başına dağıtım esasına göredir. Bir sonraki yükseltmede diğer havuzlarla tutarlılık uygulanacaktır."
+      "header": "1423 numaralı havuzdaki teşvikler normal şekilde dağıtılmıyor, havuzun kendisi etkilenmedi. Şubat ortasında yapılması planlanan yazılım yükseltmesinin ardından teşvikler otomatik olarak devam edecek"
     },
     "zh-cn": {
-      "header": "该池的奖励分配需要多个小时的就位，并且要求保持该位置直到分配完成。其他池是按块分配的。与其他矿池的一致性将在下次升级中实现。"
+      "header": "矿池 1423 上的激励没有正常分配，矿池本身不受影响。计划于二月中旬进行软件升级后，激励措施将自动恢复"
     },
     "zh-hk": {
-      "header": "該池的獎勵分配需要多個小時的就位，並且要求保持該位置直到分配完成。其他池是按區塊分配的。與其他礦池的一致性將在下次升級中實現。"
+      "header": "礦池 1423 上的激勵沒有正常分配，礦池本身不受影響。計劃於二月中旬進行軟體升級後，激勵措施將自動恢復"
     },
     "zh-tw": {
-      "header": "該池的獎勵分配需要多個小時的就位，並且要求保持該位置直到分配完成。其他池是按區塊分配的。與其他礦池的一致性將在下次升級中實現。"
+      "header": "礦池 1423 上的激勵沒有正常分配，礦池本身不受影響。計劃於二月中旬進行軟體升級後，激勵措施將自動恢復"
     }
   }
 }
