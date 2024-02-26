@@ -19,9 +19,4 @@ jobs:
         run: npm install -g jsonschema
 
       - name: Validate Earn Strategies Schema
-        run: |
-          for file in $(find . -name 'strategies.json'); do
-            if ! jsonschema -i "$file" ./strategies.schema.json; then
-              exit 1
-            fi
-          done
+        run: jsonschema -i ./cms/earn/strategies.json ./schemas/strategies.schema.json
