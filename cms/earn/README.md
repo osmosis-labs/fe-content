@@ -24,8 +24,9 @@ The schema is designed to capture essential details about each earn strategy, in
 - **unlisted**: Visibility status of the strategy.
 - **disabled**: Interaction status with the strategy.
 - **message**: Important messaging related to the strategy.
-- **tokenDenoms**: Array describing assets needed for participation.
-- **rewardDenoms**: Array describing rewarded assets.
+- **depositDenoms**: Array describing assets deposited for participation in the strategy.
+- **positionDenoms**: Array describing assets representing a position in the strategy.
+- **rewardDenoms**: Array describing rewarded assets for participating in the strategy.
 - **tags**: Array of tags associated with the strategy.
 
 #### Category 
@@ -41,11 +42,12 @@ The currently accepted 'categories' are:
 #### Tags
 
 The currently accepted `tags` are:
-- **Correlated**: indicating that any two assets involved in the strategy are closely related. For example,
-  - USDC/USDT LP is correlated because both the USDC and USDT prices are meant to follow the same asset (i.e., U.S. Dollar).
-  - Liquid Staking strategies also count as correlated, because the staked token and the LST are closely related.
 - **Stablecoin**: indicating that the asset(s) required by the strategy is a stablecoin of a world fiat currency.
-- **Blue Chip**: indicating that one or more of the assets required by the strategy are 'Blue Chip' assets, i.e., of a high Market Capitalization--in this case, ranked among the top 50 on CoinGecko.
+- **Blue Chip**: (top 50 mcap) indicating that one or more of the assets required for deposit in the strategy are of a high Market Capitalization--in this case, ranked among the top 50 on CoinGecko.
+- **Correlated**: indicating that all assets that are deposited or represent the position would follow a similar price action due to having a common relative asset. For example:
+  - USDC/USDT LP is correlated because both the USDC and USDT prices are meant to follow the same asset (i.e., U.S. Dollar), or
+  - Liquid Staking strategies are also considered correlated, because the staked token and the LST are closely related, even though only the LST is accruing relative value.
+  In contrast, dpeositing, say, ETH tokens to mint FRAX tokens is not correlated, because FRAX price follows USD--not ETH. 
 
 ### Examples
 
@@ -69,16 +71,17 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "unlisted": false,
   "disabled": false,
   "message": "Staking on Osmosis grants the abillity to participate in Osmosis Governance.",
-  "tokenDenoms": [
+  "depositDenoms": [
     {
-      “coinMininalDenom”: “ibc/27..”,
-      “_comment”: “ATOM”
+      “coinMininalDenom”: “uosmo”,
+      “_comment”: “OSMO”
     }
   ],
+  "positionDenoms": [],
   "rewardDenoms": [
     {
-      “coinMininalDenom”: “ibc/27..”,
-      “_comment”: “ATOM”
+      “coinMininalDenom”: “uosmo”,
+      “_comment”: “OSMO”
     }
   ],
   “tags”: [
@@ -132,7 +135,7 @@ For example:
 
 ### Report Card
 
-All strategies require a Report Card and Risk Assessment. Apply for risk assessment [here](here).
+All strategies require a Report Card and Risk Assessment. Apply for risk assessment [soon](here).
 
 
 ## Contributing

@@ -6,15 +6,29 @@
       "type": "string",
       "description": "A unique identifier for the strategy. If the data endpoints for this strategy expect an identifying parameter, this should be exactly that argument."
     },
-    "name": {"type": "string", "description": "The display name for the strategy. Must be unique, but can be changed later if needed."},
-    "platform": {"type": "string", "description": "The platform that provides the Earn Strategy.", "example": "Levana"},
+    "name": {
+      "type": "string",
+      "description": "The display name for the strategy. Must be unique, but can be changed later if needed."
+    },
+    "platform": {
+      "type": "string",
+      "description": "The platform that provides the Earn Strategy.",
+      "example": "Levana"
+    },
     "category": {
       "type": "string",
-      "enum": ["Lending", "Trading Vault", "Liquid Staking", "Staking", "Perp LP", "LP"],
+      "enum": [ "Lending", "Trading Vault", "Liquid Staking", "Staking", "Perp LP", "LP" ],
       "description": "Specify the most appropriate broad category that the earn strategies would be classified."
     },
-    "type": {"type": "string", "description": "Further classification of the strategy.", "example": "Osmosis Staking"},
-    "link": {"type": "string", "description": "This link redirects users to the most appropriate interface for users participate in the strategy."},
+    "type": {
+      "type": "string",
+      "description": "Further classification of the strategy.",
+      "example": "Osmosis Staking"
+    },
+    "link": {
+      "type": "string",
+      "description": "This link redirects users to the most appropriate interface for users participate in the strategy."
+    },
     "contract": {
       "type": "string",
       "pattern": "^[a-zA-Z0-9/]+$",
@@ -36,30 +50,61 @@
       "example": "P14D",
       "description": "Use 0 if there is no locking mechanism. If the strategy requires a lock, specify the duration following ISO 8601 standard."
     },
-    "riskLevel": {"type": "number", "minimum": 0, "maximum": 1, "description": "Determined by the risk report card, and feeds the interface's risk level indicator."},
-    "riskReportUrl": {"type": "string", "format": "uri", "description": "This should link to a Google Sheets page with this strategy's risk report card."},
+    "riskLevel": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Determined by the risk report card, and feeds the interface's risk level indicator."
+    },
+    "riskReportUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "This should link to a Google Sheets page with this strategy's risk report card."
+    },
     "startDateTimeUtc": {
       "type": "string",
       "format": "date-time",
       "example": "2049-01-01T01-01-01Z",
       "description": "The start date and time (UTC) of a strategy not only keeps record, but can be used to pre-plan and exact time to reveal the on the interface."
     },
-    "unlisted": {"type": "boolean", "description": "A value of TRUE will hide the strategy on the interface."},
-    "disabled": {"type": "boolean", "description": "A value of TRUE will disable interaction with the strategy via the interface."},
-    "message": {"type": "string", "description": "Will display on the interface to communicate an important note about the strategy."},
+    "unlisted": {
+      "type": "boolean",
+      "description": "A value of TRUE will hide the strategy on the interface."
+    },
+    "disabled": {
+      "type": "boolean",
+      "description": "A value of TRUE will disable interaction with the strategy via the interface."
+    },
+    "message": {
+      "type": "string",
+      "description": "Will display on the interface to communicate an important note about the strategy."
+    },
     "tokenDenoms": {
       "type": "array",
       "description": "Describes all assets needed to participate in the strategy.",
-      "items": {"$ref": "#/$defs/denomObject"}
+      "items": { "$ref": "#/$defs/denomObject" }
+    },
+    "depositDenoms": {
+      "type": "array",
+      "description": "Describes all deposited assets needed to participate in the strategy.",
+      "items": { "$ref": "#/$defs/denomObject" }
+    },
+    "positionDenoms": {
+      "type": "array",
+      "description": "Describes all assets representing a position in the strategy.",
+      "items": { "$ref": "#/$defs/denomObject" }
     },
     "rewardDenoms": {
       "type": "array",
       "description": "Describes the assets earned/rewarded for participating in the strategy. This list should include the majority of the earnings, but does not have to be exhaustive.",
-      "items": {"$ref": "#/$defs/denomObject"}
+      "items": { "$ref": "#/$defs/denomObject" }
     },
     "tags": {
       "type": "array",
-      "items": {"type": "string", "enum": ["Correlated", "Blue Chip", "Stablecoin"]}
+      "items": {
+        "type": "string",
+        "enum": [ "Correlated", "Blue Chip", "Stablecoin" ]
+      }
     }
   },
   "required": ["id", "name", "platform", "category", "type", "link", "lockDuration", "riskLevel", "startDateTimeUtc", "unlisted", "disabled", "tokenDenoms", "rewardDenoms", "tags"],

@@ -15,20 +15,19 @@
     "unlisted": false,
     "disabled": false,
     "message": "Staking on Osmosis grants participation in Osmosis Governance.",
-    "tokenDenoms": [
+    "depositDenoms": [
       {
         "coinMinimalDenom": "uosmo",
         "_comment": "OSMO"
       }
     ],
+    "postionDenoms": [],
     "rewardDenoms": [
       {
         "coinMinimalDenom": "uosmo",
         "_comment": "OSMO"
       }
     ],
-    "tags": [
-      "Blue Chip"
-    ]
+    "tags": []
   }
 ]
