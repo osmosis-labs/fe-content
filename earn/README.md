@@ -104,13 +104,13 @@ For example:
   "assets": [
     {
       "coinMinimalDenom": "ibc/27...",
-      "tvl": "23456",
-      "max_tvl": "234567"
+      "tvl": 23456,
+      "max_tvl": 234567
     },
     {
       "coinMinimalDenom": "uosmo",
-      "tvl": "23456",
-      "max_tvl": "234567"
+      "tvl": 23456,
+      "max_tvl": 234567
     }
   ]
 }
