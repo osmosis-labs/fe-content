@@ -5,7 +5,7 @@
     "platform": "Cosmos SDK (Osmosis' Staking Module)",
     "category": "staking",
     "type": "Osmosis Staking",
-    "link": "https://app.keplr.wallet/osmosis",
+    "link": "/stake",
     "tvl": "https://example.com/tvl",
     "apr": "https://example.com/apr",
     "lockDuration": "60 * 60 * 24 * 7 * 2",
