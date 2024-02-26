@@ -41,9 +41,11 @@ The currently accepted 'categories' are:
 #### Tags
 
 The currently accepted `tags` are:
-- **Correlated**: indicating that the assets required by the strategy are closely related.
+- **Correlated**: indicating that any two assets involved in the strategy are closely related. For example,
+  - USDC/USDT LP is correlated because both the USDC and USDT prices are meant to follow the same asset (i.e., U.S. Dollar).
+  - Liquid Staking strategies also count as correlated, because the staked token and the LST are closely related.
 - **Stablecoin**: indicating that the asset(s) required by the strategy is a stablecoin of a world fiat currency.
-- **Blue Chip**: indicating that one or more of the assets required by the strategy are 'Blue Chip', i.e., of a high Market Capitalization. Currently defined at top 200 rank on CoinGecko.
+- **Blue Chip**: indicating that one or more of the assets required by the strategy are 'Blue Chip' assets, i.e., of a high Market Capitalization--in this case, ranked among the top 50 on CoinGecko.
 
 ### Examples
 
