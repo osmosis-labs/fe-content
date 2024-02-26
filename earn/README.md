@@ -17,7 +17,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **contract**: Primary contract for the strategy.
 - **tvl**: Data endpoint for Total Value Locked (TVL).
 - **apr**: Data endpoint for Annual Percentage Rate (APR).
-- **lockDuration**: Duration assets are locked (in seconds).
+- **lockDuration**: Duration assets are locked (ISO 8601).
 - **riskLevel**: Risk level indicator (0 to 1).
 - **riskReportUrl**: URL to risk report on Google Sheets.
 - **startDateTimeUtc**: Start date and time (UTC) of the strategy.
@@ -56,11 +56,11 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "platform": "Cosmos SDK (on Osmosis)",
   "category": "staking",
   “type”: “osmosis-staking”,
-  "link": "http://app.keplr.wallet/osmosis",
+  "link": "/stake",
   "contract": "osmo1234…",
   "tvl": "",
   "apr": "",
-  "lockDuration": "14*24*60*60",
+  "lockDuration": "P14D",
   "riskLevel": 0.01,
   “riskReportUrl”: “”
   "startDateTimeUtc": "2019-01-01T01-01-01Z",
