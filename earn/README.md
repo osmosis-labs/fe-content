@@ -17,7 +17,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **contract**: Primary contract for the strategy.
 - **tvl**: Data endpoint for Total Value Locked (TVL).
 - **apr**: Data endpoint for Annual Percentage Rate (APR).
-- **lockDuration**: Duration assets are locked (in seconds).
+- **lockDuration**: Duration assets are locked (ISO 8601).
 - **riskLevel**: Risk level indicator (0 to 1).
 - **riskReportUrl**: URL to risk report on Google Sheets.
 - **startDateTimeUtc**: Start date and time (UTC) of the strategy.
@@ -31,19 +31,21 @@ The schema is designed to capture essential details about each earn strategy, in
 #### Category 
 
 The currently accepted 'categories' are:
-- Lending: The assets are lent out to borrowers. 
-- Trading Vault: The assets are actively managed by a vault controller. The assets are under complete control of the agent, and can be traded, lent, staked, provided as liquidity, etc.
-- Staking: The assets are locked into a crypto platfrom specifically for concensus.
-- Liquid Staking: The assets are staked and an economically representative derivative asset is also minted. 
-- Perp LP: The assets provide liquidity for a perpetual futures contract market.
-- LP: The assets provide liquidity for a liquidity pool.
+- **Lending**: The assets are lent out to borrowers. 
+- **Trading Vault**: The assets are actively managed by a vault controller. The assets are under complete control of the agent, and can be traded, lent, staked, provided as liquidity, etc.
+- **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
+- **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
+- **Perp LP**: The assets provide liquidity for a perpetual futures contract market.
+- **LP**: The assets provide liquidity for a liquidity pool.
 
 #### Tags
 
 The currently accepted `tags` are:
-- Correlated: indicating that the assets required by the strategy are closely related.
-- Stablecoin: indicating that the asset(s) required by the strategy is a stablecoin of a world fiat currency.
-- Blue Chip: indicating that one or more of the assets required by the strategy are 'Blue Chip', i.e., of a high Market Capitalization. Currently defined at top 200 rank on CoinGecko.
+- **Correlated**: indicating that any two assets involved in the strategy are closely related. For example,
+  - USDC/USDT LP is correlated because both the USDC and USDT prices are meant to follow the same asset (i.e., U.S. Dollar).
+  - Liquid Staking strategies also count as correlated, because the staked token and the LST are closely related.
+- **Stablecoin**: indicating that the asset(s) required by the strategy is a stablecoin of a world fiat currency.
+- **Blue Chip**: indicating that one or more of the assets required by the strategy are 'Blue Chip' assets, i.e., of a high Market Capitalization--in this case, ranked among the top 50 on CoinGecko.
 
 ### Examples
 
@@ -56,11 +58,11 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "platform": "Cosmos SDK (on Osmosis)",
   "category": "staking",
   “type”: “osmosis-staking”,
-  "link": "http://app.keplr.wallet/osmosis",
+  "link": "/stake",
   "contract": "osmo1234…",
   "tvl": "",
   "apr": "",
-  "lockDuration": "14*24*60*60",
+  "lockDuration": "P14D",
   "riskLevel": 0.01,
   “riskReportUrl”: “”
   "startDateTimeUtc": "2019-01-01T01-01-01Z",
@@ -68,13 +70,13 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "disabled": false,
   "message": "Staking on Osmosis grants the abillity to participate in Osmosis Governance.",
   "tokenDenoms": [
-  	{
-  		“coinMininalDenom”: “ibc/27..”
+    {
+      “coinMininalDenom”: “ibc/27..”,
       “_comment”: “ATOM”
-  	}
+    }
   ],
   "rewardDenoms": [
-  	{
+    {
       “coinMininalDenom”: “ibc/27..”,
       “_comment”: “ATOM”
     }
@@ -104,13 +106,13 @@ For example:
   "assets": [
     {
       "coinMinimalDenom": "ibc/27...",
-      "tvl": "23456",
-      "max_tvl": "234567"
+      "tvl": 23456,
+      "max_tvl": 234567
     },
     {
       "coinMinimalDenom": "uosmo",
-      "tvl": "23456",
-      "max_tvl": "234567"
+      "tvl": 23456,
+      "max_tvl": 234567
     }
   ]
 }

@@ -14,7 +14,7 @@
       "description": "Specify the most appropriate broad category that the earn strategies would be classified."
     },
     "type": {"type": "string", "description": "Further classification of the strategy.", "example": "Osmosis Staking"},
-    "link": {"type": "string", "format": "uri", "description": "This link redirects users to the most appropriate interface for users participate in the strategy."},
+    "link": {"type": "string", "description": "This link redirects users to the most appropriate interface for users participate in the strategy."},
     "contract": {
       "type": "string",
       "pattern": "^[a-zA-Z0-9/]+$",
@@ -32,9 +32,9 @@
     },
     "lockDuration": {
       "type": "string",
-      "pattern": "^\\s*(\\d+\\s*([*+-/])\\s*)*\\d+\\s*$",
-      "example": "60 * 60 * 24 * 7 * 2",
-      "description": "Use 0 if there is no locking mechanism. If it requires a lock, specify the duration in seconds the assets are locked. An expression would also be accepted."
+      "pattern": "^P(?:(?:\\d+Y)?(?:\\d+M)?(?:\\d+D)?(?:T(?:\\d+H)?(?:\\d+M)?(?:\\d+S)?)?)?$",
+      "example": "P14D",
+      "description": "Use 0 if there is no locking mechanism. If the strategy requires a lock, specify the duration following ISO 8601 standard."
     },
     "riskLevel": {"type": "number", "minimum": 0, "maximum": 1, "description": "Determined by the risk report card, and feeds the interface's risk level indicator."},
     "riskReportUrl": {"type": "string", "format": "uri", "description": "This should link to a Google Sheets page with this strategy's risk report card."},
