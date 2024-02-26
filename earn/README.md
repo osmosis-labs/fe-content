@@ -68,13 +68,13 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "disabled": false,
   "message": "Staking on Osmosis grants the abillity to participate in Osmosis Governance.",
   "tokenDenoms": [
-  	{
-  		“coinMininalDenom”: “ibc/27..”
+    {
+      “coinMininalDenom”: “ibc/27..”,
       “_comment”: “ATOM”
-  	}
+    }
   ],
   "rewardDenoms": [
-  	{
+    {
       “coinMininalDenom”: “ibc/27..”,
       “_comment”: “ATOM”
     }
