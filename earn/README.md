@@ -31,19 +31,19 @@ The schema is designed to capture essential details about each earn strategy, in
 #### Category 
 
 The currently accepted 'categories' are:
-- Lending: The assets are lent out to borrowers. 
-- Trading Vault: The assets are actively managed by a vault controller. The assets are under complete control of the agent, and can be traded, lent, staked, provided as liquidity, etc.
-- Staking: The assets are locked into a crypto platfrom specifically for concensus.
-- Liquid Staking: The assets are staked and an economically representative derivative asset is also minted. 
-- Perp LP: The assets provide liquidity for a perpetual futures contract market.
-- LP: The assets provide liquidity for a liquidity pool.
+- **Lending**: The assets are lent out to borrowers. 
+- **Trading Vault**: The assets are actively managed by a vault controller. The assets are under complete control of the agent, and can be traded, lent, staked, provided as liquidity, etc.
+- **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
+- **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
+- **Perp LP**: The assets provide liquidity for a perpetual futures contract market.
+- **LP**: The assets provide liquidity for a liquidity pool.
 
 #### Tags
 
 The currently accepted `tags` are:
-- Correlated: indicating that the assets required by the strategy are closely related.
-- Stablecoin: indicating that the asset(s) required by the strategy is a stablecoin of a world fiat currency.
-- Blue Chip: indicating that one or more of the assets required by the strategy are 'Blue Chip', i.e., of a high Market Capitalization. Currently defined at top 200 rank on CoinGecko.
+- **Correlated**: indicating that the assets required by the strategy are closely related.
+- **Stablecoin**: indicating that the asset(s) required by the strategy is a stablecoin of a world fiat currency.
+- **Blue Chip**: indicating that one or more of the assets required by the strategy are 'Blue Chip', i.e., of a high Market Capitalization. Currently defined at top 200 rank on CoinGecko.
 
 ### Examples
 
