@@ -108,9 +108,9 @@
           "enum": [ "Correlated", "Blue Chip", "Stablecoin" ]
         }
       }
-    }
+    },
+    "required": [ "id", "name", "platform", "category", "type", "link", "lockDuration", "riskLevel", "startDateTimeUtc", "unlisted", "disabled", "depositDenoms", "positionDenoms", "rewardDenoms", "tags" ]
   },
-  "required": [ "id", "name", "platform", "category", "type", "link", "lockDuration", "riskLevel", "startDateTimeUtc", "unlisted", "disabled", "tokenDenoms", "rewardDenoms", "tags" ],
   "$defs": {
     "denomObject": {
       "type": "object",
