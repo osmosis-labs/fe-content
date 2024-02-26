@@ -1,0 +1,22 @@
+on:
+  pull_request:
+    branches:
+      - main
+name: Pull request workflow
+jobs:
+  validate_earn_strategies:
+    name: Validate Earn Strategies
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: true
+          
+      - name: Install JSON-Schema-Validator
+        run: npm install -g jsonschema
+
+      - name: Validate Earn Strategies Schema
+        run: jsonschema -i ./cms/earn/strategies.json ./schemas/strategies.schema.json
