@@ -14,7 +14,7 @@
       "description": "Specify the most appropriate broad category that the earn strategies would be classified."
     },
     "type": {"type": "string", "description": "Further classification of the strategy.", "example": "Osmosis Staking"},
-    "link": {"type": "string", "format": "uri", "description": "This link redirects users to the most appropriate interface for users participate in the strategy."},
+    "link": {"type": "string", "description": "This link redirects users to the most appropriate interface for users participate in the strategy."},
     "contract": {
       "type": "string",
       "pattern": "^[a-zA-Z0-9/]+$",
