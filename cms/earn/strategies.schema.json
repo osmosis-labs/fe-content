@@ -1,11 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
+  "required": [ "strategies" ],
   "properties": {
     "strategies": {
       "type": "array",
       "items": {
         "type": "object",
+        "required": [ "id", "name", "platform", "category", "type", "link", "lockDuration", "riskLevel", "startDateTimeUtc", "unlisted", "disabled", "depositDenoms", "positionDenoms", "rewardDenoms", "tags" ],
         "properties": {
           "id": {
             "type": "string",
@@ -111,15 +113,14 @@
               "enum": [ "Correlated", "Blue Chip", "Stablecoin" ]
             }
           }
-        },
-        "required": [ "id", "name", "platform", "category", "type", "link", "lockDuration", "riskLevel", "startDateTimeUtc", "unlisted", "disabled", "depositDenoms", "positionDenoms", "rewardDenoms", "tags" ]
+        }
       }
     }
   },
-  "required": [ "strategies" ],
   "$defs": {
     "denomObject": {
       "type": "object",
+      "required": [ "coinMinimalDenom" ],
       "properties": {
         "coinMinimalDenom": {
           "type": "string",
@@ -130,8 +131,7 @@
           "description": "An unrestricted, informal field to informs human readers which asset is being described. Asset symbol is likely best.",
           "example": "$ATOM from Cosmos Hub via IBC (transfer/channel-0)"
         }
-      },
-      "required": [ "coinMinimalDenom" ]
+      }
     }
   }
 }

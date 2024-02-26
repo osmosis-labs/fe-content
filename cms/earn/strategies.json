@@ -22,7 +22,7 @@
           "_comment": "OSMO"
         }
       ],
-      "postionDenoms": [],
+      "positionDenoms": [],
       "rewardDenoms": [
         {
           "coinMinimalDenom": "uosmo",
