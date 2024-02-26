@@ -8,7 +8,7 @@
     "link": "/stake",
     "tvl": "https://example.com/tvl",
     "apr": "https://example.com/apr",
-    "lockDuration": "60 * 60 * 24 * 7 * 2",
+    "lockDuration": "P14D",
     "riskLevel": 0.01,
     "riskReportUrl": "https://docs.google.com/spreadsheets/d/1BgFj-Q7Yo27qGNDtYwh_5eivdPM4WNO_7AG3pp1WHN0/edit#gid=0",
     "startDateTimeUtc": "2021-02-01T01-01-01Z",
