@@ -24,7 +24,7 @@
           },
           "category": {
             "type": "string",
-            "enum": [ "Lending", "Trading Vault", "Liquid Staking", "Staking", "Perp LP", "LP" ],
+            "enum": [ "Lending", "Liquid Staking", "Staking", "Perp LP", "LP" ],
             "description": "Specify the most appropriate broad category that the earn strategies would be classified."
           },
           "type": {
@@ -44,18 +44,18 @@
           "tvl": {
             "type": "string",
             "format": "uri",
-            "description": "A URL to the data endpoint for the Total Value Locked (TVL) of the strategy. The response must be exact, and is precisely defined in the documentation."
+            "description": "A URL to the data endpoint for the Total Value Locked (TVL) of the strategy. The response must match how it's defined in the documentation."
           },
           "apr": {
             "type": "string",
             "format": "uri",
-            "description": "A URL to the data endpoint for the Annual Percentage Rate (APR) of the strategy. The response must be exact, and is precisely defined in the documentation."
+            "description": "A URL to the data endpoint for the Annual Percentage Rate (APR) of the strategy. The response must match how it's defined in the documentation."
           },
           "lockDuration": {
             "type": "string",
             "pattern": "^P(?:(?:\\d+Y)?(?:\\d+M)?(?:\\d+D)?(?:T(?:\\d+H)?(?:\\d+M)?(?:\\d+S)?)?)?$",
             "example": "P14D",
-            "description": "Use 0 if there is no locking mechanism. If the strategy requires a lock, specify the duration following ISO 8601 standard."
+            "description": "specify the duration following ISO 8601 standard. If the strategy does not require a lock, use 'P0S' (meaning zero seconds)."
           },
           "riskLevel": {
             "type": "number",
