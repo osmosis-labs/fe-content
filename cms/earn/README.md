@@ -31,9 +31,8 @@ The schema is designed to capture essential details about each earn strategy, in
 
 #### Category 
 
-The currently accepted 'categories' are:
+The currently accepted keywords for `category` are (case-sensitive):
 - **Lending**: The assets are lent out to borrowers. 
-- **Trading Vault**: The assets are actively managed by a vault controller. The assets are under complete control of the agent, and can be traded, lent, staked, provided as liquidity, etc.
 - **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
 - **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
 - **Perp LP**: The assets provide liquidity for a perpetual futures contract market.
@@ -44,10 +43,8 @@ The currently accepted 'categories' are:
 The currently accepted `tags` are:
 - **Stablecoin**: indicating that the asset(s) required by the strategy is a stablecoin of a world fiat currency.
 - **Blue Chip**: (top 50 mcap) indicating that one or more of the assets required for deposit in the strategy are of a high Market Capitalization--in this case, ranked among the top 50 on CoinGecko.
-- **Correlated**: indicating that all assets that are deposited or represent the position would follow a similar price action due to having a common relative asset. For example:
-  - USDC/USDT LP is correlated because both the USDC and USDT prices are meant to follow the same asset (i.e., U.S. Dollar), or
-  - Liquid Staking strategies are also considered correlated, because the staked token and the LST are closely related, even though only the LST is accruing relative value.
-  In contrast, dpeositing, say, ETH tokens to mint FRAX tokens is not correlated, because FRAX price follows USD--not ETH. 
+- **Correlated**: indicating that all deposit assets follow a similar price action due to having a common relative asset. For example:
+  - USDC/USDT LP is correlated because both the USDC and USDT prices are meant to follow the same asset (i.e., the U.S. Dollar).
 
 ### Examples
 
@@ -99,23 +96,28 @@ The Data Endpoints used to provide TVL and APR data for strategies must follow a
 
 #### TVL Data Endpoint
 
-The TVL Data Endpoint must specify the current Total Value Locked (TVL), as well as the maximum capacity for the strategy.
-If there is no maximum capacity, specify the value as "-1".
-The amounts must include all assets required to participate in the strategy.
-The amounts must be represented in the base denominiation unit of the asset (and NOT in dollar amount).
+The TVL Data Endpoint must specify the current Total Value Locked (TVL) for each deposit asset.
+The amounts must include ALL deposit assets required for participation in the strategy.
+The amounts must be represented as the base denominiation unit of the asset (and NOT in dollar amount).
+If there is a maximum capacity TVL for each asset, they may also be specified.
+
+The TVL and Maximum TVL at the 'strategy' level(, i.e., describing all deposit assets combined,) is optional, but must be expressed in U.S. Dollars. 
+
 For example:
 ```
 {
+  "tvlUsd": "1000000",
+  "maxTvlUsd": "10000000",
   "assets": [
     {
       "coinMinimalDenom": "ibc/27...",
-      "tvl": 23456,
-      "max_tvl": 234567
+      "tvl": "23456",
+      "maxTvl": "234567"
     },
     {
       "coinMinimalDenom": "uosmo",
-      "tvl": 23456,
-      "max_tvl": 234567
+      "tvl": "23456",
+      "maxTvl": "234567"
     }
   ]
 }
