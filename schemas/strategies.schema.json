@@ -54,7 +54,7 @@
           },
           "lockDuration": {
             "type": "string",
-            "pattern": "^P(?:(?:\\d+Y)?(?:\\d+M)?(?:\\d+D)?(?:T(?:\\d+H)?(?:\\d+M)?(?:\\d+S)?)?|(?:T(?:\\d+H)?(?:\\d+M)?(?:\\d+S)?)?)$",
+            "pattern": "^P(?:\\d+Y)?(?:\\d+M)?(?:\\d+D)?(?:T(?:\\d+H)?(?:\\d+M)?(?:\\d+S)?)?$",
             "example": "P14D",
             "description": "specify the duration following ISO 8601 standard. If the strategy does not require a lock, use 'P0S' (meaning zero seconds)."
           },
