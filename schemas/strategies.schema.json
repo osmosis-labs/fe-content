@@ -34,6 +34,7 @@
           },
           "link": {
             "type": "string",
+            "format": "uri",
             "description": "This link redirects users to the most appropriate interface for users participate in the strategy."
           },
           "contract": {
