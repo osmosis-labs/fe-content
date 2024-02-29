@@ -38,6 +38,14 @@ The currently accepted keywords for `category` are (case-sensitive):
 - **Perp LP**: The assets provide liquidity for a perpetual futures contract market.
 - **LP**: The assets provide liquidity for a liquidity pool.
 
+#### Type
+
+The `type` value will guide how the controller queries the involved contract or module.
+Some established types value usage includes:
+- **Quasar CL Vault**: 'quasar-cl-vault'
+- **Levana LP**: 'levana-pool-lp'
+- **Levana xLP**: 'levana-pool-xlp'
+
 #### Tags
 
 The currently accepted `tags` are:
@@ -57,14 +65,14 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "platform": "Cosmos SDK (on Osmosis)",
   "category": "staking",
   “type”: “osmosis-staking”,
-  "link": "/stake",
+  "link": "https://app.osmosis.zone/stake",
   "contract": "osmo1234…",
   "tvl": "",
   "apr": "",
   "lockDuration": "P14D",
   "riskLevel": 0.01,
   “riskReportUrl”: “”
-  "startDateTimeUtc": "2019-01-01T01-01-01Z",
+  "startDateTimeUtc": "2019-01-01T01:01:01Z",
   "unlisted": false,
   "disabled": false,
   "message": "Staking on Osmosis grants the abillity to participate in Osmosis Governance.",
