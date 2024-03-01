@@ -1,7 +1,7 @@
 {
   "strategies": [
     {
-      "id": "osmosis-staking",
+      "id": "osmo-staking",
       "name": "OSMO Staking",
       "platform": "Cosmos SDK (Staking Module on Osmosis)",
       "category": "Staking",
