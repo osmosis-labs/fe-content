@@ -3,7 +3,7 @@
     {
       "id": "osmo-staking",
       "name": "OSMO Staking",
-      "platform": "Cosmos SDK (Staking Module on Osmosis)",
+      "platform": "Cosmos SDK",
       "category": "Staking",
       "type": "osmosis-staking",
       "link": "https://app.osmosis.zone/stake",
