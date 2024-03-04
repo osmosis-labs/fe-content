@@ -19,7 +19,6 @@ The schema is designed to capture essential details about each earn strategy, in
 - **apr**: Data endpoint for Annual Percentage Rate (APR).
 - **lockDuration**: Duration assets are locked (ISO 8601).
 - **riskLevel**: Risk level indicator (0 to 1).
-- **riskReportUrl**: URL to risk report on Google Sheets.
 - **startDateTimeUtc**: Start date and time (UTC) of the strategy.
 - **unlisted**: Visibility status of the strategy.
 - **disabled**: Interaction status with the strategy.
@@ -49,7 +48,7 @@ Some established types value usage includes:
 #### Tags
 
 The currently accepted `tags` are:
-- **Stablecoin**: indicating that the asset(s) required by the strategy is a stablecoin of a world fiat currency.
+- **Stablecoins**: indicating that the asset(s) required by the strategy are all stablecoins of a world fiat currency.
 - **Blue Chip**: (top 50 mcap) indicating that one or more of the assets required for deposit in the strategy are of a high Market Capitalization--in this case, ranked among the top 50 on CoinGecko.
 - **Correlated**: indicating that all deposit assets follow a similar price action due to having a common relative asset. For example:
   - USDC/USDT LP is correlated because both the USDC and USDT prices are meant to follow the same asset (i.e., the U.S. Dollar).
