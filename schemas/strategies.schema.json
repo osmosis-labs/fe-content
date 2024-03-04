@@ -111,7 +111,7 @@
             "type": "array",
             "items": {
               "type": "string",
-              "enum": [ "Correlated", "Blue Chip", "Stablecoin" ]
+              "enum": [ "Correlated", "Blue Chip", "Stablecoins" ]
             }
           }
         }
