@@ -57,6 +57,11 @@
             "format": "uri",
             "description": "A URL to the data endpoint for the Annual Percentage Rate (APR) of the strategy. The response must match how it's defined in the documentation."
           },
+          "geoblock": {
+            "type": "string",
+            "format": "uri",
+            "description": "A URL to the data endpoint for a list of regions that are geographically restricted by the primany interface provider. The response must match how it's defined in the documentation."
+          },
           "lockDuration": {
             "type": "string",
             "pattern": "^P(?:\\d+Y)?(?:\\d+M)?(?:\\d+D)?(?:T(?:\\d+H)?(?:\\d+M)?(?:\\d+S)?)?$",
