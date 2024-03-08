@@ -17,7 +17,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **contract**: Primary contract for the strategy.
 - **tvl**: Data endpoint for Total Value Locked (TVL).
 - **apr**: Data endpoint for Annual Percentage Rate (APR).
-- **geoblock**: Data endpoint for which regions are geoblocked by the strategy provider.
+- **geoblock**: Data endpoint for whether the region is geoblocked.
 - **lockDuration**: Duration assets are locked (ISO 8601).
 - **riskLevel**: Risk level indicator (0 to 1).
 - **startDateTimeUtc**: Start date and time (UTC) of the strategy.
@@ -132,7 +132,7 @@ For example:
 }
 ```
 
-#### APR
+#### APR Data Endpoint
 
 The APR Data Endpoint must specify the current estimated Annual Rate Percentage (APR).
 If the estimated APR is a range, opt for the low end of the range.
@@ -145,10 +145,12 @@ For example:
 }
 ```
 
-#### Geoblock
+#### Geoblock Endpoint
 
-The Geoblock Endpoint must specify whether the connecting region (specified by country code) is geographically restricted by the primary interface for the strategy.
-The endpoint does not list all regions, nor accepts arguments; it only reports whether the region being used to query is allowed or not.
+The Geoblock Endpoint specifies whether the connecting region is geographically restricted by the primary interface for the strategy.
+The connection region is confirmed as a country code.
+The endpoint does not list all regions, nor accepts arguments; it only reports whether the region being used to query is 'allowed' or not.
+The string shall be blank if there is no geographical restriction.
 
 For example:
 ```
