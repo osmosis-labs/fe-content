@@ -1,0 +1,12 @@
+{
+  "upcomingAssets": [
+    {
+      "assetName": "Osmosis",
+      "symbol": "OSMO",
+      "chainName": "Osmosis",
+      "logoURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+      "estimatedLaunchDateUtc": "2049-01-01T01:01:01Z",
+      "osmosisAirdrop": false
+    }
+  ]
+}
