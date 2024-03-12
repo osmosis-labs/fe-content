@@ -26,8 +26,8 @@
             "type": "string",
             "format": "uri",
             "description": "The URL to the logo image of the asset.",
+            "pattern": "^https://raw.githubusercontent.com/cosmos/chain-registry/master/.+\\.png$",
             "example": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
-            "pattern": "^https://raw.githubusercontent.com/cosmos/chain-registry/master/.+\\.png$"
           },
           "estimatedLaunchDateUtc": {
             "type": "string",
