@@ -3,7 +3,7 @@
     {
       "id": "osmo-staking",
       "name": "Staking",
-      "platform": "osmosis",
+      "platform": "Cosmos SDK",
       "category": "Staking",
       "type": "osmosis-staking",
       "link": "https://app.osmosis.zone/stake",
@@ -34,7 +34,7 @@
     {
       "id": "st-osmo",
       "name": "Liquid Staking",
-      "platform": "stride",
+      "platform": "Stride",
       "category": "Liquid Staking",
       "type": "liquid-osmosis-staking",
       "link": "https://app.stride.zone/?chain=OSMO",
@@ -65,7 +65,7 @@
     {
       "id": "osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s",
       "name": "stkOSMO/OSMO Dynamic S+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/stkosmo-osmo-dynamic-s",
@@ -104,7 +104,7 @@
     {
       "id": "osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx",
       "name": "stTIA/TIA Dynamic S+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/sttia-tia-dynamic-s",
@@ -143,7 +143,7 @@
     {
       "id": "osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm",
       "name": "stDYDX/DYDX Dynamic S+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/stdydx-dydx-dynamic-s",
@@ -182,7 +182,7 @@
     {
       "id": "osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz",
       "name": "milkTIA/TIA Dynamic S+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/milktia-tia-dynamic-s",
@@ -221,7 +221,7 @@
     {
       "id": "osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw",
       "name": "OSMO/ETH Dynamic A+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-eth-dynamic-a",
@@ -260,7 +260,7 @@
     {
       "id": "osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj",
       "name": "DYDX/USDC Dynamic A+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/dydx-usdc-dynamic-a",
@@ -299,7 +299,7 @@
     {
       "id": "osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62",
       "name": "QSR/OSMO Dynamic A+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/qsr-osmo-dynamic-a",
@@ -338,7 +338,7 @@
     {
       "id": "osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a",
       "name": "YieldETH/ETH Dynamic S+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/yieldeth-eth-dynamic-s",
@@ -377,7 +377,7 @@
     {
       "id": "osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54",
       "name": "USDC/USDT Dynamic S+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/noble-usdc-usdt-dynamic-s",
@@ -416,7 +416,7 @@
     {
       "id": "osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d",
       "name": "stATOM/ATOM Dynamic S+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/statom-atom-dynamic-s",
@@ -455,7 +455,7 @@
     {
       "id": "osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q",
       "name": "OSMO/USDC.axl Dynamic A+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-usdc-dynamic-a",
@@ -494,7 +494,7 @@
     {
       "id": "osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp",
       "name": "OSMO/ATOM Dynamic A+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-atom-dynamic-a",
@@ -533,7 +533,7 @@
     {
       "id": "osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p",
       "name": "OSMO/USDC.axl Dynamic M+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-usdc-dynamic-m",
@@ -572,7 +572,7 @@
     {
       "id": "osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f",
       "name": "OSMO/USDT Dynamic A+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-usdt-dynamic-a",
@@ -611,7 +611,7 @@
     {
       "id": "osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r",
       "name": "OSMO/USDT Dynamic M+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-usdt-dynamic-m",
@@ -650,7 +650,7 @@
     {
       "id": "osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5",
       "name": "USDC.axl/USDT Dynamic S+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/usdc-usdt-dynamic-s",
@@ -689,7 +689,7 @@
     {
       "id": "osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl",
       "name": "OSMO/ATOM Dynamic M+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-atom-dynamic-m",
@@ -728,7 +728,7 @@
     {
       "id": "osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy",
       "name": "TIA/USDC Dynamic A+",
-      "platform": "quasar",
+      "platform": "Quasar",
       "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/tia-usdc-dynamic-a",
@@ -767,7 +767,7 @@
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp",
       "name": "ATOM-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/ATOM_USD",
@@ -802,7 +802,7 @@
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp",
       "name": "ATOM-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/ATOM_USD",
@@ -837,7 +837,7 @@
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp",
       "name": "AXL-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/AXL_USD",
@@ -872,7 +872,7 @@
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp",
       "name": "AXL-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/AXL_USD",
@@ -907,7 +907,7 @@
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
       "name": "BTC-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/BTC_USD",
@@ -942,7 +942,7 @@
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp",
       "name": "BTC-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/BTC_USD",
@@ -977,7 +977,7 @@
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp",
       "name": "DOT-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/DOT_USD",
@@ -1012,7 +1012,7 @@
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp",
       "name": "DOT-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/DOT_USD",
@@ -1047,7 +1047,7 @@
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp",
       "name": "DYM-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/DYM_USD",
@@ -1082,7 +1082,7 @@
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp",
       "name": "DYM-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/DYM_USD",
@@ -1117,7 +1117,7 @@
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp",
       "name": "OSMO-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/OSMO_USD",
@@ -1152,7 +1152,7 @@
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp",
       "name": "OSMO-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/OSMO_USD",
@@ -1187,7 +1187,7 @@
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp",
       "name": "SEI-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/SEI_USD",
@@ -1222,7 +1222,7 @@
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp",
       "name": "SEI-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/SEI_USD",
@@ -1257,7 +1257,7 @@
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
       "name": "TIA-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/TIA_USD",
@@ -1292,7 +1292,7 @@
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp",
       "name": "TIA-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/TIA_USD",
@@ -1327,7 +1327,7 @@
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
       "name": "axlETH-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/axlETH_USD",
@@ -1362,7 +1362,7 @@
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp",
       "name": "axlETH-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/axlETH_USD",
@@ -1397,7 +1397,7 @@
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp",
       "name": "milkTIA-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/milkTIA_USD",
@@ -1432,7 +1432,7 @@
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp",
       "name": "milkTIA-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/milkTIA_USD",
@@ -1467,7 +1467,7 @@
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp",
       "name": "ryETH-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/ryETH_USD",
@@ -1502,7 +1502,7 @@
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp",
       "name": "ryETH-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/ryETH_USD",
@@ -1537,7 +1537,7 @@
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp",
       "name": "stATOM-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/stATOM_USD",
@@ -1572,7 +1572,7 @@
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp",
       "name": "stATOM-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/stATOM_USD",
@@ -1607,7 +1607,7 @@
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp",
       "name": "stDYDX-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/stDYDX_USD",
@@ -1642,7 +1642,7 @@
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp",
       "name": "stDYDX-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/stDYDX_USD",
@@ -1677,7 +1677,7 @@
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp",
       "name": "stOSMO-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/stOSMO_USD",
@@ -1712,7 +1712,7 @@
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp",
       "name": "stOSMO-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/stOSMO_USD",
@@ -1747,7 +1747,7 @@
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp",
       "name": "stTIA-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/stTIA_USD",
@@ -1782,7 +1782,7 @@
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp",
       "name": "stTIA-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/stTIA_USD",
@@ -1817,7 +1817,7 @@
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp",
       "name": "wBTC-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/wBTC_USD",
@@ -1852,7 +1852,7 @@
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp",
       "name": "wBTC-USD",
-      "platform": "levana",
+      "platform": "Levana",
       "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/wBTC_USD",
@@ -1887,7 +1887,7 @@
     {
       "id": "factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars",
       "name": "milkTIA",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -1916,7 +1916,7 @@
     {
       "id": "ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars",
       "name": "AKT",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -1945,7 +1945,7 @@
     {
       "id": "ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars",
       "name": "ATOM",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -1974,7 +1974,7 @@
     {
       "id": "ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars",
       "name": "USDC",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2003,7 +2003,7 @@
     {
       "id": "ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars",
       "name": "USDT",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2032,7 +2032,7 @@
     {
       "id": "ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars",
       "name": "INJ",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2061,7 +2061,7 @@
     {
       "id": "ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars",
       "name": "DYDX",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2090,7 +2090,7 @@
     {
       "id": "ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars",
       "name": "AXL",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2119,7 +2119,7 @@
     {
       "id": "ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars",
       "name": "stDYDX",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2148,7 +2148,7 @@
     {
       "id": "ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars",
       "name": "stATOM",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2177,7 +2177,7 @@
     {
       "id": "ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars",
       "name": "WBTC.axl",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2206,7 +2206,7 @@
     {
       "id": "ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars",
       "name": "stOSMO",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2235,7 +2235,7 @@
     {
       "id": "ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars",
       "name": "USDC.axl",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2264,7 +2264,7 @@
     {
       "id": "ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars",
       "name": "TIA",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2293,7 +2293,7 @@
     {
       "id": "ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars",
       "name": "ETH",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
@@ -2322,7 +2322,7 @@
     {
       "id": "uosmo-mars",
       "name": "OSMO",
-      "platform": "mars",
+      "platform": "Mars",
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
