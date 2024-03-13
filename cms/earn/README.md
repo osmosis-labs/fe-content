@@ -11,7 +11,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **id**: Unique identifier for the strategy.
 - **name**: Display name for the strategy.
 - **platform**: Platform providing the earn strategy.
-- **category**: Broad category classification for the strategy.
+- **category**: Category classification with platform and type in parentheses.
 - **type**: Further classification of the strategy.
 - **link**: URL for user participation interface.
 - **contract**: Primary contract for the strategy.
@@ -31,12 +31,22 @@ The schema is designed to capture essential details about each earn strategy, in
 
 #### Category 
 
-The currently accepted keywords for `category` are (case-sensitive):
+There are currently 5 broad categories:
 - **Lending**: The assets are lent out to borrowers. 
 - **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
 - **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
-- **Perp LP**: The assets provide liquidity for a perpetual futures contract market.
+- **Perps LP**: The assets provide liquidity for a perpetual futures contract market.
 - **LP**: The assets provide liquidity for a liquidity pool.
+  
+However, the values accepted for `category` include the platform and type. Currently they include (case-sensitive):
+- `Lending (Mars)`
+- `Liquid Staking (Stride)`
+- `Staking`
+- `Perps LP (Levana LP)`
+- `Perps LP (Levana xLP)`
+- `LP (Quasar CL Vault)`
+  
+Any new Categories must also be added to the Strategies Schema.
 
 #### Type
 
@@ -63,7 +73,7 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "id": "osmosis-staking",
   "name": "OSMO Staking",
   "platform": "Cosmos SDK (on Osmosis)",
-  "category": "staking",
+  "category": "Staking",
   “type”: “osmosis-staking”,
   "link": "https://app.osmosis.zone/stake",
   "contract": "osmo1234…",
