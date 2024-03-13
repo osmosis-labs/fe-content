@@ -2,7 +2,7 @@
   "strategies": [
     {
       "id": "osmo-staking",
-      "name": "Staking",
+      "name": "OSMO Staking",
       "platform": "Cosmos SDK",
       "category": "Staking",
       "type": "osmosis-staking",
@@ -41,7 +41,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/st-osmo/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/st-osmo/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -72,7 +72,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -99,7 +99,7 @@
           "_comment": "Osmosis"
         }
       ],
-      "tags": []
+      "tags": ["Correlated"]
     },
     {
       "id": "osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx",
@@ -111,7 +111,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -138,7 +138,7 @@
           "_comment": "Celestia"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip", "Correlated"]
     },
     {
       "id": "osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm",
@@ -150,7 +150,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -177,7 +177,7 @@
           "_comment": "DYDX"
         }
       ],
-      "tags": []
+      "tags": ["Correlated"]
     },
     {
       "id": "osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz",
@@ -189,7 +189,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -216,7 +216,7 @@
           "_comment": "Celestia"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip", "Correlated"]
     },
     {
       "id": "osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw",
@@ -228,7 +228,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -255,7 +255,7 @@
           "_comment": "Wrapped Ether"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj",
@@ -267,7 +267,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -294,7 +294,7 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62",
@@ -306,7 +306,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -345,7 +345,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -372,7 +372,7 @@
           "_comment": "Wrapped Ether"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip", "Correlated"]
     },
     {
       "id": "osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54",
@@ -384,7 +384,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -411,7 +411,7 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip", "Correlated", "Stablecoins"]
     },
     {
       "id": "osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d",
@@ -423,7 +423,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -450,7 +450,7 @@
           "_comment": "Cosmos Hub Atom"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip", "Correlated"]
     },
     {
       "id": "osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q",
@@ -462,7 +462,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -489,7 +489,7 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp",
@@ -501,7 +501,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -528,7 +528,7 @@
           "_comment": "Cosmos Hub Atom"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p",
@@ -540,7 +540,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -567,7 +567,7 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f",
@@ -579,7 +579,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -606,7 +606,7 @@
           "_comment": "USDT"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r",
@@ -618,7 +618,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -645,7 +645,7 @@
           "_comment": "USDT"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5",
@@ -657,7 +657,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -684,7 +684,7 @@
           "_comment": "USDT"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip", "Correlated", "Stablecoins"]
     },
     {
       "id": "osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl",
@@ -696,7 +696,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -723,7 +723,7 @@
           "_comment": "Cosmos Hub Atom"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy",
@@ -735,7 +735,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -762,7 +762,7 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp",
@@ -797,7 +797,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp",
@@ -832,7 +832,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp",
@@ -867,7 +867,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp",
@@ -902,7 +902,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
@@ -937,7 +937,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp",
@@ -972,7 +972,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp",
@@ -1007,7 +1007,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp",
@@ -1042,7 +1042,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp",
@@ -1077,7 +1077,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp",
@@ -1112,7 +1112,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp",
@@ -1147,7 +1147,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp",
@@ -1182,7 +1182,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp",
@@ -1217,7 +1217,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp",
@@ -1252,7 +1252,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
@@ -1287,7 +1287,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp",
@@ -1322,7 +1322,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
@@ -1357,7 +1357,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp",
@@ -1392,7 +1392,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp",
@@ -1427,7 +1427,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp",
@@ -1462,7 +1462,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp",
@@ -1497,7 +1497,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp",
@@ -1532,7 +1532,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp",
@@ -1567,7 +1567,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp",
@@ -1602,7 +1602,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp",
@@ -1637,7 +1637,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp",
@@ -1672,7 +1672,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp",
@@ -1707,7 +1707,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp",
@@ -1742,7 +1742,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp",
@@ -1777,7 +1777,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp",
@@ -1812,7 +1812,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp",
@@ -1847,7 +1847,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp",
@@ -1882,7 +1882,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars",
@@ -1894,7 +1894,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -1923,7 +1923,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -1952,7 +1952,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -1969,7 +1969,7 @@
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars",
@@ -1981,7 +1981,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -1998,7 +1998,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip", "Stablecoins"]
     },
     {
       "id": "ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars",
@@ -2010,7 +2010,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2027,7 +2027,7 @@
           "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip", "Stablecoins"]
     },
     {
       "id": "ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars",
@@ -2039,7 +2039,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2056,7 +2056,7 @@
           "coinMinimalDenom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars",
@@ -2068,7 +2068,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2097,7 +2097,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2126,7 +2126,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2155,7 +2155,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2184,7 +2184,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2201,7 +2201,7 @@
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars",
@@ -2213,7 +2213,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2242,7 +2242,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2259,7 +2259,7 @@
           "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip", "Stablecoins"]
     },
     {
       "id": "ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars",
@@ -2271,7 +2271,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/apr",
       "geoblock": "The deposited asset is lent to borrowers.",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2288,7 +2288,7 @@
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars",
@@ -2300,7 +2300,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
@@ -2317,7 +2317,7 @@
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
         }
       ],
-      "tags": []
+      "tags": ["Blue Chip"]
     },
     {
       "id": "uosmo-mars",
@@ -2329,7 +2329,7 @@
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/uosmo-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/uosmo-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "P0D",
+      "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
