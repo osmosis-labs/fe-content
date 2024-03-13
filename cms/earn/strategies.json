@@ -2,8 +2,8 @@
   "strategies": [
     {
       "id": "osmo-staking",
-      "name": "OSMO Staking",
-      "platform": "Cosmos SDK",
+      "name": "Staking",
+      "platform": "osmosis",
       "category": "Staking",
       "type": "osmosis-staking",
       "link": "https://app.osmosis.zone/stake",
@@ -15,39 +15,420 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "Staking grants participation in on-chain governance.",
+      "message": "",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo",
-          "_comment": "OSMO"
+          "_comment": "Osmosis"
         }
       ],
       "positionDenoms": [],
       "rewardDenoms": [
         {
           "coinMinimalDenom": "uosmo",
-          "_comment": "OSMO"
+          "_comment": "Osmosis"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "st-osmo",
+      "name": "Liquid Staking",
+      "platform": "stride",
+      "category": "Liquid Staking",
+      "type": "liquid-osmosis-staking",
+      "link": "https://app.stride.zone/?chain=OSMO",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/st-osmo/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/st-osmo/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
+          "_comment": "Stride Liquid Staked Osmo"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s",
+      "name": "stkOSMO/OSMO Dynamic S+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/stkosmo-osmo-dynamic-s",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/ECBE78BF7677320A93E7BA1761D144BCBF0CBC247C290C049655E106FE5DC68E",
+          "_comment": "PSTAKE staked OSMO"
+        },
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/ECBE78BF7677320A93E7BA1761D144BCBF0CBC247C290C049655E106FE5DC68E",
+          "_comment": "PSTAKE staked OSMO"
+        },
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx",
+      "name": "stTIA/TIA Dynamic S+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/sttia-tia-dynamic-s",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9",
+          "_comment": "Stride Staked TIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "Celestia"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9",
+          "_comment": "Stride Staked TIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "Celestia"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm",
+      "name": "stDYDX/DYDX Dynamic S+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/stdydx-dydx-dynamic-s",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C",
+          "_comment": "Stride Staked DYDX"
+        },
+        {
+          "coinMinimalDenom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+          "_comment": "DYDX"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C",
+          "_comment": "Stride Staked DYDX"
+        },
+        {
+          "coinMinimalDenom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+          "_comment": "DYDX"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz",
+      "name": "milkTIA/TIA Dynamic S+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/milktia-tia-dynamic-s",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
+          "_comment": "milkTIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "Celestia"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
+          "_comment": "milkTIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "Celestia"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw",
+      "name": "OSMO/ETH Dynamic A+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/osmo-eth-dynamic-a",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
+          "_comment": "Wrapped Ether"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
+          "_comment": "Wrapped Ether"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj",
+      "name": "DYDX/USDC Dynamic A+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/dydx-usdc-dynamic-a",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+          "_comment": "DYDX"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+          "_comment": "USD Coin"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+          "_comment": "DYDX"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+          "_comment": "USD Coin"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62",
+      "name": "QSR/OSMO Dynamic A+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/qsr-osmo-dynamic-a",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477",
+          "_comment": "Quasar"
+        },
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477",
+          "_comment": "Quasar"
+        },
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a",
+      "name": "YieldETH/ETH Dynamic S+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/yieldeth-eth-dynamic-s",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668",
+          "_comment": "Yield Ether"
+        },
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
+          "_comment": "Wrapped Ether"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668",
+          "_comment": "Yield Ether"
+        },
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
+          "_comment": "Wrapped Ether"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54",
+      "name": "USDC/USDT Dynamic S+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/noble-usdc-usdt-dynamic-s",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+          "_comment": "USDT"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+          "_comment": "USD Coin"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+          "_comment": "USDT"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+          "_comment": "USD Coin"
         }
       ],
       "tags": []
     },
     {
       "id": "osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d",
-      "name": "Quasar stATOM/ATOM Dynamic S+",
-      "platform": "Levana",
-      "category": "LP",
+      "name": "stATOM/ATOM Dynamic S+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/statom-atom-dynamic-s",
-      "contract": "osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d/apr",
-      "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "PT0S",
-      "riskLevel": 0.5,
-      "startDateTimeUtc": "2024-02-29T01:01:01Z",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
+      "message": "",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901",
@@ -55,7 +436,7 @@
         },
         {
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-          "_comment": "ATOM"
+          "_comment": "Cosmos Hub Atom"
         }
       ],
       "positionDenoms": [],
@@ -66,146 +447,1906 @@
         },
         {
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-          "_comment": "ATOM"
+          "_comment": "Cosmos Hub Atom"
         }
       ],
-      "tags": [ "Blue Chip", "Correlated" ]
+      "tags": []
     },
     {
-      "id": "osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54",
-      "name": "Quasar USDC/USDT Dynamic S+",
-      "platform": "Levana",
-      "category": "LP",
+      "id": "osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q",
+      "name": "OSMO/USDC.axl Dynamic A+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
       "type": "quasar-cl-vault",
-      "link": "https://app.quasar.fi/vault/noble-usdc-usdt-dynamic-s",
-      "contract": "osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54",
-      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54/tvl",
-      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54/apr",
-      "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "PT0S",
-      "riskLevel": 0.5,
-      "startDateTimeUtc": "2024-02-29T01:01:01Z",
+      "link": "https://app.quasar.fi/vault/osmo-usdc-dynamic-a",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
+      "message": "",
       "depositDenoms": [
         {
-          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
-          "_comment": "noble.USDC"
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
         },
         {
-          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-          "_comment": "kava.USDT"
+          "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+          "_comment": "USD Coin"
         }
       ],
       "positionDenoms": [],
       "rewardDenoms": [
         {
-          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
-          "_comment": "noble.USDC"
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
         },
         {
-          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-          "_comment": "kava.USDT"
+          "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+          "_comment": "USD Coin"
         }
       ],
-      "tags": [ "Stablecoins", "Correlated" ]
+      "tags": []
     },
     {
-      "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
-      "name": "Levana wETH.axl / USD LP",
-      "platform": "Levana",
-      "category": "Perp LP",
-      "type": "levana-pool-lp",
-      "link": "https://trade.levana.finance/osmosis/earn/ETH_USD",
-      "contract": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e",
-      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp/tvl",
-      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp/apr",
-      "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "PT0S",
-      "riskLevel": 0.5,
-      "startDateTimeUtc": "2023-08-23T01:01:01Z",
+      "id": "osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp",
+      "name": "OSMO/ATOM Dynamic A+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/osmo-atom-dynamic-a",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "message": "",
       "depositDenoms": [
         {
-          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
-          "_comment": "wETH.axl"
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "_comment": "Cosmos Hub Atom"
         }
       ],
       "positionDenoms": [],
       "rewardDenoms": [
         {
-          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
-          "_comment": "wETH.axl"
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "_comment": "Cosmos Hub Atom"
         }
       ],
-      "tags": [ "Blue Chip" ]
+      "tags": []
+    },
+    {
+      "id": "osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p",
+      "name": "OSMO/USDC.axl Dynamic M+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/osmo-usdc-dynamic-m",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+          "_comment": "USD Coin"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+          "_comment": "USD Coin"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f",
+      "name": "OSMO/USDT Dynamic A+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/osmo-usdt-dynamic-a",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+          "_comment": "USDT"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+          "_comment": "USDT"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r",
+      "name": "OSMO/USDT Dynamic M+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/osmo-usdt-dynamic-m",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+          "_comment": "USDT"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+          "_comment": "USDT"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5",
+      "name": "USDC.axl/USDT Dynamic S+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/usdc-usdt-dynamic-s",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+          "_comment": "USD Coin"
+        },
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+          "_comment": "USDT"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+          "_comment": "USD Coin"
+        },
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+          "_comment": "USDT"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl",
+      "name": "OSMO/ATOM Dynamic M+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/osmo-atom-dynamic-m",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "_comment": "Cosmos Hub Atom"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        },
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "_comment": "Cosmos Hub Atom"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy",
+      "name": "TIA/USDC Dynamic A+",
+      "platform": "quasar",
+      "category": "Managed Liquidity",
+      "type": "quasar-cl-vault",
+      "link": "https://app.quasar.fi/vault/tia-usdc-dynamic-a",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "Celestia"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+          "_comment": "USD Coin"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "Celestia"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+          "_comment": "USD Coin"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp",
+      "name": "ATOM-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/ATOM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp",
+      "name": "ATOM-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/ATOM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp",
+      "name": "AXL-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/AXL_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp",
+      "name": "AXL-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/AXL_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
-      "name": "Levana WBTC.axl / USD LP",
-      "platform": "Levana",
-      "category": "Perp LP",
+      "name": "BTC-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
       "type": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/BTC_USD",
-      "contract": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp/apr",
-      "geoblock": "https://geoblocked.levana.finance/",
-      "lockDuration": "PT0S",
-      "riskLevel": 0.5,
-      "startDateTimeUtc": "2023-07-20T01:01:01Z",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "message": "",
       "depositDenoms": [
         {
-          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-          "_comment": "WBTC.axl"
+          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
       "positionDenoms": [],
       "rewardDenoms": [
         {
-          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-          "_comment": "WBTC.axl"
+          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": [ "Blue Chip" ]
+      "tags": []
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp",
-      "name": "Levana WBTC.axl / USD xLP",
-      "platform": "Levana",
-      "category": "Perp LP",
+      "name": "BTC-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
       "type": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/BTC_USD",
-      "contract": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp/apr",
-      "geoblock": "https://geoblocked.levana.finance/",
+      "geoblock": "",
       "lockDuration": "P45D",
-      "riskLevel": 0.5,
-      "startDateTimeUtc": "2023-07-20T01:01:01Z",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "message": "",
       "depositDenoms": [
         {
-          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-          "_comment": "WBTC.axl"
+          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
       "positionDenoms": [],
       "rewardDenoms": [
         {
-          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-          "_comment": "WBTC.axl"
+          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": [ "Blue Chip" ]
+      "tags": []
+    },
+    {
+      "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp",
+      "name": "DOT-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/DOT_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp",
+      "name": "DOT-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/DOT_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp",
+      "name": "DYM-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/DYM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp",
+      "name": "DYM-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/DYM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp",
+      "name": "OSMO-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/OSMO_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "uosmo"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "uosmo"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp",
+      "name": "OSMO-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/OSMO_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "uosmo"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "uosmo"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp",
+      "name": "SEI-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/SEI_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/71F11BC0AF8E526B80E44172EBA9D3F0A8E03950BB882325435691EBC9450B1D"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/71F11BC0AF8E526B80E44172EBA9D3F0A8E03950BB882325435691EBC9450B1D"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp",
+      "name": "SEI-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/SEI_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/71F11BC0AF8E526B80E44172EBA9D3F0A8E03950BB882325435691EBC9450B1D"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/71F11BC0AF8E526B80E44172EBA9D3F0A8E03950BB882325435691EBC9450B1D"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
+      "name": "TIA-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/TIA_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp",
+      "name": "TIA-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/TIA_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
+      "name": "axlETH-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/axlETH_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp",
+      "name": "axlETH-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/axlETH_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp",
+      "name": "milkTIA-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/milkTIA_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp",
+      "name": "milkTIA-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/milkTIA_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp",
+      "name": "ryETH-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/ryETH_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp",
+      "name": "ryETH-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/ryETH_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp",
+      "name": "stATOM-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/stATOM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp",
+      "name": "stATOM-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/stATOM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp",
+      "name": "stDYDX-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/stDYDX_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp",
+      "name": "stDYDX-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/stDYDX_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp",
+      "name": "stOSMO-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/stOSMO_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp",
+      "name": "stOSMO-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/stOSMO_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp",
+      "name": "stTIA-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/stTIA_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp",
+      "name": "stTIA-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/stTIA_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp",
+      "name": "wBTC-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/wBTC_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp/apr",
+      "geoblock": "",
+      "lockDuration": "P1D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp",
+      "name": "wBTC-USD",
+      "platform": "levana",
+      "category": "Perps Liquidity",
+      "type": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/wBTC_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp/apr",
+      "geoblock": "",
+      "lockDuration": "P45D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+        },
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars",
+      "name": "milkTIA",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars",
+      "name": "AKT",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars",
+      "name": "ATOM",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars",
+      "name": "USDC",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars",
+      "name": "USDT",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars",
+      "name": "INJ",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars",
+      "name": "DYDX",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars",
+      "name": "AXL",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars",
+      "name": "stDYDX",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars",
+      "name": "stATOM",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars",
+      "name": "WBTC.axl",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars",
+      "name": "stOSMO",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars",
+      "name": "USDC.axl",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars",
+      "name": "TIA",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars",
+      "name": "ETH",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "uosmo-mars",
+      "name": "OSMO",
+      "platform": "mars",
+      "category": "Lending",
+      "type": "mars-lending",
+      "link": "https://app.marsprotocol.io",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/uosmo-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/uosmo-mars/apr",
+      "geoblock": "",
+      "lockDuration": "P0D",
+      "riskLevel": 0.01,
+      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "uosmo"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "uosmo"
+        }
+      ],
+      "tags": []
     }
   ]
 }
