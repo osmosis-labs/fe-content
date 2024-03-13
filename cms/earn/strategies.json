@@ -15,7 +15,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Staking grants participation in on-chain governance.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo",
@@ -33,7 +33,7 @@
     },
     {
       "id": "st-osmo",
-      "name": "Liquid Staking",
+      "name": "Stride OSMO Liquid Staking",
       "platform": "Stride",
       "category": "Liquid Staking",
       "type": "liquid-osmosis-staking",
@@ -46,7 +46,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Liquid Staking refers to a tokenized staking position.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
@@ -77,7 +77,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/ECBE78BF7677320A93E7BA1761D144BCBF0CBC247C290C049655E106FE5DC68E",
@@ -116,7 +116,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9",
@@ -155,7 +155,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C",
@@ -194,7 +194,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
@@ -233,7 +233,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo",
@@ -272,7 +272,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
@@ -311,7 +311,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477",
@@ -350,7 +350,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668",
@@ -389,7 +389,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
@@ -428,7 +428,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901",
@@ -467,7 +467,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo",
@@ -506,7 +506,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo",
@@ -545,7 +545,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. M+: relative asset pricing is expected to be moderately volatile.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo",
@@ -584,7 +584,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo",
@@ -623,7 +623,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. M+: relative asset pricing is expected to be moderately volatile.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo",
@@ -662,7 +662,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
@@ -701,7 +701,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. M+: relative asset pricing is expected to be moderately volatile.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo",
@@ -740,7 +740,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
@@ -779,7 +779,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
@@ -814,7 +814,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
@@ -849,7 +849,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
@@ -884,7 +884,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
@@ -919,7 +919,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
@@ -954,7 +954,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
@@ -989,7 +989,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
@@ -1024,7 +1024,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
@@ -1059,7 +1059,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110"
@@ -1094,7 +1094,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110"
@@ -1129,7 +1129,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo"
@@ -1164,7 +1164,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo"
@@ -1199,7 +1199,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/71F11BC0AF8E526B80E44172EBA9D3F0A8E03950BB882325435691EBC9450B1D"
@@ -1234,7 +1234,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/71F11BC0AF8E526B80E44172EBA9D3F0A8E03950BB882325435691EBC9450B1D"
@@ -1269,7 +1269,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
@@ -1304,7 +1304,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
@@ -1339,7 +1339,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
@@ -1374,7 +1374,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
@@ -1409,7 +1409,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
@@ -1444,7 +1444,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
@@ -1479,7 +1479,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
@@ -1514,7 +1514,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
@@ -1549,7 +1549,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
@@ -1584,7 +1584,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
@@ -1619,7 +1619,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
@@ -1654,7 +1654,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
@@ -1689,7 +1689,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
@@ -1724,7 +1724,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
@@ -1759,7 +1759,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
@@ -1794,7 +1794,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
@@ -1829,7 +1829,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
@@ -1864,7 +1864,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
@@ -1899,7 +1899,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
@@ -1928,7 +1928,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4"
@@ -1957,7 +1957,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
@@ -1986,7 +1986,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
@@ -2015,7 +2015,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
@@ -2044,7 +2044,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273"
@@ -2073,7 +2073,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C"
@@ -2102,7 +2102,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
@@ -2131,7 +2131,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
@@ -2160,7 +2160,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
@@ -2189,7 +2189,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
@@ -2218,7 +2218,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
@@ -2247,7 +2247,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
@@ -2270,7 +2270,7 @@
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/apr",
-      "geoblock": "",
+      "geoblock": "The deposited asset is lent to borrowers.",
       "lockDuration": "P0D",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
@@ -2305,7 +2305,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
@@ -2334,7 +2334,7 @@
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "uosmo"
