@@ -1,11 +1,43 @@
 {
   "upcomingAssets": [
     {
-      "assetName": "Osmosis",
-      "symbol": "OSMO",
-      "chainName": "Osmosis",
-      "logoURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
-      "estimatedLaunchDateUtc": "2049-01-01T01:01:01Z",
+      "assetName": "Wormhole",
+      "symbol": "W",
+      "chainName": "Wormhole Gateway",
+      "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/w.png",
+      "estimatedLaunchDateUtc": "2024-03-20T00:00:00Z",
+      "osmosisAirdrop": false
+    },
+    {
+      "assetName": "Tinkernet",
+      "symbol": "TNKR",
+      "chainName": "Tinkernet",
+      "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/tnkr.png",
+      "estimatedLaunchDateUtc": "2024-03-25T00:00:00Z",
+      "osmosisAirdrop": false
+    },
+    {
+      "assetName": "Saga",
+      "symbol": "SAGA",
+      "chainName": "Saga",
+      "logoURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
+      "estimatedLaunchDateUtc": "2024-04-07T00:00:00Z",
+      "osmosisAirdrop": false
+    },
+    {
+      "assetName": "Andr",
+      "symbol": "ANDR",
+      "chainName": "Andromeda",
+      "logoURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png",
+      "estimatedLaunchDateUtc": "2024-04-15T00:00:00Z",
+      "osmosisAirdrop": false
+    },
+    {
+      "assetName": "Avail",
+      "symbol": "AVAIL",
+      "chainName": "Avail",
+      "logoURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png",
+      "estimatedLaunchDateUtc": "2024-04-10T00:00:00Z",
       "osmosisAirdrop": false
     }
   ]
