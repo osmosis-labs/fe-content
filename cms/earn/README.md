@@ -31,20 +31,13 @@ The schema is designed to capture essential details about each earn strategy, in
 
 #### Category 
 
-There are currently 5 broad categories:
+There are currently 6 accepted values for `category`:
 - **Lending**: The assets are lent out to borrowers. 
 - **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
 - **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
 - **Perps LP**: The assets provide liquidity for a perpetual futures contract market.
-- **LP**: The assets provide liquidity for a liquidity pool.
-  
-However, the values accepted for `category` include the platform and type. Currently they include (case-sensitive):
-- `Lending (Mars)`
-- `Liquid Staking (Stride)`
-- `Staking`
-- `Perps LP (Levana LP)`
-- `Perps LP (Levana xLP)`
-- `LP (Quasar CL Vault)`
+- **Perps LP**: The assets provide liquidity for a perpetual futures contract market and the tokenized position is staked.
+- **LP (CL Vault)**: The assets are added to a vault and provide liquidity for a CL liquidity pool.
   
 Any new Categories must also be added to the Strategies Schema.
 
