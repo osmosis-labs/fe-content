@@ -31,7 +31,7 @@ The schema is designed to capture essential details about each earn strategy, in
 
 #### Category 
 
-There are currently 6 accepted values for `category`:
+The currently accepted keywords for `category` are (case-sensitive):
 - **Lending**: The assets are lent out to borrowers. 
 - **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
 - **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
