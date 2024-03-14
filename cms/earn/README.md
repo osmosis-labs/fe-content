@@ -11,7 +11,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **id**: Unique identifier for the strategy.
 - **name**: Display name for the strategy.
 - **platform**: Platform providing the earn strategy.
-- **category**: Category classification with platform and type in parentheses.
+- **category**: Category classification of the strategy.
 - **type**: Further classification of the strategy.
 - **link**: URL for user participation interface.
 - **contract**: Primary contract for the strategy.
