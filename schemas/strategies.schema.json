@@ -29,7 +29,14 @@
           },
           "category": {
             "type": "string",
-            "enum": [ "Lending", "Liquid Staking", "Staking", "Perp LP", "LP" ],
+            "enum": [
+              "Lending",
+              "Liquid Staking",
+              "Staking",
+              "Perps LP",
+              "Perps LP (Staked)",
+              "LP (CL Vault)"
+            ],
             "description": "Specify the most appropriate broad category that the earn strategies would be classified."
           },
           "type": {

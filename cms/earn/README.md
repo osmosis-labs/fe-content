@@ -11,7 +11,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **id**: Unique identifier for the strategy.
 - **name**: Display name for the strategy.
 - **platform**: Platform providing the earn strategy.
-- **category**: Broad category classification for the strategy.
+- **category**: Category classification of the strategy.
 - **type**: Further classification of the strategy.
 - **link**: URL for user participation interface.
 - **contract**: Primary contract for the strategy.
@@ -35,8 +35,11 @@ The currently accepted keywords for `category` are (case-sensitive):
 - **Lending**: The assets are lent out to borrowers. 
 - **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
 - **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
-- **Perp LP**: The assets provide liquidity for a perpetual futures contract market.
-- **LP**: The assets provide liquidity for a liquidity pool.
+- **Perps LP**: The assets provide liquidity for a perpetual futures contract market.
+- **Perps LP**: The assets provide liquidity for a perpetual futures contract market and the tokenized position is staked.
+- **LP (CL Vault)**: The assets are added to a vault and provide liquidity for a CL liquidity pool.
+  
+Any new Categories must also be added to the Strategies Schema.
 
 #### Type
 
@@ -63,7 +66,7 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "id": "osmosis-staking",
   "name": "OSMO Staking",
   "platform": "Cosmos SDK (on Osmosis)",
-  "category": "staking",
+  "category": "Staking",
   “type”: “osmosis-staking”,
   "link": "https://app.osmosis.zone/stake",
   "contract": "osmo1234…",
