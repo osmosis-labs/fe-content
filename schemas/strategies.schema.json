@@ -47,16 +47,7 @@
           "link": {
             "type": "string",
             "format": "uri",
-            "oneOf": [
-              {
-                "type": "string",
-                "pattern": "^https:\/\/.*$"
-              },
-              {
-                "type": "string",
-                "maxLength": 0
-              }
-            ],
+            "pattern": "^https:\/\/.*$",
             "description": "This link redirects users to the most appropriate interface for users participate in the strategy."
           },
           "contract": {
@@ -97,16 +88,7 @@
           "geoblock": {
             "type": "string",
             "format": "uri",
-            "oneOf": [
-              {
-                "type": "string",
-                "pattern": "^https:\/\/.*$"
-              },
-              {
-                "type": "string",
-                "maxLength": 0
-              }
-            ],
+            "pattern": "^https:\/\/.*$",
             "description": "A URL to the data endpoint for a list of regions that are geographically restricted by the primany interface provider. The response must match how it's defined in the documentation."
           },
           "lockDuration": {
