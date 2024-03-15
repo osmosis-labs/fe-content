@@ -38,7 +38,7 @@
           "showLaunchDate": {
             "type": "boolean",
             "description": "Indicates whether to show the launch date of the asset."
-          }
+          },
           "osmosisAirdrop": {
             "type": "boolean",
             "description": "Indicates whether Osmosis Stakers or LPs are eligible for an airdrop of the asset.",
