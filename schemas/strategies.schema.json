@@ -88,7 +88,16 @@
           "geoblock": {
             "type": "string",
             "format": "uri",
-            "pattern": "^https:\/\/.*$",
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^https:\/\/.*$"
+              },
+              {
+                "type": "string",
+                "maxLength": 0
+              }
+            ],
             "description": "A URL to the data endpoint for a list of regions that are geographically restricted by the primany interface provider. The response must match how it's defined in the documentation."
           },
           "lockDuration": {
