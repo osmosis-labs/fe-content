@@ -26,7 +26,7 @@
             "type": "string",
             "format": "uri",
             "description": "The URL to the logo image of the asset.",
-            "pattern": "^https://raw.githubusercontent.com/cosmos/chain-registry/master/.+\\.png$",
+            "pattern": "^https://raw.githubusercontent.com\/.+\\.(png|svg)$",
             "example": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
           },
           "estimatedLaunchDateUtc": {
@@ -35,13 +35,17 @@
             "example": "2049-01-01T01:01:01Z",
             "description": "The estimated launch date and time (UTC) of the asset."
           },
+          "showLaunchDate": {
+            "type": "boolean",
+            "description": "Indicates whether to show the launch date of the asset."
+          },
           "osmosisAirdrop": {
             "type": "boolean",
             "description": "Indicates whether Osmosis Stakers or LPs are eligible for an airdrop of the asset.",
             "example": false
           }
         },
-        "required": ["assetName", "symbol", "chainName", "logoURL", "estimatedLaunchDateUtc", "osmosisAirdrop"]
+        "required": ["assetName", "symbol", "chainName", "logoURL", "estimatedLaunchDateUtc", "showLaunchDate", "osmosisAirdrop"]
       }
     }
   },
