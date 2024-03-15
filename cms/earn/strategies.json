@@ -1891,8 +1891,8 @@
       "category": "Lending",
       "type": "mars-lending",
       "link": "https://app.marsprotocol.io",
-      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars/tvl",
-      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars/apr",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0%2fumilkTIA-mars/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0%2fumilkTIA-mars/apr",
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
@@ -2270,13 +2270,13 @@
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/apr",
-      "geoblock": "The deposited asset is lent to borrowers.",
+      "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
       "disabled": false,
-      "message": "",
+      "message": "The deposited asset is lent to borrowers.",
       "depositDenoms": [
         {
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
