@@ -32,8 +32,8 @@
           "estimatedLaunchDate": {
             "type": "string",
             "pattern": "^(Q[1-4]|((January|February|March|April|May|June|July|August|September|October|November|December)(\\s\\d{1,2},)?))?\\s\\d{4}$",
-            "description": "The estimated launch date of the asset. Accepts dates in the formats: month name + year (e.g., March 2024), month name + day + year (e.g., March 22, 2024), and quarter + year (e.g., Q2 2024)."
-            "example": "March 22, 2024",
+            "description": "The estimated launch date of the asset. Accepts dates in the formats: month name + year (e.g., March 2024), month name + day + year (e.g., March 22, 2024), and quarter + year (e.g., Q2 2024).",
+            "example": "March 22, 2024"
           },
           "showLaunchDate": {
             "type": "boolean",
