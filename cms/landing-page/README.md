@@ -22,7 +22,7 @@ The Landing Page schema includes the following properties:
   - `symbol`: The symbol of the asset.
   - `chainName`: The name of the blockchain or network where the asset originates.
   - `logoURL`: The URL to the logo image of the asset. It must be hosted on the Cosmos chain registry master and have a `.png` or `.svg` extension.
-  - `estimatedLaunchDate`: The estimated launch date of the asset. May be precise to the day (e.g., March 24, 2024) or to the quarter (e.g., Q3 2023). 
+  - `estimatedLaunchDate`: The estimated launch date of the asset. May be precise to the day (e.g., Mar 24, 2024) or to the quarter (e.g., Q3 2023). 
   - `osmosisAirdrop`: Indicates whether Osmosis Stakers or LPs are eligible for an airdrop of the asset.
 
 ### Example
@@ -37,7 +37,7 @@ Here's an example of how content can be structured using the Landing Page schema
       "symbol": "OSMO",
       "chainName": "Osmosis",
       "logoURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
-      "estimatedLaunchDateUtc": "January 1, 2049",
+      "estimatedLaunchDateUtc": "Jan 1, 2049",
       "osmosisAirdrop": false
     },
     {
