@@ -29,11 +29,11 @@
             "pattern": "^https://raw.githubusercontent.com\/.+\\.(png|svg)$",
             "example": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
           },
-          "estimatedLaunchDateUtc": {
+          "estimatedLaunchDate": {
             "type": "string",
-            "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}Z)?$",
-            "example": "2049-01-01T01:01:01Z",
-            "description": "The estimated launch date and time (UTC) of the asset."
+            "pattern": "^(Q[1-4]|((January|February|March|April|May|June|July|August|September|October|November|December)(\\s\\d{1,2},)?))?\\s\\d{4}$",
+            "description": "The estimated launch date of the asset. Accepts dates in the formats: month name + year (e.g., March 2024), month name + day + year (e.g., March 22, 2024), and quarter + year (e.g., Q2 2024)."
+            "example": "March 22, 2024",
           },
           "showLaunchDate": {
             "type": "boolean",
