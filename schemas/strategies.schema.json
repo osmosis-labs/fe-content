@@ -34,8 +34,7 @@
               "Liquid Staking",
               "Staking",
               "Perps LP",
-              "Perps LP (Staked)",
-              "LP (CL Vault)"
+              "LP (Vault)"
             ],
             "description": "Specify the most appropriate broad category that the earn strategies would be classified."
           },
