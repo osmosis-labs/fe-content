@@ -44,7 +44,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Liquid Staking refers to a tokenized staking position.",
       "depositDenoms": [
@@ -231,7 +231,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
@@ -270,7 +270,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
@@ -309,7 +309,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
@@ -504,7 +504,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
@@ -543,7 +543,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. M+: relative asset pricing is expected to be moderately volatile.",
       "depositDenoms": [
@@ -582,7 +582,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
@@ -621,7 +621,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. M+: relative asset pricing is expected to be moderately volatile.",
       "depositDenoms": [
@@ -699,7 +699,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. M+: relative asset pricing is expected to be moderately volatile.",
       "depositDenoms": [
@@ -738,7 +738,7 @@
       "lockDuration": "PT0S",
       "riskLevel": 0.01,
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": false,
+      "unlisted": true,
       "disabled": false,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. A+: potentially a relatively price-volatile pair.",
       "depositDenoms": [
