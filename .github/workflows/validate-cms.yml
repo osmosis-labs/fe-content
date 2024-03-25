@@ -1,6 +1,10 @@
 name: Validate CMS
 
-on: [push]
+on:
+  push:
+  pull_request:
+    branches-ignore:
+      - main
 
 jobs:
   test:

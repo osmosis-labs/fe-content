@@ -1,4 +1,5 @@
 {
+  "$schema": "../../schemas/strategies.schema.json",
   "strategies": [
     {
       "id": "osmo-staking",
