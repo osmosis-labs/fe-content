@@ -1,4 +1,5 @@
 {
+  "$schema": "../../schemas/landing-page.schema.json",
   "upcomingAssets": [
     {
       "assetName": "Wormhole",

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "required": [ "strategies" ],
+  "required": ["strategies"],
   "properties": {
     "riskReportUrl": {
       "type": "string",
@@ -12,7 +12,23 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": [ "id", "name", "platform", "category", "type", "link", "lockDuration", "riskLevel", "startDateTimeUtc", "unlisted", "disabled", "depositDenoms", "positionDenoms", "rewardDenoms", "tags" ],
+        "required": [
+          "id",
+          "name",
+          "platform",
+          "category",
+          "type",
+          "link",
+          "lockDuration",
+          "riskLevel",
+          "startDateTimeUtc",
+          "unlisted",
+          "disabled",
+          "depositDenoms",
+          "positionDenoms",
+          "rewardDenoms",
+          "tags"
+        ],
         "properties": {
           "id": {
             "type": "string",
@@ -25,7 +41,7 @@
           "platform": {
             "type": "string",
             "description": "The platform that provides the Earn Strategy.",
-            "example": "Levana"
+            "examples": ["Levana"]
           },
           "category": {
             "type": "string",
@@ -34,20 +50,19 @@
               "Liquid Staking",
               "Staking",
               "Perps LP",
-              "Perps LP (Staked)",
-              "LP (CL Vault)"
+              "LP (Vault)"
             ],
             "description": "Specify the most appropriate broad category that the earn strategies would be classified."
           },
           "type": {
             "type": "string",
             "description": "Further classification of the strategy.",
-            "example": "Osmosis Staking"
+            "examples": ["Osmosis Staking"]
           },
           "link": {
             "type": "string",
             "format": "uri",
-            "pattern": "^https:\/\/.*$",
+            "pattern": "^https://.*$",
             "description": "This link redirects users to the most appropriate interface for users participate in the strategy."
           },
           "contract": {
@@ -61,7 +76,7 @@
             "oneOf": [
               {
                 "type": "string",
-                "pattern": "^https:\/\/.*$"
+                "pattern": "^https://.*$"
               },
               {
                 "type": "string",
@@ -76,7 +91,7 @@
             "oneOf": [
               {
                 "type": "string",
-                "pattern": "^https:\/\/.*$"
+                "pattern": "^https://.*$"
               },
               {
                 "type": "string",
@@ -86,12 +101,10 @@
             "description": "A URL to the data endpoint for the Annual Percentage Rate (APR) of the strategy. The response must match how it's defined in the documentation."
           },
           "geoblock": {
-            "type": "string",
-            "format": "uri",
             "oneOf": [
               {
                 "type": "string",
-                "pattern": "^https:\/\/.*$"
+                "pattern": "^https://.*$"
               },
               {
                 "type": "string",
@@ -103,7 +116,7 @@
           "lockDuration": {
             "type": "string",
             "pattern": "^P(?:\\d+Y)?(?:\\d+M)?(?:\\d+D)?(?:T(?:\\d+H)?(?:\\d+M)?(?:\\d+S)?)?$",
-            "example": "P14D",
+            "examples": ["P14D"],
             "description": "specify the duration following ISO 8601 standard. If the strategy does not require a lock, use 'P0S' (meaning zero seconds)."
           },
           "riskLevel": {
@@ -115,7 +128,7 @@
           "startDateTimeUtc": {
             "type": "string",
             "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}Z)?$",
-            "example": "2049-01-01T01:01:01Z",
+            "examples": ["2049-01-01T01:01:01Z"],
             "description": "The start date and time (UTC) of a strategy not only keeps record, but can be used to pre-plan and exact time to reveal the on the interface."
           },
           "unlisted": {
@@ -154,7 +167,7 @@
             "type": "array",
             "items": {
               "type": "string",
-              "enum": [ "Correlated", "Blue Chip", "Stablecoins" ]
+              "enum": ["Correlated", "Blue Chip", "Stablecoins"]
             }
           }
         }
@@ -164,7 +177,7 @@
   "$defs": {
     "denomObject": {
       "type": "object",
-      "required": [ "coinMinimalDenom" ],
+      "required": ["coinMinimalDenom"],
       "properties": {
         "coinMinimalDenom": {
           "type": "string",
@@ -173,7 +186,7 @@
         "_comment": {
           "type": "string",
           "description": "An unrestricted, informal field to informs human readers which asset is being described. Asset symbol is likely best.",
-          "example": "$ATOM from Cosmos Hub via IBC (transfer/channel-0)"
+          "examples": ["$ATOM from Cosmos Hub via IBC (transfer/channel-0)"]
         }
       }
     }

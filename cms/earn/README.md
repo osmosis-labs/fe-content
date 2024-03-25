@@ -36,8 +36,7 @@ The currently accepted keywords for `category` are (case-sensitive):
 - **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
 - **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
 - **Perps LP**: The assets provide liquidity for a perpetual futures contract market.
-- **Perps LP**: The assets provide liquidity for a perpetual futures contract market and the tokenized position is staked.
-- **LP (CL Vault)**: The assets are added to a vault and provide liquidity for a CL liquidity pool.
+- **LP (Vault)**: The assets are added to a vault and provide liquidity in Osmosis spot pools.
   
 Any new Categories must also be added to the Strategies Schema.
 

@@ -2,10 +2,12 @@ import fs from "fs";
 import path from "path";
 import prettier from "prettier";
 import { spawn } from "child_process";
+import { readJsonFiles } from "../utils";
 
 const cmsDirectoryPath = "./cms";
 const cacheLocationDirectory = "./project.inlang/.cache";
-const cmsFiles = fs.readdirSync(cmsDirectoryPath);
+
+const cmsFiles = readJsonFiles(cmsDirectoryPath);
 
 if (!fs.existsSync(cacheLocationDirectory)) {
   fs.mkdirSync(cacheLocationDirectory, { recursive: true });
@@ -19,7 +21,7 @@ async function writeFile(filePath, content) {
   const formatted = await prettier.format(JSON.stringify(content), {
     parser: "json",
   });
-  fs.writeFileSync(path.resolve(cmsDirectoryPath, filePath), formatted, {
+  fs.writeFileSync(filePath, formatted, {
     encoding: "utf8",
   });
 }
@@ -62,10 +64,9 @@ async function main() {
 
     const languageContent = {};
     for (const filePath of cmsFiles) {
-      const namespace = filePath.split(".")[0];
-      const fileContent = JSON.parse(
-        fs.readFileSync(path.resolve(cmsDirectoryPath, filePath), "utf8")
-      );
+      const fileName = path.basename(filePath);
+      const namespace = fileName.split(".")[0];
+      const fileContent = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
       if (!fileContent.localization) {
         continue;
@@ -91,18 +92,13 @@ async function main() {
   ]);
 
   for (const filePath of cmsFiles) {
-    const namespace = filePath.split(".")[0];
-
-    const content = JSON.parse(
-      fs.readFileSync(path.resolve(cmsDirectoryPath, filePath), "utf8")
-    );
+    const fileName = path.basename(filePath);
+    const namespace = fileName.split(".")[0];
+    const content = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
     if (!content.localization) {
       continue;
     }
-
-    // Create localization file for each language tag
-    inlangSettings.languageTags.forEach((languageTag) => {});
 
     content.localization = inlangSettings.languageTags.reduce(
       (acc, languageTag) => {
@@ -125,7 +121,7 @@ async function main() {
       {}
     );
 
-    await writeFile(path.resolve(cmsDirectoryPath, filePath), content);
+    await writeFile(filePath, content);
   }
 }
 
