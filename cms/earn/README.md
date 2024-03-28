@@ -56,7 +56,7 @@ The Method value will guide how the controller queries the involved contracts or
 
 Some currently accepted values for `method` are:
 - Osmosis Staking: 'osmosis-staking'
-- Stride Liquid OSMO Staking: 'liquid-osmosis-staking'
+- Stride Liquid OSMO Staking: 'stride-liquid-staking'
 - Quasar CL Vault: 'quasar-cl-vault'
 - Levana LP: 'levana-pool-lp'
 - Levana xLP: 'levana-pool-xlp'
