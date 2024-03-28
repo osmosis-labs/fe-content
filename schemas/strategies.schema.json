@@ -8,6 +8,31 @@
       "format": "uri",
       "description": "This should link to a Google Sheets page with all strategies' risk report card details."
     },
+    "categories": {
+      "type": "object",
+      "required": ["name", "description", "iconURL"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The category describing the strategy's deposit asset(s).",
+          "enum": ["Correlated", "Blue Chip", "Stablecoins"]
+        },
+        "description": {
+          "type": "string",
+          "description": "The description used for the category.",
+          "example": "All deposit assets are related to each other in some way and are intended to have a similar price action.",
+        },
+        "iconURL": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL to the icon image of the category.",
+          "pattern": "^https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/.+\\.(png|svg)$",
+          "examples": [
+            "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg",
+          ]
+        }
+      }
+    },
     "strategies": {
       "type": "array",
       "items": {
@@ -165,7 +190,10 @@
           "categories": {
             "type": "array",
             "description": "A number of potential categories describing the strategy's deposit asset(s).",
-            "items": { "$ref": "#/$defs/categoryObject" }
+            "items": {
+              "type": "string",
+              "enum": ["Correlated", "Blue Chip", "Stablecoins"]
+            }
           }
         }
       }
@@ -184,83 +212,6 @@
           "type": "string",
           "description": "An unrestricted, informal field to informs human readers which asset is being described. Asset symbol is likely best.",
           "examples": ["$ATOM from Cosmos Hub via IBC (transfer/channel-0)"]
-        }
-      }
-    },
-    "categoryObject": {
-      "type": "object",
-      "required": ["name", "description", "iconURL"],
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "The category describing the strategy's deposit asset(s).",
-          "enum": ["Correlated", "Blue Chip", "Stablecoins"]
-        },
-        "description": {
-          "type": "string",
-          "description": "The description used for the category.",
-          "example": "All deposit assets are related to each other in some way and are intended to have a similar price action.",
-          "allOf": [
-            {
-              "if": {
-                "properties": { "name": { "const": "Correlated" } }
-              },
-              "then": {
-                "const": "All deposit assets are related and are intended to have a similar price action."
-              }
-            },
-            {
-              "if": {
-                "properties": { "name": { "const": "Blue Chip" } }
-              },
-              "then": {
-                "const": "Any of the deposit assets' market capitalization ranks among the top 50 cryptocurrencies."
-              }
-            },
-            {
-              "if": {
-                "properties": { "name": { "const": "Stablecoins" } }
-              },
-              "then": {
-                "const": "All deposit assets are stablecoins of a world fiat currency."
-              }
-            }
-          ]
-        },
-        "iconURL": {
-          "type": "string",
-          "format": "uri",
-          "description": "The URL to the icon image of the category.",
-          "pattern": "^https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/.+\\.(png|svg)$",
-          "examples": [
-            "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg",
-          ],
-          "allOf": [
-            {
-              "if": {
-                "properties": { "name": { "const": "Correlated" } }
-              },
-              "then": {
-                "const": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/correlated.svg"
-              }
-            },
-            {
-              "if": {
-                "properties": { "name": { "const": "Blue Chip" } }
-              },
-              "then": {
-                "const": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg"
-              }
-            },
-            {
-              "if": {
-                "properties": { "name": { "const": "Stablecoins" } }
-              },
-              "then": {
-                "const": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/stablecoins.svg"
-              }
-            }
-          ]
         }
       }
     }
