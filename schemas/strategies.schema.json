@@ -30,7 +30,6 @@
             "description": "The URL to the icon image of the category.",
             "pattern": "^https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/.+\\.(png|svg)$",
             "example": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg"
-            ]
           }
         }
       }
