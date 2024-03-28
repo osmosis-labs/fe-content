@@ -53,6 +53,11 @@
             ],
             "description": "Specify the most appropriate method/strategy type to classify the strategy."
           },
+          "method": {
+            "type": "string",
+            "description": "Further classification of the strategy, descriminating between properties such as platform, strategy type, vault type, bond duration, etc.",
+            "examples": ["quasar-cl-vault", "levana-pool-lp", "levana-pool-xlp"]
+          },
           "link": {
             "type": "string",
             "format": "uri",
