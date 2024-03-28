@@ -5,8 +5,8 @@
       "id": "osmo-staking",
       "name": "OSMO Staking",
       "platform": "Cosmos SDK",
-      "category": "Staking",
-      "type": "osmosis-staking",
+      "type": "Staking",
+      "method": "osmosis-staking",
       "link": "https://app.osmosis.zone/stake",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo-staking/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo-staking/apr",
@@ -30,14 +30,14 @@
           "_comment": "Osmosis"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "st-osmo",
       "name": "Stride OSMO Liquid Staking",
       "platform": "Stride",
-      "category": "Liquid Staking",
-      "type": "liquid-osmosis-staking",
+      "type": "Liquid Staking",
+      "method": "liquid-osmosis-staking",
       "link": "https://app.stride.zone/?chain=OSMO",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/st-osmo/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/st-osmo/apr",
@@ -61,14 +61,14 @@
           "_comment": "Osmosis"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s",
       "name": "stkOSMO/OSMO Dynamic S+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/stkosmo-osmo-dynamic-s",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s/apr",
@@ -100,14 +100,14 @@
           "_comment": "Osmosis"
         }
       ],
-      "tags": ["Correlated"]
+      "categories": ["Correlated"]
     },
     {
       "id": "osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx",
       "name": "stTIA/TIA Dynamic S+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/sttia-tia-dynamic-s",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx/apr",
@@ -139,14 +139,14 @@
           "_comment": "Celestia"
         }
       ],
-      "tags": ["Blue Chip", "Correlated"]
+      "categories": ["Blue Chip", "Correlated"]
     },
     {
       "id": "osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm",
       "name": "stDYDX/DYDX Dynamic S+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/stdydx-dydx-dynamic-s",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm/apr",
@@ -178,14 +178,14 @@
           "_comment": "DYDX"
         }
       ],
-      "tags": ["Correlated"]
+      "categories": ["Correlated"]
     },
     {
       "id": "osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz",
       "name": "milkTIA/TIA Dynamic S+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/milktia-tia-dynamic-s",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz/apr",
@@ -217,14 +217,14 @@
           "_comment": "Celestia"
         }
       ],
-      "tags": ["Blue Chip", "Correlated"]
+      "categories": ["Blue Chip", "Correlated"]
     },
     {
       "id": "osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw",
       "name": "OSMO/ETH Dynamic A+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-eth-dynamic-a",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw/apr",
@@ -256,14 +256,14 @@
           "_comment": "Wrapped Ether"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj",
       "name": "DYDX/USDC Dynamic A+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/dydx-usdc-dynamic-a",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj/apr",
@@ -295,14 +295,14 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62",
       "name": "QSR/OSMO Dynamic A+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/qsr-osmo-dynamic-a",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62/apr",
@@ -334,14 +334,14 @@
           "_comment": "Osmosis"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a",
       "name": "YieldETH/ETH Dynamic S+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/yieldeth-eth-dynamic-s",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a/apr",
@@ -373,14 +373,14 @@
           "_comment": "Wrapped Ether"
         }
       ],
-      "tags": ["Blue Chip", "Correlated"]
+      "categories": ["Blue Chip", "Correlated"]
     },
     {
       "id": "osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54",
       "name": "USDC/USDT Dynamic S+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/noble-usdc-usdt-dynamic-s",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54/apr",
@@ -412,14 +412,14 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": ["Blue Chip", "Correlated", "Stablecoins"]
+      "categories": ["Blue Chip", "Correlated", "Stablecoins"]
     },
     {
       "id": "osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d",
       "name": "stATOM/ATOM Dynamic S+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/statom-atom-dynamic-s",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d/apr",
@@ -451,14 +451,14 @@
           "_comment": "Cosmos Hub Atom"
         }
       ],
-      "tags": ["Blue Chip", "Correlated"]
+      "categories": ["Blue Chip", "Correlated"]
     },
     {
       "id": "osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q",
       "name": "OSMO/USDC.axl Dynamic A+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-usdc-dynamic-a",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q/apr",
@@ -490,14 +490,14 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp",
       "name": "OSMO/ATOM Dynamic A+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-atom-dynamic-a",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp/apr",
@@ -529,14 +529,14 @@
           "_comment": "Cosmos Hub Atom"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p",
       "name": "OSMO/USDC.axl Dynamic M+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-usdc-dynamic-m",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p/apr",
@@ -568,14 +568,14 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f",
       "name": "OSMO/USDT Dynamic A+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-usdt-dynamic-a",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f/apr",
@@ -607,14 +607,14 @@
           "_comment": "USDT"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r",
       "name": "OSMO/USDT Dynamic M+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-usdt-dynamic-m",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r/apr",
@@ -646,14 +646,14 @@
           "_comment": "USDT"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5",
       "name": "USDC.axl/USDT Dynamic S+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/usdc-usdt-dynamic-s",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5/apr",
@@ -685,14 +685,14 @@
           "_comment": "USDT"
         }
       ],
-      "tags": ["Blue Chip", "Correlated", "Stablecoins"]
+      "categories": ["Blue Chip", "Correlated", "Stablecoins"]
     },
     {
       "id": "osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl",
       "name": "OSMO/ATOM Dynamic M+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/osmo-atom-dynamic-m",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl/apr",
@@ -724,14 +724,14 @@
           "_comment": "Cosmos Hub Atom"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy",
       "name": "TIA/USDC Dynamic A+",
       "platform": "Quasar",
-      "category": "LP (Vault)",
-      "type": "quasar-cl-vault",
+      "type": "LP (Vault)",
+      "method": "quasar-cl-vault",
       "link": "https://app.quasar.fi/vault/tia-usdc-dynamic-a",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy/apr",
@@ -763,14 +763,14 @@
           "_comment": "USD Coin"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp",
       "name": "ATOM-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/ATOM_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp/apr",
@@ -798,14 +798,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp",
       "name": "ATOM-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/ATOM_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp/apr",
@@ -833,14 +833,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp",
       "name": "AXL-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/AXL_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp/apr",
@@ -868,14 +868,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp",
       "name": "AXL-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/AXL_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp/apr",
@@ -903,14 +903,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
       "name": "BTC-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/BTC_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp/apr",
@@ -938,14 +938,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp",
       "name": "BTC-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/BTC_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp/apr",
@@ -973,14 +973,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp",
       "name": "DOT-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/DOT_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp/apr",
@@ -1008,14 +1008,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp",
       "name": "DOT-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/DOT_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp/apr",
@@ -1043,14 +1043,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp",
       "name": "DYM-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/DYM_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp/apr",
@@ -1078,14 +1078,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp",
       "name": "DYM-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/DYM_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp/apr",
@@ -1113,14 +1113,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp",
       "name": "OSMO-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/OSMO_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp/apr",
@@ -1148,14 +1148,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp",
       "name": "OSMO-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/OSMO_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp/apr",
@@ -1183,14 +1183,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp",
       "name": "SEI-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/SEI_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp/apr",
@@ -1218,14 +1218,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp",
       "name": "SEI-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/SEI_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp/apr",
@@ -1253,14 +1253,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
       "name": "TIA-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/TIA_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp/apr",
@@ -1288,14 +1288,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp",
       "name": "TIA-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/TIA_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp/apr",
@@ -1323,14 +1323,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
       "name": "axlETH-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/axlETH_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp/apr",
@@ -1358,14 +1358,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp",
       "name": "axlETH-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/axlETH_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp/apr",
@@ -1393,14 +1393,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp",
       "name": "milkTIA-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/milkTIA_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp/apr",
@@ -1428,14 +1428,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp",
       "name": "milkTIA-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/milkTIA_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp/apr",
@@ -1463,14 +1463,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp",
       "name": "ryETH-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/ryETH_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp/apr",
@@ -1498,14 +1498,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp",
       "name": "ryETH-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/ryETH_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp/apr",
@@ -1533,14 +1533,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp",
       "name": "stATOM-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/stATOM_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp/apr",
@@ -1568,14 +1568,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp",
       "name": "stATOM-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/stATOM_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp/apr",
@@ -1603,14 +1603,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp",
       "name": "stDYDX-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/stDYDX_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp/apr",
@@ -1638,14 +1638,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp",
       "name": "stDYDX-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/stDYDX_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp/apr",
@@ -1673,14 +1673,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp",
       "name": "stOSMO-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/stOSMO_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp/apr",
@@ -1708,14 +1708,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp",
       "name": "stOSMO-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/stOSMO_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp/apr",
@@ -1743,14 +1743,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp",
       "name": "stTIA-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/stTIA_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp/apr",
@@ -1778,14 +1778,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp",
       "name": "stTIA-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/stTIA_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp/apr",
@@ -1813,14 +1813,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp",
       "name": "wBTC-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-lp",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
       "link": "https://trade.levana.finance/osmosis/earn/wBTC_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp/apr",
@@ -1848,14 +1848,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp",
       "name": "wBTC-USD",
       "platform": "Levana",
-      "category": "Perps LP",
-      "type": "levana-pool-xlp",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
       "link": "https://trade.levana.finance/osmosis/earn/wBTC_USD",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp/apr",
@@ -1883,14 +1883,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars",
       "name": "milkTIA",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0%2fumilkTIA-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0%2fumilkTIA-mars/apr",
@@ -1912,14 +1912,14 @@
           "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars",
       "name": "AKT",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars/apr",
@@ -1941,14 +1941,14 @@
           "coinMinimalDenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars",
       "name": "ATOM",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars/apr",
@@ -1970,14 +1970,14 @@
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars",
       "name": "USDC",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars/apr",
@@ -1999,14 +1999,14 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "tags": ["Blue Chip", "Stablecoins"]
+      "categories": ["Blue Chip", "Stablecoins"]
     },
     {
       "id": "ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars",
       "name": "USDT",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars/apr",
@@ -2028,14 +2028,14 @@
           "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
         }
       ],
-      "tags": ["Blue Chip", "Stablecoins"]
+      "categories": ["Blue Chip", "Stablecoins"]
     },
     {
       "id": "ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars",
       "name": "INJ",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars/apr",
@@ -2057,14 +2057,14 @@
           "coinMinimalDenom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars",
       "name": "DYDX",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars/apr",
@@ -2086,14 +2086,14 @@
           "coinMinimalDenom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars",
       "name": "AXL",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars/apr",
@@ -2115,14 +2115,14 @@
           "coinMinimalDenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars",
       "name": "stDYDX",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars/apr",
@@ -2144,14 +2144,14 @@
           "coinMinimalDenom": "ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars",
       "name": "stATOM",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars/apr",
@@ -2173,14 +2173,14 @@
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars",
       "name": "WBTC.axl",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars/apr",
@@ -2202,14 +2202,14 @@
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars",
       "name": "stOSMO",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars/apr",
@@ -2231,14 +2231,14 @@
           "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC"
         }
       ],
-      "tags": []
+      "categories": []
     },
     {
       "id": "ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars",
       "name": "USDC.axl",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars/apr",
@@ -2260,14 +2260,14 @@
           "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
         }
       ],
-      "tags": ["Blue Chip", "Stablecoins"]
+      "categories": ["Blue Chip", "Stablecoins"]
     },
     {
       "id": "ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars",
       "name": "TIA",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars/apr",
@@ -2289,14 +2289,14 @@
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars",
       "name": "ETH",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars/apr",
@@ -2318,14 +2318,14 @@
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
         }
       ],
-      "tags": ["Blue Chip"]
+      "categories": ["Blue Chip"]
     },
     {
       "id": "uosmo-mars",
       "name": "OSMO",
       "platform": "Mars",
-      "category": "Lending",
-      "type": "mars-lending",
+      "type": "Lending",
+      "method": "mars-lending",
       "link": "https://app.marsprotocol.io",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/uosmo-mars/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/uosmo-mars/apr",
@@ -2347,7 +2347,7 @@
           "coinMinimalDenom": "uosmo"
         }
       ],
-      "tags": []
+      "categories": []
     }
   ]
 }
