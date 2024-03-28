@@ -16,7 +16,6 @@
           "id",
           "name",
           "platform",
-          "category",
           "type",
           "link",
           "lockDuration",
@@ -27,7 +26,7 @@
           "depositDenoms",
           "positionDenoms",
           "rewardDenoms",
-          "tags"
+          "categories"
         ],
         "properties": {
           "id": {
@@ -43,7 +42,7 @@
             "description": "The platform that provides the Earn Strategy.",
             "examples": ["Levana"]
           },
-          "category": {
+          "type": {
             "type": "string",
             "enum": [
               "Lending",
@@ -52,12 +51,7 @@
               "Perps LP",
               "LP (Vault)"
             ],
-            "description": "Specify the most appropriate broad category that the earn strategies would be classified."
-          },
-          "type": {
-            "type": "string",
-            "description": "Further classification of the strategy.",
-            "examples": ["Osmosis Staking"]
+            "description": "Specify the most appropriate method/strategy type to classify the strategy."
           },
           "link": {
             "type": "string",
@@ -163,7 +157,7 @@
             "description": "Describes the assets earned/rewarded for participating in the strategy. This list should include the majority of the earnings, but does not have to be exhaustive.",
             "items": { "$ref": "#/$defs/denomObject" }
           },
-          "tags": {
+          "categories": {
             "type": "array",
             "items": {
               "type": "string",
