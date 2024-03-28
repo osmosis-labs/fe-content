@@ -37,7 +37,7 @@
       "name": "Stride OSMO Liquid Staking",
       "platform": "Stride",
       "type": "Liquid Staking",
-      "method": "liquid-osmosis-staking",
+      "method": "stride-liquid-staking",
       "link": "https://app.stride.zone/?chain=OSMO",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/st-osmo/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/st-osmo/apr",
