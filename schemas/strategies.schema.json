@@ -9,27 +9,30 @@
       "description": "This should link to a Google Sheets page with all strategies' risk report card details."
     },
     "categories": {
-      "type": "object",
-      "required": ["name", "description", "iconURL"],
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "The category describing the strategy's deposit asset(s).",
-          "enum": ["Correlated", "Blue Chip", "Stablecoins"]
-        },
-        "description": {
-          "type": "string",
-          "description": "The description used for the category.",
-          "example": "All deposit assets are related to each other in some way and are intended to have a similar price action.",
-        },
-        "iconURL": {
-          "type": "string",
-          "format": "uri",
-          "description": "The URL to the icon image of the category.",
-          "pattern": "^https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/.+\\.(png|svg)$",
-          "examples": [
-            "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg",
-          ]
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "description", "iconURL"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The category describing the strategy's deposit asset(s).",
+            "enum": ["Correlated", "Blue Chip", "Stablecoins"]
+          },
+          "description": {
+            "type": "string",
+            "description": "The description used for the category.",
+            "example": "All deposit assets are related to each other in some way and are intended to have a similar price action.",
+          },
+          "iconURL": {
+            "type": "string",
+            "format": "uri",
+            "description": "The URL to the icon image of the category.",
+            "pattern": "^https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/.+\\.(png|svg)$",
+            "examples": [
+              "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg",
+            ]
+          }
         }
       }
     },
