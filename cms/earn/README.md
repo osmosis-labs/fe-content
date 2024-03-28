@@ -11,8 +11,8 @@ The schema is designed to capture essential details about each earn strategy, in
 - **id**: Unique identifier for the strategy.
 - **name**: Display name for the strategy.
 - **platform**: Platform providing the earn strategy.
-- **category**: Category classification of the strategy.
-- **type**: Further classification of the strategy.
+- **type**: Type classification of the strategy.
+- **method**: Used for determining the specifc style of contract.
 - **link**: URL for user participation interface.
 - **contract**: Primary contract for the strategy.
 - **tvl**: Data endpoint for Total Value Locked (TVL).
@@ -27,34 +27,42 @@ The schema is designed to capture essential details about each earn strategy, in
 - **depositDenoms**: Array describing assets deposited for participation in the strategy.
 - **positionDenoms**: Array describing assets representing a position in the strategy.
 - **rewardDenoms**: Array describing rewarded assets for participating in the strategy.
-- **tags**: Array of tags associated with the strategy.
+- **categories**: Array of categories describing the deposit asset(s) of the strategy.
 
-#### Category 
+#### Type 
 
-The currently accepted keywords for `category` are (case-sensitive):
+The currently accepted keywords for `type` are (case-sensitive):
 - **Lending**: The assets are lent out to borrowers. 
 - **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
 - **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
 - **Perps LP**: The assets provide liquidity for a perpetual futures contract market.
 - **LP (Vault)**: The assets are added to a vault and provide liquidity in Osmosis spot pools.
   
-Any new Categories must also be added to the Strategies Schema.
+Any new Type must also be added to the Strategies Schema.
 
-#### Type
+#### Categories
 
-The `type` value will guide how the controller queries the involved contract or module.
-Some established types value usage includes:
-- **Quasar CL Vault**: 'quasar-cl-vault'
-- **Levana LP**: 'levana-pool-lp'
-- **Levana xLP**: 'levana-pool-xlp'
+The currently accepted `categories` are:
+- **Stablecoins**: indicates that all assets required for deposit in the strategy are stablecoins of a world fiat currency.
+- **Blue Chip**: (top 50 market cap.) indicates that one or more of the assets required for deposit in the strategy are of a high Market Capitalization--in this case, ranked among the top 50 on CoinGecko.
+- **Correlated**: indicates that all assets (only applies to multi-asset strategies) required for deposit in the strategy follows a similar price action due to having a common relative asset. For example:
+  - USDC/USDT LP is categorized as correlated because both the USDC and USDT prices are meant to follow the same asset's value (i.e., the U.S. Dollar's value).
 
-#### Tags
+Any new Category must also be added to the Strategies Schema.
 
-The currently accepted `tags` are:
-- **Stablecoins**: indicating that the asset(s) required by the strategy are all stablecoins of a world fiat currency.
-- **Blue Chip**: (top 50 mcap) indicating that one or more of the assets required for deposit in the strategy are of a high Market Capitalization--in this case, ranked among the top 50 on CoinGecko.
-- **Correlated**: indicating that all deposit assets follow a similar price action due to having a common relative asset. For example:
-  - USDC/USDT LP is correlated because both the USDC and USDT prices are meant to follow the same asset (i.e., the U.S. Dollar).
+#### Method
+
+The Method value will guide how the controller queries the involved contracts or modules, and therefore should discriminate between platform, strategy type, vault type, bond duration, etc.
+
+Some currently accepted values for `method` are:
+- Osmosis Staking: 'osmosis-staking'
+- Stride Liquid Staking: 'stride-liquid-staking'
+- Quasar CL Vault: 'quasar-cl-vault'
+- Levana LP: 'levana-pool-lp'
+- Levana xLP: 'levana-pool-xlp'
+- Mars Lending: 'mars-lending'
+
+New Methods may also be added and are not hardcoded into the schema.
 
 ### Examples
 
@@ -65,8 +73,7 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "id": "osmosis-staking",
   "name": "OSMO Staking",
   "platform": "Cosmos SDK (on Osmosis)",
-  "category": "Staking",
-  “type”: “osmosis-staking”,
+  "type": "Staking",
   "link": "https://app.osmosis.zone/stake",
   "contract": "osmo1234…",
   "tvl": "",
@@ -92,7 +99,7 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
       “_comment”: “OSMO”
     }
   ],
-  “tags”: [
+  “categories”: [
     “Correlated”,
     “Stablecoin”,
     “Blue chip”
