@@ -100,7 +100,13 @@
           "_comment": "Osmosis"
         }
       ],
-      "categories": ["Correlated"]
+      "categories": [
+        {
+          "name": "Correlated",
+          "description": "All deposit assets are related and are intended to have a similar price action.",
+          "iconURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/correlated.svg"
+        }
+      ]
     },
     {
       "id": "osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx",
@@ -412,7 +418,23 @@
           "_comment": "USD Coin"
         }
       ],
-      "categories": ["Blue Chip", "Correlated", "Stablecoins"]
+      "categories": [
+        {
+          "name": "Correlated",
+          "description": "All deposit assets are related and are intended to have a similar price action.",
+          "iconURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/correlated.svg"
+        },
+        {
+          "name": "Blue Chip",
+          "description": "Any of the deposit assets' market capitalization ranks among the top 50 cryptocurrencies.",
+          "iconURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg"
+        },
+        {
+          "name": "Stablecoins",
+          "description": "All deposit assets are stablecoins of a world fiat currency.",
+          "iconURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/stablecoins.svg"
+        }
+      ]
     },
     {
       "id": "osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d",
