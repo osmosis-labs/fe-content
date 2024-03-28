@@ -159,6 +159,7 @@
           },
           "categories": {
             "type": "array",
+            "description": "A number of potential categories describing the strategy's deposit asset(s).",
             "items": {
               "type": "string",
               "enum": ["Correlated", "Blue Chip", "Stablecoins"]
