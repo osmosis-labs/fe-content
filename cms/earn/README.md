@@ -12,6 +12,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **name**: Display name for the strategy.
 - **platform**: Platform providing the earn strategy.
 - **type**: Type classification of the strategy.
+- **method**: Used for determining the specifc style of contract.
 - **link**: URL for user participation interface.
 - **contract**: Primary contract for the strategy.
 - **tvl**: Data endpoint for Total Value Locked (TVL).
@@ -48,6 +49,20 @@ The currently accepted `categories` are:
   - USDC/USDT LP is categorized as correlated because both the USDC and USDT prices are meant to follow the same asset's value (i.e., the U.S. Dollar's value).
 
 Any new Category must also be added to the Strategies Schema.
+
+#### Method
+
+The Method value will guide how the controller queries the involved contracts or modules, and therefore should discriminate between platform, strategy type, vault type, bond duration, etc.
+
+Some currently accepted values for `method` are:
+- Osmosis Staking: 'osmosis-staking'
+- Stride Liquid OSMO Staking: 'liquid-osmosis-staking'
+- Quasar CL Vault: 'quasar-cl-vault'
+- Levana LP: 'levana-pool-lp'
+- Levana xLP: 'levana-pool-xlp'
+- Mars Lending: 'mars-lending'
+
+New Methods may also be added and are not hardcoded into the schema.
 
 ### Examples
 
