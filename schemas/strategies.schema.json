@@ -21,15 +21,13 @@
           },
           "description": {
             "type": "string",
-            "description": "The description used for the category.",
-            "example": "All deposit assets are related to each other in some way and are intended to have a similar price action."
+            "description": "The description used for the category."
           },
           "iconURL": {
             "type": "string",
             "format": "uri",
             "description": "The URL to the icon image of the category.",
-            "pattern": "^https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/.+\\.(png|svg)$",
-            "example": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg"
+            "pattern": "^https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/.+\\.(png|svg)$"
           }
         }
       }
@@ -65,8 +63,7 @@
           },
           "platform": {
             "type": "string",
-            "description": "The platform that provides the Earn Strategy.",
-            "examples": ["Levana"]
+            "description": "The platform that provides the Earn Strategy."
           },
           "type": {
             "type": "string",
@@ -81,8 +78,7 @@
           },
           "method": {
             "type": "string",
-            "description": "Further classification of the strategy, descriminating between properties such as platform, strategy type, vault type, bond duration, etc.",
-            "examples": ["quasar-cl-vault", "levana-pool-lp", "levana-pool-xlp"]
+            "description": "Further classification of the strategy, descriminating between properties such as platform, strategy type, vault type, bond duration, etc."
           },
           "link": {
             "type": "string",
@@ -141,7 +137,6 @@
           "lockDuration": {
             "type": "string",
             "pattern": "^P(?:\\d+Y)?(?:\\d+M)?(?:\\d+D)?(?:T(?:\\d+H)?(?:\\d+M)?(?:\\d+S)?)?$",
-            "examples": ["P14D"],
             "description": "specify the duration following ISO 8601 standard. If the strategy does not require a lock, use 'P0S' (meaning zero seconds)."
           },
           "riskLevel": {
@@ -153,7 +148,6 @@
           "startDateTimeUtc": {
             "type": "string",
             "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}Z)?$",
-            "examples": ["2049-01-01T01:01:01Z"],
             "description": "The start date and time (UTC) of a strategy not only keeps record, but can be used to pre-plan and exact time to reveal the on the interface."
           },
           "unlisted": {
@@ -211,8 +205,7 @@
         },
         "_comment": {
           "type": "string",
-          "description": "An unrestricted, informal field to informs human readers which asset is being described. Asset symbol is likely best.",
-          "examples": ["$ATOM from Cosmos Hub via IBC (transfer/channel-0)"]
+          "description": "An unrestricted, informal field to informs human readers which asset is being described. Asset symbol is likely best."
         }
       }
     }
