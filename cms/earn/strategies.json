@@ -273,7 +273,7 @@
           "_comment": "Wrapped Ether"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj",
@@ -312,7 +312,7 @@
           "_comment": "USD Coin"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62",
@@ -507,7 +507,7 @@
           "_comment": "USD Coin"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp",
@@ -546,7 +546,7 @@
           "_comment": "Cosmos Hub Atom"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p",
@@ -585,7 +585,7 @@
           "_comment": "USD Coin"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f",
@@ -624,7 +624,7 @@
           "_comment": "USDT"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r",
@@ -663,7 +663,7 @@
           "_comment": "USDT"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5",
@@ -741,7 +741,7 @@
           "_comment": "Cosmos Hub Atom"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy",
@@ -885,7 +885,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp",
@@ -920,7 +920,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
@@ -1095,7 +1095,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp",
@@ -1130,7 +1130,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp",
@@ -1165,7 +1165,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp",
@@ -1200,7 +1200,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp",
@@ -1235,7 +1235,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp",
@@ -1270,7 +1270,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
@@ -1655,7 +1655,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp",
@@ -1690,7 +1690,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp",
@@ -1725,7 +1725,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp",
@@ -1760,7 +1760,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": []
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp",
