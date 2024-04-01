@@ -784,7 +784,7 @@
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp",
-      "name": "ATOM Perps LP",
+      "name": "ATOM/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -819,7 +819,7 @@
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp",
-      "name": "ATOM Perps xLP",
+      "name": "ATOM/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -854,7 +854,7 @@
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp",
-      "name": "AXL Perps LP",
+      "name": "AXL/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -889,7 +889,7 @@
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp",
-      "name": "AXL Perps xLP",
+      "name": "AXL/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -924,7 +924,7 @@
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
-      "name": "BTC Perps LP",
+      "name": "BTC/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -959,7 +959,7 @@
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp",
-      "name": "BTC Perps xLP",
+      "name": "BTC/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -994,7 +994,7 @@
     },
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp",
-      "name": "DOT Perps LP",
+      "name": "DOT/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1029,7 +1029,7 @@
     },
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp",
-      "name": "DOT Perps xLP",
+      "name": "DOT/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1064,7 +1064,7 @@
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp",
-      "name": "DYM Perps LP",
+      "name": "DYM/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1099,7 +1099,7 @@
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp",
-      "name": "DYM Perps xLP",
+      "name": "DYM/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1134,7 +1134,7 @@
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp",
-      "name": "OSMO Perps LP",
+      "name": "OSMO/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1169,7 +1169,7 @@
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp",
-      "name": "OSMO Perps xLP",
+      "name": "OSMO/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp",
-      "name": "SEI Perps LP",
+      "name": "SEI/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1239,7 +1239,7 @@
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp",
-      "name": "SEI Perps xLP",
+      "name": "SEI/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1274,7 +1274,7 @@
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
-      "name": "TIA Perps LP",
+      "name": "TIA/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1309,7 +1309,7 @@
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp",
-      "name": "TIA Perps xLP",
+      "name": "TIA/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1344,7 +1344,7 @@
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
-      "name": "ETH Perps xLP",
+      "name": "ETH/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1379,7 +1379,7 @@
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp",
-      "name": "ETH Perps xLP",
+      "name": "ETH/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1414,7 +1414,7 @@
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp",
-      "name": "milkTIA Perps LP",
+      "name": "milkTIA/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1449,7 +1449,7 @@
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp",
-      "name": "milkTIA Perps xLP",
+      "name": "milkTIA/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1484,7 +1484,7 @@
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp",
-      "name": "ryETH Perps LP",
+      "name": "ryETH/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1519,7 +1519,7 @@
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp",
-      "name": "ryETH Perps xLP",
+      "name": "ryETH/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1554,7 +1554,7 @@
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp",
-      "name": "stATOM Perps LP",
+      "name": "stATOM/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1589,7 +1589,7 @@
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp",
-      "name": "stATOM Perps xLP",
+      "name": "stATOM/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1624,7 +1624,7 @@
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp",
-      "name": "stDYDX Perps LP",
+      "name": "stDYDX/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1659,7 +1659,7 @@
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp",
-      "name": "stDYDX Perps xLP",
+      "name": "stDYDX/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1694,7 +1694,7 @@
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp",
-      "name": "stOSMO Perps LP",
+      "name": "stOSMO/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1729,7 +1729,7 @@
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp",
-      "name": "stOSMO Perps xLP",
+      "name": "stOSMO/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1764,7 +1764,7 @@
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp",
-      "name": "stTIA Perps LP",
+      "name": "stTIA/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1799,7 +1799,7 @@
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp",
-      "name": "stTIA Perps xLP",
+      "name": "stTIA/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1834,7 +1834,7 @@
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp",
-      "name": "WBTC Perps LP",
+      "name": "WBTC/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1869,7 +1869,7 @@
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp",
-      "name": "WBTC Perps xLP",
+      "name": "WBTC/USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
