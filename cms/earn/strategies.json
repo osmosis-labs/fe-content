@@ -8,7 +8,7 @@
     },
     {
       "name": "Blue Chip",
-      "description": "Any of the deposit assets' market capitalization ranks among the top 50 cryptocurrencies.",
+      "description": "Deposit assets have a market capitalization ranking among the top 50 cryptocurrencies.",
       "iconURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg"
     },
     {
