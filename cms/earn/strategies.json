@@ -784,7 +784,7 @@
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp",
-      "name": "ATOM-USD",
+      "name": "ATOM Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -819,7 +819,7 @@
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp",
-      "name": "ATOM-USD",
+      "name": "ATOM Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -854,7 +854,7 @@
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp",
-      "name": "AXL-USD",
+      "name": "AXL Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -889,7 +889,7 @@
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp",
-      "name": "AXL-USD",
+      "name": "AXL Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -924,7 +924,7 @@
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
-      "name": "BTC-USD",
+      "name": "BTC Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -959,7 +959,7 @@
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp",
-      "name": "BTC-USD",
+      "name": "BTC Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -994,7 +994,7 @@
     },
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp",
-      "name": "DOT-USD",
+      "name": "DOT Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1029,7 +1029,7 @@
     },
     {
       "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp",
-      "name": "DOT-USD",
+      "name": "DOT Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1064,7 +1064,7 @@
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp",
-      "name": "DYM-USD",
+      "name": "DYM Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1099,7 +1099,7 @@
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp",
-      "name": "DYM-USD",
+      "name": "DYM Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1134,7 +1134,7 @@
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp",
-      "name": "OSMO-USD",
+      "name": "OSMO Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1169,7 +1169,7 @@
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp",
-      "name": "OSMO-USD",
+      "name": "OSMO Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp",
-      "name": "SEI-USD",
+      "name": "SEI Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1239,7 +1239,7 @@
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp",
-      "name": "SEI-USD",
+      "name": "SEI Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1274,7 +1274,7 @@
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
-      "name": "TIA-USD",
+      "name": "TIA Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1309,7 +1309,7 @@
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp",
-      "name": "TIA-USD",
+      "name": "TIA Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1344,7 +1344,7 @@
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
-      "name": "axlETH-USD",
+      "name": "ETH Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1379,7 +1379,7 @@
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp",
-      "name": "axlETH-USD",
+      "name": "ETH Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1414,7 +1414,7 @@
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp",
-      "name": "milkTIA-USD",
+      "name": "milkTIA Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1449,7 +1449,7 @@
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp",
-      "name": "milkTIA-USD",
+      "name": "milkTIA Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1484,7 +1484,7 @@
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp",
-      "name": "ryETH-USD",
+      "name": "ryETH Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1519,7 +1519,7 @@
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp",
-      "name": "ryETH-USD",
+      "name": "ryETH Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1554,7 +1554,7 @@
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp",
-      "name": "stATOM-USD",
+      "name": "stATOM Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1589,7 +1589,7 @@
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp",
-      "name": "stATOM-USD",
+      "name": "stATOM Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1624,7 +1624,7 @@
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp",
-      "name": "stDYDX-USD",
+      "name": "stDYDX Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1659,7 +1659,7 @@
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp",
-      "name": "stDYDX-USD",
+      "name": "stDYDX Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1694,7 +1694,7 @@
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp",
-      "name": "stOSMO-USD",
+      "name": "stOSMO Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1729,7 +1729,7 @@
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp",
-      "name": "stOSMO-USD",
+      "name": "stOSMO Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1764,7 +1764,7 @@
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp",
-      "name": "stTIA-USD",
+      "name": "stTIA Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1799,7 +1799,7 @@
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp",
-      "name": "stTIA-USD",
+      "name": "stTIA Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1834,7 +1834,7 @@
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp",
-      "name": "wBTC-USD",
+      "name": "WBTC Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1869,7 +1869,7 @@
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp",
-      "name": "wBTC-USD",
+      "name": "WBTC Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1904,7 +1904,7 @@
     },
     {
       "id": "factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars",
-      "name": "milkTIA",
+      "name": "milkTIA Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -1933,7 +1933,7 @@
     },
     {
       "id": "ibc-1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4-mars",
-      "name": "AKT",
+      "name": "AKT Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -1962,7 +1962,7 @@
     },
     {
       "id": "ibc-27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2-mars",
-      "name": "ATOM",
+      "name": "ATOM Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -1991,7 +1991,7 @@
     },
     {
       "id": "ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars",
-      "name": "USDC",
+      "name": "USDC Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2020,7 +2020,7 @@
     },
     {
       "id": "ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars",
-      "name": "USDT",
+      "name": "USDT Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2049,7 +2049,7 @@
     },
     {
       "id": "ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars",
-      "name": "INJ",
+      "name": "INJ Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars",
-      "name": "DYDX",
+      "name": "DYDX Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2107,7 +2107,7 @@
     },
     {
       "id": "ibc-903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E-mars",
-      "name": "AXL",
+      "name": "AXL Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2136,7 +2136,7 @@
     },
     {
       "id": "ibc-980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C-mars",
-      "name": "stDYDX",
+      "name": "stDYDX Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2165,7 +2165,7 @@
     },
     {
       "id": "ibc-C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901-mars",
-      "name": "stATOM",
+      "name": "stATOM Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2194,7 +2194,7 @@
     },
     {
       "id": "ibc-D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F-mars",
-      "name": "WBTC.axl",
+      "name": "WBTC.axl Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2223,7 +2223,7 @@
     },
     {
       "id": "ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars",
-      "name": "stOSMO",
+      "name": "stOSMO Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2252,7 +2252,7 @@
     },
     {
       "id": "ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars",
-      "name": "USDC.axl",
+      "name": "USDC.axl Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2281,7 +2281,7 @@
     },
     {
       "id": "ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars",
-      "name": "TIA",
+      "name": "TIA Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2310,7 +2310,7 @@
     },
     {
       "id": "ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars",
-      "name": "ETH",
+      "name": "ETH Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
@@ -2339,7 +2339,7 @@
     },
     {
       "id": "uosmo-mars",
-      "name": "OSMO",
+      "name": "OSMO Lend",
       "platform": "Mars",
       "type": "Lending",
       "method": "mars-lending",
