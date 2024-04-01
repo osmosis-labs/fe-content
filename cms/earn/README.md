@@ -43,10 +43,10 @@ Any new Type must also be added to the Strategies Schema.
 #### Categories
 
 The currently accepted `categories` are:
-- **Stablecoins**: indicates that all assets required for deposit in the strategy are stablecoins of a world fiat currency.
-- **Blue Chip**: (top 50 market cap.) indicates that one or more of the assets required for deposit in the strategy are of a high Market Capitalization--in this case, ranked among the top 50 on CoinGecko.
-- **Correlated**: indicates that all assets (only applies to multi-asset strategies) required for deposit in the strategy follows a similar price action due to having a common relative asset. For example:
+- **Stablecoins**: indicates that all assets required for deposit into the strategy are stablecoins of a world fiat currency.
+- **Correlated**: indicates that all assets (only applies to multi-asset strategies) required for deposit into the strategy follows a similar price action due to having a common relative asset. For example:
   - USDC/USDT LP is categorized as correlated because both the USDC and USDT prices are meant to follow the same asset's value (i.e., the U.S. Dollar's value).
+- **Blue Chip**: (top 50 market cap.) indicates that all assets, or any asset when correlated, required for deposit into the strategy have a high (top 50) market capitalization.
 
 Any new Category must also be added to the Strategies Schema.
 
