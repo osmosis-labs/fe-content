@@ -21,7 +21,7 @@
     {
       "id": "osmo-staking",
       "name": "OSMO Staking",
-      "platform": "Cosmos SDK",
+      "platform": "Osmosis",
       "type": "Staking",
       "method": "osmosis-staking",
       "link": "https://app.osmosis.zone/stake",
