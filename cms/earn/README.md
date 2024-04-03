@@ -51,7 +51,7 @@ Some example values for `method` are:
 - `levana-pool-xlp`: Used for Levana's Perps xLP (staked LP) strategies.
 - `mars-lending`: Used for Mars Protocol's Red Bank Lending strategies.
 
-New Methods may also be added and are not hardcoded into the schema.
+New methods may also be added and are not hardcoded into the schema.
 
 #### Categories
 
