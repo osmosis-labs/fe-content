@@ -4,7 +4,7 @@
 
 This JSON Schema defines the structure and constraints for describing earn strategies within our platform. Earn strategies represent various opportunities for users to earn rewards or benefits by participating in specific activities or programs offered by our platform or partner networks.
 
-The schema is designed to capture essential details about each earn strategy, including its identifier, display name, platform provider, category, type, associated contracts, data endpoints, duration, risk level, start date and time, visibility status, messaging, and the assets involved.
+The schema is designed to capture essential details about each earn strategy, including its identifier, display name, platform (project), type, categories, method, link to platform's UI, associated contracts, data endpoints, lock duration, risk level, start date and time, visibility status, messaging, and the assets involved.
 
 ### Properties
 
@@ -31,7 +31,7 @@ The schema is designed to capture essential details about each earn strategy, in
 
 #### Type 
 
-The currently accepted keywords for `type` are (case-sensitive):
+Broad type classification of the strategy. The currently accepted keywords for `type` are (case-sensitive):
 - **Lending**: The assets are lent out to borrowers. 
 - **Staking**: The assets are locked into a crypto platfrom specifically for concensus.
 - **Liquid Staking**: The assets are staked and an economically representative derivative asset is also minted. 
@@ -39,6 +39,19 @@ The currently accepted keywords for `type` are (case-sensitive):
 - **LP (Vault)**: The assets are added to a vault and provide liquidity in Osmosis spot pools.
   
 Any new Type must also be added to the Strategies Schema.
+
+#### Method
+
+The Method value will guide how the controller queries the involved contracts or modules, and therefore should discriminate between platform, strategy type, vault type, bond duration, etc., but is shared among common strategies.
+
+Some example values for `method` are:
+- `osmosis-staking`: Used only for Osmosis Staking, and therefore is a method used by only one strategy.
+- `quasar-cl-vault`: Used for many of Quasar's strategies, whether it be stkOSMO/OSMO Dynamic S+ or OSMO/ETH Dynamic A+.
+- `levana-pool-lp`: Used for Levana's perpetual futures liquidy providing strategies, but only the unstaked positions.
+- `levana-pool-xlp`: Used for Levana's Perps xLP (staked LP) strategies.
+- `mars-lending`: Used for Mars Protocol's Red Bank Lending strategies.
+
+New methods may also be added and are not hardcoded into the schema.
 
 #### Categories
 
@@ -50,20 +63,6 @@ The currently accepted `categories` are:
 
 Any new Category must also be added to the Strategies Schema.
 
-#### Method
-
-The Method value will guide how the controller queries the involved contracts or modules, and therefore should discriminate between platform, strategy type, vault type, bond duration, etc.
-
-Some currently accepted values for `method` are:
-- Osmosis Staking: 'osmosis-staking'
-- Stride Liquid Staking: 'stride-liquid-staking'
-- Quasar CL Vault: 'quasar-cl-vault'
-- Levana LP: 'levana-pool-lp'
-- Levana xLP: 'levana-pool-xlp'
-- Mars Lending: 'mars-lending'
-
-New Methods may also be added and are not hardcoded into the schema.
-
 ### Examples
 
 Below are example 'strategy' objects, demonstrating valid JSON data conforming to the schema:
@@ -74,6 +73,7 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "name": "OSMO Staking",
   "platform": "Cosmos SDK (on Osmosis)",
   "type": "Staking",
+  "method": "osmosis-staking",
   "link": "https://app.osmosis.zone/stake",
   "contract": "osmo1234…",
   "tvl": "",
@@ -171,15 +171,15 @@ For example:
 
 ### Risk Level
 
-The Risk Level of a strategy is determined formulaically using values entered into the submitted Earn Strategy Report Card Application:
+The Risk Level of a strategy is determined formulaically using information provided by the submitted **Earn Strategy Report Card** application:
 https://docs.google.com/spreadsheets/d/1_FM7hJKl017wAaHcYybN3lGSMeJMqiuevNX6H8LGnD0
 
 To apply for a risk assessment of an Earn Strategy,
- - create a copy the 'Earn Strategy Report Card Application' Google Sheets spreadsheet,
- - enter the relevant data pertaining to the strategy into the copied spreadsheet, and
- - provide a link to the copied spreadsheet in the Pull Request to this repository
+ - create a copy the 'Earn Strategy Report Card' Google Sheets Spreadsheet Document,
+ - review the instructions and enter the relevant data pertaining to the method and strategy into the copied spreadsheet, and
+ - provide a link to the copied spreadsheet in your Pull Request to this repository.
 
-Once the application has been reviewed (manually for accuracy), and a risk level determined, 
+Once the application has been reviewed and a risk level determined, the addition of the strategy into the CMS (`strategies.json`) can be completed. 
 
 
 ## Contributing
