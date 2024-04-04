@@ -1248,7 +1248,7 @@
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
-      "name": "ETH/USD Perps xLP",
+      "name": "ETH/USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
