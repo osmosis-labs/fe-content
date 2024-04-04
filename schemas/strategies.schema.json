@@ -3,11 +3,6 @@
   "type": "object",
   "required": ["strategies"],
   "properties": {
-    "riskReportUrl": {
-      "type": "string",
-      "format": "uri",
-      "description": "This should link to a Google Sheets page with all strategies' risk report card details."
-    },
     "categories": {
       "type": "array",
       "items": {
@@ -145,6 +140,11 @@
             "minimum": 0,
             "maximum": 1,
             "description": "Determined by the risk report card, and feeds the interface's risk level indicator."
+          },
+          "riskReportUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "The link to a Google Sheets page with the strategy's view-only risk report card."
           },
           "startDateTimeUtc": {
             "type": "string",
