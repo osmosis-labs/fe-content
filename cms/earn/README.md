@@ -19,7 +19,8 @@ The schema is designed to capture essential details about each earn strategy, in
 - **apr**: Data endpoint for Annual Percentage Rate (APR).
 - **geoblock**: Data endpoint for whether the region is geoblocked.
 - **lockDuration**: Duration assets are locked (ISO 8601).
-- **riskLevel**: Risk level indicator (0 to 1). 
+- **riskLevel**: Risk level indicator (0 to 1).
+- **riskReportUrl**: URL to Report Card of the strategy.
 - **startDateTimeUtc**: Start date and time (UTC) of the strategy.
 - **unlisted**: Visibility status of the strategy.
 - **disabled**: Interaction status with the strategy.
@@ -81,7 +82,7 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "geoblock": "",
   "lockDuration": "P14D",
   "riskLevel": 0.01,
-  “riskReportUrl”: “”
+  “riskReportUrl”: “”,
   "startDateTimeUtc": "2019-01-01T01:01:01Z",
   "unlisted": false,
   "disabled": false,
@@ -169,12 +170,12 @@ For example:
 }
 ```
 
-### Risk Level
+### Risk Level and Report Card
 
 The Risk Level of a strategy is determined formulaically using information provided by the submitted **Earn Strategy Report Card** application:
 https://docs.google.com/spreadsheets/d/1_FM7hJKl017wAaHcYybN3lGSMeJMqiuevNX6H8LGnD0
 
-To apply for a risk assessment of an Earn Strategy,
+To apply for a Risk Report Card for an Earn Strategy,
  - create a copy the 'Earn Strategy Report Card' Google Sheets Spreadsheet Document,
  - review the instructions and enter the relevant data pertaining to the method and strategy into the copied spreadsheet, and
  - provide a link to the copied spreadsheet in your Pull Request to this repository.
