@@ -9,7 +9,7 @@
       "projectURL": "https://namada.net/",
       "estimatedLaunchDateUtc": "Q2 2024",
       "showLaunchDate": false,
-      "osmosisAirdrop": false
+      "osmosisAirdrop": true
     },
     {
       "assetName": "Initia",
