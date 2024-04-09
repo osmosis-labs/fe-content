@@ -8,7 +8,7 @@
       "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/nam.png",
       "projectURL": "https://namada.net/",
       "estimatedLaunchDateUtc": "Q2 2024",
-      "showLaunchDate": false,
+      "showLaunchDate": true,
       "osmosisAirdrop": true
     },
     {
@@ -18,7 +18,7 @@
       "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/init.png",
       "projectURL": "https://initia.xyz/",
       "estimatedLaunchDateUtc": "Q2 2024",
-      "showLaunchDate": false,
+      "showLaunchDate": true,
       "osmosisAirdrop": false
     },
     {
@@ -36,7 +36,7 @@
       "chainName": "Coinhall",
       "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/hall.png",
       "estimatedLaunchDateUtc": "Q3 2024",
-      "showLaunchDate": true,
+      "showLaunchDate": false,
       "osmosisAirdrop": false
     }
   ]
