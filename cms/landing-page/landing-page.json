@@ -2,29 +2,22 @@
   "$schema": "../../schemas/landing-page.schema.json",
   "upcomingAssets": [
     {
-      "assetName": "Wormhole",
-      "symbol": "W",
-      "chainName": "Wormhole Gateway",
-      "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/w.png",
-      "estimatedLaunchDateUtc": "Mar 2024",
+      "assetName": "Namada",
+      "symbol": "NAM",
+      "chainName": "Namada",
+      "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/nam.png",
+      "projectURL": "https://namada.net/",
+      "estimatedLaunchDateUtc": "Q2 2024",
       "showLaunchDate": false,
       "osmosisAirdrop": false
     },
     {
-      "assetName": "Tinkernet",
-      "symbol": "TNKR",
-      "chainName": "Tinkernet",
-      "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/tnkr.png",
-      "estimatedLaunchDateUtc": "Mar 2024",
-      "showLaunchDate": false,
-      "osmosisAirdrop": false
-    },
-    {
-      "assetName": "Andr",
-      "symbol": "ANDR",
-      "chainName": "Andromeda",
-      "logoURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png",
-      "estimatedLaunchDateUtc": "Apr 2024",
+      "assetName": "Initia",
+      "symbol": "INIT",
+      "chainName": "Initia",
+      "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/init.png",
+      "projectURL": "https://initia.xyz/",
+      "estimatedLaunchDateUtc": "Q2 2024",
       "showLaunchDate": false,
       "osmosisAirdrop": false
     },
@@ -32,9 +25,18 @@
       "assetName": "Avail",
       "symbol": "AVAIL",
       "chainName": "Avail",
-      "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/avail_logo_icon3x-1.svg",
-      "estimatedLaunchDateUtc": "Apr 2024",
-      "showLaunchDate": false,
+      "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/avail.svg",
+      "estimatedLaunchDateUtc": "Q2 2024",
+      "showLaunchDate": true,
+      "osmosisAirdrop": false
+    },
+    {
+      "assetName": "Coinhall",
+      "symbol": "HALL",
+      "chainName": "Coinhall",
+      "logoURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/landing-page/images/hall.png",
+      "estimatedLaunchDateUtc": "Q3 2024",
+      "showLaunchDate": true,
       "osmosisAirdrop": false
     }
   ]
