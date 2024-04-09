@@ -31,6 +31,14 @@
               "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
             ]
           },
+          "projectURL": {
+            "type": "string",
+            "format": "uri",
+            "description": "The URL to the website of the project/asset.",
+            "examples": [
+              "https://namada.net/"
+            ]
+          },
           "estimatedLaunchDate": {
             "type": "string",
             "pattern": "^(Q[1-4]|((Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(\\s\\d{1,2},)?))?\\s\\d{4}$",
