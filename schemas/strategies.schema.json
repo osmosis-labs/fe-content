@@ -143,8 +143,7 @@
             "description": "Determined by the risk report card, and feeds the interface's risk level indicator."
           },
           "riskReportUrl": {
-            "type": ["string", "null"],
-            "format": "uri",
+            "type": "string",
             "description": "The link to a Google Sheets page with the strategy's view-only risk report card."
           },
           "startDateTimeUtc": {
