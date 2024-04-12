@@ -2,6 +2,29 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
+    "pastAirdrops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "denom"
+        ],
+        "properties": {
+          "denom": {
+            "type": "string",
+            "description": "The minimalCoinDenom of the asset when on Osmosis chain."
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount that was airdropped."
+          },
+          "_comment": {
+            "type": "string",
+            "description": "Optional unused string field for additional context."
+          }
+        }
+      }
+    },
     "upcomingAssets": {
       "type": "array",
       "items": {

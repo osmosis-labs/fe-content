@@ -144,7 +144,6 @@
           },
           "riskReportUrl": {
             "type": "string",
-            "format": "uri",
             "description": "The link to a Google Sheets page with the strategy's view-only risk report card."
           },
           "startDateTimeUtc": {
