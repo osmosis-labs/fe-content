@@ -6,10 +6,10 @@
       "type": "array",
       "items": {
         "type": "object",
+        "required": [
+          "denom"
+        ],
         "properties": {
-          "required": [
-            "denom"
-          ],
           "denom": {
             "type": "string",
             "description": "The minimalCoinDenom of the asset when on Osmosis chain."
