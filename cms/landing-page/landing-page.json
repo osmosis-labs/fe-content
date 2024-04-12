@@ -1,5 +1,63 @@
 {
   "$schema": "../../schemas/landing-page.schema.json",
+  "pastAirdrops": [
+    {
+      "denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+      "_comment": "Celestia $TIA"
+    },
+    {
+      "denom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110",
+      "_comment": "Dymension $DYM"
+    },
+    {
+      "denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
+      "_comment": "Stride $STRD"
+    },
+    {
+      "denom": "ibc/DEE262653B9DE39BCEF0493D47E0DFC4FE62F7F046CF38B9FDEFEBE98D149A71",
+      "_comment": "Evmos $EVMOS"
+    },
+    {
+      "denom": "ibc/CFF40564FDA3E958D9904B8B479124987901168494655D9CC6B7C0EC0416020B",
+      "_comment": "Stargze $STARS"
+    },
+    {
+      "denom": "ibc/9BBA9A1C257E971E38C1422780CE6F0B0686F0A3085E2D61118D904BFE0F5F5E",
+      "_comment": "Sommelier $SOMM"
+    },
+    {
+      "denom": "ibc/CEE970BB3D26F4B907097B6B660489F13F3B0DA765B83CC7D9A0BC0CE220FA6F",
+      "_comment": "Omniflix $FLIX"
+    },
+    {
+      "denom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
+      "_comment": "Bitsong $BTSG"
+    },
+    {
+      "denom": "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228",
+      "_comment": "Chihuahua $HUAHUA"
+    },
+    {
+      "denom": "ibc/E97634A40119F1898989C2A23224ED83FDD0A57EA46B3A094E287288D1672B44",
+      "_comment": "Gravity Bridge $GRAV"
+    },
+    {
+      "denom": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
+      "_comment": "Comdex $CMDX"
+    },
+    {
+      "denom": "ibc/EA4C0A9F72E2CEDF10D0E7A9A6A22954DB3444910DB5BE980DF59B05A46DAD1C",
+      "_comment": "Desmos $DSM"
+    },
+    {
+      "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
+      "_comment": "Posthuman $PHMN"
+    },
+    {
+      "denom": "ibc/6928AFA9EA721938FED13B051F9DBF1272B16393D20C49EA5E4901BB76D94A90",
+      "_comment": "Nois $NOIS"
+    }
+  ],
   "upcomingAssets": [
     {
       "assetName": "Namada",
