@@ -1,14 +1,21 @@
 # Landing Page
 
-Welcome to the Landing Page CMS! This repository contains a JSON schema for structuring landing page content. We welcome contributions from the community to help improve the CMS and keep the content up to date.
+This repository contains a JSON schema for structuring Osmosis Zone Landing Page content.
 
 ## Overview
 
 The Landing Page CMS is designed to organize content for the Osmosis Zone landing page. It utilizes a JSON schema to define the structure of the content, ensuring consistency and ease of use.
 
-### Upcoming Assets
+### Past Airdrops
 
-Currently, the only data maintained in this CMS is the Upcoming Assets. Assets shown here should be valuable and strategic for visitors to see.
+Past airdrops includes assets that have already been airdroped to Osmosis users, and are also listed on Osmosis Zone.
+Assets added here that are not listed on Osmosis Zone will not be detected.
+
+### Upcoming Assets (relocated)
+
+Currently, the data for upcoming assets is maintained in the assetlists repo.
+
+Assets shown here should be valuable and strategic for visitors to see.
 Upcoming assets should only include assets launching within the next month, and have a plan for asset integration, as well as substanital market making. 
 
 ## Schema
@@ -17,7 +24,12 @@ Upcoming assets should only include assets launching within the next month, and 
 
 The Landing Page schema includes the following properties:
 
-- `upcomingAssets`: An array of assets containing information about each asset.
+- `pastAirdrop`: An array of assets containing information about each asset:
+  - `denom`: The minimal coin denomination of the asset when on Osmosis chain. This will usually look like an IBC denom.
+  - `amount`: The amount of the asset that was distrubted via the airdrop. Exact speicifcation TBD.
+  - `_comment`: Optional unused string property, best used to help identify the asset by name and ticker symbol.
+
+- `upcomingAssets`: An array of assets containing information about each asset:
   - `assetName`: The name of the asset.
   - `symbol`: The symbol of the asset.
   - `chainName`: The name of the blockchain or network where the asset originates.
@@ -31,7 +43,13 @@ Here's an example of how content can be structured using the Landing Page schema
 
 ```json
 {
-  "upcoming_assets": [
+  "pastAirdrops": [
+    {
+      "denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+      "_comment": "Celestia $TIA"
+    }
+  ],
+  "upcomingAssets": [
     {
       "assetName": "Osmosis",
       "symbol": "OSMO",
