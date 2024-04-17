@@ -1,0 +1,351 @@
+{
+  "applications": [
+    {
+      "title": "MilkyWay",
+      "subtitle": "Liquid staking protocol tailor-made for Celestia's modular ecosystem.",
+      "external_URL": "https://www.milkyway.zone/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/milkyway_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/milkyway_hero.webp",
+      "twitter_URL": "https://twitter.com/milky_way_zone",
+      "medium_URL": "https://medium.com/milkyway-zone",
+      "github_URL": "https://github.com/milkyway-labs/",
+      "featured": true,
+      "internal_data": {
+        "thumbnail_size": 584212,
+        "hero_size": 353485,
+        "project_listing_date": "2024-01-04T19:54:20.999Z"
+      }
+    },
+    {
+      "title": "Membrane",
+      "subtitle": "Mint the global medium of exchange in the form of an over-collateralized stablecoin: $CDT",
+      "external_URL": "https://membrane-ui-mainnet.vercel.app/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/membrane_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/membrane_hero.webp",
+      "twitter_URL": "https://twitter.com/saneinthembrn",
+      "medium_URL": "https://medium.com/@membranefinance",
+      "github_URL": "https://github.com/MembraneFinance",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 105051,
+        "hero_size": 482129,
+        "project_listing_date": "2023-11-11T20:13:57.458Z"
+      }
+    },
+    {
+      "title": "StreamSwap",
+      "subtitle": "A launchpad for initial token sales. The next generation of LBPs",
+      "external_URL": "https://app.streamswap.io/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/streamswap_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/streamswap_hero.webp",
+      "twitter_URL": "https://twitter.com/StreamSwap_io",
+      "medium_URL": "https://mirror.xyz/streamswapprotocol.eth",
+      "github_URL": "https://github.com/StreamSwapProtocol/cw-streamswap",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 44736,
+        "hero_size": 55342,
+        "project_listing_date": "2023-07-31T22:34:16.961Z"
+      }
+    },
+    {
+      "title": "Nolus Protocol",
+      "subtitle": "0% Interest on All DeFi Leases!",
+      "external_URL": "https://app.nolus.io/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/nolus_protocol_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/nolus_protocol_hero.webp",
+      "twitter_URL": "https://twitter.com/NolusProtocol",
+      "medium_URL": "https://medium.com/nolusprotocol",
+      "github_URL": "https://github.com/Nolus-Protocol",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 236732,
+        "hero_size": 307408,
+        "project_listing_date": "2023-07-31T22:34:16.961Z"
+      }
+    },
+    {
+      "title": "Pulsar Finance",
+      "subtitle": "Track your portfolio performance across 70+ blockchains in a single place, from Tokens to DeFi & NFTs.",
+      "external_URL": "https://pulsar.finance/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/pulsar_finance_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/pulsar_finance_hero.webp",
+      "twitter_URL": "https://twitter.com/PulsarFinance",
+      "medium_URL": "",
+      "github_URL": "https://github.com/PulsarDefi/",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 64186,
+        "hero_size": 961772,
+        "project_listing_date": "2023-07-31T22:34:16.961Z"
+      }
+    },
+    {
+      "title": "Margined Protocol",
+      "subtitle": "Go long on leveraged assets using power perpetuals without risk of liquidation!",
+      "external_URL": "https://trade.margined.io",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/margined_protocol_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/margined_protocol_hero.webp",
+      "twitter_URL": "https://twitter.com/margined_io",
+      "medium_URL": "https://medium.com/@margined_io",
+      "github_URL": "https://github.com/margined-protocol",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 48912,
+        "hero_size": 91364,
+        "project_listing_date": "2023-11-09T03:12:31.315Z"
+      }
+    },
+    {
+      "title": "Quasar Finance",
+      "subtitle": "Quasar is the first decentralized asset management platform supercharged with IBC.",
+      "external_URL": "https://app.quasar.fi/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/quasar_finance_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/quasar_finance_hero.webp",
+      "twitter_URL": "https://twitter.com/quasarfi",
+      "medium_URL": "https://www.quasar.fi/blog",
+      "github_URL": "https://github.com/quasar-finance/",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 9132,
+        "hero_size": 24884,
+        "project_listing_date": "2023-07-31T22:34:16.961Z"
+      }
+    },
+    {
+      "title": "Stride",
+      "subtitle": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+      "external_URL": "https://app.stride.zone/?chain=OSMO",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/stride_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/stride_hero.webp",
+      "twitter_URL": "https://twitter.com/stride_zone",
+      "medium_URL": "https://medium.com/@stride_zone",
+      "github_URL": "https://github.com/Stride-Labs/stride",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 46620,
+        "hero_size": 85092,
+        "project_listing_date": "2023-07-31T22:34:16.961Z"
+      }
+    },
+    {
+      "title": "Levana Perps",
+      "subtitle": "Fully-collateralized, low cost perpetual swaps",
+      "external_URL": "https://trade.levana.finance/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/levana_perps_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/levana_perps_hero.webp",
+      "twitter_URL": "https://twitter.com/Levana_protocol",
+      "medium_URL": "https://medium.com/levana-protocol",
+      "github_URL": "https://github.com/levana-Protocol/",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 1232094,
+        "hero_size": 1685306,
+        "project_listing_date": "2023-07-17T17:32:58.873Z"
+      }
+    },
+    {
+      "title": "Mars Red Bank",
+      "subtitle": "Lend and borrow money with the Osmosis Blockchain.",
+      "external_URL": "https://app.marsprotocol.io/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/mars_red_bank_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/mars_red_bank_hero.webp",
+      "twitter_URL": "https://twitter.marsprotocol.io",
+      "medium_URL": "https://medium.marsprotocol.io",
+      "github_URL": "https://github.marsprotocol.io",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 585918,
+        "hero_size": 500200,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "IBCX",
+      "subtitle": "$IBCX is a Cosmos index token designed to benchmark the leading Cosmos tokens’ performance.",
+      "external_URL": "https://index.ion.wtf/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/ibcx_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/ibcx_hero.webp",
+      "twitter_URL": "https://twitter.com/IBCindex",
+      "medium_URL": "https://medium.com/@IBCindex",
+      "github_URL": "https://github.com/many-things/ibcx-contracts",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 44742,
+        "hero_size": 67146,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "Calculated Finance",
+      "subtitle": "Create DCA (Dollar Cost Averaging) strategies. Experience the smartest way to enter and exit your crypto positions.",
+      "external_URL": "https://app.calculated.fi/?chain=osmosis-1",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/calculated_finance_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/calculated_finance_hero.webp",
+      "twitter_URL": "https://twitter.com/CALC_Finance",
+      "medium_URL": "https://medium.com/@calculated.fi",
+      "github_URL": "https://github.com/calculated-finance",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 62478,
+        "hero_size": 80820,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "TFM Pro Trading",
+      "subtitle": "The Pro-Trading Terminal of Cosmos. Proprietary IBC & DEX & NFT Aggregator! Transfer via IBC across all Cosmos app-chains.",
+      "external_URL": "https://tfm.com/osmosis/trade/protrade/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/tfm_pro_trading_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/tfm_pro_trading_hero.webp",
+      "twitter_URL": "https://twitter.com/tfm_com",
+      "medium_URL": "https://medium.com/@tfm.com",
+      "github_URL": "https://github.com/tfm-com",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 4084,
+        "hero_size": 57120,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "Mars Farm",
+      "subtitle": "Farm the fields of Mars. Leveraged yield farming on top of Apollo auto compounding vaults!",
+      "external_URL": "https://app.marsprotocol.io/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/mars_farm_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/mars_farm_hero.webp",
+      "twitter_URL": "https://twitter.marsprotocol.io",
+      "medium_URL": "https://medium.marsprotocol.io",
+      "github_URL": "https://github.marsprotocol.io",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 61300,
+        "hero_size": 51314,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "Kado",
+      "subtitle": "Instantly Buy & Sell Crypto. Onboard to Osmosis in less than 5 minutes.",
+      "external_URL": "https://app.kado.money/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/kado_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/kado_hero.webp",
+      "twitter_URL": "https://twitter.com/kado_money",
+      "medium_URL": "https://kado-money.medium.com/",
+      "github_URL": "",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 139848,
+        "hero_size": 37502,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "Sinfonia",
+      "subtitle": "Your Web3Music dApp powered by BitSong.",
+      "external_URL": "https://app.sinfonia.zone/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/sinfonia_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/sinfonia_hero.webp",
+      "twitter_URL": "https://twitter.com/sinfoniazone",
+      "medium_URL": "https://bitsongofficial.medium.com/",
+      "github_URL": "https://github.com/bitsongofficial/sinfonia-ui",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 46684,
+        "hero_size": 100854,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "REStake",
+      "subtitle": "Auto-compound your staking rewards and setup your own custom Authz grants for any chain in the Cosmos ecosystem.",
+      "external_URL": "https://restake.app/osmosis",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/restake_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/restake_hero.webp",
+      "twitter_URL": "https://twitter.com/REStakeApp",
+      "medium_URL": "",
+      "github_URL": "https://github.com/eco-stake/restake",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 13152,
+        "hero_size": 337276,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "ICNS",
+      "subtitle": "InterChain Name Service. Your name for the interchain.",
+      "external_URL": "https://www.icns.xyz/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/icns_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/icns_hero.webp",
+      "twitter_URL": "https://twitter.com/icns_xyz",
+      "medium_URL": "https://medium.com/@icns",
+      "github_URL": "https://github.com/icns-xyz/icns",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 27200,
+        "hero_size": 22112,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "Yieldmos",
+      "subtitle": "Boost yields by auto compounding your staking and LP rewards with validators of your choice.",
+      "external_URL": "https://www.yieldmos.com/chain/osmosis",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/yieldmos_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/yieldmos_hero.webp",
+      "twitter_URL": "https://twitter.com/yieldmos",
+      "medium_URL": "https://medium.com/@yieldmos",
+      "github_URL": "https://github.com/yieldmos/",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 14986,
+        "hero_size": 35874,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "ION DAO",
+      "subtitle": "Decentralized autonomous organization for community governance",
+      "external_URL": "https://ion.wtf",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/ion_dao_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/ion_dao_hero.webp",
+      "twitter_URL": "https://twitter.com/_IONDAO",
+      "medium_URL": "https://medium.com/@IBCindex",
+      "github_URL": "https://github.com/many-things/ion-dao-contracts",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 181078,
+        "hero_size": 116680,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "Apollo Safe",
+      "subtitle": "Apollo Safe is the easiest way to secure, manage and govern a wallet with multiple members",
+      "external_URL": "https://safe.apollo.farm/osmosis-1/overview",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/apollo_safe_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/apollo_safe_hero.webp",
+      "twitter_URL": "https://twitter.com/apollodao",
+      "medium_URL": "https://articles.apollo.farm/",
+      "github_URL": "https://github.com/CosmWasm/cw-plus/blob/main/packages/cw3/README.md",
+      "featured": false,
+      "internal_data": {
+        "thumbnail_size": 134210,
+        "hero_size": 40306,
+        "project_listing_date": "2023-05-30T15:32:59.804Z"
+      }
+    },
+    {
+      "title": "ReframeBot",
+      "subtitle": "Telegram trading bot companion for Osmosis",
+      "external_URL": "https://reframe.bot",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/reframebot_thumbnail.png",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/reframebot_hero.png",
+      "twitter_URL": "https://twitter.com/reframe_bot",
+      "medium_URL": "https://reframebot.medium.com/",
+      "github_URL": "https://github.com/reframe-bot",
+      "featured": false
+    }
+  ]
+}

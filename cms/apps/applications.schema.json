@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "applications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "The title of the application"
+          },
+          "subtitle": {
+            "type": "string",
+            "description": "The subtitle of the application",
+            "maxLength": 140
+          },
+          "external_URL": {
+            "type": "string",
+            "description": "The URL to the external site of the application",
+            "format": "uri"
+          },
+          "thumbnail_image_URL": {
+            "type": "string",
+            "description": "The URL of the thumbnail image for the application",
+            "pattern": "^https?://raw\\.githubusercontent\\.com/osmosis-labs/apps-list/main/images/[a-zA-Z0-9_-]+_thumbnail\\.(png|svg|jpg|webp)$"
+          },
+          "hero_image_URL": {
+            "type": "string",
+            "description": "The URL of the hero image for the application",
+            "pattern": "^https?://raw\\.githubusercontent\\.com/osmosis-labs/apps-list/main/images/[a-zA-Z0-9_-]+_hero\\.(png|svg|jpg|webp)$"
+          },
+          "twitter_URL": {
+            "type": "string",
+            "description": "The URL of the Twitter account for the application",
+            "format": "uri"
+          },
+          "medium_URL": {
+            "type": "string",
+            "description": "The URL of the Medium account for the application",
+            "format": "uri"
+          },
+          "github_URL": {
+            "type": "string",
+            "description": "The URL of the GitHub account for the application",
+            "format": "uri"
+          },
+          "featured": {
+            "type": "boolean",
+            "description": "Indicates whether the application is featured or not"
+          },
+          "internal_data": {
+            "type": "object",
+            "description": "For internal use only",
+            "additionalProperties": true
+          }
+        },
+        "required": ["title", "external_URL", "thumbnail_image_URL", "hero_image_URL"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["applications"],
+  "additionalProperties": false
+}
