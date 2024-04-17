@@ -72,7 +72,7 @@
       "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/pulsar_finance_thumbnail.webp",
       "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/pulsar_finance_hero.webp",
       "twitter_URL": "https://twitter.com/PulsarFinance",
-      "medium_URL": "",
+      "medium_URL": "https://medium.com/@pulsarfinance",
       "github_URL": "https://github.com/PulsarDefi/",
       "featured": false,
       "internal_data": {
@@ -233,7 +233,6 @@
       "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/kado_hero.webp",
       "twitter_URL": "https://twitter.com/kado_money",
       "medium_URL": "https://kado-money.medium.com/",
-      "github_URL": "",
       "featured": false,
       "internal_data": {
         "thumbnail_size": 139848,
@@ -264,7 +263,6 @@
       "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/restake_thumbnail.webp",
       "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/restake_hero.webp",
       "twitter_URL": "https://twitter.com/REStakeApp",
-      "medium_URL": "",
       "github_URL": "https://github.com/eco-stake/restake",
       "featured": false,
       "internal_data": {
