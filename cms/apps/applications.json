@@ -1,4 +1,5 @@
 {
+  "$schema": "../../schemas/applications.schema.json",
   "applications": [
     {
       "title": "MilkyWay",
