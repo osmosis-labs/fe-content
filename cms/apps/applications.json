@@ -197,7 +197,7 @@
       "title": "TFM Pro Trading",
       "subtitle": "The Pro-Trading Terminal of Cosmos. Proprietary IBC & DEX & NFT Aggregator! Transfer via IBC across all Cosmos app-chains.",
       "external_URL": "https://tfm.com/osmosis/trade/protrade/",
-      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/tfm_pro_trading_thumbnail.webp",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/osmosis_pro_thumbnail.webp",
       "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/tfm_pro_trading_hero.webp",
       "twitter_URL": "https://twitter.com/tfm_com",
       "medium_URL": "https://medium.com/@tfm.com",
@@ -344,17 +344,6 @@
       "twitter_URL": "https://twitter.com/reframe_bot",
       "medium_URL": "https://reframebot.medium.com/",
       "github_URL": "https://github.com/reframe-bot",
-      "featured": false
-    },
-    {
-      "title": "Osmosis Pro",
-      "subtitle": "Pro trading terminal for @OsmosisZone",
-      "external_URL": "https://pro.osmosis.zone",
-      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/osmosis_pro_thumbnail.webp",
-      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/osmosis_pro_hero.webp",
-      "twitter_URL": "https://twitter.com/tfm_com",
-      "medium_URL": "https://medium.com/@tfm.com",
-      "github_URL": "https://github.com/tfm-com",
       "featured": false
     }
   ]
