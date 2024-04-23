@@ -345,6 +345,17 @@
       "medium_URL": "https://reframebot.medium.com/",
       "github_URL": "https://github.com/reframe-bot",
       "featured": false
+    },
+    {
+      "title": "WhiteWhale",
+      "subtitle": "WhiteWhale DEX on Osmosis",
+      "external_URL": "https://app.whitewhale.money/osmosis/pools",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/white-whale_thumbnail.png",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/white-whale_hero.png",
+      "twitter_URL": "https://twitter.com/WhiteWhaleDefi",
+      "medium_URL": "https://medium.com/@whitewhaleterra",
+      "github_URL": "https://github.com/White-Whale-Defi-Platform",
+      "featured": false
     }
   ]
 }
