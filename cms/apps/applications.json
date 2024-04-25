@@ -2,6 +2,17 @@
   "$schema": "../../schemas/applications.schema.json",
   "applications": [
     {
+      "title": "Osmohall",
+      "subtitle": "Osmohall is the Pro Trading Terminal which offers high performance and access to the latest Osmosis gems.",
+      "external_URL": "https://coinhall.org/osmosis",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/osmohall_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/osmohall_hero.webp",
+      "twitter_URL": "https://twitter.com/coinhall_org",
+      "medium_URL": "https://medium.com/@Coinhall",
+      "github_URL": "https://github.com/coinhall",
+      "featured": false
+    },
+    {
       "title": "MilkyWay",
       "subtitle": "Liquid staking protocol tailor-made for Celestia's modular ecosystem.",
       "external_URL": "https://www.milkyway.zone/",
