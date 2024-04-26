@@ -367,6 +367,18 @@
       "medium_URL": "https://medium.com/@whitewhaleterra",
       "github_URL": "https://github.com/White-Whale-Defi-Platform",
       "featured": false
+    },
+    {
+      "title": "Start Cooking",
+      "subtitle": "Minting your Memecoin on Osmosis with just 2 clicks. All it takes is 1 OSMO.",
+      "external_URL": "https://www.start.cooking/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/start_cooking_thumbnail.png",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/start_cooking_hero.png",
+      "twitter_URL": "https://twitter.com/startcookingapp",
+      "medium_URL": "https://medium.com/@start.cooking157",
+      "github_URL": "https://github.com/BIG-Labs/cooking-contracts",
+      "featured": true
     }
+    
   ]
 }
