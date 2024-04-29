@@ -2,20 +2,6 @@
   "$schema": "../schemas/swap-rotating-banner.schema.json",
   "banners": [
     {
-      "name": "milkTIA",
-      "startDate": "2023-12-18T14:30:00.123Z",
-      "endDate": "2024-01-25T14:30:00.123Z",
-      "headerOrTranslationKey": "milkHeader",
-      "subheaderOrTranslationKey": "milkSubheader",
-      "externalUrl": "/pool/1335",
-      "iconImageUrl": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/images/milkTIA.svg",
-      "iconImageAltOrTranslationKey": "milkImageAlt",
-      "gradient": "linear-gradient(93.62deg, #F7D1F2 -6.6%, #4B99FC 46.78%, #D3AAFB 105.39%)",
-      "fontColor": "#213469",
-      "arrowColor": "#213469",
-      "featured": true
-    },
-    {
       "name": "Place limit orders",
       "startDate": "2023-06-22T14:30:00.123Z",
       "endDate": "2024-06-22T14:30:00.123Z",
@@ -42,20 +28,6 @@
       "fontColor": "#FFF5C7",
       "arrowColor": "#EED75F",
       "featured": true
-    },
-    {
-      "name": "Margined Protocol",
-      "startDate": "2023-11-10T14:30:00.123Z",
-      "endDate": "2024-11-10T14:30:00.123Z",
-      "headerOrTranslationKey": "marginedHeader",
-      "subheaderOrTranslationKey": "marginedSubheader",
-      "externalUrl": "https://trade.margined.io/",
-      "iconImageUrl": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/images/feeling-bullish.svg",
-      "iconImageAltOrTranslationKey": "Chart increasing exponentially to the upper right over a background of dots",
-      "gradient": "linear-gradient(136deg, #020200 0%, #000000 47.66%, #373E24 100%)",
-      "fontColor": "#CBFD50",
-      "arrowColor": "#CBFD50",
-      "featured": true
     }
   ],
   "localization": {
@@ -74,18 +46,12 @@
       "marginedImageAlt": "Diagramm, das vor einem Hintergrund aus Punkten exponentiell nach rechts oben zunimmt"
     },
     "en": {
-      "milkHeader": "Got Milk?",
-      "milkSubheader": "$milkTIA now available on Osmosis",
-      "milkImageAlt": "milkTIA logo",
       "tfmHeader": "Place limit orders",
       "tfmSubheader": "Experience pro trading with TFM",
       "tfmImageAlt": "Variable chart decreasing to the lower right, then increasing to the upper right with dollar signs",
       "calcFiHeader": "Looking to DCA?",
       "calcFiSubheader": "Set up recurring swaps with CalcFi",
-      "calcFiImageAlt": "Chart increasing to the upper right with dollar signs",
-      "marginedHeader": "Feeling bullish?",
-      "marginedSubheader": "Try quadratic leverage on Margined",
-      "marginedImageAlt": "Chart increasing exponentially to the upper right over a background of dots"
+      "calcFiImageAlt": "Chart increasing to the upper right with dollar signs"
     },
     "es": {
       "milkHeader": "¿Tienes leche?",
