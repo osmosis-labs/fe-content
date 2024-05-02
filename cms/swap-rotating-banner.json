@@ -46,7 +46,7 @@
     {
       "name": "Margined Protocol",
       "startDate": "2023-11-10T14:30:00.123Z",
-      "endDate": "2024-11-10T14:30:00.123Z",
+      "endDate": "2024-05-01T14:30:00.123Z",
       "headerOrTranslationKey": "marginedHeader",
       "subheaderOrTranslationKey": "marginedSubheader",
       "externalUrl": "https://trade.margined.io/",
