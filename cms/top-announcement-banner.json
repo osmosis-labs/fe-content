@@ -3,62 +3,73 @@
   "isChainHalted": false,
   "banner": {
     "enTextOrLocalizationPath": "header",
-    "pageRoute": "/pool/1423",
-    "startDate": "2024-02-05T00:00:00Z",
-    "endDate": "2024-02-19T00:00:00Z",
-    "persistent": true
+    "link": {
+      "enTextOrLocalizationKey": "link",
+      "url": "https://tally.so/r/3EPbvo"
+    },
+    "localStorageKey": "shape-the-future-of-osmosis-03-may",
+    "startDate": "2024-05-03T00:00:00Z",
+    "endDate": "2024-05-17T00:00:00Z"
   },
   "localization": {
     "de": {
-      "header": "Anreize für Pool 1423 werden nicht wie gewohnt verteilt, der Pool selbst ist davon nicht betroffen. Die Anreize werden nach dem für Mitte Februar geplanten Software-Upgrade automatisch wieder aufgenommen"
+      "header": "Gestalten Sie die Zukunft der Osmose mit.",
+      "link": "Geben Sie uns eine Rückmeldung"
     },
     "en": {
-      "header": "Incentives on pool 1423 are not distributing as normal, the pool itself is unaffected. Incentives will resume automatically following the software upgrade scheduled for mid-February"
+      "header": "Help shape the future of Osmosis.",
+      "link": "Give us feedback"
     },
     "es": {
-      "header": "Los incentivos en el grupo 1423 no se distribuyen normalmente y el grupo en sí no se ve afectado. Los incentivos se reanudarán automáticamente tras la actualización del software prevista para mediados de febrero."
+      "header": "Ayuda a dar forma al futuro de Osmosis.",
+      "link": "Danos tu opinión"
     },
     "fa": {
-      "header": "مشوق ها در استخر 1423 به صورت عادی توزیع نمی شود، خود استخر تحت تأثیر قرار نمی گیرد. پس از ارتقای نرم افزار برنامه ریزی شده برای اواسط فوریه، مشوق ها به طور خودکار از سر گرفته می شوند"
+      "header": "در شکل‌گیری آینده اسموز کمک کنید.",
+      "link": "بازخورد خود را به ما بدهید"
     },
     "fr": {
-      "header": "Les incitations sur le pool 1423 ne sont pas distribuées comme d'habitude, le pool lui-même n'est pas affecté. Les incentives reprendront automatiquement suite à la mise à jour logicielle prévue à la mi-février"
+      "header": "Aidez à façonner l'avenir d'Osmosis.",
+      "link": "Donnez-nous votre avis"
     },
     "gu": {
-      "header": "પૂલ 1423 પરના પ્રોત્સાહનો સામાન્ય રીતે વિતરિત થતા નથી, પૂલ પોતે જ અપ્રભાવિત છે. ફેબ્રુઆરીના મધ્યમાં સુનિશ્ચિત થયેલ સોફ્ટવેર અપગ્રેડને પગલે પ્રોત્સાહનો આપમેળે ફરી શરૂ થશે"
+      "header": "ઓસ્મોસિસના ભાવિને આકાર આપવામાં મદદ કરો.",
+      "link": "અમને પ્રતિસાદ આપો"
     },
     "hi": {
-      "header": "पूल 1423 पर प्रोत्साहन सामान्य रूप से वितरित नहीं हो रहा है, पूल स्वयं अप्रभावित है। फरवरी के मध्य में निर्धारित सॉफ़्टवेयर अपग्रेड के बाद प्रोत्साहन स्वचालित रूप से फिर से शुरू हो जाएगा"
+      "header": "ऑस्मोसिस के भविष्य को आकार देने में मदद करें।",
+      "link": "हमें प्रतिक्रिया दे"
     },
     "ja": {
-      "header": "プール 1423 のインセンティブは通常どおりには配布されません。プール自体は影響を受けません。インセンティブは、2 月中旬に予定されているソフトウェア アップグレード後に自動的に再開されます"
+      "header": "Osmosis の未来の形成に貢献してください。",
+      "link": "フィードバックをお寄せください"
     },
     "ko": {
-      "header": "풀 1423의 인센티브는 정상적으로 배포되지 않으며 풀 자체는 영향을 받지 않습니다. 2월 중순으로 예정된 소프트웨어 업그레이드 이후 인센티브가 자동으로 재개됩니다."
+      "header": "Osmosis의 미래를 함께 만들어 가세요.",
+      "link": "피드백 주기"
     },
     "pl": {
-      "header": "Zachęty w ramach puli 1423 nie są rozdzielane normalnie, nie ma to wpływu na samą pulę. Programy motywacyjne zostaną wznowione automatycznie po aktualizacji oprogramowania zaplanowanej na połowę lutego"
+      "header": "Pomóż kształtować przyszłość Osmosis.",
+      "link": "Przekaż nam swoją opinię"
     },
     "pt-br": {
-      "header": "Os incentivos no pool 1423 não estão sendo distribuídos normalmente, o pool em si não é afetado. Os incentivos serão retomados automaticamente após a atualização do software agendada para meados de fevereiro"
+      "header": "Ajude a moldar o futuro da Osmosis.",
+      "link": "Dê seu feedback"
     },
     "ro": {
-      "header": "Stimulentele pentru grupul 1423 nu sunt distribuite în mod normal, piscina în sine nu este afectată. Stimulentele vor fi reluate automat în urma upgrade-ului software programat pentru mijlocul lunii februarie"
+      "header": "Ajutați la conturarea viitorului Osmosis.",
+      "link": "Dați-ne feedback"
     },
     "ru": {
-      "header": "Поощрения в пуле 1423 не распределяются должным образом, сам пул не затрагивается. Поощрения возобновятся автоматически после обновления программного обеспечения, запланированного на середину февраля."
+      "header": "Помогите сформировать будущее Osmosis.",
+      "link": "Оставьте нам отзыв"
     },
     "tr": {
-      "header": "1423 numaralı havuzdaki teşvikler normal şekilde dağıtılmıyor, havuzun kendisi etkilenmedi. Şubat ortasında yapılması planlanan yazılım yükseltmesinin ardından teşvikler otomatik olarak devam edecek"
+      "header": "Osmosis'in geleceğini şekillendirmeye yardım edin.",
+      "link": "Bize geri bildirim verin"
     },
-    "zh-cn": {
-      "header": "矿池 1423 上的激励没有正常分配，矿池本身不受影响。计划于二月中旬进行软件升级后，激励措施将自动恢复"
-    },
-    "zh-hk": {
-      "header": "礦池 1423 上的激勵沒有正常分配，礦池本身不受影響。計劃於二月中旬進行軟體升級後，激勵措施將自動恢復"
-    },
-    "zh-tw": {
-      "header": "礦池 1423 上的激勵沒有正常分配，礦池本身不受影響。計劃於二月中旬進行軟體升級後，激勵措施將自動恢復"
-    }
+    "zh-cn": { "header": "帮助塑造渗透的未来。", "link": "给我们反馈" },
+    "zh-hk": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" },
+    "zh-tw": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" }
   }
 }
