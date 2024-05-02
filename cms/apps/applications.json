@@ -2,6 +2,17 @@
   "$schema": "../../schemas/applications.schema.json",
   "applications": [
     {
+      "title": "Start Cooking",
+      "subtitle": "Minting your Memecoin on Osmosis with just 2 clicks. All it takes is 1 OSMO.",
+      "external_URL": "https://start.cooking/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/start_cooking_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/start_cooking_hero.webp",
+      "twitter_URL": "https://twitter.com/startcookingapp",
+      "medium_URL": "https://medium.com/@start.cooking157",
+      "github_URL": "https://github.com/BIG-Labs/cooking-contracts",
+      "featured": true
+    },
+    {
       "title": "Osmohall",
       "subtitle": "Osmohall is the Pro Trading Terminal which offers high performance and access to the latest Osmosis gems.",
       "external_URL": "https://coinhall.org/osmosis",
@@ -21,7 +32,7 @@
       "twitter_URL": "https://twitter.com/milky_way_zone",
       "medium_URL": "https://medium.com/milkyway-zone",
       "github_URL": "https://github.com/milkyway-labs/",
-      "featured": true,
+      "featured": false,
       "internal_data": {
         "thumbnail_size": 584212,
         "hero_size": 353485,
@@ -367,18 +378,6 @@
       "medium_URL": "https://medium.com/@whitewhaleterra",
       "github_URL": "https://github.com/White-Whale-Defi-Platform",
       "featured": false
-    },
-    {
-      "title": "Start Cooking",
-      "subtitle": "Minting your Memecoin on Osmosis with just 2 clicks. All it takes is 1 OSMO.",
-      "external_URL": "https://start.cooking/",
-      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/start_cooking_thumbnail.png",
-      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/start_cooking_hero.png",
-      "twitter_URL": "https://twitter.com/startcookingapp",
-      "medium_URL": "https://medium.com/@start.cooking157",
-      "github_URL": "https://github.com/BIG-Labs/cooking-contracts",
-      "featured": false
     }
-    
   ]
 }
