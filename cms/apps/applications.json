@@ -378,6 +378,17 @@
       "medium_URL": "https://medium.com/@whitewhaleterra",
       "github_URL": "https://github.com/White-Whale-Defi-Platform",
       "featured": false
+    },
+    {
+      "title": "DAO DAO",
+      "subtitle": "Interchain DAO tooling for teams, protocols, and organizations of any size.",
+      "external_URL": "https://daodao.zone",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/daodao_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/daodao_hero.webp",
+      "twitter_URL": "https://twitter.com/DA0_DA0",
+      "medium_URL": "https://medium.com/@DAO-DAO",
+      "github_URL": "https://github.com/DA0-DA0",
+      "featured": false
     }
   ]
 }
