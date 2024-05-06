@@ -378,6 +378,18 @@
       "medium_URL": "https://medium.com/@whitewhaleterra",
       "github_URL": "https://github.com/White-Whale-Defi-Platform",
       "featured": false
+    },
+    {
+      "title": "Isaac",
+      "subtitle": "Trade any token in Cosmos using Telegram.",
+      "external_URL": "https://isaac.finance",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/apps-list/main/images/isaac_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/apps-list/main/images/isaac_hero.webp",
+      "twitter_URL": "https://twitter.com/trade_isaac",
+      "featured": false
+      "internal_data": {
+        "project_listing_date": "2024-05-06T22:00:00.000Z"
+      }
     }
   ]
 }
