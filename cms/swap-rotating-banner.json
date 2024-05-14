@@ -56,6 +56,20 @@
       "fontColor": "#CBFD50",
       "arrowColor": "#CBFD50",
       "featured": true
+    },
+    {
+      "name": "Levana",
+      "startDate": "2024-05-14T14:30:00.123Z",
+      "endDate": "2024-05-28T14:30:00.123Z",
+      "headerOrTranslationKey": "levanaHeader",
+      "subheaderOrTranslationKey": "levanaSubheader",
+      "externalUrl": "https://trade.levana.finance/",
+      "iconImageUrl": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/images/levana.svg",
+      "iconImageAltOrTranslationKey": "levanaImageAlt",
+      "gradient": "linear-gradient(93.62deg, #120F28 -6.6%, #4D0A98 46.78%, #3D0B26 105.39%)",
+      "fontColor": "#FFFFFF",
+      "arrowColor": "#FFFFFF",
+      "featured": true
     }
   ],
   "localization": {
@@ -71,7 +85,10 @@
       "calcFiImageAlt": "Das Diagramm steigt nach rechts oben mit Dollarzeichen",
       "marginedHeader": "Fühlen Sie sich bullisch?",
       "marginedSubheader": "Versuchen Sie es mit einer quadratischen Hebelwirkung auf Margined",
-      "marginedImageAlt": "Diagramm, das vor einem Hintergrund aus Punkten exponentiell nach rechts oben zunimmt"
+      "marginedImageAlt": "Diagramm, das vor einem Hintergrund aus Punkten exponentiell nach rechts oben zunimmt",
+      "levanaHeader": "Drachen",
+      "levanaSubheader": "Levana erkunden",
+      "levanaImageAlt": "Ein stilisierter lila Drache, der sich wirbelt, um die Form eines Rings zu bilden"
     },
     "en": {
       "milkHeader": "Got Milk?",
@@ -85,7 +102,10 @@
       "calcFiImageAlt": "Chart increasing to the upper right with dollar signs",
       "marginedHeader": "Feeling bullish?",
       "marginedSubheader": "Try quadratic leverage on Margined",
-      "marginedImageAlt": "Chart increasing exponentially to the upper right over a background of dots"
+      "marginedImageAlt": "Chart increasing exponentially to the upper right over a background of dots",
+      "levanaHeader": "Dragons",
+      "levanaSubheader": "Explore Levana",
+      "levanaImageAlt": "A stylized purple dragon swirling to make the shape of a ring"
     },
     "es": {
       "milkHeader": "¿Tienes leche?",
@@ -99,7 +119,10 @@
       "calcFiImageAlt": "Gráfico que aumenta hacia la parte superior derecha con signos de dólar",
       "marginedHeader": "¿Te sientes optimista?",
       "marginedSubheader": "Pruebe el apalancamiento cuadrático en Margined",
-      "marginedImageAlt": "Gráfico que aumenta exponencialmente hacia la esquina superior derecha sobre un fondo de puntos"
+      "marginedImageAlt": "Gráfico que aumenta exponencialmente hacia la esquina superior derecha sobre un fondo de puntos",
+      "levanaHeader": "Dragones",
+      "levanaSubheader": "Explora Levana",
+      "levanaImageAlt": "Un dragón morado estilizado que se retuerce para formar la forma de un anillo"
     },
     "fa": {
       "milkHeader": "شیر دارید؟",
@@ -113,7 +136,10 @@
       "calcFiImageAlt": "نمودار به سمت راست بالا با علائم دلار در حال افزایش است",
       "marginedHeader": "احساس صعود؟",
       "marginedSubheader": "اهرم درجه دوم را روی Margined امتحان کنید",
-      "marginedImageAlt": "نمودار به صورت تصاعدی به سمت راست بالا در پس زمینه ای از نقاط افزایش می یابد"
+      "marginedImageAlt": "نمودار به صورت تصاعدی به سمت راست بالا در پس زمینه ای از نقاط افزایش می یابد",
+      "levanaHeader": "اژدهاها",
+      "levanaSubheader": "کاوش Levana",
+      "levanaImageAlt": "یک اژدهای بنفش با سبکی آمیخته که برای ساخت شکل یک حلقه می‌چرخد"
     },
     "fr": {
       "milkHeader": "Avoir du lait?",
@@ -127,7 +153,10 @@
       "calcFiImageAlt": "Graphique croissant vers le coin supérieur droit avec des signes dollar",
       "marginedHeader": "Vous vous sentez optimiste ?",
       "marginedSubheader": "Essayez l'effet de levier quadratique sur Margined",
-      "marginedImageAlt": "Graphique augmentant de façon exponentielle vers le coin supérieur droit sur un fond de points"
+      "marginedImageAlt": "Graphique augmentant de façon exponentielle vers le coin supérieur droit sur un fond de points",
+      "levanaHeader": "Dragons",
+      "levanaSubheader": "Explorez Levana",
+      "levanaImageAlt": "Un dragon violet stylisé qui tourbillonne pour former la forme d'un anneau"
     },
     "gu": {
       "milkHeader": "દૂધ મળ્યું?",
@@ -141,7 +170,10 @@
       "calcFiImageAlt": "ડોલર ચિહ્નો સાથે ઉપર જમણી તરફ વધતો ચાર્ટ",
       "marginedHeader": "બુલિશ લાગે છે?",
       "marginedSubheader": "માર્જિન પર ક્વાડ્રેટિક લિવરેજ અજમાવો",
-      "marginedImageAlt": "બિંદુઓની પૃષ્ઠભૂમિ પર ઉપર જમણી બાજુએ ઝડપથી વધતો ચાર્ટ"
+      "marginedImageAlt": "બિંદુઓની પૃષ્ઠભૂમિ પર ઉપર જમણી બાજુએ ઝડપથી વધતો ચાર્ટ",
+      "levanaHeader": "ડ્રેગન્સ",
+      "levanaSubheader": "લેવાના અન્વેષણ કરો",
+      "levanaImageAlt": "એક સ્ટાઇલાઇઝ્ડ જાંબલી ડ્રેગન જોવા માટે વાયરલીંગ કરી રહ્યો છે, એક વૃત્તનું આકાર બનાવવા માટે"
     },
     "hi": {
       "milkHeader": "दूध मिल गया?",
@@ -155,7 +187,10 @@
       "calcFiImageAlt": "डॉलर चिह्नों के साथ चार्ट ऊपर दाईं ओर बढ़ रहा है",
       "marginedHeader": "तेजी महसूस हो रही है?",
       "marginedSubheader": "मार्जिन्ड पर द्विघात उत्तोलन का प्रयास करें",
-      "marginedImageAlt": "चार्ट बिंदुओं की पृष्ठभूमि पर ऊपर दाईं ओर तेजी से बढ़ रहा है"
+      "marginedImageAlt": "चार्ट बिंदुओं की पृष्ठभूमि पर ऊपर दाईं ओर तेजी से बढ़ रहा है",
+      "levanaHeader": "ड्रैगन्स",
+      "levanaSubheader": "लेवाना का अन्वेषण करें",
+      "levanaImageAlt": "एक शैलीष्ट पर्पल ड्रैगन जो एक रिंग के आकार बनाने के लिए घूम रहा है"
     },
     "ja": {
       "milkHeader": "ミルクを得た？",
@@ -169,7 +204,10 @@
       "calcFiImageAlt": "右上に向かってドル記号が増加するチャート",
       "marginedHeader": "強気な気分ですか？",
       "marginedSubheader": "マージンで二次レバレッジを試す",
-      "marginedImageAlt": "ドットの背景上で右上に向かって指数関数的に増加するグラフ"
+      "marginedImageAlt": "ドットの背景上で右上に向かって指数関数的に増加するグラフ",
+      "levanaHeader": "ドラゴン",
+      "levanaSubheader": "レヴァナを探索する",
+      "levanaImageAlt": "リングの形を作るために渦巻くスタイリッシュな紫色のドラゴン"
     },
     "ko": {
       "milkHeader": "우유를 얻었다?",
@@ -183,7 +221,10 @@
       "calcFiImageAlt": "달러 기호가 있는 오른쪽 상단으로 증가하는 차트",
       "marginedHeader": "낙관적인 느낌?",
       "marginedSubheader": "Margined에서 2차 레버리지를 사용해 보세요.",
-      "marginedImageAlt": "점 배경 위에 오른쪽 상단으로 기하급수적으로 증가하는 차트"
+      "marginedImageAlt": "점 배경 위에 오른쪽 상단으로 기하급수적으로 증가하는 차트",
+      "levanaHeader": "용",
+      "levanaSubheader": "레바나 탐험하기",
+      "levanaImageAlt": "모양이 반지 모양이 되도록 돌아가는 스타일화된 보라색 용"
     },
     "pl": {
       "milkHeader": "Masz mleko?",
@@ -197,7 +238,10 @@
       "calcFiImageAlt": "Wykres rosnący w prawym górnym rogu ze znakami dolara",
       "marginedHeader": "Czujesz się uparty?",
       "marginedSubheader": "Wypróbuj dźwignię kwadratową na Margined",
-      "marginedImageAlt": "Wykres rosnący wykładniczo w prawym górnym rogu na tle kropek"
+      "marginedImageAlt": "Wykres rosnący wykładniczo w prawym górnym rogu na tle kropek",
+      "levanaHeader": "Smoki",
+      "levanaSubheader": "Odkryj Levana",
+      "levanaImageAlt": "Stylizowany fioletowy smok wirujący, aby utworzyć kształt pierścienia"
     },
     "pt-br": {
       "milkHeader": "Tenho leite?",
@@ -211,7 +255,10 @@
       "calcFiImageAlt": "Gráfico aumentando para o canto superior direito com cifrões",
       "marginedHeader": "Sentindo-se otimista?",
       "marginedSubheader": "Experimente a alavancagem quadrática em Margined",
-      "marginedImageAlt": "Gráfico aumentando exponencialmente no canto superior direito sobre um fundo de pontos"
+      "marginedImageAlt": "Gráfico aumentando exponencialmente no canto superior direito sobre um fundo de pontos",
+      "levanaHeader": "Dragões",
+      "levanaSubheader": "Explore Levana",
+      "levanaImageAlt": "Um dragão roxo estilizado que gira para formar a forma de um anel"
     },
     "ro": {
       "milkHeader": "Am lapte?",
@@ -225,7 +272,10 @@
       "calcFiImageAlt": "Grafic în creștere în dreapta sus cu semnele dolarului",
       "marginedHeader": "Te simți optimist?",
       "marginedSubheader": "Încercați pârghia pătratică pe Margined",
-      "marginedImageAlt": "Graficul crește exponențial în dreapta sus pe un fundal de puncte"
+      "marginedImageAlt": "Graficul crește exponențial în dreapta sus pe un fundal de puncte",
+      "levanaHeader": "Dragonii",
+      "levanaSubheader": "Explorați Levana",
+      "levanaImageAlt": "Un dragon mov stilizat care se învârte pentru a forma forma unui inel"
     },
     "ru": {
       "milkHeader": "Есть молоко?",
@@ -239,7 +289,10 @@
       "calcFiImageAlt": "Диаграмма увеличивается в правом верхнем углу со знаками доллара",
       "marginedHeader": "Чувствуете оптимизм?",
       "marginedSubheader": "Попробуйте квадратичное кредитное плечо на маржинальном рынке",
-      "marginedImageAlt": "Диаграмма увеличивается в геометрической прогрессии вверху справа на фоне точек."
+      "marginedImageAlt": "Диаграмма увеличивается в геометрической прогрессии вверху справа на фоне точек.",
+      "levanaHeader": "Драконы",
+      "levanaSubheader": "Исследуйте Левану",
+      "levanaImageAlt": "Стилизованный фиолетовый дракон, завивающийся, чтобы образовать форму кольца"
     },
     "tr": {
       "milkHeader": "Süt var mı?",
@@ -253,7 +306,10 @@
       "calcFiImageAlt": "Dolar işaretleri ile sağ üste doğru artan grafik",
       "marginedHeader": "Yükseliş mi hissediyorsunuz?",
       "marginedSubheader": "Margined'de ikinci dereceden kaldıracı deneyin",
-      "marginedImageAlt": "Noktalardan oluşan bir arka plan üzerinde sağ üste doğru katlanarak artan grafik"
+      "marginedImageAlt": "Noktalardan oluşan bir arka plan üzerinde sağ üste doğru katlanarak artan grafik",
+      "levanaHeader": "Ejderhalar",
+      "levanaSubheader": "Levana'yı Keşfet",
+      "levanaImageAlt": "Halka şeklini oluşturmak için kıvıran stilize mor ejderha"
     },
     "zh-cn": {
       "milkHeader": "有牛奶吗？",
@@ -267,7 +323,10 @@
       "calcFiImageAlt": "图表向右上方增加并带有美元符号",
       "marginedHeader": "感觉看涨吗？",
       "marginedSubheader": "尝试在保证金上使用二次杠杆",
-      "marginedImageAlt": "图表在点背景上呈指数增长到右上角"
+      "marginedImageAlt": "图表在点背景上呈指数增长到右上角",
+      "levanaHeader": "龙",
+      "levanaSubheader": "探索Levana",
+      "levanaImageAlt": "一个风格化的紫色龙在旋转，形成一个环的形状"
     },
     "zh-hk": {
       "milkHeader": "有牛奶嗎？",
@@ -281,7 +340,10 @@
       "calcFiImageAlt": "圖表向右上方增加並帶有美元符號",
       "marginedHeader": "感覺看漲嗎？",
       "marginedSubheader": "試試在保證金上使用二次槓桿",
-      "marginedImageAlt": "圖表在點背景上呈指數增長到右上角"
+      "marginedImageAlt": "圖表在點背景上呈指數增長到右上角",
+      "levanaHeader": "龍",
+      "levanaSubheader": "探索Levana",
+      "levanaImageAlt": "一隻風格化的紫色龍在旋轉，形成一個環的形狀"
     },
     "zh-tw": {
       "milkHeader": "有牛奶嗎？",
@@ -295,7 +357,10 @@
       "calcFiImageAlt": "圖表向右上方增加並帶有美元符號",
       "marginedHeader": "感覺看漲嗎？",
       "marginedSubheader": "試試在保證金上使用二次槓桿",
-      "marginedImageAlt": "圖表在點背景上呈指數增長到右上角"
+      "marginedImageAlt": "圖表在點背景上呈指數增長到右上角",
+      "levanaHeader": "龍",
+      "levanaSubheader": "探索Levana",
+      "levanaImageAlt": "一隻風格化的紫色龍在旋轉，形成一個環的形狀"
     }
   }
 }
