@@ -86,8 +86,8 @@
       "marginedHeader": "Fühlen Sie sich bullisch?",
       "marginedSubheader": "Versuchen Sie es mit einer quadratischen Hebelwirkung auf Margined",
       "marginedImageAlt": "Diagramm, das vor einem Hintergrund aus Punkten exponentiell nach rechts oben zunimmt",
-      "levanaHeader": "Drachen",
-      "levanaSubheader": "Levana erkunden",
+      "levanaHeader": "Perpetuals auf Levana",
+      "levanaSubheader": "Erhöhen Sie Ihre Handelsfunktionalität",
       "levanaImageAlt": "Ein stilisierter lila Drache, der sich wirbelt, um die Form eines Rings zu bilden"
     },
     "en": {
@@ -103,8 +103,8 @@
       "marginedHeader": "Feeling bullish?",
       "marginedSubheader": "Try quadratic leverage on Margined",
       "marginedImageAlt": "Chart increasing exponentially to the upper right over a background of dots",
-      "levanaHeader": "Dragons",
-      "levanaSubheader": "Explore Levana",
+      "levanaHeader": "Perpetuals on Levana",
+      "levanaSubheader": "Elevate your trading functionality",
       "levanaImageAlt": "A stylized purple dragon swirling to make the shape of a ring"
     },
     "es": {
@@ -120,8 +120,8 @@
       "marginedHeader": "¿Te sientes optimista?",
       "marginedSubheader": "Pruebe el apalancamiento cuadrático en Margined",
       "marginedImageAlt": "Gráfico que aumenta exponencialmente hacia la esquina superior derecha sobre un fondo de puntos",
-      "levanaHeader": "Dragones",
-      "levanaSubheader": "Explora Levana",
+      "levanaHeader": "Perpetuos en Levana",
+      "levanaSubheader": "Eleve su funcionalidad comercial",
       "levanaImageAlt": "Un dragón morado estilizado que se retuerce para formar la forma de un anillo"
     },
     "fa": {
@@ -137,8 +137,8 @@
       "marginedHeader": "احساس صعود؟",
       "marginedSubheader": "اهرم درجه دوم را روی Margined امتحان کنید",
       "marginedImageAlt": "نمودار به صورت تصاعدی به سمت راست بالا در پس زمینه ای از نقاط افزایش می یابد",
-      "levanaHeader": "اژدهاها",
-      "levanaSubheader": "کاوش Levana",
+      "levanaHeader": "پرپتوال‌ها در لوانا",
+      "levanaSubheader": "قابلیت معاملاتی خود را ارتقا دهید",
       "levanaImageAlt": "یک اژدهای بنفش با سبکی آمیخته که برای ساخت شکل یک حلقه می‌چرخد"
     },
     "fr": {
@@ -154,8 +154,8 @@
       "marginedHeader": "Vous vous sentez optimiste ?",
       "marginedSubheader": "Essayez l'effet de levier quadratique sur Margined",
       "marginedImageAlt": "Graphique augmentant de façon exponentielle vers le coin supérieur droit sur un fond de points",
-      "levanaHeader": "Dragons",
-      "levanaSubheader": "Explorez Levana",
+      "levanaHeader": "Perpétuels sur Levana",
+      "levanaSubheader": "Améliorez votre fonctionnalité de trading",
       "levanaImageAlt": "Un dragon violet stylisé qui tourbillonne pour former la forme d'un anneau"
     },
     "gu": {
@@ -171,8 +171,8 @@
       "marginedHeader": "બુલિશ લાગે છે?",
       "marginedSubheader": "માર્જિન પર ક્વાડ્રેટિક લિવરેજ અજમાવો",
       "marginedImageAlt": "બિંદુઓની પૃષ્ઠભૂમિ પર ઉપર જમણી બાજુએ ઝડપથી વધતો ચાર્ટ",
-      "levanaHeader": "ડ્રેગન્સ",
-      "levanaSubheader": "લેવાના અન્વેષણ કરો",
+      "levanaHeader": "લેવાના પર્પેચ્યુયલ્સ",
+      "levanaSubheader": "તમારી વ્યાપાર ક્ષમતાને વધારો",
       "levanaImageAlt": "એક સ્ટાઇલાઇઝ્ડ જાંબલી ડ્રેગન જોવા માટે વાયરલીંગ કરી રહ્યો છે, એક વૃત્તનું આકાર બનાવવા માટે"
     },
     "hi": {
@@ -188,8 +188,8 @@
       "marginedHeader": "तेजी महसूस हो रही है?",
       "marginedSubheader": "मार्जिन्ड पर द्विघात उत्तोलन का प्रयास करें",
       "marginedImageAlt": "चार्ट बिंदुओं की पृष्ठभूमि पर ऊपर दाईं ओर तेजी से बढ़ रहा है",
-      "levanaHeader": "ड्रैगन्स",
-      "levanaSubheader": "लेवाना का अन्वेषण करें",
+      "levanaHeader": "लेवाना पर्पेचुअल्स",
+      "levanaSubheader": "अपने व्यापार की क्षमता को बढ़ाएं",
       "levanaImageAlt": "एक शैलीष्ट पर्पल ड्रैगन जो एक रिंग के आकार बनाने के लिए घूम रहा है"
     },
     "ja": {
@@ -205,8 +205,8 @@
       "marginedHeader": "強気な気分ですか？",
       "marginedSubheader": "マージンで二次レバレッジを試す",
       "marginedImageAlt": "ドットの背景上で右上に向かって指数関数的に増加するグラフ",
-      "levanaHeader": "ドラゴン",
-      "levanaSubheader": "レヴァナを探索する",
+      "levanaHeader": "レヴァナの永続物",
+      "levanaSubheader": "取引機能を向上させる",
       "levanaImageAlt": "リングの形を作るために渦巻くスタイリッシュな紫色のドラゴン"
     },
     "ko": {
@@ -222,8 +222,8 @@
       "marginedHeader": "낙관적인 느낌?",
       "marginedSubheader": "Margined에서 2차 레버리지를 사용해 보세요.",
       "marginedImageAlt": "점 배경 위에 오른쪽 상단으로 기하급수적으로 증가하는 차트",
-      "levanaHeader": "용",
-      "levanaSubheader": "레바나 탐험하기",
+      "levanaHeader": "레바나의 퍼페추얼스",
+      "levanaSubheader": "거래 기능을 향상시키세요",
       "levanaImageAlt": "모양이 반지 모양이 되도록 돌아가는 스타일화된 보라색 용"
     },
     "pl": {
@@ -239,8 +239,8 @@
       "marginedHeader": "Czujesz się uparty?",
       "marginedSubheader": "Wypróbuj dźwignię kwadratową na Margined",
       "marginedImageAlt": "Wykres rosnący wykładniczo w prawym górnym rogu na tle kropek",
-      "levanaHeader": "Smoki",
-      "levanaSubheader": "Odkryj Levana",
+      "levanaHeader": "Wieczne na Levana",
+      "levanaSubheader": "Podnieś funkcjonalność swoich transakcji",
       "levanaImageAlt": "Stylizowany fioletowy smok wirujący, aby utworzyć kształt pierścienia"
     },
     "pt-br": {
@@ -256,8 +256,8 @@
       "marginedHeader": "Sentindo-se otimista?",
       "marginedSubheader": "Experimente a alavancagem quadrática em Margined",
       "marginedImageAlt": "Gráfico aumentando exponencialmente no canto superior direito sobre um fundo de pontos",
-      "levanaHeader": "Dragões",
-      "levanaSubheader": "Explore Levana",
+      "levanaHeader": "Perpétuos na Levana",
+      "levanaSubheader": "Eleve a funcionalidade de suas negociações",
       "levanaImageAlt": "Um dragão roxo estilizado que gira para formar a forma de um anel"
     },
     "ro": {
@@ -273,8 +273,8 @@
       "marginedHeader": "Te simți optimist?",
       "marginedSubheader": "Încercați pârghia pătratică pe Margined",
       "marginedImageAlt": "Graficul crește exponențial în dreapta sus pe un fundal de puncte",
-      "levanaHeader": "Dragonii",
-      "levanaSubheader": "Explorați Levana",
+      "levanaHeader": "Perpetue pe Levana",
+      "levanaSubheader": "Creșteți funcționalitatea tranzacțiilor dvs",
       "levanaImageAlt": "Un dragon mov stilizat care se învârte pentru a forma forma unui inel"
     },
     "ru": {
@@ -290,8 +290,8 @@
       "marginedHeader": "Чувствуете оптимизм?",
       "marginedSubheader": "Попробуйте квадратичное кредитное плечо на маржинальном рынке",
       "marginedImageAlt": "Диаграмма увеличивается в геометрической прогрессии вверху справа на фоне точек.",
-      "levanaHeader": "Драконы",
-      "levanaSubheader": "Исследуйте Левану",
+      "levanaHeader": "Перпетуалы на Леване",
+      "levanaSubheader": "Повысьте функциональность вашей торговли",
       "levanaImageAlt": "Стилизованный фиолетовый дракон, завивающийся, чтобы образовать форму кольца"
     },
     "tr": {
@@ -307,8 +307,8 @@
       "marginedHeader": "Yükseliş mi hissediyorsunuz?",
       "marginedSubheader": "Margined'de ikinci dereceden kaldıracı deneyin",
       "marginedImageAlt": "Noktalardan oluşan bir arka plan üzerinde sağ üste doğru katlanarak artan grafik",
-      "levanaHeader": "Ejderhalar",
-      "levanaSubheader": "Levana'yı Keşfet",
+      "levanaHeader": "Levana'da Sürekli",
+      "levanaSubheader": "Ticaret işlevinizi yükseltin",
       "levanaImageAlt": "Halka şeklini oluşturmak için kıvıran stilize mor ejderha"
     },
     "zh-cn": {
@@ -324,8 +324,8 @@
       "marginedHeader": "感觉看涨吗？",
       "marginedSubheader": "尝试在保证金上使用二次杠杆",
       "marginedImageAlt": "图表在点背景上呈指数增长到右上角",
-      "levanaHeader": "龙",
-      "levanaSubheader": "探索Levana",
+      "levanaHeader": "Levana的永续品",
+      "levanaSubheader": "提升您的交易功能",
       "levanaImageAlt": "一个风格化的紫色龙在旋转，形成一个环的形状"
     },
     "zh-hk": {
@@ -341,8 +341,8 @@
       "marginedHeader": "感覺看漲嗎？",
       "marginedSubheader": "試試在保證金上使用二次槓桿",
       "marginedImageAlt": "圖表在點背景上呈指數增長到右上角",
-      "levanaHeader": "龍",
-      "levanaSubheader": "探索Levana",
+      "levanaHeader": "Levana的永續品",
+      "levanaSubheader": "提升您的交易功能",
       "levanaImageAlt": "一隻風格化的紫色龍在旋轉，形成一個環的形狀"
     },
     "zh-tw": {
@@ -358,8 +358,8 @@
       "marginedHeader": "感覺看漲嗎？",
       "marginedSubheader": "試試在保證金上使用二次槓桿",
       "marginedImageAlt": "圖表在點背景上呈指數增長到右上角",
-      "levanaHeader": "龍",
-      "levanaSubheader": "探索Levana",
+      "levanaHeader": "Levana的永續品",
+      "levanaSubheader": "提升您的交易功能",
       "levanaImageAlt": "一隻風格化的紫色龍在旋轉，形成一個環的形狀"
     }
   }
