@@ -821,8 +821,68 @@
       "categories": ["Blue Chip"]
     },
     {
+      "id": "osmo13kgh3aksdnhs5jkd63uut9x3us9hfeyzldjgnma6eksj9g3c0cfs3z7wcp-lp",
+      "name": "AKT_USD Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/AKT_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13kgh3aksdnhs5jkd63uut9x3us9hfeyzldjgnma6eksj9g3c0cfs3z7wcp-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13kgh3aksdnhs5jkd63uut9x3us9hfeyzldjgnma6eksj9g3c0cfs3z7wcp-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-05-19T07:43:41Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4"
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "osmo13kgh3aksdnhs5jkd63uut9x3us9hfeyzldjgnma6eksj9g3c0cfs3z7wcp-xlp",
+      "name": "AKT_USD Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/AKT_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13kgh3aksdnhs5jkd63uut9x3us9hfeyzldjgnma6eksj9g3c0cfs3z7wcp-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo13kgh3aksdnhs5jkd63uut9x3us9hfeyzldjgnma6eksj9g3c0cfs3z7wcp-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-05-19T07:43:41Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4"
+        }
+      ],
+      "categories": []
+    },
+    {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-lp",
-      "name": "ATOM/USD Perps LP",
+      "name": "ATOM_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -833,8 +893,8 @@
       "lockDuration": "P1D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2023-07-06T07:35:50.402063549Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
@@ -852,7 +912,7 @@
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp",
-      "name": "ATOM/USD Perps xLP",
+      "name": "ATOM_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -863,8 +923,8 @@
       "lockDuration": "P45D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2023-07-06T07:35:50.402063549Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
@@ -881,8 +941,68 @@
       "categories": ["Blue Chip"]
     },
     {
+      "id": "osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-lp",
+      "name": "AVAX_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/AVAX_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-26T09:56:11.458970099Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-xlp",
+      "name": "AVAX_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/AVAX_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-26T09:56:11.458970099Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp",
-      "name": "AXL/USD Perps LP",
+      "name": "AXL_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -893,7 +1013,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2023-10-24T12:43:00.347610580Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -912,7 +1032,7 @@
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-xlp",
-      "name": "AXL/USD Perps xLP",
+      "name": "AXL_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -923,7 +1043,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2023-10-24T12:43:00.347610580Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -941,8 +1061,128 @@
       "categories": []
     },
     {
+      "id": "osmo164357hnc5jc0pw9lv958h6chrpjucr4sy47hwpm9k4av6zh74gnq7uvcpj-lp",
+      "name": "BNB_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/BNB_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo164357hnc5jc0pw9lv958h6chrpjucr4sy47hwpm9k4av6zh74gnq7uvcpj-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo164357hnc5jc0pw9lv958h6chrpjucr4sy47hwpm9k4av6zh74gnq7uvcpj-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-15T11:07:32.734315136Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo164357hnc5jc0pw9lv958h6chrpjucr4sy47hwpm9k4av6zh74gnq7uvcpj-xlp",
+      "name": "BNB_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/BNB_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo164357hnc5jc0pw9lv958h6chrpjucr4sy47hwpm9k4av6zh74gnq7uvcpj-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo164357hnc5jc0pw9lv958h6chrpjucr4sy47hwpm9k4av6zh74gnq7uvcpj-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-15T11:07:32.734315136Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-lp",
+      "name": "BONK_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/BONK_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-xlp",
+      "name": "BONK_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/BONK_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
-      "name": "BTC/USD Perps LP",
+      "name": "BTC_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -953,8 +1193,8 @@
       "lockDuration": "P1D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2023-07-18T06:33:00.346408623Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
@@ -972,7 +1212,7 @@
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp",
-      "name": "BTC/USD Perps xLP",
+      "name": "BTC_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -983,8 +1223,8 @@
       "lockDuration": "P45D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2023-07-18T06:33:00.346408623Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
@@ -1001,68 +1241,248 @@
       "categories": ["Blue Chip"]
     },
     {
-      "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp",
-      "name": "DOT/USD Perps LP",
+      "id": "osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-lp",
+      "name": "CNH_USDC Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
-      "link": "https://trade.levana.finance/osmosis/earn/DOT_USD",
-      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp/tvl",
-      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-lp/apr",
+      "link": "https://trade.levana.finance/osmosis/earn/CNH_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-lp/apr",
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P1D",
-      "riskLevel": 0.01,
+      "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2024-02-19T10:46:04Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
         {
-          "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
       "positionDenoms": [],
       "rewardDenoms": [
         {
-          "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": ["Stablecoins"]
     },
     {
-      "id": "osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp",
-      "name": "DOT/USD Perps xLP",
+      "id": "osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-xlp",
+      "name": "CNH_USDC Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
-      "link": "https://trade.levana.finance/osmosis/earn/DOT_USD",
-      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp/tvl",
-      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1d5zsvupzvq5ru6635a0agrcdrj0t8ycj8vpewm8z4y8xf85gvh3qk0ka33-xlp/apr",
+      "link": "https://trade.levana.finance/osmosis/earn/CNH_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-xlp/apr",
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P45D",
-      "riskLevel": 0.01,
+      "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2024-02-19T10:46:04Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
         {
-          "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
       "positionDenoms": [],
       "rewardDenoms": [
         {
-          "coinMinimalDenom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244"
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-lp",
+      "name": "DOGE_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/DOGE_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-29T12:45:23.285861237Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-xlp",
+      "name": "DOGE_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/DOGE_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-29T12:45:23.285861237Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-lp",
+      "name": "DOT_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/DOT_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-26T12:05:10.298755995Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-xlp",
+      "name": "DOT_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/DOT_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-26T12:05:10.298755995Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-lp",
+      "name": "DYDX_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/DYDX_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-12T14:39:30.872829890Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-xlp",
+      "name": "DYDX_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/DYDX_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-12T14:39:30.872829890Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp",
-      "name": "DYM/USD Perps LP",
+      "name": "DYM_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1073,7 +1493,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.93,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2024-02-11T09:12:47Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1092,7 +1512,7 @@
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-xlp",
-      "name": "DYM/USD Perps xLP",
+      "name": "DYM_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1103,7 +1523,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.93,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2024-02-11T09:12:47Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1121,8 +1541,548 @@
       "categories": []
     },
     {
+      "id": "osmo16v36jtfjc933htukqfrk8lk8e2uj8xpp3zjdh0ll04qe9jevlnrsuwhhx8-lp",
+      "name": "EUR_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/EUR_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo16v36jtfjc933htukqfrk8lk8e2uj8xpp3zjdh0ll04qe9jevlnrsuwhhx8-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo16v36jtfjc933htukqfrk8lk8e2uj8xpp3zjdh0ll04qe9jevlnrsuwhhx8-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-10T17:21:51.273241636Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo16v36jtfjc933htukqfrk8lk8e2uj8xpp3zjdh0ll04qe9jevlnrsuwhhx8-xlp",
+      "name": "EUR_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/EUR_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo16v36jtfjc933htukqfrk8lk8e2uj8xpp3zjdh0ll04qe9jevlnrsuwhhx8-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo16v36jtfjc933htukqfrk8lk8e2uj8xpp3zjdh0ll04qe9jevlnrsuwhhx8-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-10T17:21:51.273241636Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-lp",
+      "name": "FLOKI_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/FLOKI_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-xlp",
+      "name": "FLOKI_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/FLOKI_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-lp",
+      "name": "GBP_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/GBP_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-10T17:22:48.534444169Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-xlp",
+      "name": "GBP_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/GBP_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-10T17:22:48.534444169Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-lp",
+      "name": "GOLD_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/GOLD_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-01-30T14:37:13Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-xlp",
+      "name": "GOLD_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/GOLD_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-01-30T14:37:13Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-lp",
+      "name": "INJ_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/INJ_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-12-10T10:28:28.230522688Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-xlp",
+      "name": "INJ_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/INJ_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-12-10T10:28:28.230522688Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-lp",
+      "name": "LINK_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/LINK_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-29T11:21:32.300615889Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-xlp",
+      "name": "LINK_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/LINK_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-29T11:21:32.300615889Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-lp",
+      "name": "LUNA_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/LUNA_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-29T12:45:29.425052568Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-xlp",
+      "name": "LUNA_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/LUNA_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-29T12:45:29.425052568Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-lp",
+      "name": "MEME_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/MEME_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-xlp",
+      "name": "MEME_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/MEME_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-lp",
+      "name": "NTRN_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/NTRN_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-12-03T09:58:54.719311134Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-xlp",
+      "name": "NTRN_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/NTRN_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-12-03T09:58:54.719311134Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp",
-      "name": "OSMO/USD Perps LP",
+      "name": "OSMO_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1132,8 +2092,8 @@
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P1D",
       "riskLevel": 0.78,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1Z2uF6ORpoQR6w-Mf5LR-ov6XwwfiW7_B2DF0-WObfP0/edit#gid=198969840",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-08-06T11:07:39.738838870Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1152,7 +2112,7 @@
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-xlp",
-      "name": "OSMO/USD Perps xLP",
+      "name": "OSMO_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1162,8 +2122,8 @@
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P45D",
       "riskLevel": 0.78,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1nu4bK-r5CI95608ytGRGRPtHUPim5WleDS2rSSiBnDc/edit#gid=198969840",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-08-06T11:07:39.738838870Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1181,8 +2141,188 @@
       "categories": []
     },
     {
+      "id": "osmo1cap92693vajj3chllnvp7yma6p54rwdujy5trwnu7c55ndajskyqut9uxu-lp",
+      "name": "PEPE_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/PEPE_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cap92693vajj3chllnvp7yma6p54rwdujy5trwnu7c55ndajskyqut9uxu-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cap92693vajj3chllnvp7yma6p54rwdujy5trwnu7c55ndajskyqut9uxu-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1cap92693vajj3chllnvp7yma6p54rwdujy5trwnu7c55ndajskyqut9uxu-xlp",
+      "name": "PEPE_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/PEPE_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cap92693vajj3chllnvp7yma6p54rwdujy5trwnu7c55ndajskyqut9uxu-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1cap92693vajj3chllnvp7yma6p54rwdujy5trwnu7c55ndajskyqut9uxu-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-lp",
+      "name": "PYTH_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/PYTH_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-26T09:56:17.502797940Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-xlp",
+      "name": "PYTH_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/PYTH_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-26T09:56:17.502797940Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-lp",
+      "name": "RUNE_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/RUNE_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-12T14:39:13.855894364Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-xlp",
+      "name": "RUNE_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/RUNE_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-12T14:39:13.855894364Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp",
-      "name": "SEI/USD Perps LP",
+      "name": "SEI_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1193,7 +2333,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.87,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2023-08-23T08:19:23.902050148Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1212,7 +2352,7 @@
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-xlp",
-      "name": "SEI/USD Perps xLP",
+      "name": "SEI_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1223,7 +2363,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.87,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2023-08-23T08:19:23.902050148Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1241,8 +2381,188 @@
       "categories": []
     },
     {
+      "id": "osmo16cdpze425guzfnm6av90vqh5ptd0apu4dxrpdhk7yry4kkh65l8qx57fe0-lp",
+      "name": "SHIB_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/SHIB_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo16cdpze425guzfnm6av90vqh5ptd0apu4dxrpdhk7yry4kkh65l8qx57fe0-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo16cdpze425guzfnm6av90vqh5ptd0apu4dxrpdhk7yry4kkh65l8qx57fe0-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo16cdpze425guzfnm6av90vqh5ptd0apu4dxrpdhk7yry4kkh65l8qx57fe0-xlp",
+      "name": "SHIB_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/SHIB_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo16cdpze425guzfnm6av90vqh5ptd0apu4dxrpdhk7yry4kkh65l8qx57fe0-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo16cdpze425guzfnm6av90vqh5ptd0apu4dxrpdhk7yry4kkh65l8qx57fe0-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-lp",
+      "name": "SILVER_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/SILVER_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-02-29T08:17:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-xlp",
+      "name": "SILVER_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/SILVER_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-02-29T08:17:09Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins"]
+    },
+    {
+      "id": "osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-lp",
+      "name": "SOL_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/SOL_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-23T09:44:32.719445108Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-xlp",
+      "name": "SOL_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/SOL_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-10-23T09:44:32.719445108Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
-      "name": "TIA/USD Perps LP",
+      "name": "TIA_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1252,8 +2572,8 @@
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P1D",
       "riskLevel": 0.89,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1Z2uF6ORpoQR6w-Mf5LR-ov6XwwfiW7_B2DF0-WObfP0/edit#gid=1067434578",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-01T09:39:07.427934225Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1272,7 +2592,7 @@
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp",
-      "name": "TIA/USD Perps xLP",
+      "name": "TIA_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1282,8 +2602,8 @@
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P45D",
       "riskLevel": 0.89,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1nu4bK-r5CI95608ytGRGRPtHUPim5WleDS2rSSiBnDc/edit#gid=1067434578",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-11-01T09:39:07.427934225Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1301,8 +2621,68 @@
       "categories": ["Blue Chip"]
     },
     {
+      "id": "osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-lp",
+      "name": "WIF_USDC Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/WIF_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-01T14:23:50Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
+      "id": "osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-xlp",
+      "name": "WIF_USDC Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/WIF_USDC",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-01T14:23:50Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        }
+      ],
+      "categories": ["Stablecoins", "Blue Chip"]
+    },
+    {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
-      "name": "ETH/USD Perps LP",
+      "name": "axlETH_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1312,8 +2692,8 @@
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P1D",
       "riskLevel": 0.85,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1Z2uF6ORpoQR6w-Mf5LR-ov6XwwfiW7_B2DF0-WObfP0/edit#gid=2130335534",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-08-21T10:21:12.036889221Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1332,7 +2712,7 @@
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp",
-      "name": "ETH/USD Perps xLP",
+      "name": "axlETH_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1342,8 +2722,8 @@
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P45D",
       "riskLevel": 0.85,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1Z2uF6ORpoQR6w-Mf5LR-ov6XwwfiW7_B2DF0-WObfP0/edit#gid=2130335534",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2023-08-21T10:21:12.036889221Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1362,7 +2742,7 @@
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp",
-      "name": "milkTIA/USD Perps LP",
+      "name": "milkTIA_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1373,7 +2753,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.94,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2024-01-21T10:28:25Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1392,7 +2772,7 @@
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp",
-      "name": "milkTIA/USD Perps xLP",
+      "name": "milkTIA_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1403,7 +2783,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.94,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2024-01-21T10:28:25Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1422,7 +2802,7 @@
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp",
-      "name": "ryETH/USD Perps LP",
+      "name": "ryETH_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1433,8 +2813,8 @@
       "lockDuration": "P1D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2023-11-26T10:00:36.100848639Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
@@ -1452,7 +2832,7 @@
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp",
-      "name": "ryETH/USD Perps xLP",
+      "name": "ryETH_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1463,8 +2843,8 @@
       "lockDuration": "P45D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2023-11-26T10:00:36.100848639Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
@@ -1482,7 +2862,7 @@
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp",
-      "name": "stATOM/USD Perps LP",
+      "name": "stATOM_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1493,7 +2873,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2023-10-18T08:31:16.864503018Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1512,7 +2892,7 @@
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp",
-      "name": "stATOM/USD Perps xLP",
+      "name": "stATOM_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1523,7 +2903,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2023-10-18T08:31:16.864503018Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1542,7 +2922,7 @@
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp",
-      "name": "stDYDX/USD Perps LP",
+      "name": "stDYDX_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1553,7 +2933,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.96,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2024-01-31T07:03:32Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1572,7 +2952,7 @@
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-xlp",
-      "name": "stDYDX/USD Perps xLP",
+      "name": "stDYDX_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1583,7 +2963,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.96,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2024-01-31T07:03:32Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1601,8 +2981,68 @@
       "categories": []
     },
     {
+      "id": "osmo1xweuhaglh29glzjcsj0n4744u59z0y9cpm965nmxk4pzxg059urs4c2zdd-lp",
+      "name": "stDYM_USD Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/stDYM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xweuhaglh29glzjcsj0n4744u59z0y9cpm965nmxk4pzxg059urs4c2zdd-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xweuhaglh29glzjcsj0n4744u59z0y9cpm965nmxk4pzxg059urs4c2zdd-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-14T08:18:34Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D53E785DC9C5C2CA50CADB1EFE4DE5D0C30418BE0E9C6F2AF9F092A247E8BC22"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D53E785DC9C5C2CA50CADB1EFE4DE5D0C30418BE0E9C6F2AF9F092A247E8BC22"
+        }
+      ],
+      "categories": []
+    },
+    {
+      "id": "osmo1xweuhaglh29glzjcsj0n4744u59z0y9cpm965nmxk4pzxg059urs4c2zdd-xlp",
+      "name": "stDYM_USD Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/stDYM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xweuhaglh29glzjcsj0n4744u59z0y9cpm965nmxk4pzxg059urs4c2zdd-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1xweuhaglh29glzjcsj0n4744u59z0y9cpm965nmxk4pzxg059urs4c2zdd-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-14T08:18:34Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D53E785DC9C5C2CA50CADB1EFE4DE5D0C30418BE0E9C6F2AF9F092A247E8BC22"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D53E785DC9C5C2CA50CADB1EFE4DE5D0C30418BE0E9C6F2AF9F092A247E8BC22"
+        }
+      ],
+      "categories": []
+    },
+    {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-lp",
-      "name": "stOSMO/USD Perps LP",
+      "name": "stOSMO_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1613,7 +3053,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.97,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2023-11-26T09:56:17.502797940Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1632,7 +3072,7 @@
     },
     {
       "id": "osmo1uhyscxda8ljzg95a3u2u7rvzfdy6u4dhpj65u8xdja5kext228eq5u8vyp-xlp",
-      "name": "stOSMO/USD Perps xLP",
+      "name": "stOSMO_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1643,7 +3083,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.97,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "startDateTimeUtc": "2023-11-26T09:56:17.502797940Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1662,7 +3102,7 @@
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-lp",
-      "name": "stTIA/USD Perps LP",
+      "name": "stTIA_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1673,8 +3113,8 @@
       "lockDuration": "P1D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2024-03-12T14:46:36Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
       "depositDenoms": [
@@ -1692,7 +3132,7 @@
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp",
-      "name": "stTIA/USD Perps xLP",
+      "name": "stTIA_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1703,8 +3143,8 @@
       "lockDuration": "P45D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
-      "unlisted": true,
+      "startDateTimeUtc": "2024-03-12T14:46:36Z",
+      "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
       "depositDenoms": [
@@ -1721,8 +3161,68 @@
       "categories": ["Blue Chip"]
     },
     {
+      "id": "osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-lp",
+      "name": "stkATOM_USD Perps LP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-lp",
+      "link": "https://trade.levana.finance/osmosis/earn/stkATOM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-lp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-lp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P1D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-24T08:13:13Z",
+      "unlisted": true,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC"
+        }
+      ],
+      "categories": ["Blue Chip"]
+    },
+    {
+      "id": "osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-xlp",
+      "name": "stkATOM_USD Perps xLP",
+      "platform": "Levana",
+      "type": "Perps LP",
+      "method": "levana-pool-xlp",
+      "link": "https://trade.levana.finance/osmosis/earn/stkATOM_USD",
+      "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-xlp/tvl",
+      "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-xlp/apr",
+      "geoblock": "https://geoblocked.levana.finance/",
+      "lockDuration": "P45D",
+      "riskLevel": 0,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-04-24T08:13:13Z",
+      "unlisted": true,
+      "disabled": false,
+      "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC"
+        }
+      ],
+      "positionDenoms": [],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC"
+        }
+      ],
+      "categories": ["Blue Chip"]
+    },
+    {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp",
-      "name": "WBTC/USD Perps LP",
+      "name": "wBTC_USD Perps LP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-lp",
@@ -1731,9 +3231,9 @@
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp/apr",
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P1D",
-      "riskLevel": 0.90,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1Z2uF6ORpoQR6w-Mf5LR-ov6XwwfiW7_B2DF0-WObfP0/edit#gid=2014017156",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "riskLevel": 0.9,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-03-03T10:31:09Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1752,7 +3252,7 @@
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp",
-      "name": "WBTC/USD Perps xLP",
+      "name": "wBTC_USD Perps xLP",
       "platform": "Levana",
       "type": "Perps LP",
       "method": "levana-pool-xlp",
@@ -1761,9 +3261,9 @@
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp/apr",
       "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "P45D",
-      "riskLevel": 0.90,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1nu4bK-r5CI95608ytGRGRPtHUPim5WleDS2rSSiBnDc/edit#gid=2014017156",
-      "startDateTimeUtc": "2021-06-01T01:01:01Z",
+      "riskLevel": 0.9,
+      "riskReportUrl": "",
+      "startDateTimeUtc": "2024-03-03T10:31:09Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1779,7 +3279,7 @@
         }
       ],
       "categories": ["Blue Chip"]
-    },
+    },    
     {
       "id": "factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars",
       "name": "milkTIA Lend",
