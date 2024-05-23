@@ -833,7 +833,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-05-19T07:43:41Z",
+      "startDateTimeUtc": "2024-05-19T07:43:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -863,7 +863,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-05-19T07:43:41Z",
+      "startDateTimeUtc": "2024-05-19T07:43:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -893,7 +893,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-07-06T07:35:50.402063549Z",
+      "startDateTimeUtc": "2023-07-06T07:35:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -908,7 +908,9 @@
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp",
@@ -923,7 +925,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-07-06T07:35:50.402063549Z",
+      "startDateTimeUtc": "2023-07-06T07:35:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -938,7 +940,9 @@
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-lp",
@@ -953,7 +957,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T09:56:11.458970099Z",
+      "startDateTimeUtc": "2023-11-26T09:56:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -968,7 +972,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-xlp",
@@ -983,7 +990,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T09:56:11.458970099Z",
+      "startDateTimeUtc": "2023-11-26T09:56:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -998,7 +1005,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp",
@@ -1013,7 +1023,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-24T12:43:00.347610580Z",
+      "startDateTimeUtc": "2023-10-24T12:43:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1043,7 +1053,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-24T12:43:00.347610580Z",
+      "startDateTimeUtc": "2023-10-24T12:43:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1073,7 +1083,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-15T11:07:32.734315136Z",
+      "startDateTimeUtc": "2023-10-15T11:07:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1088,7 +1098,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo164357hnc5jc0pw9lv958h6chrpjucr4sy47hwpm9k4av6zh74gnq7uvcpj-xlp",
@@ -1103,7 +1116,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-15T11:07:32.734315136Z",
+      "startDateTimeUtc": "2023-10-15T11:07:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1118,7 +1131,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-lp",
@@ -1133,7 +1149,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1148,7 +1164,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-xlp",
@@ -1163,7 +1181,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1178,7 +1196,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
@@ -1193,7 +1213,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-07-18T06:33:00.346408623Z",
+      "startDateTimeUtc": "2023-07-18T06:33:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1208,7 +1228,9 @@
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp",
@@ -1223,7 +1245,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-07-18T06:33:00.346408623Z",
+      "startDateTimeUtc": "2023-07-18T06:33:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1238,7 +1260,9 @@
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-lp",
@@ -1253,7 +1277,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-02-19T10:46:04Z",
+      "startDateTimeUtc": "2024-02-19T10:46:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1268,7 +1292,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-xlp",
@@ -1283,7 +1309,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-02-19T10:46:04Z",
+      "startDateTimeUtc": "2024-02-19T10:46:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1298,7 +1324,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-lp",
@@ -1313,7 +1341,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-29T12:45:23.285861237Z",
+      "startDateTimeUtc": "2023-10-29T12:45:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1328,7 +1356,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-xlp",
@@ -1343,7 +1374,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-29T12:45:23.285861237Z",
+      "startDateTimeUtc": "2023-10-29T12:45:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1358,7 +1389,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-lp",
@@ -1373,7 +1407,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T12:05:10.298755995Z",
+      "startDateTimeUtc": "2023-11-26T12:05:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1388,7 +1422,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-xlp",
@@ -1403,7 +1440,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T12:05:10.298755995Z",
+      "startDateTimeUtc": "2023-11-26T12:05:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1418,7 +1455,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-lp",
@@ -1433,7 +1473,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-12T14:39:30.872829890Z",
+      "startDateTimeUtc": "2023-11-12T14:39:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1448,7 +1488,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-xlp",
@@ -1463,7 +1505,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-12T14:39:30.872829890Z",
+      "startDateTimeUtc": "2023-11-12T14:39:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1478,7 +1520,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1mlmxsjlq4vqymfvj29xv4jlyp536xmq32mjsnc9730jfcanrlj7qv4ryew-lp",
@@ -1493,7 +1537,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.93,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-02-11T09:12:47Z",
+      "startDateTimeUtc": "2024-02-11T09:12:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1523,7 +1567,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.93,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-02-11T09:12:47Z",
+      "startDateTimeUtc": "2024-02-11T09:12:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1553,7 +1597,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-10T17:21:51.273241636Z",
+      "startDateTimeUtc": "2023-10-10T17:21:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1568,7 +1612,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo16v36jtfjc933htukqfrk8lk8e2uj8xpp3zjdh0ll04qe9jevlnrsuwhhx8-xlp",
@@ -1583,7 +1629,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-10T17:21:51.273241636Z",
+      "startDateTimeUtc": "2023-10-10T17:21:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1598,7 +1644,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-lp",
@@ -1613,7 +1661,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1628,7 +1676,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-xlp",
@@ -1643,7 +1693,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1658,7 +1708,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-lp",
@@ -1673,7 +1725,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-10T17:22:48.534444169Z",
+      "startDateTimeUtc": "2023-10-10T17:22:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1688,7 +1740,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-xlp",
@@ -1703,7 +1757,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-10T17:22:48.534444169Z",
+      "startDateTimeUtc": "2023-10-10T17:22:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1718,7 +1772,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-lp",
@@ -1733,7 +1789,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-01-30T14:37:13Z",
+      "startDateTimeUtc": "2024-01-30T14:37:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1748,7 +1804,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-xlp",
@@ -1763,7 +1821,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-01-30T14:37:13Z",
+      "startDateTimeUtc": "2024-01-30T14:37:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1778,7 +1836,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-lp",
@@ -1793,7 +1853,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-12-10T10:28:28.230522688Z",
+      "startDateTimeUtc": "2023-12-10T10:28:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1808,7 +1868,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-xlp",
@@ -1823,7 +1886,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-12-10T10:28:28.230522688Z",
+      "startDateTimeUtc": "2023-12-10T10:28:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1838,7 +1901,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-lp",
@@ -1853,7 +1919,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-29T11:21:32.300615889Z",
+      "startDateTimeUtc": "2023-10-29T11:21:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1868,7 +1934,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-xlp",
@@ -1883,7 +1952,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-29T11:21:32.300615889Z",
+      "startDateTimeUtc": "2023-10-29T11:21:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1898,7 +1967,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-lp",
@@ -1913,7 +1985,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-29T12:45:29.425052568Z",
+      "startDateTimeUtc": "2023-10-29T12:45:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1928,7 +2000,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-xlp",
@@ -1943,7 +2017,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-29T12:45:29.425052568Z",
+      "startDateTimeUtc": "2023-10-29T12:45:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -1958,7 +2032,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-lp",
@@ -1973,7 +2049,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -1988,7 +2064,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-xlp",
@@ -2003,7 +2081,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2018,7 +2096,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-lp",
@@ -2033,7 +2113,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-12-03T09:58:54.719311134Z",
+      "startDateTimeUtc": "2023-12-03T09:58:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2048,7 +2128,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-xlp",
@@ -2063,7 +2145,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-12-03T09:58:54.719311134Z",
+      "startDateTimeUtc": "2023-12-03T09:58:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2078,7 +2160,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo127aqy4697zqn27z0vqr3x2n8lraf27t7udvl6ef5hcwmwhjadegq9vytdj-lp",
@@ -2093,7 +2177,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.78,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-08-06T11:07:39.738838870Z",
+      "startDateTimeUtc": "2023-08-06T11:07:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2123,7 +2207,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.78,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-08-06T11:07:39.738838870Z",
+      "startDateTimeUtc": "2023-08-06T11:07:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2153,7 +2237,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2168,7 +2252,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1cap92693vajj3chllnvp7yma6p54rwdujy5trwnu7c55ndajskyqut9uxu-xlp",
@@ -2183,7 +2269,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2198,7 +2284,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-lp",
@@ -2213,7 +2301,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T09:56:17.502797940Z",
+      "startDateTimeUtc": "2023-11-26T09:56:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2228,7 +2316,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-xlp",
@@ -2243,7 +2333,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T09:56:17.502797940Z",
+      "startDateTimeUtc": "2023-11-26T09:56:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2258,7 +2348,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-lp",
@@ -2273,7 +2365,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-12T14:39:13.855894364Z",
+      "startDateTimeUtc": "2023-11-12T14:39:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2288,7 +2380,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-xlp",
@@ -2303,7 +2397,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-12T14:39:13.855894364Z",
+      "startDateTimeUtc": "2023-11-12T14:39:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2318,7 +2412,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo186nlf2fwfglq8u4nj3f7mwg8uc79j22qhaau4scdyur47e0fatas34vcn9-lp",
@@ -2333,7 +2429,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.87,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-08-23T08:19:23.902050148Z",
+      "startDateTimeUtc": "2023-08-23T08:19:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2363,7 +2459,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.87,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-08-23T08:19:23.902050148Z",
+      "startDateTimeUtc": "2023-08-23T08:19:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2393,7 +2489,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2408,7 +2504,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo16cdpze425guzfnm6av90vqh5ptd0apu4dxrpdhk7yry4kkh65l8qx57fe0-xlp",
@@ -2423,7 +2522,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-09T05:41:09Z",
+      "startDateTimeUtc": "2024-04-09T05:41:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2438,7 +2537,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-lp",
@@ -2453,7 +2555,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-02-29T08:17:09Z",
+      "startDateTimeUtc": "2024-02-29T08:17:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2468,7 +2570,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-xlp",
@@ -2483,7 +2587,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-02-29T08:17:09Z",
+      "startDateTimeUtc": "2024-02-29T08:17:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2498,7 +2602,9 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins"]
+      "categories": [
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-lp",
@@ -2513,7 +2619,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-23T09:44:32.719445108Z",
+      "startDateTimeUtc": "2023-10-23T09:44:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2528,7 +2634,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-xlp",
@@ -2543,7 +2652,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-23T09:44:32.719445108Z",
+      "startDateTimeUtc": "2023-10-23T09:44:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2558,7 +2667,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
@@ -2573,7 +2685,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-01T09:39:07.427934225Z",
+      "startDateTimeUtc": "2023-11-01T09:39:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2588,7 +2700,9 @@
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp",
@@ -2603,7 +2717,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-01T09:39:07.427934225Z",
+      "startDateTimeUtc": "2023-11-01T09:39:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2618,7 +2732,9 @@
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-lp",
@@ -2633,7 +2749,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-01T14:23:50Z",
+      "startDateTimeUtc": "2024-04-01T14:23:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2648,7 +2764,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-xlp",
@@ -2663,7 +2782,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-01T14:23:50Z",
+      "startDateTimeUtc": "2024-04-01T14:23:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2678,7 +2797,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Stablecoins", "Blue Chip"]
+      "categories": [
+        "Stablecoins",
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-lp",
@@ -2693,7 +2815,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.85,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-08-21T10:21:12.036889221Z",
+      "startDateTimeUtc": "2023-08-21T10:21:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2708,7 +2830,9 @@
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp",
@@ -2723,7 +2847,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.85,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-08-21T10:21:12.036889221Z",
+      "startDateTimeUtc": "2023-08-21T10:21:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2738,7 +2862,9 @@
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp",
@@ -2753,7 +2879,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.94,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-01-21T10:28:25Z",
+      "startDateTimeUtc": "2024-01-21T10:28:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2768,7 +2894,9 @@
           "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp",
@@ -2783,7 +2911,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.94,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-01-21T10:28:25Z",
+      "startDateTimeUtc": "2024-01-21T10:28:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2798,7 +2926,9 @@
           "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-lp",
@@ -2813,7 +2943,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T10:00:36.100848639Z",
+      "startDateTimeUtc": "2023-11-26T10:00:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2828,7 +2958,9 @@
           "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp",
@@ -2843,7 +2975,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T10:00:36.100848639Z",
+      "startDateTimeUtc": "2023-11-26T10:00:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2858,7 +2990,9 @@
           "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp",
@@ -2873,7 +3007,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-18T08:31:16.864503018Z",
+      "startDateTimeUtc": "2023-10-18T08:31:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2888,7 +3022,9 @@
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp",
@@ -2903,7 +3039,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.89,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-10-18T08:31:16.864503018Z",
+      "startDateTimeUtc": "2023-10-18T08:31:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2918,7 +3054,9 @@
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp",
@@ -2933,7 +3071,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.96,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-01-31T07:03:32Z",
+      "startDateTimeUtc": "2024-01-31T07:03:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -2963,7 +3101,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.96,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-01-31T07:03:32Z",
+      "startDateTimeUtc": "2024-01-31T07:03:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -2993,7 +3131,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-14T08:18:34Z",
+      "startDateTimeUtc": "2024-04-14T08:18:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -3023,7 +3161,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-14T08:18:34Z",
+      "startDateTimeUtc": "2024-04-14T08:18:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -3053,7 +3191,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.97,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T09:56:17.502797940Z",
+      "startDateTimeUtc": "2023-11-26T09:56:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -3083,7 +3221,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.97,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2023-11-26T09:56:17.502797940Z",
+      "startDateTimeUtc": "2023-11-26T09:56:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -3113,7 +3251,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-03-12T14:46:36Z",
+      "startDateTimeUtc": "2024-03-12T14:46:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -3128,7 +3266,9 @@
           "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp",
@@ -3143,7 +3283,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.01,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-03-12T14:46:36Z",
+      "startDateTimeUtc": "2024-03-12T14:46:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -3158,7 +3298,9 @@
           "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-lp",
@@ -3173,7 +3315,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-24T08:13:13Z",
+      "startDateTimeUtc": "2024-04-24T08:13:00Z",
       "unlisted": true,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -3188,7 +3330,9 @@
           "coinMinimalDenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-xlp",
@@ -3203,7 +3347,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-04-24T08:13:13Z",
+      "startDateTimeUtc": "2024-04-24T08:13:00Z",
       "unlisted": true,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -3218,7 +3362,9 @@
           "coinMinimalDenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp",
@@ -3233,7 +3379,7 @@
       "lockDuration": "P1D",
       "riskLevel": 0.9,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-03-03T10:31:09Z",
+      "startDateTimeUtc": "2024-03-03T10:31:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Cannot be withdrawn until 24h after having deposited.",
@@ -3248,7 +3394,9 @@
           "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp",
@@ -3263,7 +3411,7 @@
       "lockDuration": "P45D",
       "riskLevel": 0.9,
       "riskReportUrl": "",
-      "startDateTimeUtc": "2024-03-03T10:31:09Z",
+      "startDateTimeUtc": "2024-03-03T10:31:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Provides liqudity for a perpetual futures contract market. Position is staked.",
@@ -3278,8 +3426,10 @@
           "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
         }
       ],
-      "categories": ["Blue Chip"]
-    },    
+      "categories": [
+        "Blue Chip"
+      ]
+    },
     {
       "id": "factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars",
       "name": "milkTIA Lend",
