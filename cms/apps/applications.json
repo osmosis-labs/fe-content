@@ -404,6 +404,16 @@
       "internal_data": {
         "project_listing_date": "2024-05-06T22:00:01.000Z"
       }
+    },
+    {
+      "title": "Astroport",
+      "subtitle": "Decentralized, permissionless, multi-chain AMM DEX in Cosmos ecosystem.",
+      "external_URL": "https://astroport.fi/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/astroport_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/astroport_hero.webp",
+      "twitter_URL": "https://x.com/astroport_fi",
+      "medium_URL": "https://astroport.medium.com",
+      "github_URL": "https://github.com/astroport-fi"
     }
   ]
 }
