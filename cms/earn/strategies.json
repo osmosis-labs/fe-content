@@ -1869,8 +1869,7 @@
         }
       ],
       "categories": [
-        "Stablecoins",
-        "Blue Chip"
+        "Stablecoins"
       ]
     },
     {
@@ -1902,8 +1901,7 @@
         }
       ],
       "categories": [
-        "Stablecoins",
-        "Blue Chip"
+        "Stablecoins"
       ]
     },
     {
@@ -2128,9 +2126,7 @@
           "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
         }
       ],
-      "categories": [
-        "Blue Chip"
-      ]
+      "categories": []
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-xlp",
@@ -2160,9 +2156,7 @@
           "coinMinimalDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
         }
       ],
-      "categories": [
-        "Blue Chip"
-      ]
+      "categories": []
     },
     {
       "id": "osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-lp",
@@ -3008,9 +3002,7 @@
           "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
         }
       ],
-      "categories": [
-        "Blue Chip"
-      ]
+      "categories": []
     },
     {
       "id": "osmo1qkd9mk20gmfuet64rndtsmu7cez3vm6vm0acj743pfadsrxrjs0slp2cw8-xlp",
@@ -3040,9 +3032,7 @@
           "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
         }
       ],
-      "categories": [
-        "Blue Chip"
-      ]
+      "categories": []
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-lp",
@@ -3072,9 +3062,7 @@
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
         }
       ],
-      "categories": [
-        "Blue Chip"
-      ]
+      "categories": []
     },
     {
       "id": "osmo1kqzkupfec3zemmaj3kuhcf0h2wke02wa7sgp2a9vq5mugtgs5pzs8avjzt-xlp",
@@ -3104,9 +3092,7 @@
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
         }
       ],
-      "categories": [
-        "Blue Chip"
-      ]
+      "categories": []
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-lp",
