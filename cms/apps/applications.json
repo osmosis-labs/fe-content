@@ -310,22 +310,6 @@
       }
     },
     {
-      "title": "Yieldmos",
-      "subtitle": "Boost yields by auto compounding your staking and LP rewards with validators of your choice.",
-      "external_URL": "https://www.yieldmos.com/chain/osmosis",
-      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/yieldmos_thumbnail.webp",
-      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/yieldmos_hero.webp",
-      "twitter_URL": "https://twitter.com/yieldmos",
-      "medium_URL": "https://medium.com/@yieldmos",
-      "github_URL": "https://github.com/yieldmos/",
-      "featured": false,
-      "internal_data": {
-        "thumbnail_size": 14986,
-        "hero_size": 35874,
-        "project_listing_date": "2023-05-30T15:32:59.804Z"
-      }
-    },
-    {
       "title": "ION DAO",
       "subtitle": "Decentralized autonomous organization for community governance",
       "external_URL": "https://ion.wtf",
