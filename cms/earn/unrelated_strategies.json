@@ -1,4 +1,40 @@
 {
+  "$schema": "../../schemas/strategies.schema.json",
+  "categories": [
+    {
+      "name": "Correlated",
+      "description": "All deposit assets are related and are intended to have a similar price action.",
+      "iconURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/correlated.svg"
+    },
+    {
+      "name": "Blue Chip",
+      "description": "Deposit assets have a market capitalization ranking among the top 50 cryptocurrencies.",
+      "iconURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/blue-chip.svg"
+    },
+    {
+      "name": "Stablecoins",
+      "description": "All deposit assets are stablecoins of a world fiat currency.",
+      "iconURL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/stablecoins.svg"
+    }
+  ],
+  "platforms": [
+    {
+      "name": "Quasar",
+      "iconURL": ""
+    },
+    {
+      "name": "Mars",
+      "iconURL": ""
+    },
+    {
+      "name": "Levana",
+      "iconURL": ""
+    },
+    {
+      "name": "Osmosis",
+      "iconURL": ""
+    }
+  ],
   "strategies": [
     {
       "id": "osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-lp",
@@ -28,10 +64,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo1gprafrgxx0tlf4u3dxnxcvvmsg2yl4hgqxc68xmkq07h2n0lk9zqycckgc-xlp",
@@ -61,10 +94,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo164357hnc5jc0pw9lv958h6chrpjucr4sy47hwpm9k4av6zh74gnq7uvcpj-lp",
@@ -94,10 +124,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo164357hnc5jc0pw9lv958h6chrpjucr4sy47hwpm9k4av6zh74gnq7uvcpj-xlp",
@@ -127,10 +154,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-lp",
@@ -160,9 +184,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1cm9vmw3gdkjg5vqrq7h7ek0hq583ry6v3c53vg4s67pq7x83r8yqpqmlg3-xlp",
@@ -192,9 +214,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-lp",
@@ -224,9 +244,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1yawtc8n0hckvvmfm6puyhpsatka2wxps9khlg5rr56srz0tlw96q27t99a-xlp",
@@ -256,9 +274,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-lp",
@@ -288,10 +304,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo19ua8dlul0hq9jfwfq9d0eqcz0lvx5jd8segmn85rz2nv94jlhwcqnkypv3-xlp",
@@ -321,10 +334,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-lp",
@@ -354,10 +364,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo1cpdkrutx97m7lkxpryx5p7ktkmwrznu0njgwcxpfvjkfknvhl36sl4m6x6-xlp",
@@ -387,10 +394,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-lp",
@@ -420,9 +424,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1my45yym085dj5jxrtdgy2y4wjlvxf2uwp8plmxq25e0phdyuckzqq5r73w-xlp",
@@ -452,9 +454,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo16v36jtfjc933htukqfrk8lk8e2uj8xpp3zjdh0ll04qe9jevlnrsuwhhx8-lp",
@@ -484,9 +484,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo16v36jtfjc933htukqfrk8lk8e2uj8xpp3zjdh0ll04qe9jevlnrsuwhhx8-xlp",
@@ -516,9 +514,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-lp",
@@ -548,9 +544,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1kc5xwad8ss2nper7zqwfqa4kz8xrr6t6tecemt2r458e4xqcl9xq998cxe-xlp",
@@ -580,9 +574,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-lp",
@@ -612,9 +604,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1rhgn3mp5q7vfr43xgzwtcrnklll6w7e0gv5jvmk9sz26qvcnf3tsw8axyn-xlp",
@@ -644,9 +634,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-lp",
@@ -676,9 +664,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1vztfv3t3w07vgk06txe0xtrw6spvfvpfx2gcs6lcesxaj2y0znnqx2z5l4-xlp",
@@ -708,9 +694,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-lp",
@@ -740,9 +724,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1353cxacx74lfugp0sdkdpasa7d09rlwwdaeeql9usw2w6g773vqsxgp053-xlp",
@@ -772,9 +754,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-lp",
@@ -804,10 +784,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo19uqdjvk6j9yjtev7j25sc0v0mszqy3jwwak8z4n0qf6l4wp9csvq0jn0qw-xlp",
@@ -837,10 +814,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-lp",
@@ -870,9 +844,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1u7usfl8wxtzkwllagxxv9u0y5ulv4gyan47gmn76re0830ndk8hsnd05l9-xlp",
@@ -902,9 +874,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-lp",
@@ -934,9 +904,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1nzt529p7mpd0jvp09c9fzuk9nez9c2j3kzkrcz4excnprew7xs4syudjev-xlp",
@@ -966,9 +934,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-lp",
@@ -998,9 +964,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1dyt0wupd5sdefwh53y6e6murnnpfeg27rc7aknhm7tynqzphuwfsr7d4h2-xlp",
@@ -1030,9 +994,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1cap92693vajj3chllnvp7yma6p54rwdujy5trwnu7c55ndajskyqut9uxu-lp",
@@ -1062,9 +1024,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1cap92693vajj3chllnvp7yma6p54rwdujy5trwnu7c55ndajskyqut9uxu-xlp",
@@ -1094,9 +1054,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-lp",
@@ -1126,9 +1084,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1wszczd8y6lk53ygr59cxt60ualydtwsnr7tu63zkgvu704r7yqdshc47w8-xlp",
@@ -1158,9 +1114,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-lp",
@@ -1190,9 +1144,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1mrc3zk2fvqvcg9j693u0mlcd8g6329e3w9ld4t7qg20635sfcvuswaxgjm-xlp",
@@ -1222,9 +1174,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo16cdpze425guzfnm6av90vqh5ptd0apu4dxrpdhk7yry4kkh65l8qx57fe0-lp",
@@ -1254,10 +1204,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo16cdpze425guzfnm6av90vqh5ptd0apu4dxrpdhk7yry4kkh65l8qx57fe0-xlp",
@@ -1287,10 +1234,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-lp",
@@ -1320,9 +1264,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1ctk5cn7vcv0s9xqqzs8sfuph3delcardnddqvgarplrvhdg0258q4hc868-xlp",
@@ -1352,9 +1294,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins"
-      ]
+      "categories": ["Stablecoins"]
     },
     {
       "id": "osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-lp",
@@ -1384,10 +1324,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo1jprh8f4ytxar0q3z5n5p6swqnmunnsvuuhnhteskwxjzyc8jayms4r7e3e-xlp",
@@ -1417,10 +1354,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-lp",
@@ -1450,10 +1384,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     },
     {
       "id": "osmo19vfrkcve7q62s9pw2xt033qeke6fwhpp6p8pe6ntsz4sx6wkdcksgvmtnc-xlp",
@@ -1483,10 +1414,7 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": [
-        "Stablecoins",
-        "Blue Chip"
-      ]
+      "categories": ["Stablecoins", "Blue Chip"]
     }
   ]
 }
