@@ -28,7 +28,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **depositDenoms**: Array describing assets deposited for participation in the strategy.
 - **positionDenoms**: Array describing assets representing a position in the strategy.
 - **rewardDenoms**: Array describing rewarded assets for participating in the strategy.
-- **categories**: Array of categories describing the deposit asset(s) of the strategy.
+- **categories**: Array of categories describing the underlying asset(s) of the strategy.
 
 #### Type 
 
@@ -57,10 +57,10 @@ New methods may also be added and are not hardcoded into the schema.
 #### Categories
 
 The currently accepted `categories` are:
-- **Stablecoins**: indicates that all assets required for deposit into the strategy are stablecoins of a world fiat currency.
-- **Correlated**: indicates that all assets (only applies to multi-asset strategies) required for deposit into the strategy follows a similar price action due to having a common relative asset. For example:
+- **Stablecoins**: indicates that all underlying crypto assets are stablecoins of a world fiat currency.
+- **Correlated**: indicates that all underlying crypto assets (only applies to multi-asset strategies) follow a similar price action due to having a common relative asset. For example:
   - USDC/USDT LP is categorized as correlated because both the USDC and USDT prices are meant to follow the same asset's value (i.e., the U.S. Dollar's value).
-- **Blue Chip**: (top 50 market cap.) indicates that all assets, or any asset when correlated, required for deposit into the strategy have a high (top 50) market capitalization.
+- **Blue Chip**: (top 50 market cap.) indicates that all underlying crypto assets have a high (top 50) market capitalization.
 
 Any new Category must also be added to the Strategies Schema.
 
