@@ -2,6 +2,14 @@
 
 ## Overview
 
+The Osmosis Zone Earn page presents various strategies for users to further utilize their available assets.
+- The Earn page intends to only show strategies where the deposited asset(s) correlate to the performance of the strategy. For example:
+  - Depositing ATOM for backing ATOM/USD Perpetual Futures Markets
+  - Providing ATOM for an ATOM Borrowing Vault
+  - Providing USDC and USDT for funding a USDC/USDT Liquidity Pool
+- However, strategies that perform in ways unrelated to the deposit asset(s) are excluded from the Earn page. For example:
+  - Depositing USDC for backing SOL/USDC Perpertual Futrures
+
 This JSON Schema defines the structure and constraints for describing earn strategies within our platform. Earn strategies represent various opportunities for users to earn rewards or benefits by participating in specific activities or programs offered by our platform or partner networks.
 
 The schema is designed to capture essential details about each earn strategy, including its identifier, display name, platform (project), type, categories, method, link to platform's UI, associated contracts, data endpoints, lock duration, risk level, start date and time, visibility status, messaging, and the assets involved.
