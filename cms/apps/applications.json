@@ -398,6 +398,13 @@
       "twitter_URL": "https://x.com/astroport_fi",
       "medium_URL": "https://astroport.medium.com",
       "github_URL": "https://github.com/astroport-fi"
+    },
+      {
+      "title": "Galaxy Exchange",
+      "subtitle": "Swap any token for any token, on any chain",
+      "external_URL": "https://galaxy.exchange",
+      "thumbnail_image_URL": "",
+      "twitter_URL": "https://x.com/GalaxyExchangeX"
     }
   ]
 }
