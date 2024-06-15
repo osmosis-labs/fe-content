@@ -398,6 +398,16 @@
       "twitter_URL": "https://x.com/astroport_fi",
       "medium_URL": "https://astroport.medium.com",
       "github_URL": "https://github.com/astroport-fi"
+    },
+    {
+      "title": "BackBone Labs",
+      "subtitle": "A multi-chain DeFi hub for collateral and NFTs, supporting seamless interactions across various blockchains.",
+      "external_URL": "https://backbonelabs.io/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/backbonelabs_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/backbonelabs_hero.webp",
+      "twitter_URL": "https://twitter.com/BackBone_Labs",
+      "medium_URL": "https://medium.com/@backbone_labs",
+      "github_URL": "https://github.com/backbonelabsio"
     }
   ]
 }
