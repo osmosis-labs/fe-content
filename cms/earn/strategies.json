@@ -33,6 +33,10 @@
     {
       "name": "Osmosis",
       "iconURL": ""
+    },
+    {
+      "name": "Margined",
+      "iconURL": ""
     }
   ],
   "strategies": [
@@ -2380,6 +2384,96 @@
         }
       ],
       "categories": []
+    },
+    {
+      "id": "osmo16s3sxs5886p42kteunp6370pken2n5ukzszz0trkr39epqtawn2qk4r9l5",
+      "name": "stOSMO/OSMO Locust",
+      "platform": "Margined",
+      "type": "LP (Vault)",
+      "method": "margined-locust-lsd",
+      "link": "https://trade.margined.io/vaults/stosmo-osmo",
+      "tvl": "https://vaults.margined.io/api/v1/osmo16s3sxs5886p42kteunp6370pken2n5ukzszz0trkr39epqtawn2qk4r9l5/tvl",
+      "apr": "https://vaults.margined.io/api/v1/osmo16s3sxs5886p42kteunp6370pken2n5ukzszz0trkr39epqtawn2qk4r9l5/apr",
+      "geoblock": "https://vaults.margined.io/api/v1/osmo16s3sxs5886p42kteunp6370pken2n5ukzszz0trkr39epqtawn2qk4r9l5/geoblock",
+      "lockDuration": "PT0S",
+      "riskLevel": 1.00,
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1iFRiIVzslI9HVgGZCLVwnVe0pTtkR89y5Z4vcEYYrbk/edit?gid=2130335534#gid=2130335534",
+      "startDateTimeUtc": "2024-06-06T14:55:05Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Deposits a pair of asset into a vault allowing Locust to manage a Concentrated Liquidity Position.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
+          "_comment": "Stride Staked OSMO"
+        },
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "OSMO"
+        }
+      ],
+      "positionDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo16s3sxs5886p42kteunp6370pken2n5ukzszz0trkr39epqtawn2qk4r9l5/lsd-vault-1252",
+          "_comment": "stOSMO/OSMO Locust Vault Token"
+        }
+      ],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
+          "_comment": "Stride Staked OSMO"
+        },
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "OSMO"
+        }
+      ],
+      "categories": ["Correlated"]
+    },
+    {
+      "id": "osmo1q3w9kedgtc8sdh7xlcr77ydv3qu7fs2e3q6xznysp2lrdfyz9xyqv26yqv",
+      "name": "stTIA/TIA Locust",
+      "platform": "Margined",
+      "type": "LP (Vault)",
+      "method": "margined-locust-lsd",
+      "link": "https://trade.margined.io/vaults/sttia-tia",
+      "tvl": "https://vaults.margined.io/api/v1/osmo1q3w9kedgtc8sdh7xlcr77ydv3qu7fs2e3q6xznysp2lrdfyz9xyqv26yqv/tvl",
+      "apr": "https://vaults.margined.io/api/v1/osmo1q3w9kedgtc8sdh7xlcr77ydv3qu7fs2e3q6xznysp2lrdfyz9xyqv26yqv/apr",
+      "geoblock": "https://vaults.margined.io/api/v1/osmo1q3w9kedgtc8sdh7xlcr77ydv3qu7fs2e3q6xznysp2lrdfyz9xyqv26yqv/geoblock",
+      "lockDuration": "PT0S",
+      "riskLevel": 1.00,
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1iFRiIVzslI9HVgGZCLVwnVe0pTtkR89y5Z4vcEYYrbk/edit?gid=1881898211#gid=1881898211",
+      "startDateTimeUtc": "2024-06-24T10:49:29Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Deposits a pair of asset into a vault allowing Locust to manage a Concentrated Liquidity Position.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9",
+          "_comment": "Stride Staked TIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "Celestia"
+        }
+      ],
+      "positionDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1q3w9kedgtc8sdh7xlcr77ydv3qu7fs2e3q6xznysp2lrdfyz9xyqv26yqv/lsd-vault-1428",
+          "_comment": "stTIA/TIA Locust Vault Token"
+        }
+      ],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9",
+          "_comment": "Stride Staked TIA"
+        },
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "Celestia"
+        }
+      ],
+      "categories": ["Correlated"]
     }
   ]
 }
