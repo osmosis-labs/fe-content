@@ -398,6 +398,26 @@
       "twitter_URL": "https://x.com/astroport_fi",
       "medium_URL": "https://astroport.medium.com",
       "github_URL": "https://github.com/astroport-fi"
+    },
+    {
+      "title": "Necropolis",
+      "subtitle": "NFT marketplace with yield-generating bASSETs, fostering community-driven growth.",
+      "external_URL": "https://app.backbonelabs.io/necropolis",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/necropolis_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/necropolis_hero.webp",
+      "twitter_URL": "https://twitter.com/BackBone_Labs",
+      "medium_URL": "https://medium.com/@backbone_labs",
+      "github_URL": "https://github.com/backbonelabsio"
+    },
+    {
+      "title": "GraveDigger",
+      "subtitle": "The only multi-chain liquid staking platform where 100% of the performance fees are distributed back to the community.",
+      "external_URL": "https://app.backbonelabs.io/gravedigger",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/gravedigger_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/gravedigger_hero.webp",
+      "twitter_URL": "https://twitter.com/BackBone_Labs",
+      "medium_URL": "https://medium.com/@backbone_labs",
+      "github_URL": "https://github.com/backbonelabsio"
     }
   ]
 }
