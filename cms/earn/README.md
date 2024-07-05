@@ -25,6 +25,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **contract**: Primary contract for the strategy.
 - **tvl**: Data endpoint for Total Value Locked (TVL).
 - **apr**: Data endpoint for Annual Percentage Rate (APR).
+- **apr**: Data endpoint for address Balance.
 - **geoblock**: Data endpoint for whether the region is geoblocked.
 - **lockDuration**: Duration assets are locked (ISO 8601).
 - **riskLevel**: Risk level indicator (0 to 1).
@@ -87,6 +88,7 @@ Below are example 'strategy' objects, demonstrating valid JSON data conforming t
   "contract": "osmo1234…",
   "tvl": "",
   "apr": "",
+  "balance": "https://...balance/${address}",
   "geoblock": "",
   "lockDuration": "P14D",
   "riskLevel": 0.01,
@@ -160,6 +162,49 @@ For example:
 ```
 {
   "apr": 123.456
+}
+```
+
+#### Balance Data Endpoint
+
+The Address Balance Data Endpoint must specify the Balance of the address in the strategy.
+The Query requires a user address as a parameter, which replaces the inline `${address}` placeholder variable.
+The result must specify:
+  - the strategy (by id),
+  - address balance in amount and in U.S. Dolalr value, and
+  - value of unclaimed rewards (in USD).
+And if there is a tokenized asset that represents a position in the strategy (e.g., an LP token), then a `token` property is also required, including its name, base denomination (as "symbol"), decimals, and total supply.
+
+For example:
+```
+{
+  "strategy":"ibc-D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858-mars",
+  "balance": {
+    "amount":"0",
+    "usd":0
+  },
+  "unclaimed_rewards": {
+    "total_usd":0
+  }
+}
+```
+OR
+```
+{
+  "strategy": "osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj",
+  "balance": {
+    "amount": "0",
+    "usd": 0
+  },
+  "token": {
+    "name": "DYDX/USDC Dynamic A+",
+    "symbol": "factory/osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj/dydxusdc1246clvaulta",
+    "decimals": 6,
+    "total_supply": "14078331478786356"
+  },
+  "unclaimed_rewards": {
+    "total_usd": 0
+  }
 }
 ```
 
