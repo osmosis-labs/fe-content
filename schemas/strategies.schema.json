@@ -27,30 +27,6 @@
         }
       }
     },
-    "categories": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["name", "iconURL"],
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "The category describing the strategy's deposit asset(s).",
-            "enum": ["Correlated", "Blue Chip", "Stablecoins"]
-          },
-          "description": {
-            "type": "string",
-            "description": "The description used for the category."
-          },
-          "iconURL": {
-            "type": "string",
-            "format": "uri",
-            "description": "The URL to the icon image of the category.",
-            "pattern": "^https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/earn/images/.+\\.(png|svg)$"
-          }
-        }
-      }
-    },
     "strategies": {
       "type": "array",
       "items": {
@@ -141,6 +117,21 @@
               }
             ],
             "description": "A URL to the data endpoint for the Annual Percentage Rate (APR) of the strategy. The response must match how it's defined in the documentation."
+          },
+          "balance": {
+            "type": "string",
+            "format": "uri",
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^https://.*\\$\\{address\\}.*$"
+              },
+              {
+                "type": "string",
+                "maxLength": 0
+              }
+            ],
+            "description": "A URL to the data endpoint for the user's Balance in the strategy. The response must match how it's defined in the documentation."
           },
           "geoblock": {
             "oneOf": [
