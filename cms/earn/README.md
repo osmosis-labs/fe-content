@@ -25,7 +25,7 @@ The schema is designed to capture essential details about each earn strategy, in
 - **contract**: Primary contract for the strategy.
 - **tvl**: Data endpoint for Total Value Locked (TVL).
 - **apr**: Data endpoint for Annual Percentage Rate (APR).
-- **apr**: Data endpoint for address Balance.
+- **balance**: Data endpoint for address Balance.
 - **geoblock**: Data endpoint for whether the region is geoblocked.
 - **lockDuration**: Duration assets are locked (ISO 8601).
 - **riskLevel**: Risk level indicator (0 to 1).
