@@ -49,7 +49,7 @@
       "link": "https://app.osmosis.zone/stake",
       "tvl": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo-staking/tvl",
       "apr": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo-staking/apr",
-      "balance": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo-staking/balance/{address}",
+      "balance": "https://public-osmosis-api.numia.xyz/earn/strategies/osmo-staking/balance/${address}",
       "geoblock": "",
       "lockDuration": "P14D",
       "riskLevel": 0.19,
