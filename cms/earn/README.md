@@ -170,10 +170,9 @@ For example:
 The Address Balance Data Endpoint must specify the Balance of the address in the strategy.
 The Query requires a user address as a parameter, which replaces the inline `${address}` placeholder variable.
 The result must specify:
-  - the strategy (by id),
-  - address balance in amount and in U.S. Dolalr value, and
+  - the strategy ID.,
+  - address balance denominated in both, amount and in U.S. Dollar value, and
   - value of unclaimed rewards (in USD).
-And if there is a tokenized asset that represents a position in the strategy (e.g., an LP token), then a `token` property is also required, including its name, base denomination (as "symbol"), decimals, and total supply.
 
 For example:
 ```
@@ -185,25 +184,6 @@ For example:
   },
   "unclaimed_rewards": {
     "total_usd":0
-  }
-}
-```
-OR
-```
-{
-  "strategy": "osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj",
-  "balance": {
-    "amount": "0",
-    "usd": 0
-  },
-  "token": {
-    "name": "DYDX/USDC Dynamic A+",
-    "symbol": "factory/osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj/dydxusdc1246clvaulta",
-    "decimals": 6,
-    "total_supply": "14078331478786356"
-  },
-  "unclaimed_rewards": {
-    "total_usd": 0
   }
 }
 ```
