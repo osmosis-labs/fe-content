@@ -120,7 +120,6 @@
           },
           "balance": {
             "type": "string",
-            "format": "uri",
             "oneOf": [
               {
                 "type": "string",
