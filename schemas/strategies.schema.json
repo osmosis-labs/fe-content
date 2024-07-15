@@ -104,7 +104,7 @@
           "link": {
             "type": "string",
             "format": "uri",
-            "pattern": "^https://.*$",
+            "pattern": "^https://.*(\\$\\{id\\})?.*$",
             "description": "This link redirects users to the most appropriate interface for users participate in the strategy."
           },
           "contract": {
@@ -114,11 +114,10 @@
           },
           "tvl": {
             "type": "string",
-            "format": "uri",
             "oneOf": [
               {
                 "type": "string",
-                "pattern": "^https://.*$"
+                "pattern": "^https://.*(\\$\\{id\\})?.*$"
               },
               {
                 "type": "string",
@@ -129,11 +128,10 @@
           },
           "apr": {
             "type": "string",
-            "format": "uri",
             "oneOf": [
               {
                 "type": "string",
-                "pattern": "^https://.*$"
+                "pattern": "^https://.*(\\$\\{id\\})?.*$"
               },
               {
                 "type": "string",
@@ -146,7 +144,7 @@
             "oneOf": [
               {
                 "type": "string",
-                "pattern": "^https://.*$"
+                "pattern": "^https://.*(\\$\\{id\\})?.*$"
               },
               {
                 "type": "string",
