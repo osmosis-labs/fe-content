@@ -2518,7 +2518,7 @@
           "_comment": "USDC"
         }
       ],
-      "categories": ["Correlated"]
+      "categories": ["Correlated", "Stablecoins"]
     },
     {
       "id": "osmo1cj8tzmvun6urr0djrax7v92jyk86gnp8hsep0hacf83quvknq5lsutucjj",
@@ -2532,8 +2532,8 @@
       "geoblock": "https://vaults.margined.io/api/v1/osmo1cj8tzmvun6urr0djrax7v92jyk86gnp8hsep0hacf83quvknq5lsutucjj/geoblock",
       "lockDuration": "PT0S",
       "riskLevel": 1.00,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1h479ssUl0Ey0HcCx9ktvPS_K41Jd1OCTHkiteuf5g9c/edit?usp=sharing",
-      "startDateTimeUtc": "2024-07-03T09:07:55Z",
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1xVvxWgUAagQbtKTZgQPXSpSMbpW2RyKxEtfIbzowtKM/edit?gid=544318304#gid=544318304",
+      "startDateTimeUtc": "2024-07-15T00:00:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Creates limit orders (thin LP positions) at intervals between two price bounds. As prices fluctuate, the strategy will buy low and sell high.",
@@ -2563,7 +2563,7 @@
           "_comment": "USDC"
         }
       ],
-      "categories": ["Correlated"]
+      "categories": ["Correlated", "Blue Chip", "Stablecoins"]
     }
   ]
 }
