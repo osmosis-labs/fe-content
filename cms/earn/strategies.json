@@ -2518,7 +2518,7 @@
           "_comment": "USDC"
         }
       ],
-      "categories": ["Correlated"]
+      "categories": ["Correlated", "Stablecoins"]
     },
     {
       "id": "osmo1cj8tzmvun6urr0djrax7v92jyk86gnp8hsep0hacf83quvknq5lsutucjj",
@@ -2563,7 +2563,7 @@
           "_comment": "USDC"
         }
       ],
-      "categories": ["Correlated"]
+      "categories": ["Correlated", "Blue Chip", "Stablecoins"]
     }
   ]
 }
