@@ -2498,7 +2498,7 @@
           "_comment": "USDC (Axelar)"
         },
         {
-          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
           "_comment": "USDC"
         }
       ],
@@ -2514,7 +2514,7 @@
           "_comment": "USDC (Axelar)"
         },
         {
-          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
           "_comment": "USDC"
         }
       ],
@@ -2543,7 +2543,7 @@
           "_comment": "USDT"
         },
         {
-          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
           "_comment": "USDC"
         }
       ],
@@ -2559,7 +2559,7 @@
           "_comment": "USDT"
         },
         {
-          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
           "_comment": "USDC"
         }
       ],
