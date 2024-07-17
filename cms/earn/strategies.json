@@ -2519,6 +2519,51 @@
         }
       ],
       "categories": ["Correlated"]
+    },
+    {
+      "id": "osmo1cj8tzmvun6urr0djrax7v92jyk86gnp8hsep0hacf83quvknq5lsutucjj",
+      "name": "USDT/USDC Locust",
+      "platform": "Margined",
+      "type": "LP (Vault)",
+      "method": "margined-locust-grid",
+      "link": "https://trade.margined.io/vaults/grid-usdt-usdc",
+      "tvl": "https://vaults.margined.io/api/v1/osmo1cj8tzmvun6urr0djrax7v92jyk86gnp8hsep0hacf83quvknq5lsutucjj/tvl",
+      "apr": "https://vaults.margined.io/api/v1/osmo1cj8tzmvun6urr0djrax7v92jyk86gnp8hsep0hacf83quvknq5lsutucjj/apr",
+      "geoblock": "https://vaults.margined.io/api/v1/osmo1cj8tzmvun6urr0djrax7v92jyk86gnp8hsep0hacf83quvknq5lsutucjj/geoblock",
+      "lockDuration": "PT0S",
+      "riskLevel": 1.00,
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1h479ssUl0Ey0HcCx9ktvPS_K41Jd1OCTHkiteuf5g9c/edit?usp=sharing",
+      "startDateTimeUtc": "2024-07-03T09:07:55Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Creates limit orders (thin LP positions) at intervals between two price bounds. As prices fluctuate, the strategy will buy low and sell high.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
+          "_comment": "USDT"
+        },
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "USDC"
+        }
+      ],
+      "positionDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1cj8tzmvun6urr0djrax7v92jyk86gnp8hsep0hacf83quvknq5lsutucjj/grid-vault-1835",
+          "_comment": "USDT/USDC Locust Vault Token"
+        }
+      ],
+      "rewardDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
+          "_comment": "USDT"
+        },
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "USDC"
+        }
+      ],
+      "categories": ["Correlated"]
     }
   ]
 }
