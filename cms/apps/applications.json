@@ -419,7 +419,7 @@
       "medium_URL": "https://medium.com/@backbone_labs",
       "github_URL": "https://github.com/backbonelabsio"
     },
-	  {
+	{
 	  "title": "777 Gaming",
 	  "subtitle": "777 Gaming is a web 3 project that hosts real yield NFTs and online games of chance",
 	  "external_URL": "https://777gaming.io/",
@@ -429,6 +429,6 @@
 	  "medium_URL": "https://blog.777gaming.io/",
 	  "github_URL": "https://github.com/777-gaming",
 	  "featured": false
-	  }
-  				]
+	}
+  ]
 }
