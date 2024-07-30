@@ -420,15 +420,15 @@
       "github_URL": "https://github.com/backbonelabsio"
     },
 	  {
-  "title": "777 Gaming",
-  "subtitle": "777 Gaming is a web 3 project that hosts real yield NFTs and online games of chance",
-  "external_URL": "https://777gaming.io/",
-  "thumbnail_image_URL": "https://github.com/777-gaming/images/blob/main/777gaming_thumbnail.png",
-  "hero_image_URL": "https://github.com/777-gaming/images/blob/main/777gaming_hero.png",
-  "twitter_URL": "https://x.com/777sgaming",
-  "medium_URL": "https://blog.777gaming.io/",
-  "github_URL": "https://github.com/777-gaming",
-  "featured": false
+	  "title": "777 Gaming",
+	  "subtitle": "777 Gaming is a web 3 project that hosts real yield NFTs and online games of chance",
+	  "external_URL": "https://777gaming.io/",
+	  "thumbnail_image_URL": "https://github.com/777-gaming/images/blob/main/777gaming_thumbnail.png",
+	  "hero_image_URL": "https://github.com/777-gaming/images/blob/main/777gaming_hero.png",
+	  "twitter_URL": "https://x.com/777sgaming",
+	  "medium_URL": "https://blog.777gaming.io/",
+	  "github_URL": "https://github.com/777-gaming",
+	  "featured": false
 	  }
   				]
 }
