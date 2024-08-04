@@ -418,6 +418,17 @@
       "twitter_URL": "https://twitter.com/BackBone_Labs",
       "medium_URL": "https://medium.com/@backbone_labs",
       "github_URL": "https://github.com/backbonelabsio"
+    },
+    {
+      "title": "Racoon.Bet",
+      "subtitle": "Feeling lucky? Try our 9 games of chance to hit those 50x!",
+      "external_URL": "https://racoon.bet",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/racoon_bet_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/racoon_bet_hero.webp",
+      "twitter_URL": "https://twitter.com/RacoonSupply",
+      "medium_URL": "https://medium.com/@racoon-supply",
+      "github_URL": "https://github.com/racoon-supply-rac",
+      "featured": false
     }
   ]
 }
