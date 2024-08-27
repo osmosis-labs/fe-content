@@ -145,7 +145,9 @@
           "_comment": "Osmosis"
         }
       ],
-      "categories": ["Correlated"]
+      "categories": [
+        "Correlated"
+      ]
     },
     {
       "id": "osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx",
@@ -186,7 +188,10 @@
           "_comment": "Celestia"
         }
       ],
-      "categories": ["Blue Chip", "Correlated"]
+      "categories": [
+        "Blue Chip",
+        "Correlated"
+      ]
     },
     {
       "id": "osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm",
@@ -227,7 +232,9 @@
           "_comment": "DYDX"
         }
       ],
-      "categories": ["Correlated"]
+      "categories": [
+        "Correlated"
+      ]
     },
     {
       "id": "osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz",
@@ -268,7 +275,10 @@
           "_comment": "Celestia"
         }
       ],
-      "categories": ["Blue Chip", "Correlated"]
+      "categories": [
+        "Blue Chip",
+        "Correlated"
+      ]
     },
     {
       "id": "osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw",
@@ -432,7 +442,10 @@
           "_comment": "Wrapped Ether"
         }
       ],
-      "categories": ["Blue Chip", "Correlated"]
+      "categories": [
+        "Blue Chip",
+        "Correlated"
+      ]
     },
     {
       "id": "osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54",
@@ -473,7 +486,11 @@
           "_comment": "USD Coin"
         }
       ],
-      "categories": ["Correlated", "Blue Chip", "Stablecoins"]
+      "categories": [
+        "Correlated",
+        "Blue Chip",
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d",
@@ -514,7 +531,10 @@
           "_comment": "Cosmos Hub Atom"
         }
       ],
-      "categories": ["Blue Chip", "Correlated"]
+      "categories": [
+        "Blue Chip",
+        "Correlated"
+      ]
     },
     {
       "id": "osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q",
@@ -760,7 +780,11 @@
           "_comment": "USDT"
         }
       ],
-      "categories": ["Blue Chip", "Correlated", "Stablecoins"]
+      "categories": [
+        "Blue Chip",
+        "Correlated",
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl",
@@ -842,7 +866,9 @@
           "_comment": "USD Coin"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo13kgh3aksdnhs5jkd63uut9x3us9hfeyzldjgnma6eksj9g3c0cfs3z7wcp-lp",
@@ -935,7 +961,9 @@
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x-xlp",
@@ -966,7 +994,9 @@
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-lp",
@@ -997,7 +1027,9 @@
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1ufpu3nudumzh53sek246zrwvv2cc7leplaqruuggeny7wlcvfrzq4cqmwd-xlp",
@@ -1028,7 +1060,9 @@
           "coinMinimalDenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo196l7z8fvqz2v685vpsk2vuw5qyesw4v7y3w7ek08aacx5c0k5heqy8twn4-lp",
@@ -1369,7 +1403,9 @@
           "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1x09tzaf7nplch4xjnfp2gfecazmayg84djc4mqvmqqygeddvlcnsm4mnuf-xlp",
@@ -1400,7 +1436,9 @@
           "coinMinimalDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-lp",
@@ -1431,7 +1469,9 @@
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1nzddhaf086r0rv0gmrepn3ryxsu9qqrh7zmvcexqtfmxqgj0hhps4hruzu-xlp",
@@ -1462,7 +1502,9 @@
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1xmuwpu2v97cgk2lmevdylkfvtzrlznv826zht8mezh7979fh9y5sdck8ws-lp",
@@ -1617,7 +1659,9 @@
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo19c7hdlfvu7cddr0smfz9luaj8375qhfr3s0gtsk087laqfzxlu3qsnk47e-xlp",
@@ -1648,7 +1692,9 @@
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1cts0agkdces0lc3x0s25ezudruhm038n59nwlkm5paes6wx45clq3pn0tw-lp",
@@ -1865,7 +1911,9 @@
           "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1l5sfd86s7cmyy2fpm4xtklg9q3halrxnsw3d5qhnf24n5c77k65qavf6ke-xlp",
@@ -1896,7 +1944,9 @@
           "coinMinimalDenom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-lp",
@@ -1927,7 +1977,9 @@
           "coinMinimalDenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "osmo1nu86q2m7j7xacwrsd0asc9lt4eh3205gu90fnu2ssfh2ac6ahjjslp329m-xlp",
@@ -1958,7 +2010,9 @@
           "coinMinimalDenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "factory-osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA-mars",
@@ -2052,7 +2106,9 @@
           "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "ibc-498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4-mars",
@@ -2083,7 +2139,10 @@
           "coinMinimalDenom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
         }
       ],
-      "categories": ["Blue Chip", "Stablecoins"]
+      "categories": [
+        "Blue Chip",
+        "Stablecoins"
+      ]
     },
     {
       "id": "ibc-4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB-mars",
@@ -2114,7 +2173,10 @@
           "coinMinimalDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
         }
       ],
-      "categories": ["Blue Chip", "Stablecoins"]
+      "categories": [
+        "Blue Chip",
+        "Stablecoins"
+      ]
     },
     {
       "id": "ibc-64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273-mars",
@@ -2145,7 +2207,9 @@
           "coinMinimalDenom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "ibc-831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C-mars",
@@ -2300,7 +2364,9 @@
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "ibc-D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC-mars",
@@ -2362,7 +2428,10 @@
           "coinMinimalDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
         }
       ],
-      "categories": ["Blue Chip", "Stablecoins"]
+      "categories": [
+        "Blue Chip",
+        "Stablecoins"
+      ]
     },
     {
       "id": "ibc-D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877-mars",
@@ -2393,7 +2462,9 @@
           "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "ibc-EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5-mars",
@@ -2424,7 +2495,9 @@
           "coinMinimalDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
         }
       ],
-      "categories": ["Blue Chip"]
+      "categories": [
+        "Blue Chip"
+      ]
     },
     {
       "id": "uosmo-mars",
@@ -2501,7 +2574,9 @@
           "_comment": "OSMO"
         }
       ],
-      "categories": ["Correlated"]
+      "categories": [
+        "Correlated"
+      ]
     },
     {
       "id": "osmo1q3w9kedgtc8sdh7xlcr77ydv3qu7fs2e3q6xznysp2lrdfyz9xyqv26yqv",
@@ -2547,7 +2622,9 @@
           "_comment": "Celestia"
         }
       ],
-      "categories": ["Correlated"]
+      "categories": [
+        "Correlated"
+      ]
     },
     {
       "id": "osmo1qngwlgzt0r3fdg6zgln5wa6mr5c7t6fek3qqgxesujjak5ds747sy6qu2f",
@@ -2593,7 +2670,10 @@
           "_comment": "USDC"
         }
       ],
-      "categories": ["Correlated", "Stablecoins"]
+      "categories": [
+        "Correlated",
+        "Stablecoins"
+      ]
     },
     {
       "id": "osmo1cj8tzmvun6urr0djrax7v92jyk86gnp8hsep0hacf83quvknq5lsutucjj",
@@ -2639,7 +2719,117 @@
           "_comment": "USDC"
         }
       ],
-      "categories": ["Correlated", "Blue Chip", "Stablecoins"]
+      "categories": [
+        "Correlated",
+        "Blue Chip",
+        "Stablecoins"
+      ]
+    },
+    {
+      "id": "osmo15fqmdl8lfl9h0qflljd63ufw9j2m7xmsk3hu5vsn8xpta4hk5chqt7mddc",
+      "name": "OSMO Redemption Rate Arbitrage",
+      "platform": "Margined",
+      "type": "Liquid Staking",
+      "method": "margined-locust-redemption",
+      "link": "https://trade.margined.io/vaults/osmo-redemption-rate",
+      "tvl": "https://vaults.margined.io/api/v1/${id}/tvl",
+      "apr": "https://vaults.margined.io/api/v1/${id}/apr",
+      "balance": "https://vaults.margined.io/api/v1/${id}/balance/${address}",
+      "geoblock": "https://vaults.margined.io/api/v1/${id}/geoblock",
+      "lockDuration": "PT0S",
+      "riskLevel": 1.00,
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1RlH1KT6EUJCY6ngJ_8TdPp9csF9T9iB8euyNlGSM17Y/edit?gid=2069375532#gid=2069375532",
+      "startDateTimeUtc": "2024-07-21T00:00:00Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Buys Liquid Staked Assets at a discount and performs the unbonding to earn the delta.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "uosmo",
+          "_comment": "Osmosis"
+        }
+      ],
+      "positionDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo15fqmdl8lfl9h0qflljd63ufw9j2m7xmsk3hu5vsn8xpta4hk5chqt7mddc/redemption-vault-uosmo",
+          "_comment": "OSMO Locust Redemption Vault Token"
+        }
+      ],
+      "rewardDenoms": [],
+      "categories": [
+        "Correlated"
+      ]
+    },
+    {
+      "id": "osmo1reyz7pwu7y9e7lmzqg6j4h7jcv32du7n7jhnk2lz93a9lxr56ess2qtgzl",
+      "name": "TIA Redemption Rate Arbitrage",
+      "platform": "Margined",
+      "type": "Liquid Staking",
+      "method": "margined-locust-redemption",
+      "link": "https://trade.margined.io/vaults/tia-redemption-rate",
+      "tvl": "https://vaults.margined.io/api/v1/${id}/tvl",
+      "apr": "https://vaults.margined.io/api/v1/${id}/apr",
+      "balance": "https://vaults.margined.io/api/v1/${id}/balance/${address}",
+      "geoblock": "https://vaults.margined.io/api/v1/${id}/geoblock",
+      "lockDuration": "PT0S",
+      "riskLevel": 1.00,
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1RlH1KT6EUJCY6ngJ_8TdPp9csF9T9iB8euyNlGSM17Y/edit?gid=1503172972#gid=1503172972",
+      "startDateTimeUtc": "2024-07-31T00:00:00Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Buys Liquid Staked Assets at a discount and performs the unbonding to earn the delta.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "_comment": "Celestia"
+        }
+      ],
+      "positionDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1reyz7pwu7y9e7lmzqg6j4h7jcv32du7n7jhnk2lz93a9lxr56ess2qtgzl/redemption-vault",
+          "_comment": "TIA Locust Redemption Vault Token"
+        }
+      ],
+      "rewardDenoms": [],
+      "categories": [
+        "Correlated"
+      ]
+    },
+    {
+      "id": "osmo1hvl5kj4xzdj4udxjv2dzk2zfqhzkd9afqygwq3t84tn53e0250zqrltj48",
+      "name": "ATOM Redemption Rate Arbitrage",
+      "platform": "Margined",
+      "type": "Liquid Staking",
+      "method": "margined-locust-redemption",
+      "link": "https://trade.margined.io/vaults/atom-redemption-rate",
+      "tvl": "https://vaults.margined.io/api/v1/${id}/tvl",
+      "apr": "https://vaults.margined.io/api/v1/${id}/apr",
+      "balance": "https://vaults.margined.io/api/v1/${id}/balance/${address}",
+      "geoblock": "https://vaults.margined.io/api/v1/${id}/geoblock",
+      "lockDuration": "PT0S",
+      "riskLevel": 1.00,
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1RlH1KT6EUJCY6ngJ_8TdPp9csF9T9iB8euyNlGSM17Y/edit?gid=1264777294#gid=1264777294",
+      "startDateTimeUtc": "2024-08-01T00:00:00Z",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Buys Liquid Staked Assets at a discount and performs the unbonding to earn the delta.",
+      "depositDenoms": [
+        {
+          "coinMinimalDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "_comment": "Cosmos Hub Atom"
+        }
+      ],
+      "positionDenoms": [
+        {
+          "coinMinimalDenom": "factory/osmo1hvl5kj4xzdj4udxjv2dzk2zfqhzkd9afqygwq3t84tn53e0250zqrltj48/redemption-vault",
+          "_comment": "Atom Locust Redemption Vault Token"
+        }
+      ],
+      "rewardDenoms": [],
+      "categories": [
+        "Correlated",
+        "Blue Chip"
+      ]
     }
   ]
 }
