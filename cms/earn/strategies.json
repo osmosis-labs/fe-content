@@ -2738,7 +2738,7 @@
       "geoblock": "https://vaults.margined.io/api/v1/${id}/geoblock",
       "lockDuration": "PT0S",
       "riskLevel": 1.00,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/17WPa1fRkCzjZeUawp7g6zoEviQT_pJrPVGaMk9JEKsc/edit?gid=1475100361#gid=1475100361",
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1RlH1KT6EUJCY6ngJ_8TdPp9csF9T9iB8euyNlGSM17Y/edit?gid=2069375532#gid=2069375532",
       "startDateTimeUtc": "2024-07-21T00:00:00Z",
       "unlisted": false,
       "disabled": false,
