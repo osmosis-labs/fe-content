@@ -1,58 +1,75 @@
 {
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
-  "banner": { "enTextOrLocalizationPath": "header" },
+  "banner": {
+    "enTextOrLocalizationPath": "header",
+    "link": {
+      "enTextOrLocalizationKey": "link",
+      "url": "https://tally.so/r/3EPbvo"
+    },
+    "localStorageKey": "shape-the-future-of-osmosis-03-may",
+    "startDate": "2024-05-03T00:00:00Z",
+    "endDate": "2024-05-10T00:00:00Z"
+  },
   "localization": {
     "de": {
-      "header": "Aufgrund des neuesten Upgrades muss die Osmosis-Datenplattform synchronisiert werden, alle Daten in der Kette sind korrekt"
+      "header": "Gestalten Sie die Zukunft der Osmose mit.",
+      "link": "Geben Sie uns eine Rückmeldung"
     },
     "en": {
-      "header": "Due to the latest upgrade the osmosis data platform needs to sync, all data on-chain is correct"
+      "header": "Help shape the future of Osmosis.",
+      "link": "Give us feedback"
     },
     "es": {
-      "header": "Debido a la última actualización, la plataforma de datos de ósmosis necesita sincronizarse, todos los datos en la cadena son correctos"
+      "header": "Ayuda a dar forma al futuro de Osmosis.",
+      "link": "Danos tu opinión"
     },
     "fa": {
-      "header": "با توجه به آخرین ارتقا، پلت فرم داده اسمز باید همگام شود، تمام داده های روی زنجیره درست است"
+      "header": "در شکل‌گیری آینده اسموز کمک کنید.",
+      "link": "بازخورد خود را به ما بدهید"
     },
     "fr": {
-      "header": "En raison de la dernière mise à niveau, la plate-forme de données d'osmose doit être synchronisée, toutes les données de la chaîne sont correctes"
+      "header": "Aidez à façonner l'avenir d'Osmosis.",
+      "link": "Donnez-nous votre avis"
     },
     "gu": {
-      "header": "નવીનતમ અપગ્રેડને કારણે ઓસ્મોસિસ ડેટા પ્લેટફોર્મને સમન્વયિત કરવાની જરૂર છે, સાંકળ પરનો તમામ ડેટા સાચો છે"
+      "header": "ઓસ્મોસિસના ભાવિને આકાર આપવામાં મદદ કરો.",
+      "link": "અમને પ્રતિસાદ આપો"
     },
     "hi": {
-      "header": "नवीनतम अपग्रेड के कारण ऑस्मोसिस डेटा प्लेटफ़ॉर्म को सिंक करने की आवश्यकता है, ऑन-चेन सभी डेटा सही है"
+      "header": "ऑस्मोसिस के भविष्य को आकार देने में मदद करें।",
+      "link": "हमें प्रतिक्रिया दे"
     },
     "ja": {
-      "header": "最新のアップグレードにより、オズモーシスデータプラットフォームを同期する必要があり、チェーン上のすべてのデータは正確です。"
+      "header": "Osmosis の未来の形成に貢献してください。",
+      "link": "フィードバックをお寄せください"
     },
     "ko": {
-      "header": "최신 업그레이드로 인해 Osmosis 데이터 플랫폼이 동기화되어야 하며 체인상의 모든 데이터가 정확합니다."
+      "header": "Osmosis의 미래를 함께 만들어 가세요.",
+      "link": "피드백 주기"
     },
     "pl": {
-      "header": "Ze względu na ostatnią aktualizację platforma danych osmozy musi się zsynchronizować, wszystkie dane w łańcuchu są poprawne"
+      "header": "Pomóż kształtować przyszłość Osmosis.",
+      "link": "Przekaż nam swoją opinię"
     },
     "pt-br": {
-      "header": "Devido à atualização mais recente, a plataforma de dados de osmose precisa ser sincronizada, todos os dados na cadeia estão corretos"
+      "header": "Ajude a moldar o futuro da Osmosis.",
+      "link": "Dê seu feedback"
     },
     "ro": {
-      "header": "Datorită celei mai recente actualizări, platforma de date osmoză trebuie să se sincronizeze, toate datele din lanț sunt corecte"
+      "header": "Ajutați la conturarea viitorului Osmosis.",
+      "link": "Dați-ne feedback"
     },
     "ru": {
-      "header": "В связи с последним обновлением необходимо синхронизировать платформу данных осмоса, все данные в цепочке верны."
+      "header": "Помогите сформировать будущее Osmosis.",
+      "link": "Оставьте нам отзыв"
     },
     "tr": {
-      "header": "Son güncelleme nedeniyle osmoz veri platformunun senkronize edilmesi gerekiyor, zincir üzerindeki tüm veriler doğru"
+      "header": "Osmosis'in geleceğini şekillendirmeye yardım edin.",
+      "link": "Bize geri bildirim verin"
     },
-    "zh-cn": {
-      "header": "由于最新升级，渗透数据平台需要同步，链上所有数据均正确"
-    },
-    "zh-hk": {
-      "header": "由於滲透資料平台最新升級需要同步，鏈上所有資料都是正確的"
-    },
-    "zh-tw": {
-      "header": "由於滲透資料平台最新升級需要同步，鏈上所有資料都是正確的"
-    }
+    "zh-cn": { "header": "帮助塑造渗透的未来。", "link": "给我们反馈" },
+    "zh-hk": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" },
+    "zh-tw": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" }
   }
 }
