@@ -1,9 +1,7 @@
 {
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
-  "banner": {
-    "enTextOrLocalizationPath": "header"
-  },
+  "banner": { "enTextOrLocalizationPath": "header" },
   "localization": {
     "de": {
       "header": "Aufgrund des neuesten Upgrades muss die Osmosis-Datenplattform synchronisiert werden, alle Daten in der Kette sind korrekt"
