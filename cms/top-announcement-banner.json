@@ -2,8 +2,7 @@
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
   "banner": {
-    "enTextOrLocalizationPath": "header",
-    "startDate": "2024-06-17T00:00:00Z"
+    "enTextOrLocalizationPath": "header"
   },
   "localization": {
     "de": {
