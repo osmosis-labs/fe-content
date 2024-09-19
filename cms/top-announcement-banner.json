@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/top-announcement-banner.schema.json",
-  "isChainHalted": false,
+  "isChainHalted": true,
   "banner": {
     "enTextOrLocalizationPath": "header",
     "link": {
