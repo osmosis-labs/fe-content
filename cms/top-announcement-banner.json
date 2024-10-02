@@ -5,71 +5,69 @@
     "enTextOrLocalizationPath": "header",
     "link": {
       "enTextOrLocalizationKey": "link",
-      "url": "https://tally.so/r/3EPbvo"
+      "url": "https://tally.so/r/wvLp8Q"
     },
-    "localStorageKey": "shape-the-future-of-osmosis-03-may",
-    "startDate": "2024-05-03T00:00:00Z",
-    "endDate": "2024-05-10T00:00:00Z"
+    "localStorageKey": "shape-the-future-of-osmosis-02-oct"
   },
   "localization": {
     "de": {
-      "header": "Gestalten Sie die Zukunft der Osmose mit.",
-      "link": "Geben Sie uns eine Rückmeldung"
+      "header": "Welche Funktionen und Verbesserungen möchten Sie als Nächstes sehen?",
+      "link": "Jetzt abstimmen"
     },
     "en": {
-      "header": "Help shape the future of Osmosis.",
-      "link": "Give us feedback"
+      "header": "What features and improvements do you want to see next?",
+      "link": "Vote now"
     },
     "es": {
-      "header": "Ayuda a dar forma al futuro de Osmosis.",
-      "link": "Danos tu opinión"
+      "header": "¿Qué características y mejoras te gustaría ver a continuación?",
+      "link": "Vota ahora"
     },
     "fa": {
-      "header": "در شکل‌گیری آینده اسموز کمک کنید.",
-      "link": "بازخورد خود را به ما بدهید"
+      "header": "چه ویژگی‌ها و بهبودهایی را می‌خواهید در آینده ببینید؟",
+      "link": "همین حالا رأی بدهید"
     },
     "fr": {
-      "header": "Aidez à façonner l'avenir d'Osmosis.",
-      "link": "Donnez-nous votre avis"
+      "header": "Quelles fonctionnalités et améliorations souhaitez-vous voir ensuite ?",
+      "link": "Votez maintenant"
     },
     "gu": {
-      "header": "ઓસ્મોસિસના ભાવિને આકાર આપવામાં મદદ કરો.",
-      "link": "અમને પ્રતિસાદ આપો"
+      "header": "તમને પછી કયા ફીચર્સ અને સુધારાઓ જોઈએ છે?",
+      "link": "હવે વોટ કરો"
     },
     "hi": {
-      "header": "ऑस्मोसिस के भविष्य को आकार देने में मदद करें।",
-      "link": "हमें प्रतिक्रिया दे"
+      "header": "आप अगली कौन सी सुविधाएँ और सुधार देखना चाहते हैं?",
+      "link": "अभी वोट करें"
     },
     "ja": {
-      "header": "Osmosis の未来の形成に貢献してください。",
-      "link": "フィードバックをお寄せください"
+      "header": "次に見たい機能や改善点は何ですか？",
+      "link": "今すぐ投票"
     },
     "ko": {
-      "header": "Osmosis의 미래를 함께 만들어 가세요.",
-      "link": "피드백 주기"
+      "header": "다음에 보고 싶은 기능과 개선 사항은 무엇입니까?",
+      "link": "지금 투표하세요"
     },
     "pl": {
-      "header": "Pomóż kształtować przyszłość Osmosis.",
-      "link": "Przekaż nam swoją opinię"
+      "header": "Jakie funkcje i ulepszenia chcesz zobaczyć w następnej kolejności?",
+      "link": "Głosuj teraz"
     },
     "pt-br": {
-      "header": "Ajude a moldar o futuro da Osmosis.",
-      "link": "Dê seu feedback"
+      "header": "Quais recursos e melhorias você quer ver a seguir?",
+      "link": "Vote agora"
     },
     "ro": {
-      "header": "Ajutați la conturarea viitorului Osmosis.",
-      "link": "Dați-ne feedback"
+      "header": "Ce funcții și îmbunătățiri dorești să vezi în continuare?",
+      "link": "Votează acum"
     },
     "ru": {
-      "header": "Помогите сформировать будущее Osmosis.",
-      "link": "Оставьте нам отзыв"
+      "header": "Какие функции и улучшения вы хотите увидеть дальше?",
+      "link": "Голосуйте сейчас"
     },
     "tr": {
-      "header": "Osmosis'in geleceğini şekillendirmeye yardım edin.",
-      "link": "Bize geri bildirim verin"
+      "header": "Sırada hangi özellikleri ve iyileştirmeleri görmek istiyorsunuz?",
+      "link": "Şimdi oy ver"
     },
-    "zh-cn": { "header": "帮助塑造渗透的未来。", "link": "给我们反馈" },
-    "zh-hk": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" },
-    "zh-tw": { "header": "幫助塑造滲透的未來。", "link": "給我們反饋" }
+    "zh-cn": { "header": "你想看到哪些功能和改进？", "link": "现在投票" },
+    "zh-hk": { "header": "您想看到哪些功能和改進？", "link": "立即投票" },
+    "zh-tw": { "header": "您想看到哪些功能和改進？", "link": "立即投票" }
   }
 }
