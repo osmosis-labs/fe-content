@@ -66,17 +66,8 @@
       "header": "Sırada hangi özellikleri ve iyileştirmeleri görmek istiyorsunuz?",
       "link": "Şimdi oy ver"
     },
-    "zh-cn": {
-      "header": "你想看到哪些功能和改进？",
-      "link": "现在投票"
-    },
-    "zh-hk": {
-      "header": "您想看到哪些功能和改進？",
-      "link": "立即投票"
-    },
-    "zh-tw": {
-      "header": "您想看到哪些功能和改進？",
-      "link": "立即投票"
-    }
+    "zh-cn": { "header": "你想看到哪些功能和改进？", "link": "现在投票" },
+    "zh-hk": { "header": "您想看到哪些功能和改進？", "link": "立即投票" },
+    "zh-tw": { "header": "您想看到哪些功能和改進？", "link": "立即投票" }
   }
 }
