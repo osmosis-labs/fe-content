@@ -5,7 +5,7 @@
     "enTextOrLocalizationPath": "header",
     "link": {
       "enTextOrLocalizationKey": "link",
-      "url": "https://tally.so/r/3EPbvo"
+      "url": "https://tally.so/r/wvLp8Q"
     },
     "localStorageKey": "features-improvements-02-oct",
     "startDate": "2024-10-02T23:14:22Z",
@@ -14,71 +14,62 @@
   "localization": {
     "de": {
       "header": "Welche Funktionen und Verbesserungen möchten Sie als Nächstes sehen?",
-      "link": " Jetzt abstimmen;"
+      "link": "Jetzt abstimmen"
     },
     "en": {
       "header": "What features and improvements do you want to see next?",
-      "link": " Vote now ->"
+      "link": "Vote now"
     },
     "es": {
       "header": "¿Qué características y mejoras te gustaría ver a continuación?",
-      "link": " Vota ahora;"
+      "link": "Vota ahora"
     },
     "fa": {
-      "header": "چه ویژگی ها و پیشرفت هایی را می خواهید در ادامه مشاهده کنید؟",
-      "link": " اکنون رای دهید;"
+      "header": "چه ویژگی‌ها و بهبودهایی را می‌خواهید در آینده ببینید؟",
+      "link": "همین حالا رأی بدهید"
     },
     "fr": {
-      "header": "Quelles fonctionnalités et améliorations souhaitez-vous voir ensuite ?",
-      "link": " Votez maintenant;"
+      "header": "Quelles fonctionnalités et améliorations souhaitez-vous voir ensuite ?",
+      "link": "Votez maintenant"
     },
     "gu": {
-      "header": "તમે આગળ કઈ સુવિધાઓ અને સુધારાઓ જોવા માંગો છો?",
-      "link": " હવે મત આપો;"
+      "header": "તમને પછી કયા ફીચર્સ અને સુધારાઓ જોઈએ છે?",
+      "link": "હવે વોટ કરો"
     },
     "hi": {
-      "header": "आप आगे कौन सी सुविधाएं और सुधार देखना चाहते हैं?",
-      "link": " अभी वोट करें;"
+      "header": "आप अगली कौन सी सुविधाएँ और सुधार देखना चाहते हैं?",
+      "link": "अभी वोट करें"
     },
     "ja": {
-      "header": "次に期待する機能や改善点は何ですか?",
-      "link": " 今すぐ投票;"
+      "header": "次に見たい機能や改善点は何ですか？",
+      "link": "今すぐ投票"
     },
     "ko": {
-      "header": "앞으로 어떤 기능과 개선 사항을 보고 싶으신가요?",
-      "link": " 지금 투표하세요;"
+      "header": "다음에 보고 싶은 기능과 개선 사항은 무엇입니까?",
+      "link": "지금 투표하세요"
     },
     "pl": {
-      "header": "Jakie funkcje i ulepszenia chciałbyś zobaczyć w następnej kolejności?",
-      "link": " Głosuj teraz;"
+      "header": "Jakie funkcje i ulepszenia chcesz zobaczyć w następnej kolejności?",
+      "link": "Głosuj teraz"
     },
     "pt-br": {
-      "header": "Quais recursos e melhorias você quer ver em seguida?",
-      "link": " Vote agora;"
+      "header": "Quais recursos e melhorias você quer ver a seguir?",
+      "link": "Vote agora"
     },
     "ro": {
-      "header": "Ce caracteristici și îmbunătățiri doriți să vedeți în continuare?",
-      "link": " Votează acum;"
+      "header": "Ce funcții și îmbunătățiri dorești să vezi în continuare?",
+      "link": "Votează acum"
     },
     "ru": {
-      "header": "Какие функции и улучшения вы хотели бы увидеть в будущем?",
-      "link": " Проголосовать сейчас;"
+      "header": "Какие функции и улучшения вы хотите увидеть дальше?",
+      "link": "Голосуйте сейчас"
     },
     "tr": {
-      "header": "Bundan sonra hangi özellikleri ve geliştirmeleri görmek istiyorsunuz?",
-      "link": " Şimdi oy verin;"
+      "header": "Sırada hangi özellikleri ve iyileştirmeleri görmek istiyorsunuz?",
+      "link": "Şimdi oy ver"
     },
-    "zh-cn": {
-      "header": "您接下来希望看到哪些功能和改进？",
-      "link": " 立即投票;"
-    },
-    "zh-hk": {
-      "header": "接下來您希望看到哪些功能和改進？",
-      "link": " 立即投票;"
-    },
-    "zh-tw": {
-      "header": "接下來您希望看到哪些功能和改進？",
-      "link": " 立即投票;"
-    }
+    "zh-cn": { "header": "你想看到哪些功能和改进？", "link": "现在投票" },
+    "zh-hk": { "header": "您想看到哪些功能和改進？", "link": "立即投票" },
+    "zh-tw": { "header": "您想看到哪些功能和改進？", "link": "立即投票" }
   }
 }
