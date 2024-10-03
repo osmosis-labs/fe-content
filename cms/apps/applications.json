@@ -15,7 +15,7 @@
     {
       "title": "Osmohall",
       "subtitle": "Osmohall is the Pro Trading Terminal which offers high performance and access to the latest Osmosis gems.",
-      "external_URL": "https://coinhall.org/osmosis",
+      "external_URL": "https://coinhall.org/?chains=osmosis",
       "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/osmohall_thumbnail.webp",
       "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/osmohall_hero.webp",
       "twitter_URL": "https://twitter.com/coinhall_org",
