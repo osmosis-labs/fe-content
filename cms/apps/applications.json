@@ -218,7 +218,7 @@
     {
       "title": "TFM Pro Trading",
       "subtitle": "The Pro-Trading Terminal of Cosmos. Proprietary IBC & DEX & NFT Aggregator! Transfer via IBC across all Cosmos app-chains.",
-      "external_URL": "https://tfm.com/osmosis/trade/protrade/",
+      "external_URL": "https://app.tfm.com/osmosis/trade/protrade",
       "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/osmosis_pro_thumbnail.webp",
       "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/tfm_pro_trading_hero.webp",
       "twitter_URL": "https://twitter.com/tfm_com",
