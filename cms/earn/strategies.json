@@ -108,7 +108,7 @@
     },
     {
       "id": "osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s",
-      "name": "stkOSMO/OSMO Dynamic S+",
+      "name": "(Deprecated) stkOSMO/OSMO Dynamic S+",
       "platform": "Quasar",
       "type": "LP (Vault)",
       "method": "quasar-cl-vault",
@@ -122,7 +122,7 @@
       "riskReportUrl": "https://docs.google.com/spreadsheets/d/1Kyo3pZoeWIhrCd_XCZIHglmTOxbeMxMVsFRf4wqQ23M/edit#gid=2130335534",
       "startDateTimeUtc": "2021-06-01T01:01:01Z",
       "unlisted": false,
-      "disabled": false,
+      "disabled": true,
       "message": "Deposits a pair of assets into a managed liquidity vault. Dynamic: Dynamically updated. S+: intended to be a relatively price-stable pair.",
       "depositDenoms": [
         {
