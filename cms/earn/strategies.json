@@ -2861,6 +2861,48 @@
         "Correlated",
         "Stablecoins"
       ]
+    },
+      {
+      "id": "cdt-usdc-cl-lp-vault",
+      "name": "CDT Rangebound LP Vault",
+      "platform": "Cosmwasm (on Osmosis)",
+      "type": "LP (Vault)",
+      "method": "membrane-cl-vault",
+      "link": "https://cdt.money",
+      "contract": "osmo17rvvd6jc9javy3ytr0cjcypxs20ru22kkhrpwx7j3ym02znuz0vqa37ffx",
+      "tvl": "https://cdt.money/api/tvl/bounded",
+      "apr": "https://cdt.money/api/apr/bounded",
+      "balance": "https://cdt.money/api/balance/bounded/${address}",
+      "geoblock": "",
+      "lockDuration": "0",
+      "riskLevel": 0,
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1dj2mvHztwX-MdVPTXY2I3uImXYO-PlBnDD4rj6Eh74E/edit?usp=sharing",
+      "startDateTimeUtc": "",
+      "unlisted": false,
+      "disabled": false,
+      "message": "Deposits CDT into a range bounded CL USDC LP that additionally earns revenue from Membrane",
+      "depositDenoms": [
+          {
+              "coinMininalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
+              "_comment": "CDT"
+          }
+      ],
+      "positionDenoms": [
+          {
+              "coinMininalDenom": "factory/osmo17rvvd6jc9javy3ytr0cjcypxs20ru22kkhrpwx7j3ym02znuz0vqa37ffx/cdt-usdc-range-bound-lp",
+              "_comment": "CDT-USDC Range Bound Vault Token"
+          }
+      ],
+      "rewardDenoms": [
+          {
+              "coinMininalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
+              "_comment": "CDT"
+          }
+      ],
+      "categories": [
+          "Correlated",
+          "Stablecoin"
+      ]
     }
   ]
 }
