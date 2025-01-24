@@ -2877,7 +2877,7 @@
       "lockDuration": "0",
       "riskLevel": 0.99,
       "riskReportUrl": "https://docs.google.com/spreadsheets/d/1JHAsNKKcdgYU1aszkalrwYowogNlu_dAXtzaDHNg4M4/edit?gid=2130335534#gid=2130335534",
-      "startDateTimeUtc": "",
+      "startDateTimeUtc": "2025-01-25T00:00:00Z",
       "unlisted": false,
       "disabled": false,
       "message": "Deposits CDT into a range bounded CL USDC LP that additionally earns revenue from Membrane",
