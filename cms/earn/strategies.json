@@ -2862,10 +2862,10 @@
         "Stablecoins"
       ]
     },
-      {
+    {
       "id": "cdt-usdc-cl-lp-vault",
-      "name": "CDT Rangebound LP Vault",
-      "platform": "Cosmwasm (on Osmosis)",
+      "name": "CDT/USDC Range Bound LP Vault",
+      "platform": "Membrane",
       "type": "LP (Vault)",
       "method": "membrane-cl-vault",
       "link": "https://cdt.money",
@@ -2873,35 +2873,35 @@
       "tvl": "https://cdt.money/api/tvl/bounded",
       "apr": "https://cdt.money/api/apr/bounded",
       "balance": "https://cdt.money/api/balance/bounded/${address}",
-      "geoblock": "",
+      "geoblock": "https://geoblocked.levana.finance/",
       "lockDuration": "0",
-      "riskLevel": 0,
-      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1dj2mvHztwX-MdVPTXY2I3uImXYO-PlBnDD4rj6Eh74E/edit?usp=sharing",
+      "riskLevel": 0.99,
+      "riskReportUrl": "https://docs.google.com/spreadsheets/d/1JHAsNKKcdgYU1aszkalrwYowogNlu_dAXtzaDHNg4M4/edit?gid=2130335534#gid=2130335534",
       "startDateTimeUtc": "",
       "unlisted": false,
       "disabled": false,
       "message": "Deposits CDT into a range bounded CL USDC LP that additionally earns revenue from Membrane",
       "depositDenoms": [
-          {
-              "coinMininalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
-              "_comment": "CDT"
-          }
+        {
+          "coinMininalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
+          "_comment": "CDT"
+        }
       ],
       "positionDenoms": [
-          {
-              "coinMininalDenom": "factory/osmo17rvvd6jc9javy3ytr0cjcypxs20ru22kkhrpwx7j3ym02znuz0vqa37ffx/cdt-usdc-range-bound-lp",
-              "_comment": "CDT-USDC Range Bound Vault Token"
-          }
+        {
+          "coinMininalDenom": "factory/osmo17rvvd6jc9javy3ytr0cjcypxs20ru22kkhrpwx7j3ym02znuz0vqa37ffx/cdt-usdc-range-bound-lp",
+          "_comment": "CDT-USDC Range Bound Vault Token"
+        }
       ],
       "rewardDenoms": [
-          {
-              "coinMininalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
-              "_comment": "CDT"
-          }
+        {
+          "coinMininalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
+          "_comment": "CDT"
+        }
       ],
       "categories": [
-          "Correlated",
-          "Stablecoin"
+        "Correlated",
+        "Stablecoin"
       ]
     }
   ]
