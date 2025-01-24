@@ -2883,19 +2883,19 @@
       "message": "Deposits CDT into a range bounded CL USDC LP that additionally earns revenue from Membrane",
       "depositDenoms": [
         {
-          "coinMininalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
+          "coinMinimalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
           "_comment": "CDT"
         }
       ],
       "positionDenoms": [
         {
-          "coinMininalDenom": "factory/osmo17rvvd6jc9javy3ytr0cjcypxs20ru22kkhrpwx7j3ym02znuz0vqa37ffx/cdt-usdc-range-bound-lp",
+          "coinMinimalDenom": "factory/osmo17rvvd6jc9javy3ytr0cjcypxs20ru22kkhrpwx7j3ym02znuz0vqa37ffx/cdt-usdc-range-bound-lp",
           "_comment": "CDT-USDC Range Bound Vault Token"
         }
       ],
       "rewardDenoms": [
         {
-          "coinMininalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
+          "coinMinimalDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
           "_comment": "CDT"
         }
       ],
