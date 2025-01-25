@@ -2873,7 +2873,7 @@
       "tvl": "https://cdt.money/api/tvl/bounded",
       "apr": "https://cdt.money/api/apr/bounded",
       "balance": "https://cdt.money/api/balance/bounded/${address}",
-      "geoblock": "https://geoblocked.levana.finance/",
+      "geoblock": "",
       "lockDuration": "PT0S",
       "riskLevel": 0.99,
       "riskReportUrl": "https://docs.google.com/spreadsheets/d/1JHAsNKKcdgYU1aszkalrwYowogNlu_dAXtzaDHNg4M4/edit?gid=2130335534#gid=2130335534",
