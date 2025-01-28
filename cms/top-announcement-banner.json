@@ -5,71 +5,63 @@
     "enTextOrLocalizationPath": "header",
     "link": {
       "enTextOrLocalizationKey": "link",
-      "url": "https://tally.so/r/wvLp8Q"
+      "url": ""
     },
-    "localStorageKey": "features-improvements-02-oct",
-    "startDate": "2024-10-02T23:14:22Z",
-    "endDate": "2024-10-09T23:14:22Z"
+    "localStorageKey": "2025-01-28-fe-outage",
+    "startDate": "2025-01-28T22:00:00Z",
+    "endDate": "2024-01-28T23:00:00Z"
   },
   "localization": {
     "de": {
-      "header": "Welche Funktionen und Verbesserungen möchten Sie als Nächstes sehen?",
-      "link": "Jetzt abstimmen"
+      "header": "Es gab Berichte über Transaktionen, die von Osmosis Zone ausgelöst wurden und nicht ausgeführt werden. Die Maintainer arbeiten daran, das Problem zu lösen."
     },
     "en": {
-      "header": "What features and improvements do you want to see next?",
-      "link": "Vote now"
+      "header": "There have been reports of transactions triggered from Osmosis Zone not executing. Maintainers are working to resolve the issue."
     },
     "es": {
-      "header": "¿Qué características y mejoras te gustaría ver a continuación?",
-      "link": "Vota ahora"
+      "header": "Se han reportado transacciones iniciadas desde Osmosis Zone que no se ejecutan. Los mantenedores están trabajando para resolver el problema."
     },
     "fa": {
-      "header": "چه ویژگی‌ها و بهبودهایی را می‌خواهید در آینده ببینید؟",
-      "link": "همین حالا رأی بدهید"
+      "header": "گزارش‌هایی از اجرای نشدن تراکنش‌های ایجادشده از Osmosis Zone وجود دارد. نگهدارندگان در حال کار برای حل این مشکل هستند."
     },
     "fr": {
-      "header": "Quelles fonctionnalités et améliorations souhaitez-vous voir ensuite ?",
-      "link": "Votez maintenant"
+      "header": "Des rapports indiquent que des transactions déclenchées depuis Osmosis Zone ne s'exécutent pas. Les mainteneurs travaillent à résoudre le problème."
     },
     "gu": {
-      "header": "તમને પછી કયા ફીચર્સ અને સુધારાઓ જોઈએ છે?",
-      "link": "હવે વોટ કરો"
+      "header": "Osmosis Zoneમાંથી શરૂ કરાયેલા ટ્રાન્ઝેક્શન્સ ન કરવામાં આવી છે તેવા અહેવાલ મળ્યા છે. રક્ષણકર્તાઓ સમસ્યા ઉકેલવા પર કામ કરી રહ્યા છે."
     },
     "hi": {
-      "header": "आप अगली कौन सी सुविधाएँ और सुधार देखना चाहते हैं?",
-      "link": "अभी वोट करें"
+      "header": "Osmosis Zone से शुरू किए गए लेन-देन निष्पादित नहीं होने की रिपोर्टें आई हैं। मेंटेनर्स इस समस्या को हल करने पर काम कर रहे हैं।"
     },
     "ja": {
-      "header": "次に見たい機能や改善点は何ですか？",
-      "link": "今すぐ投票"
+      "header": "Osmosis Zoneからトリガーされたトランザクションが実行されないという報告があります。メンテナンス担当者が問題の解決に取り組んでいます。"
     },
     "ko": {
-      "header": "다음에 보고 싶은 기능과 개선 사항은 무엇입니까?",
-      "link": "지금 투표하세요"
+      "header": "Osmosis Zone에서 시작된 거래가 실행되지 않는다는 보고가 있습니다. 유지 관리자가 문제를 해결하기 위해 작업 중입니다."
     },
     "pl": {
-      "header": "Jakie funkcje i ulepszenia chcesz zobaczyć w następnej kolejności?",
-      "link": "Głosuj teraz"
+      "header": "Pojawiły się doniesienia o transakcjach zainicjowanych z Osmosis Zone, które nie są wykonywane. Opiekunowie pracują nad rozwiązaniem problemu."
     },
     "pt-br": {
-      "header": "Quais recursos e melhorias você quer ver a seguir?",
-      "link": "Vote agora"
+      "header": "Houve relatos de transações acionadas a partir do Osmosis Zone que não foram executadas. Os mantenedores estão trabalhando para resolver o problema."
     },
     "ro": {
-      "header": "Ce funcții și îmbunătățiri dorești să vezi în continuare?",
-      "link": "Votează acum"
+      "header": "Au existat rapoarte despre tranzacții declanșate din Osmosis Zone care nu se execută. Administratorii lucrează pentru a rezolva problema."
     },
     "ru": {
-      "header": "Какие функции и улучшения вы хотите увидеть дальше?",
-      "link": "Голосуйте сейчас"
+      "header": "Поступили сообщения о том, что транзакции, инициированные из Osmosis Zone, не выполняются. Поддерживающие работают над решением проблемы."
     },
     "tr": {
-      "header": "Sırada hangi özellikleri ve iyileştirmeleri görmek istiyorsunuz?",
-      "link": "Şimdi oy ver"
+      "header": "Osmosis Zone'dan tetiklenen işlemlerin gerçekleşmediğine dair raporlar var. Bakımcılar sorunu çözmek için çalışıyor."
     },
-    "zh-cn": { "header": "你想看到哪些功能和改进？", "link": "现在投票" },
-    "zh-hk": { "header": "您想看到哪些功能和改進？", "link": "立即投票" },
-    "zh-tw": { "header": "您想看到哪些功能和改進？", "link": "立即投票" }
+    "zh-cn": {
+      "header": "有报告称，从 Osmosis Zone 触发的交易未能执行。维护人员正在努力解决此问题。"
+    },
+    "zh-hk": {
+      "header": "有報告稱，從 Osmosis Zone 觸發的交易未能執行。維護人員正在努力解決此問題。"
+    },
+    "zh-tw": {
+      "header": "有報告指出，從 Osmosis Zone 觸發的交易無法執行。維護人員正致力於解決此問題。"
+    }
   }
 }
