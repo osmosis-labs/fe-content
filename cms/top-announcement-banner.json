@@ -3,10 +3,7 @@
   "isChainHalted": false,
   "banner": {
     "enTextOrLocalizationPath": "header",
-    "link": {
-      "enTextOrLocalizationKey": "link",
-      "url": ""
-    },
+    "link": { "enTextOrLocalizationKey": "link", "url": "" },
     "localStorageKey": "2025-01-28-fe-outage",
     "startDate": "2025-01-28T22:00:00Z",
     "endDate": "2024-01-28T23:00:00Z"
