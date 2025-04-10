@@ -7,8 +7,7 @@
       "enTextOrLocalizationKey": "link",
       "url": "https://beta.polaris.app"
     },
-    "localStorageKey": "cross-chain-swaps-polaris",
-    "startDate": "2025-04-09T00:00:00Z"
+    "localStorageKey": "cross-chain-swaps-polaris"
   },
   "localization": {
     "de": {
