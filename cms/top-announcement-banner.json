@@ -13,72 +13,72 @@
   },
   "localization": {
     "de": {
-      "header": "Cross-Chain-Swaps jetzt verfügbar. Handeln Sie $BABY auf Polaris.",
-      "link": "Jetzt handeln"
+      "header": "Cross-Chain-Swaps jetzt verfügbar.",
+      "link": "Handeln Sie $BABY auf Polaris."
     },
     "en": {
-      "header": "Cross chain swaps now available. Trade $BABY on Polaris.",
-      "link": "Trade now"
+      "header": "Cross chain swaps now available.",
+      "link": "Trade $BABY on Polaris."
     },
     "es": {
-      "header": "Intercambios entre cadenas ya disponibles. Intercambia $BABY en Polaris.",
-      "link": "Opere ahora"
+      "header": "Intercambios entre cadenas ahora disponibles.",
+      "link": "Intercambie $BABY en Polaris."
     },
     "fa": {
-      "header": "تعویض زنجیره ای متقاطع اکنون در دسترس است. با دلار BABY با پولاریس معامله کنید.",
-      "link": "اکنون تجارت کنید"
+      "header": "تعویض زنجیره ای متقاطع اکنون در دسترس است.",
+      "link": "با دلار BABY با پولاریس معامله کنید."
     },
     "fr": {
-      "header": "Les échanges inter-chaînes sont désormais disponibles. Négociez des $BABY sur Polaris.",
-      "link": "Échangez maintenant"
+      "header": "Les échanges de chaînes croisées sont désormais disponibles.",
+      "link": "Échangez $BABY sur Polaris."
     },
     "gu": {
-      "header": "ક્રોસ ચેઇન સ્વેપ હવે ઉપલબ્ધ છે. પોલારિસ પર $BABY નો વેપાર કરો.",
-      "link": "હમણાં વેપાર કરો"
+      "header": "ક્રોસ ચેઇન સ્વેપ હવે ઉપલબ્ધ છે.",
+      "link": "પોલારિસ પર $BABY નો વેપાર કરો."
     },
     "hi": {
-      "header": "क्रॉस चेन स्वैप अब उपलब्ध है। पोलारिस पर $BABY का व्यापार करें।",
-      "link": "व्यापार अब"
+      "header": "क्रॉस चेन स्वैप अब उपलब्ध है।",
+      "link": "पोलारिस पर $BABY का व्यापार करें।"
     },
     "ja": {
-      "header": "クロスチェーンスワップが利用可能になりました。Polarisで$BABYを取引しましょう。",
-      "link": "今すぐ取引する"
+      "header": "クロスチェーンスワップが利用可能になりました。",
+      "link": "Polaris で $BABY を取引します。"
     },
     "ko": {
-      "header": "크로스 체인 스왑이 가능합니다. Polaris에서 $BABY를 거래하세요.",
-      "link": "지금 거래하세요"
+      "header": "이제 크로스 체인 스왑이 가능합니다.",
+      "link": "Polaris에서 $BABY를 거래하세요."
     },
     "pl": {
-      "header": "Dostępne są teraz cross chain swapy. Handluj $BABY na Polaris.",
-      "link": "Handluj teraz"
+      "header": "Możliwość wymiany łańcucha na inny.",
+      "link": "Wymień $BABY na Polaris."
     },
     "pt-br": {
-      "header": "Swaps entre cadeias já disponíveis. Negocie $BABY na Polaris.",
-      "link": "Negocie agora"
+      "header": "Trocas entre cadeias agora disponíveis.",
+      "link": "Negocie $BABY na Polaris."
     },
     "ro": {
-      "header": "Schimburile de lanțuri încrucișate sunt acum disponibile. Schimbă $BABY pe Polaris.",
-      "link": "Comerț acum"
+      "header": "Schimburile de lanțuri încrucișate sunt acum disponibile.",
+      "link": "Schimbă $BABY pe Polaris."
     },
     "ru": {
-      "header": "Теперь доступны кросс-чейн свопы. Торгуйте $BABY на Polaris.",
-      "link": "Торгуйте сейчас"
+      "header": "Теперь доступны кросс-чейн-обмены.",
+      "link": "Торгуйте $BABY на Polaris."
     },
     "tr": {
-      "header": "Artık çapraz zincir takasları mevcut. Polaris'te $BABY ticareti yapın.",
-      "link": "Şimdi ticaret yapın"
+      "header": "Artık zincirler arası takaslar mümkün.",
+      "link": "Polaris'te $BABY ticareti yapın."
     },
     "zh-cn": {
-      "header": "跨链交换现已开放。在 Polaris 上交易 $BABY。",
-      "link": "立即交易"
+      "header": "跨链交换现已可用。",
+      "link": "在 Polaris 上交易 $BABY。"
     },
     "zh-hk": {
-      "header": "跨鏈交換現已可用。在 Polaris 上交易 $BABY。",
-      "link": "立即交易"
+      "header": "跨鏈交換現已可用。",
+      "link": "在 Polaris 上交易 $BABY。"
     },
     "zh-tw": {
-      "header": "跨鏈交換現已可用。在 Polaris 上交易 $BABY。",
-      "link": "立即交易"
+      "header": "跨鏈交換現已可用。",
+      "link": "在 Polaris 上交易 $BABY。"
     }
   }
 }
