@@ -5,80 +5,80 @@
     "enTextOrLocalizationPath": "header",
     "link": {
       "enTextOrLocalizationKey": "link",
-      "url": "https://beta.polaris.app"
+      "url": "https://app.osmosis.zone/assets/MILK"
     },
-    "localStorageKey": "cross-chain-swaps-polaris",
-    "startDate": "2025-04-09T00:00:00Z",
-    "endDate": "2025-04-17T00:00:00Z"
+    "localStorageKey": "milkyway-milk-listing",
+    "startDate": "2025-04-29T15:00:00Z",
+    "endDate": "2025-05-02T15:00:00Z"
   },
   "localization": {
     "de": {
-      "header": "Cross-Chain-Swaps jetzt verfügbar.",
-      "link": "Handeln Sie $BABY auf Polaris."
+      "header": "Milkyway ($MILK) wird jetzt auf Osmosis gehandelt!",
+      "link": "Schau es dir an!"
     },
     "en": {
-      "header": "Cross chain swaps now available.",
-      "link": "Trade $BABY on Polaris."
+      "header": "Milkyway ($MILK) is now trading on Osmosis!",
+      "link": "Check it out!"
     },
     "es": {
-      "header": "Intercambios entre cadenas ahora disponibles.",
-      "link": "Intercambie $BABY en Polaris."
+      "header": "¡Milkyway ($MILK) ya se negocia en Osmosis!",
+      "link": "¡Échale un vistazo!"
     },
     "fa": {
-      "header": "تعویض زنجیره ای متقاطع اکنون در دسترس است.",
-      "link": "با دلار BABY با پولاریس معامله کنید."
+      "header": "میلكی‌وی ($MILK) اکنون در Osmosis معامله می‌شود!",
+      "link": "نگاهی بیندازید!"
     },
     "fr": {
-      "header": "Les échanges de chaînes croisées sont désormais disponibles.",
-      "link": "Échangez $BABY sur Polaris."
+      "header": "Milkyway ($MILK) est désormais échangé sur Osmosis !",
+      "link": "Découvrez-le !"
     },
     "gu": {
-      "header": "ક્રોસ ચેઇન સ્વેપ હવે ઉપલબ્ધ છે.",
-      "link": "પોલારિસ પર $BABY નો વેપાર કરો."
+      "header": "Milkyway ($MILK) હવે Osmosis પર ટ્રેડ થઈ રહ્યો છે!",
+      "link": "આ ઝાંખી લો!"
     },
     "hi": {
-      "header": "क्रॉस चेन स्वैप अब उपलब्ध है।",
-      "link": "पोलारिस पर $BABY का व्यापार करें।"
+      "header": "Milkyway ($MILK) अब Osmosis पर ट्रेड हो रहा है!",
+      "link": "देखिए!"
     },
     "ja": {
-      "header": "クロスチェーンスワップが利用可能になりました。",
-      "link": "Polaris で $BABY を取引します。"
+      "header": "Milkyway ($MILK) が Osmosis で取引開始されました！",
+      "link": "ぜひチェックしてください！"
     },
     "ko": {
-      "header": "이제 크로스 체인 스왑이 가능합니다.",
-      "link": "Polaris에서 $BABY를 거래하세요."
+      "header": "Milkyway($MILK)가 이제 Osmosis에서 거래됩니다!",
+      "link": "확인해보세요!"
     },
     "pl": {
-      "header": "Możliwość wymiany łańcucha na inny.",
-      "link": "Wymień $BABY na Polaris."
+      "header": "Milkyway ($MILK) jest już notowany na Osmosis!",
+      "link": "Sprawdź to!"
     },
     "pt-br": {
-      "header": "Trocas entre cadeias agora disponíveis.",
-      "link": "Negocie $BABY na Polaris."
+      "header": "Milkyway ($MILK) já está sendo negociado na Osmosis!",
+      "link": "Confira!"
     },
     "ro": {
-      "header": "Schimburile de lanțuri încrucișate sunt acum disponibile.",
-      "link": "Schimbă $BABY pe Polaris."
+      "header": "Milkyway ($MILK) este acum tranzacționat pe Osmosis!",
+      "link": "Verifică aici!"
     },
     "ru": {
-      "header": "Теперь доступны кросс-чейн-обмены.",
-      "link": "Торгуйте $BABY на Polaris."
+      "header": "Milkyway ($MILK) теперь торгуется на Osmosis!",
+      "link": "Посмотрите!"
     },
     "tr": {
-      "header": "Artık zincirler arası takaslar mümkün.",
-      "link": "Polaris'te $BABY ticareti yapın."
+      "header": "Milkyway ($MILK) artık Osmosis'te işlem görüyor!",
+      "link": "Göz atın!"
     },
     "zh-cn": {
-      "header": "跨链交换现已可用。",
-      "link": "在 Polaris 上交易 $BABY。"
+      "header": "Milkyway ($MILK) 现已在 Osmosis 上交易！",
+      "link": "快来看看！"
     },
     "zh-hk": {
-      "header": "跨鏈交換現已可用。",
-      "link": "在 Polaris 上交易 $BABY。"
+      "header": "Milkyway ($MILK) 現已在 Osmosis 上交易！",
+      "link": "立即查看！"
     },
     "zh-tw": {
-      "header": "跨鏈交換現已可用。",
-      "link": "在 Polaris 上交易 $BABY。"
+      "header": "Milkyway ($MILK) 現已在 Osmosis 上交易！",
+      "link": "快來看看！"
     }
   }
 }
