@@ -120,22 +120,6 @@
       }
     },
     {
-      "title": "Quasar Finance",
-      "subtitle": "Quasar is the first decentralized asset management platform supercharged with IBC.",
-      "external_URL": "https://app.quasar.fi/",
-      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/quasar_finance_thumbnail.webp",
-      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/quasar_finance_hero.webp",
-      "twitter_URL": "https://twitter.com/quasarfi",
-      "medium_URL": "https://www.quasar.fi/blog",
-      "github_URL": "https://github.com/quasar-finance/",
-      "featured": false,
-      "internal_data": {
-        "thumbnail_size": 9132,
-        "hero_size": 24884,
-        "project_listing_date": "2023-07-31T22:34:16.961Z"
-      }
-    },
-    {
       "title": "Stride",
       "subtitle": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
       "external_URL": "https://app.stride.zone/?chain=OSMO",
