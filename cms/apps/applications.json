@@ -168,22 +168,6 @@
       }
     },
     {
-      "title": "IBCX",
-      "subtitle": "$IBCX is a Cosmos index token designed to benchmark the leading Cosmos tokens’ performance.",
-      "external_URL": "https://index.ion.wtf/",
-      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/ibcx_thumbnail.webp",
-      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/ibcx_hero.webp",
-      "twitter_URL": "https://twitter.com/IBCindex",
-      "medium_URL": "https://medium.com/@IBCindex",
-      "github_URL": "https://github.com/many-things/ibcx-contracts",
-      "featured": false,
-      "internal_data": {
-        "thumbnail_size": 44742,
-        "hero_size": 67146,
-        "project_listing_date": "2023-05-30T15:32:59.804Z"
-      }
-    },
-    {
       "title": "Calculated Finance",
       "subtitle": "Create DCA (Dollar Cost Averaging) strategies. Experience the smartest way to enter and exit your crypto positions.",
       "external_URL": "https://app.calculated.fi/?chain=osmosis-1",
