@@ -216,13 +216,12 @@
       }
     },
     {
-      "title": "Kado",
+      "title": "Swapped.com",
       "subtitle": "Instantly Buy & Sell Crypto. Onboard to Osmosis in less than 5 minutes.",
-      "external_URL": "https://app.kado.money/",
-      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/kado_thumbnail.webp",
-      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/kado_hero.webp",
-      "twitter_URL": "https://twitter.com/kado_money",
-      "medium_URL": "https://kado-money.medium.com/",
+      "external_URL": "https://swapped.com/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/swapped_com_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/swapped_com_hero.webp",
+      "twitter_URL": "https://x.com/swappedcom",
       "featured": false,
       "internal_data": {
         "thumbnail_size": 139848,
