@@ -364,7 +364,8 @@
       "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/astroport_hero.webp",
       "twitter_URL": "https://x.com/astroport_fi",
       "medium_URL": "https://astroport.medium.com",
-      "github_URL": "https://github.com/astroport-fi"
+      "github_URL": "https://github.com/astroport-fi",
+      "featured": false
     },
     {
       "title": "Necropolis",
@@ -374,7 +375,8 @@
       "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/necropolis_hero.webp",
       "twitter_URL": "https://twitter.com/BackBone_Labs",
       "medium_URL": "https://medium.com/@backbone_labs",
-      "github_URL": "https://github.com/backbonelabsio"
+      "github_URL": "https://github.com/backbonelabsio",
+      "featured": false
     },
     {
       "title": "GraveDigger",
@@ -384,7 +386,8 @@
       "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/gravedigger_hero.webp",
       "twitter_URL": "https://twitter.com/BackBone_Labs",
       "medium_URL": "https://medium.com/@backbone_labs",
-      "github_URL": "https://github.com/backbonelabsio"
+      "github_URL": "https://github.com/backbonelabsio",
+      "featured": false
     },
     {
       "title": "Racoon.Bet",
@@ -396,6 +399,18 @@
       "medium_URL": "https://medium.com/@racoon-supply",
       "github_URL": "https://github.com/racoon-supply-rac",
       "featured": false
+    },
+    {
+      "title": "Polaris",
+      "subtitle": "Enter Polaris, the Token Portal. Trade all tokens, across all chains.",
+      "external_URL": "https://polaris.app/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/polaris_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/polaris_hero.webp",
+      "twitter_URL": "https://twitter.com/Polaris_App",
+      "featured": false,
+      "internal_data": {
+        "project_listing_date": "2025-06-19T15:01:09.000"
+      }
     }
   ]
 }
