@@ -2,6 +2,18 @@
   "$schema": "../../schemas/applications.schema.json",
   "applications": [
     {
+      "title": "Polaris",
+      "subtitle": "Enter Polaris, the Token Portal. Trade all tokens, across all chains.",
+      "external_URL": "https://polaris.app/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/polaris_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/polaris_hero.webp",
+      "twitter_URL": "https://twitter.com/Polaris_App",
+      "featured": true,
+      "internal_data": {
+        "project_listing_date": "2025-06-19T15:01:09.000"
+      }
+    },
+    {
       "title": "Start Cooking",
       "subtitle": "Minting your Memecoin on Osmosis with just 2 clicks. All it takes is 1 OSMO.",
       "external_URL": "https://start.cooking/",
@@ -10,7 +22,7 @@
       "twitter_URL": "https://twitter.com/startcookingapp",
       "medium_URL": "https://medium.com/@start.cooking157",
       "github_URL": "https://github.com/BIG-Labs/cooking-contracts",
-      "featured": true
+      "featured": false
     },
     {
       "title": "Osmohall",
@@ -399,18 +411,6 @@
       "medium_URL": "https://medium.com/@racoon-supply",
       "github_URL": "https://github.com/racoon-supply-rac",
       "featured": false
-    },
-    {
-      "title": "Polaris",
-      "subtitle": "Enter Polaris, the Token Portal. Trade all tokens, across all chains.",
-      "external_URL": "https://polaris.app/",
-      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/polaris_thumbnail.webp",
-      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/polaris_hero.webp",
-      "twitter_URL": "https://twitter.com/Polaris_App",
-      "featured": false,
-      "internal_data": {
-        "project_listing_date": "2025-06-19T15:01:09.000"
-      }
     }
   ]
 }
