@@ -411,6 +411,17 @@
       "medium_URL": "https://medium.com/@racoon-supply",
       "github_URL": "https://github.com/racoon-supply-rac",
       "featured": false
+    },
+    {
+      "title": "Escher",
+      "subtitle": "Staking made limitless",
+      "external_URL": "https://www.escher.finance",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/escher_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/escher_hero.webp",
+      "twitter_URL": "https://x.com/escher_fi",
+      "medium_URL": "https://medium.com/escher-finance",
+      "github_URL": "https://github.com/Escher-finance",
+      "featured": false
     }
   ]
 }
