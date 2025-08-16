@@ -412,5 +412,16 @@
       "github_URL": "https://github.com/racoon-supply-rac",
       "featured": false
     }
+    {
+      "title": "Juris Protocl",
+      "subtitle": "Feeling lucky? Try our 9 games of chance to hit those 50x!",
+      "external_URL": "https://jurisprotocol.com/",
+      "thumbnail_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/juris-bank_thumbnail.webp",
+      "hero_image_URL": "https://raw.githubusercontent.com/osmosis-labs/fe-content/main/cms/apps/images/juris-bank.webp",
+      "twitter_URL": "https://twitter.com/JurisProtocol",
+      "medium_URL": "hhttps://solidproof-io.medium.com/juris-protocol-revitalizing-terra-classic-f874441b6086",
+      "github_URL": "https://github.com/jurisprotocol",
+      "featured": false
+    }
   ]
 }
