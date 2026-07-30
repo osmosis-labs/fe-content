@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "alerts": {
+      "type": "array",
+      "$comment": "Urgent, denom-gated alerts (e.g. a bridge or protocol sunsetting). Each alert is shown, on every page, only to wallets holding one of its denoms anywhere on Osmosis (bank balances, staked, in-locks, unclaimed rewards, or pooled). Matching is strict exact-denom: alloys are not decomposed into constituents, so to alert alloy holders the alloy denom must be listed explicitly.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "denoms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "$comment": "Minimal denoms that trigger this alert when held, e.g. ibc/HASH or factory/... . Never symbols."
+          },
+          "banner": {
+            "type": "object",
+            "properties": {
+              "localStorageKey": {
+                "type": "string",
+                "$comment": "Persists dismissal. Must be unique per alert."
+              },
+              "enTextOrLocalizationPath": {
+                "type": "string",
+                "$comment": "English text or key into the localization block. May contain a {symbols} placeholder, replaced with the display symbols of the held assets that triggered the alert, e.g. \"DOGE.int3, LTC.int3\"."
+              },
+              "link": {
+                "type": "object",
+                "properties": {
+                  "enTextOrLocalizationKey": {
+                    "type": "string",
+                    "$comment": "English text or key into the localization block."
+                  },
+                  "url": {
+                    "type": "string"
+                  },
+                  "isExternal": {
+                    "type": "boolean",
+                    "$comment": "External to Osmosis. Show disclaimer before linking out of app."
+                  }
+                },
+                "$comment": "Link with more detail on the required action.",
+                "required": ["url"]
+              },
+              "isWarning": {
+                "type": "boolean",
+                "$comment": "Use warning styling. Unlike the top announcement banner, asset alerts remain dismissible when this is set."
+              },
+              "persistent": {
+                "type": "boolean",
+                "$comment": "Cannot be dismissed. Use with caution."
+              },
+              "bg": {
+                "type": "string",
+                "$comment": "Custom background color."
+              },
+              "startDate": {
+                "type": "string",
+                "format": "date-time",
+                "$comment": "ISO 8601 date-time string. Alert will not show until this date."
+              },
+              "endDate": {
+                "type": "string",
+                "format": "date-time",
+                "$comment": "ISO 8601 date-time string. Alert will not show after this date."
+              }
+            },
+            "required": ["enTextOrLocalizationPath", "localStorageKey"]
+          },
+          "localization": {
+            "type": "object"
+          }
+        },
+        "required": ["denoms", "banner", "localization"]
+      }
+    }
+  },
+  "required": ["alerts"]
+}
