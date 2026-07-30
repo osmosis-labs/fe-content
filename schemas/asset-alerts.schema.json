@@ -71,7 +71,16 @@
             "required": ["enTextOrLocalizationPath", "localStorageKey"]
           },
           "localization": {
-            "type": "object"
+            "type": "object",
+            "$comment": "Locale code -> object of localization keys (referenced by enTextOrLocalizationPath / enTextOrLocalizationKey) to translated strings.",
+            "additionalProperties": {
+              "type": "object",
+              "minProperties": 1,
+              "additionalProperties": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
           }
         },
         "required": ["denoms", "banner", "localization"]
