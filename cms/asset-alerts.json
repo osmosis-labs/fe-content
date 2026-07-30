@@ -13,7 +13,12 @@
         "ibc/013DE940BE791C79142EAD4DF071E1ED280DFEAB8A9DCB5932A4603A74C25CBB",
         "ibc/2C5CB5DB3D86F64FDE6155A3A94D7543A126DA55490309EEDF59A0765873DA1C",
         "ibc/51BFF64A432CBBA08A1ED95609BF0255EC4BBF699BFCDFF267F66CCD664CA350",
-        "ibc/18A91A3DDFD9776A247AE1B4B3298D754D1627B85F288DCEA473B7239F7B7A0E"
+        "ibc/18A91A3DDFD9776A247AE1B4B3298D754D1627B85F288DCEA473B7239F7B7A0E",
+        "factory/osmo1cranx3twqxfrgeqvgsu262gy54vafpc9xap6scye99v244zl970s7kw2sz/alloyed/allBCH",
+        "factory/osmo1csp8fk353hnq2tmulklecxpex43qmjvrkxjcsh4c3eqcw2vjcslq5jls9v/alloyed/allLTC",
+        "factory/osmo10nu66efsxxkdgh70xs8xur9mygrg79m5ht7zcmzsrdzxkhz7hpssz9hg9k/alloyed/allPENGU",
+        "factory/osmo1524q4dt7ckx25daydfd0ya0hyu6t26ch5509nvmxm4gcvuhk0fvs8qzl5q/alloyed/allTRUMP",
+        "factory/osmo1twk0c4kcwnhkyn6pzxe0qsk6a3nrye2w2sy309d60sljfysugagsd7e3mn/alloyed/allZEC"
       ],
       "banner": {
         "enTextOrLocalizationPath": "header",
