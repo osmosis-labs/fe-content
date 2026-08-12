@@ -30,75 +30,75 @@
         },
         "isWarning": true,
         "startDate": "2026-07-30T00:00:00Z",
-        "endDate": "2026-08-10T23:59:59Z"
+        "endDate": "2026-08-15T23:59:59Z"
       },
       "localization": {
         "de": {
-          "header": "Die BitFrost-Brücke (Int3face) wird eingestellt: Ziehe gegebenenfalls deine {symbols}-Liquidität ab und bridge deine Assets bis zum 10. August 2026.",
+          "header": "Die BitFrost-Brücke (Int3face) wird eingestellt: Ziehe gegebenenfalls deine {symbols}-Liquidität ab und bridge deine Assets bis zum 15. August 2026.",
           "link": "Mehr erfahren"
         },
         "en": {
-          "header": "The BitFrost (Int3face) bridge is winding down: withdraw {symbols} liquidity if applicable, then bridge your assets out before August 10, 2026.",
+          "header": "The BitFrost (Int3face) bridge is winding down: withdraw {symbols} liquidity if applicable, then bridge your assets out before August 15, 2026.",
           "link": "Learn more"
         },
         "es": {
-          "header": "El puente BitFrost (Int3face) se está cerrando: retira tu liquidez de {symbols} si corresponde y transfiere tus activos antes del 10 de agosto de 2026.",
+          "header": "El puente BitFrost (Int3face) se está cerrando: retira tu liquidez de {symbols} si corresponde y transfiere tus activos antes del 15 de agosto de 2026.",
           "link": "Más información"
         },
         "fa": {
-          "header": "پل BitFrost (Int3face) در حال توقف است: در صورت وجود، نقدینگی {symbols} خود را برداشت کرده و دارایی‌های خود را تا ۱۰ اوت ۲۰۲۶ منتقل کنید.",
+          "header": "پل BitFrost (Int3face) در حال توقف است: در صورت وجود، نقدینگی {symbols} خود را برداشت کرده و دارایی‌های خود را تا ۱۵ اوت ۲۰۲۶ منتقل کنید.",
           "link": "اطلاعات بیشتر"
         },
         "fr": {
-          "header": "Le pont BitFrost (Int3face) prend fin : retirez votre liquidité {symbols} le cas échéant, puis transférez vos actifs avant le 10 août 2026.",
+          "header": "Le pont BitFrost (Int3face) prend fin : retirez votre liquidité {symbols} le cas échéant, puis transférez vos actifs avant le 15 août 2026.",
           "link": "En savoir plus"
         },
         "gu": {
-          "header": "BitFrost (Int3face) બ્રિજ બંધ થઈ રહ્યો છે: લાગુ પડે તો તમારી {symbols} લિક્વિડિટી પાછી ખેંચો અને 10 ઓગસ્ટ 2026 પહેલાં તમારી સંપત્તિ બ્રિજ કરો.",
+          "header": "BitFrost (Int3face) બ્રિજ બંધ થઈ રહ્યો છે: લાગુ પડે તો તમારી {symbols} લિક્વિડિટી પાછી ખેંચો અને 15 ઓગસ્ટ 2026 પહેલાં તમારી સંપત્તિ બ્રિજ કરો.",
           "link": "વધુ જાણો"
         },
         "hi": {
-          "header": "BitFrost (Int3face) ब्रिज बंद हो रहा है: लागू हो तो अपनी {symbols} लिक्विडिटी निकालें और 10 अगस्त 2026 से पहले अपनी संपत्ति ब्रिज करें।",
+          "header": "BitFrost (Int3face) ब्रिज बंद हो रहा है: लागू हो तो अपनी {symbols} लिक्विडिटी निकालें और 15 अगस्त 2026 से पहले अपनी संपत्ति ब्रिज करें।",
           "link": "अधिक जानें"
         },
         "ja": {
-          "header": "BitFrost（Int3face）ブリッジはサービス終了となります。2026年8月10日までに、必要に応じて{symbols}の流動性を引き出し、資産をブリッジしてください。",
+          "header": "BitFrost（Int3face）ブリッジはサービス終了となります。2026年8月15日までに、必要に応じて{symbols}の流動性を引き出し、資産をブリッジしてください。",
           "link": "詳細はこちら"
         },
         "ko": {
-          "header": "BitFrost(Int3face) 브리지 서비스가 종료됩니다. 2026년 8월 10일까지 해당되는 경우 {symbols} 유동성을 인출하고 자산을 브리지하세요.",
+          "header": "BitFrost(Int3face) 브리지 서비스가 종료됩니다. 2026년 8월 15일까지 해당되는 경우 {symbols} 유동성을 인출하고 자산을 브리지하세요.",
           "link": "자세히 보기"
         },
         "pl": {
-          "header": "Most BitFrost (Int3face) jest wycofywany: w razie potrzeby wycofaj płynność {symbols} i przenieś swoje aktywa do 10 sierpnia 2026 r.",
+          "header": "Most BitFrost (Int3face) jest wycofywany: w razie potrzeby wycofaj płynność {symbols} i przenieś swoje aktywa do 15 sierpnia 2026 r.",
           "link": "Dowiedz się więcej"
         },
         "pt-br": {
-          "header": "A ponte BitFrost (Int3face) está sendo encerrada: retire sua liquidez de {symbols}, se aplicável, e transfira seus ativos até 10 de agosto de 2026.",
+          "header": "A ponte BitFrost (Int3face) está sendo encerrada: retire sua liquidez de {symbols}, se aplicável, e transfira seus ativos até 15 de agosto de 2026.",
           "link": "Saiba mais"
         },
         "ro": {
-          "header": "Podul BitFrost (Int3face) se închide: retrage-ți lichiditatea {symbols} dacă este cazul și transferă-ți activele până la 10 august 2026.",
+          "header": "Podul BitFrost (Int3face) se închide: retrage-ți lichiditatea {symbols} dacă este cazul și transferă-ți activele până la 15 august 2026.",
           "link": "Află mai multe"
         },
         "ru": {
-          "header": "Мост BitFrost (Int3face) прекращает работу: при необходимости выведите ликвидность {symbols} и переведите активы до 10 августа 2026 г.",
+          "header": "Мост BitFrost (Int3face) прекращает работу: при необходимости выведите ликвидность {symbols} и переведите активы до 15 августа 2026 г.",
           "link": "Подробнее"
         },
         "tr": {
-          "header": "BitFrost (Int3face) köprüsü kullanımdan kaldırılıyor: varsa {symbols} likiditenizi çekin ve varlıklarınızı 10 Ağustos 2026'ya kadar köprüden geçirin.",
+          "header": "BitFrost (Int3face) köprüsü kullanımdan kaldırılıyor: varsa {symbols} likiditenizi çekin ve varlıklarınızı 15 Ağustos 2026'ya kadar köprüden geçirin.",
           "link": "Daha fazla bilgi"
         },
         "zh-cn": {
-          "header": "BitFrost（Int3face）跨链桥即将停止服务：请在2026年8月10日前提取您的 {symbols} 流动性（如有）并将资产跨链转出。",
+          "header": "BitFrost（Int3face）跨链桥即将停止服务：请在2026年8月15日前提取您的 {symbols} 流动性（如有）并将资产跨链转出。",
           "link": "了解更多"
         },
         "zh-hk": {
-          "header": "BitFrost（Int3face）跨鏈橋即將停止服務：請於2026年8月10日前提取您的 {symbols} 流動性（如有）並將資產跨鏈轉出。",
+          "header": "BitFrost（Int3face）跨鏈橋即將停止服務：請於2026年8月15日前提取您的 {symbols} 流動性（如有）並將資產跨鏈轉出。",
           "link": "了解更多"
         },
         "zh-tw": {
-          "header": "BitFrost（Int3face）跨鏈橋即將停止服務：請於2026年8月10日前提取您的 {symbols} 流動性（如有）並將資產跨鏈轉出。",
+          "header": "BitFrost（Int3face）跨鏈橋即將停止服務：請於2026年8月15日前提取您的 {symbols} 流動性（如有）並將資產跨鏈轉出。",
           "link": "了解更多"
         }
       }
