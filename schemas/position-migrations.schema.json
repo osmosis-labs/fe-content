@@ -6,17 +6,33 @@
       "type": "string",
       "$comment": "Relative path to this schema. Read by the CMS validation test to pick the schema to validate against."
     },
-    "priceDivergenceTolerance": {
-      "type": "number",
-      "exclusiveMinimum": 0,
-      "maximum": 5,
-      "$comment": "Maximum allowed difference, in percent, between the source pool's current price and the destination pool's current price. A pair diverging by more than this is blocked in the UI with an explanation rather than offered. Applies to every migration; there is no per-migration override. This is the primary protection against migrating into a mispriced pool, and it is deliberately strict: the intended response to a blocked pair is to seed depth into the destination pool so the divergence closes on its own, not to raise this number. Computed live from current pool state on every render, never from a cached snapshot."
+    "priceDivergenceTiers": {
+      "type": "array",
+      "minItems": 1,
+      "$comment": "Maximum allowed difference, in percent, between the source and destination pool prices, tiered by the USD value of the position being migrated: a small position can tolerate more mispricing because the absolute loss is small, while a large one demands a tight price. A position matches the first tier whose upToUsd exceeds its value; the final tier omits upToUsd and catches everything above. Tolerances must shrink as size grows (enforced by the tests). A pair diverging beyond the applicable tier is blocked in the UI with an explanation rather than offered. Computed live from current pool state on every render, never from a cached snapshot; the intended response to a persistently blocked pair is to seed and align the destination pool, not to loosen these numbers.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "upToUsd": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "$comment": "Tier applies to positions worth strictly less than this. Omitted on the final catch-all tier only."
+          },
+          "tolerancePercent": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 5
+          }
+        },
+        "required": ["tolerancePercent"],
+        "additionalProperties": false
+      }
     },
     "minAmountTolerance": {
       "type": "number",
       "exclusiveMinimum": 0,
       "maximum": 5,
-      "$comment": "Tolerance, in percent, used to derive token_min_amount0/1 on the create-position message from the simulated deposit amounts. Set deliberately looser than priceDivergenceTolerance because it guards a different failure: pool state moving between simulation and broadcast (a swap landing in the same block, or a deliberate front-run). Too tight and ordinary rounding reverts honest migrations; too loose and the onchain guarantee is decorative. Never 0 - a zero minimum lets a mispriced create succeed silently instead of reverting the whole transaction."
+      "$comment": "Tolerance, in percent, used to derive token_min_amount0/1 on the create-position message from the simulated deposit amounts. Set deliberately looser than every priceDivergenceTiers tolerance because it guards a different failure: pool state moving between simulation and broadcast (a swap landing in the same block, or a deliberate front-run). Too tight and ordinary rounding reverts honest migrations; too loose and the onchain guarantee is decorative. Never 0 - a zero minimum lets a mispriced create succeed silently instead of reverting the whole transaction."
     },
     "migrations": {
       "type": "array",
@@ -57,6 +73,6 @@
       }
     }
   },
-  "required": ["priceDivergenceTolerance", "minAmountTolerance", "migrations"],
+  "required": ["priceDivergenceTiers", "minAmountTolerance", "migrations"],
   "additionalProperties": false
 }

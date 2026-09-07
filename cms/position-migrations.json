@@ -1,6 +1,22 @@
 {
   "$schema": "../schemas/position-migrations.schema.json",
-  "priceDivergenceTolerance": 0.1,
+  "priceDivergenceTiers": [
+    {
+      "upToUsd": 100,
+      "tolerancePercent": 0.5
+    },
+    {
+      "upToUsd": 500,
+      "tolerancePercent": 0.3
+    },
+    {
+      "upToUsd": 1000,
+      "tolerancePercent": 0.2
+    },
+    {
+      "tolerancePercent": 0.1
+    }
+  ],
   "minAmountTolerance": 1,
   "migrations": [
     {
