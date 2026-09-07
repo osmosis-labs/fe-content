@@ -2,5 +2,23 @@
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
   "banner": null,
-  "localization": {}
+  "localization": {
+    "de": {},
+    "en": {},
+    "es": {},
+    "fa": {},
+    "fr": {},
+    "gu": {},
+    "hi": {},
+    "ja": {},
+    "ko": {},
+    "pl": {},
+    "pt-br": {},
+    "ro": {},
+    "ru": {},
+    "tr": {},
+    "zh-cn": {},
+    "zh-hk": {},
+    "zh-tw": {}
+  }
 }
