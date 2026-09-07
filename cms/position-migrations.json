@@ -1,0 +1,163 @@
+{
+  "$schema": "../schemas/position-migrations.schema.json",
+  "priceDivergenceTiers": [
+    {
+      "upToUsd": 100,
+      "tolerancePercent": 0.5
+    },
+    {
+      "upToUsd": 500,
+      "tolerancePercent": 0.3
+    },
+    {
+      "upToUsd": 1000,
+      "tolerancePercent": 0.2
+    },
+    {
+      "tolerancePercent": 0.1
+    }
+  ],
+  "minAmountTolerance": 1,
+  "migrations": [
+    {
+      "fromPoolId": 1220,
+      "toPoolId": 3510,
+      "spreadFactor": "0.000100000000000000",
+      "tickSpacing": 100,
+      "note": "USDT.kava. Single spread-matched destination."
+    },
+    {
+      "fromPoolId": 1247,
+      "toPoolId": 3540,
+      "spreadFactor": "0.000500000000000000",
+      "tickSpacing": 100,
+      "note": "TIA. Spread-matched destination on the 0.0005 tier."
+    },
+    {
+      "fromPoolId": 1251,
+      "toPoolId": 3505,
+      "spreadFactor": "0.002000000000000000",
+      "tickSpacing": 100,
+      "note": "ATOM. Three destination candidates existed; 3505 is the only one holding meaningful liquidity, and matches on spread factor 0.002."
+    },
+    {
+      "fromPoolId": 1253,
+      "toPoolId": 3517,
+      "spreadFactor": "0.002000000000000000",
+      "tickSpacing": 100,
+      "note": "nBTC. Spread-matched destination on the 0.002 tier."
+    },
+    {
+      "fromPoolId": 1301,
+      "toPoolId": 3509,
+      "spreadFactor": "0.002000000000000000",
+      "tickSpacing": 100,
+      "note": "AKT. Spread-matched destination on the 0.002 tier."
+    },
+    {
+      "fromPoolId": 1319,
+      "toPoolId": 3536,
+      "spreadFactor": "0.002000000000000000",
+      "tickSpacing": 100,
+      "note": "INJ. Spread-matched destination on the 0.002 tier."
+    },
+    {
+      "fromPoolId": 1464,
+      "toPoolId": 3513,
+      "spreadFactor": "0.000100000000000000",
+      "tickSpacing": 100,
+      "note": "OSMO. Spread-matched destination for the 0.0001 tier (3513); not 3499, which is the 0.002 tier."
+    },
+    {
+      "fromPoolId": 1880,
+      "toPoolId": 3508,
+      "spreadFactor": "0.000500000000000000",
+      "tickSpacing": 100,
+      "note": "USDT. Spread-matched destination for the 0.0005 tier (3508); 3507 is the 0.0001 tier."
+    },
+    {
+      "fromPoolId": 1926,
+      "toPoolId": 3501,
+      "spreadFactor": "0.000100000000000000",
+      "tickSpacing": 100,
+      "note": "USDY. Single destination candidate. Identical token0, tick spacing 100, spread factor 0.0001 both sides."
+    },
+    {
+      "fromPoolId": 1942,
+      "toPoolId": 3503,
+      "spreadFactor": "0.000500000000000000",
+      "tickSpacing": 100,
+      "note": "BTC. Spread-matched destination for the 0.0005 tier (3503); not 3504, which is the 0.001 tier."
+    },
+    {
+      "fromPoolId": 1943,
+      "toPoolId": 3502,
+      "spreadFactor": "0.000100000000000000",
+      "tickSpacing": 100,
+      "note": "BTC. Spread-matched destination for the 0.0001 tier (3502); the deeper 3504 is the 0.001 tier and would change the fee tier."
+    },
+    {
+      "fromPoolId": 1947,
+      "toPoolId": 3511,
+      "spreadFactor": "0.002000000000000000",
+      "tickSpacing": 100,
+      "note": "ETH. Two destination candidates existed; 3511 is the deeper and matches on spread factor 0.002. Source 1948 for the same pair is not listed: it diverges 0.23%, outside tolerance."
+    },
+    {
+      "fromPoolId": 1948,
+      "toPoolId": 3512,
+      "spreadFactor": "0.000500000000000000",
+      "tickSpacing": 100,
+      "note": "ETH. Spread-matched destination for the 0.0005 tier (3512); 3511 is the 0.002 tier used by source 1947."
+    },
+    {
+      "fromPoolId": 2178,
+      "toPoolId": 3547,
+      "spreadFactor": "0.025000000000000000",
+      "tickSpacing": 100,
+      "note": "BERNESE. Spread-matched destination on the 0.025 tier."
+    },
+    {
+      "fromPoolId": 2321,
+      "toPoolId": 3504,
+      "spreadFactor": "0.001000000000000000",
+      "tickSpacing": 100,
+      "note": "BTC. Four destination candidates existed; 3504 is the deepest and matches on spread factor 0.001."
+    },
+    {
+      "fromPoolId": 2444,
+      "toPoolId": 3534,
+      "spreadFactor": "0.002000000000000000",
+      "tickSpacing": 100,
+      "note": "VERONA. Single spread-matched destination."
+    },
+    {
+      "fromPoolId": 2907,
+      "toPoolId": 3535,
+      "spreadFactor": "0.002000000000000000",
+      "tickSpacing": 100,
+      "note": "BABY. Spread-matched destination on the 0.002 tier."
+    },
+    {
+      "fromPoolId": 3085,
+      "toPoolId": 3555,
+      "spreadFactor": "0.001000000000000000",
+      "tickSpacing": 100,
+      "note": "NRIDE. Spread-matched destination on the 0.001 tier."
+    },
+    {
+      "fromPoolId": 3220,
+      "toPoolId": 3538,
+      "spreadFactor": "0.010000000000000000",
+      "tickSpacing": 100,
+      "note": "PHOTON. Spread-matched destination on the 0.01 tier."
+    },
+    {
+      "fromPoolId": 3335,
+      "toPoolId": 3550,
+      "spreadFactor": "0.001000000000000000",
+      "tickSpacing": 100,
+      "note": "NYM. Spread-matched destination on the 0.001 tier."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "$comment": "Relative path to this schema. Read by the CMS validation test to pick the schema to validate against."
+    },
+    "priceDivergenceTiers": {
+      "type": "array",
+      "minItems": 1,
+      "$comment": "Maximum allowed difference, in percent, between the source and destination pool prices, tiered by the USD value of the position being migrated: a small position can tolerate more mispricing because the absolute loss is small, while a large one demands a tight price. A position matches the first tier whose upToUsd exceeds its value; the final tier omits upToUsd and catches everything above. Tolerances must shrink as size grows (enforced by the tests). A pair diverging beyond the applicable tier is blocked in the UI with an explanation rather than offered. Computed live from current pool state on every render, never from a cached snapshot; the intended response to a persistently blocked pair is to seed and align the destination pool, not to loosen these numbers.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "upToUsd": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "$comment": "Tier applies to positions worth strictly less than this. Omitted on the final catch-all tier only."
+          },
+          "tolerancePercent": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 5
+          }
+        },
+        "required": ["tolerancePercent"],
+        "additionalProperties": false
+      }
+    },
+    "minAmountTolerance": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 5,
+      "$comment": "Tolerance, in percent, used to derive token_min_amount0/1 on the create-position message from the simulated deposit amounts. Set deliberately looser than every priceDivergenceTiers tolerance because it guards a different failure: pool state moving between simulation and broadcast (a swap landing in the same block, or a deliberate front-run). Too tight and ordinary rounding reverts honest migrations; too loose and the onchain guarantee is decorative. Never 0 - a zero minimum lets a mispriced create succeed silently instead of reverting the whole transaction."
+    },
+    "migrations": {
+      "type": "array",
+      "$comment": "Curated 1:1 links from a USDC.noble-paired concentrated liquidity pool to its alloyed-USDC equivalent. Presence in this list is what makes the migrate action appear on a position; an absent or empty list means the feature is simply not offered, so this file doubles as the kill switch. Entries are authored by hand and never generated: several candidate pools are near-empty with nonsense prices, and pairs where more than one destination exists need a human to pick the canonical one. This is a like-for-like move, so a destination MUST match its source on both tick spacing and spread factor - a differing fee tier is not a disclosure item, it is a different pool. Destination pools were created as a full fee-tier ladder, so a spread-matched sibling usually exists even when the seeded pool has the wrong tier; pick the matching tier and seed it rather than accepting a mismatch.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fromPoolId": {
+            "type": "integer",
+            "minimum": 1,
+            "$comment": "Source pool: the existing USDC.noble-paired concentrated liquidity pool holding user positions."
+          },
+          "toPoolId": {
+            "type": "integer",
+            "minimum": 1,
+            "$comment": "Destination pool: the alloyed-USDC equivalent. Must be concentrated liquidity with the same tick spacing as the source, so position tick bounds copy across as raw integers with no re-derivation."
+          },
+          "note": {
+            "type": "string",
+            "$comment": "Why this destination was chosen, for pairs where more than one candidate existed. Authoring context only; never shown in the UI."
+          },
+          "spreadFactor": {
+            "type": "string",
+            "$comment": "The spread factor both pools share, as the decimal string the chain reports (e.g. \"0.002000000000000000\"). Required, and recorded so the like-for-like claim is reviewable in the diff rather than taken on trust. The frontend must still verify it against live pool state before offering a migration and refuse the pair on a mismatch: this value is authoring intent, not a substitute for the runtime check."
+          },
+          "tickSpacing": {
+            "type": "integer",
+            "minimum": 1,
+            "$comment": "The tick spacing both pools share. Required. Position tick bounds copy across as raw integers, which is only valid when spacing is identical, so this makes the assumption explicit in review. Verified again at runtime."
+          },
+          "enabled": {
+            "type": "boolean",
+            "$comment": "Defaults to true when omitted. Set false to withdraw a single pairing without deleting its entry, e.g. while a destination pool is too thin to absorb the inbound liquidity."
+          }
+        },
+        "required": ["fromPoolId", "toPoolId", "spreadFactor", "tickSpacing"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["priceDivergenceTiers", "minAmountTolerance", "migrations"],
+  "additionalProperties": false
+}
