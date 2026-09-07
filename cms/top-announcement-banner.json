@@ -1,85 +1,24 @@
 {
   "$schema": "../schemas/top-announcement-banner.schema.json",
   "isChainHalted": false,
-  "banner": {
-    "enTextOrLocalizationPath": "header",
-    "link": {
-      "enTextOrLocalizationKey": "link",
-      "url": "https://cypherhq.io/blog/cypher-is-being-acquired-by-nium",
-      "isExternal": true
-    },
-    "localStorageKey": "cypher-card-winddown",
-    "startDate": "2026-07-09T00:00:00Z",
-    "endDate": "2026-09-07T00:00:00Z"
-  },
+  "banner": null,
   "localization": {
-    "de": {
-      "header": "Die Osmosis Pay Card wird eingestellt: Letzter Tag zum Bezahlen ist der 7. August. Hebe dein Guthaben bis zum 6. September 2026 ab.",
-      "link": "Mehr erfahren"
-    },
-    "en": {
-      "header": "The Osmosis Pay card is winding down: last day to spend is Aug 7. Withdraw your funds by Sep 6, 2026.",
-      "link": "Learn more"
-    },
-    "es": {
-      "header": "La tarjeta Osmosis Pay se está retirando: el último día para gastar es el 7 de agosto. Retira tus fondos antes del 6 de septiembre de 2026.",
-      "link": "Más información"
-    },
-    "fa": {
-      "header": "کارت Osmosis Pay در حال توقف است: آخرین روز خرید ۷ اوت است. وجوه خود را تا ۶ سپتامبر ۲۰۲۶ برداشت کنید.",
-      "link": "اطلاعات بیشتر"
-    },
-    "fr": {
-      "header": "La carte Osmosis Pay prend fin : dernier jour pour payer le 7 août. Retirez vos fonds avant le 6 septembre 2026.",
-      "link": "En savoir plus"
-    },
-    "gu": {
-      "header": "Osmosis Pay કાર્ડ બંધ થઈ રહ્યું છે: ખર્ચ કરવાનો છેલ્લો દિવસ 7 ઓગસ્ટ છે. 6 સપ્ટેમ્બર 2026 સુધીમાં તમારું ભંડોળ ઉપાડી લો.",
-      "link": "વધુ જાણો"
-    },
-    "hi": {
-      "header": "Osmosis Pay कार्ड बंद हो रहा है: खर्च करने का आखिरी दिन 7 अगस्त है। 6 सितंबर 2026 तक अपनी धनराशि निकाल लें।",
-      "link": "अधिक जानें"
-    },
-    "ja": {
-      "header": "Osmosis Pay カードはサービス終了となります。カード利用は8月7日まで、2026年9月6日までに資金を引き出してください。",
-      "link": "詳細はこちら"
-    },
-    "ko": {
-      "header": "Osmosis Pay 카드 서비스가 종료됩니다. 카드 사용은 8월 7일까지 가능하며, 2026년 9월 6일까지 자금을 출금하세요.",
-      "link": "자세히 보기"
-    },
-    "pl": {
-      "header": "Karta Osmosis Pay jest wycofywana: ostatni dzień płatności to 7 sierpnia. Wypłać środki do 6 września 2026 r.",
-      "link": "Dowiedz się więcej"
-    },
-    "pt-br": {
-      "header": "O cartão Osmosis Pay está sendo encerrado: o último dia para gastar é 7 de agosto. Retire seus fundos até 6 de setembro de 2026.",
-      "link": "Saiba mais"
-    },
-    "ro": {
-      "header": "Cardul Osmosis Pay se închide: ultima zi pentru plăți este 7 august. Retrage-ți fondurile până la 6 septembrie 2026.",
-      "link": "Află mai multe"
-    },
-    "ru": {
-      "header": "Карта Osmosis Pay прекращает работу: последний день оплаты 7 августа. Выведите средства до 6 сентября 2026 г.",
-      "link": "Подробнее"
-    },
-    "tr": {
-      "header": "Osmosis Pay kartı kullanımdan kaldırılıyor: son harcama günü 7 Ağustos. Fonlarınızı 6 Eylül 2026'ya kadar çekin.",
-      "link": "Daha fazla bilgi"
-    },
-    "zh-cn": {
-      "header": "Osmosis Pay 卡即将停止服务：8月7日为最后消费日，请在2026年9月6日前提取您的资金。",
-      "link": "了解更多"
-    },
-    "zh-hk": {
-      "header": "Osmosis Pay 卡即將停止服務：8月7日為最後消費日，請於2026年9月6日前提取您的資金。",
-      "link": "了解更多"
-    },
-    "zh-tw": {
-      "header": "Osmosis Pay 卡即將停止服務：8月7日為最後消費日，請於2026年9月6日前提取您的資金。",
-      "link": "了解更多"
-    }
+    "de": {},
+    "en": {},
+    "es": {},
+    "fa": {},
+    "fr": {},
+    "gu": {},
+    "hi": {},
+    "ja": {},
+    "ko": {},
+    "pl": {},
+    "pt-br": {},
+    "ro": {},
+    "ru": {},
+    "tr": {},
+    "zh-cn": {},
+    "zh-hk": {},
+    "zh-tw": {}
   }
 }
