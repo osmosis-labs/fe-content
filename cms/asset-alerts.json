@@ -102,6 +102,93 @@
           "link": "了解更多"
         }
       }
+    },
+    {
+      "denoms": [
+        "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+      ],
+      "banner": {
+        "enTextOrLocalizationPath": "header",
+        "localStorageKey": "allusdc-noble-conversion-2026-09",
+        "link": {
+          "enTextOrLocalizationKey": "link",
+          "url": "https://www.circle.com/blog/circle-is-discontinuing-support-for-usdc-and-cctp-v1-on-noble",
+          "isExternal": true
+        },
+        "isWarning": false,
+        "startDate": "2026-09-10T00:00:00Z",
+        "endDate": "2027-01-12T23:59:59Z"
+      },
+      "localization": {
+        "de": {
+          "header": "Circle stellt die Unterstützung für USDC auf Noble ein. Tausche dein {symbols} in der App 1:1 in Alloyed USDC, ohne Slippage, Gebühren oder Preisauswirkung.",
+          "link": "Circles Ankündigung"
+        },
+        "en": {
+          "header": "Circle is discontinuing support for USDC on Noble. Convert your {symbols} to Alloyed USDC in the app 1:1, with no slippage, no fee and no price impact.",
+          "link": "Circle's announcement"
+        },
+        "es": {
+          "header": "Circle dejará de dar soporte a USDC en Noble. Convierte tu {symbols} a Alloyed USDC en la app 1:1, sin slippage, sin comisiones y sin impacto en el precio.",
+          "link": "Anuncio de Circle"
+        },
+        "fa": {
+          "header": "‏Circle پشتیبانی از USDC در Noble را متوقف می‌کند. ‏{symbols} خود را در برنامه با نسبت ۱:۱ به Alloyed USDC تبدیل کنید، بدون لغزش قیمت، کارمزد یا تأثیر بر قیمت.",
+          "link": "اطلاعیه Circle"
+        },
+        "fr": {
+          "header": "Circle met fin à la prise en charge de l'USDC sur Noble. Convertissez vos {symbols} en Alloyed USDC dans l'application au taux 1:1, sans slippage, sans frais et sans impact sur le prix.",
+          "link": "Annonce de Circle"
+        },
+        "gu": {
+          "header": "Circle, Noble પર USDC માટેનો સપોર્ટ બંધ કરી રહ્યું છે. તમારા {symbols} ને એપમાં 1:1 Alloyed USDC માં રૂપાંતરિત કરો, કોઈ સ્લિપેજ, ફી કે કિંમત પર અસર વગર.",
+          "link": "Circle ની જાહેરાત"
+        },
+        "hi": {
+          "header": "Circle, Noble पर USDC का समर्थन बंद कर रहा है। अपने {symbols} को ऐप में 1:1 Alloyed USDC में बदलें, बिना किसी स्लिपेज, शुल्क या मूल्य प्रभाव के।",
+          "link": "Circle की घोषणा"
+        },
+        "ja": {
+          "header": "CircleはNoble上のUSDCのサポートを終了します。アプリ内で{symbols}をAlloyed USDCに1:1で交換できます。スリッページ、手数料、価格への影響はありません。",
+          "link": "Circleの発表"
+        },
+        "ko": {
+          "header": "Circle이 Noble의 USDC 지원을 종료합니다. 앱에서 {symbols}을(를) Alloyed USDC로 1:1 전환하세요. 슬리피지, 수수료, 가격 영향이 없습니다.",
+          "link": "Circle 공지"
+        },
+        "pl": {
+          "header": "Circle wycofuje wsparcie dla USDC na Noble. Wymień swoje {symbols} na Alloyed USDC w aplikacji w stosunku 1:1, bez poślizgu, opłat i wpływu na cenę.",
+          "link": "Ogłoszenie Circle"
+        },
+        "pt-br": {
+          "header": "A Circle vai encerrar o suporte ao USDC na Noble. Converta seu {symbols} para Alloyed USDC no app na proporção 1:1, sem slippage, sem taxa e sem impacto no preço.",
+          "link": "Anúncio da Circle"
+        },
+        "ro": {
+          "header": "Circle încetează suportul pentru USDC pe Noble. Convertește-ți {symbols} în Alloyed USDC în aplicație 1:1, fără slippage, fără comision și fără impact asupra prețului.",
+          "link": "Anunțul Circle"
+        },
+        "ru": {
+          "header": "Circle прекращает поддержку USDC в сети Noble. Обменяйте свои {symbols} на Alloyed USDC в приложении по курсу 1:1, без проскальзывания, комиссии и влияния на цену.",
+          "link": "Объявление Circle"
+        },
+        "tr": {
+          "header": "Circle, Noble üzerindeki USDC desteğini sonlandırıyor. {symbols} varlığınızı uygulamada 1:1 oranında Alloyed USDC'ye dönüştürün, kayma, ücret ve fiyat etkisi olmadan.",
+          "link": "Circle'ın duyurusu"
+        },
+        "zh-cn": {
+          "header": "Circle 将停止支持 Noble 上的 USDC。在应用内以 1:1 将您的 {symbols} 兑换为 Alloyed USDC，无滑点、无手续费、无价格影响。",
+          "link": "Circle 公告"
+        },
+        "zh-hk": {
+          "header": "Circle 將停止支援 Noble 上的 USDC。在應用程式內以 1:1 將您的 {symbols} 兌換為 Alloyed USDC，無滑點、無手續費、無價格影響。",
+          "link": "Circle 公告"
+        },
+        "zh-tw": {
+          "header": "Circle 將停止支援 Noble 上的 USDC。在應用程式內以 1:1 將您的 {symbols} 兌換為 Alloyed USDC，無滑點、無手續費、無價格影響。",
+          "link": "Circle 公告"
+        }
+      }
     }
   ]
 }
