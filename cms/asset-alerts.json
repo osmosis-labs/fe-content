@@ -3,102 +3,174 @@
   "alerts": [
     {
       "denoms": [
-        "ibc/7D29C888219883C47C623578ACACFC89CC29AA70FBF09C895A1EED911BF90F32",
-        "ibc/B3DFDC2958A2BE482532DA3B6B5729B469BE7475598F7487D98B1B3E085245DE",
-        "ibc/2F4258D6E1E01B203D6CA83F2C7E4959615053A21EC2C2FC196F7911CAC832EF",
-        "ibc/869E01805EBBDDCAEA588666CD5149728B7DC7D69F30D92F77AD67F77CEB3FDA",
-        "ibc/905326586AE1C86AC8B1CDB20BE957DE5FB23963EDD2C9ADD3E835CC22115A46",
-        "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
-        "ibc/A1465DD6AF456FCD0D998869608DFEEDA4F4C11EC0A12AF92A994A3F8CBEE546",
-        "ibc/013DE940BE791C79142EAD4DF071E1ED280DFEAB8A9DCB5932A4603A74C25CBB",
-        "ibc/2C5CB5DB3D86F64FDE6155A3A94D7543A126DA55490309EEDF59A0765873DA1C",
-        "ibc/51BFF64A432CBBA08A1ED95609BF0255EC4BBF699BFCDFF267F66CCD664CA350",
-        "ibc/18A91A3DDFD9776A247AE1B4B3298D754D1627B85F288DCEA473B7239F7B7A0E",
-        "factory/osmo1cranx3twqxfrgeqvgsu262gy54vafpc9xap6scye99v244zl970s7kw2sz/alloyed/allBCH",
-        "factory/osmo1csp8fk353hnq2tmulklecxpex43qmjvrkxjcsh4c3eqcw2vjcslq5jls9v/alloyed/allLTC",
-        "factory/osmo10nu66efsxxkdgh70xs8xur9mygrg79m5ht7zcmzsrdzxkhz7hpssz9hg9k/alloyed/allPENGU",
-        "factory/osmo1524q4dt7ckx25daydfd0ya0hyu6t26ch5509nvmxm4gcvuhk0fvs8qzl5q/alloyed/allTRUMP",
-        "factory/osmo1twk0c4kcwnhkyn6pzxe0qsk6a3nrye2w2sy309d60sljfysugagsd7e3mn/alloyed/allZEC"
+        "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       ],
       "banner": {
         "enTextOrLocalizationPath": "header",
-        "localStorageKey": "bitfrost-int3face-sunset",
+        "localStorageKey": "allusdc-noble-conversion-2026-09",
         "link": {
           "enTextOrLocalizationKey": "link",
-          "url": "https://x.com/_Bitfrost_/status/2082826447073300616",
+          "url": "https://www.circle.com/blog/circle-is-discontinuing-support-for-usdc-and-cctp-v1-on-noble",
           "isExternal": true
         },
-        "isWarning": true,
-        "startDate": "2026-07-30T00:00:00Z",
-        "endDate": "2026-08-15T23:59:59Z"
+        "isWarning": false,
+        "startDate": "2026-09-10T00:00:00Z",
+        "endDate": "2027-01-12T23:59:59Z"
       },
       "localization": {
         "de": {
-          "header": "Die BitFrost-Brücke (Int3face) wird eingestellt: Ziehe gegebenenfalls deine {symbols}-Liquidität ab und bridge deine Assets bis zum 15. August 2026.",
+          "header": "Circle stellt die Unterstützung für USDC auf Noble ein. Tausche dein {symbols} in der App 1:1 in Alloyed USDC, ohne Slippage, Gebühren oder Preisauswirkung.",
+          "link": "Circles Ankündigung"
+        },
+        "en": {
+          "header": "Circle is discontinuing support for USDC on Noble. Convert your {symbols} to Alloyed USDC in the app 1:1, with no slippage, no fee and no price impact.",
+          "link": "Circle's announcement"
+        },
+        "es": {
+          "header": "Circle dejará de dar soporte a USDC en Noble. Convierte tu {symbols} a Alloyed USDC en la app 1:1, sin slippage, sin comisiones y sin impacto en el precio.",
+          "link": "Anuncio de Circle"
+        },
+        "fa": {
+          "header": "‏Circle پشتیبانی از USDC در Noble را متوقف می‌کند. ‏{symbols} خود را در برنامه با نسبت ۱:۱ به Alloyed USDC تبدیل کنید، بدون لغزش قیمت، کارمزد یا تأثیر بر قیمت.",
+          "link": "اطلاعیه Circle"
+        },
+        "fr": {
+          "header": "Circle met fin à la prise en charge de l'USDC sur Noble. Convertissez vos {symbols} en Alloyed USDC dans l'application au taux 1:1, sans slippage, sans frais et sans impact sur le prix.",
+          "link": "Annonce de Circle"
+        },
+        "gu": {
+          "header": "Circle, Noble પર USDC માટેનો સપોર્ટ બંધ કરી રહ્યું છે. તમારા {symbols} ને એપમાં 1:1 Alloyed USDC માં રૂપાંતરિત કરો, કોઈ સ્લિપેજ, ફી કે કિંમત પર અસર વગર.",
+          "link": "Circle ની જાહેરાત"
+        },
+        "hi": {
+          "header": "Circle, Noble पर USDC का समर्थन बंद कर रहा है। अपने {symbols} को ऐप में 1:1 Alloyed USDC में बदलें, बिना किसी स्लिपेज, शुल्क या मूल्य प्रभाव के।",
+          "link": "Circle की घोषणा"
+        },
+        "ja": {
+          "header": "CircleはNoble上のUSDCのサポートを終了します。アプリ内で{symbols}をAlloyed USDCに1:1で交換できます。スリッページ、手数料、価格への影響はありません。",
+          "link": "Circleの発表"
+        },
+        "ko": {
+          "header": "Circle이 Noble의 USDC 지원을 종료합니다. 앱에서 {symbols}을(를) Alloyed USDC로 1:1 전환하세요. 슬리피지, 수수료, 가격 영향이 없습니다.",
+          "link": "Circle 공지"
+        },
+        "pl": {
+          "header": "Circle wycofuje wsparcie dla USDC na Noble. Wymień swoje {symbols} na Alloyed USDC w aplikacji w stosunku 1:1, bez poślizgu, opłat i wpływu na cenę.",
+          "link": "Ogłoszenie Circle"
+        },
+        "pt-br": {
+          "header": "A Circle vai encerrar o suporte ao USDC na Noble. Converta seu {symbols} para Alloyed USDC no app na proporção 1:1, sem slippage, sem taxa e sem impacto no preço.",
+          "link": "Anúncio da Circle"
+        },
+        "ro": {
+          "header": "Circle încetează suportul pentru USDC pe Noble. Convertește-ți {symbols} în Alloyed USDC în aplicație 1:1, fără slippage, fără comision și fără impact asupra prețului.",
+          "link": "Anunțul Circle"
+        },
+        "ru": {
+          "header": "Circle прекращает поддержку USDC в сети Noble. Обменяйте свои {symbols} на Alloyed USDC в приложении по курсу 1:1, без проскальзывания, комиссии и влияния на цену.",
+          "link": "Объявление Circle"
+        },
+        "tr": {
+          "header": "Circle, Noble üzerindeki USDC desteğini sonlandırıyor. {symbols} varlığınızı uygulamada 1:1 oranında Alloyed USDC'ye dönüştürün, kayma, ücret ve fiyat etkisi olmadan.",
+          "link": "Circle'ın duyurusu"
+        },
+        "zh-cn": {
+          "header": "Circle 将停止支持 Noble 上的 USDC。在应用内以 1:1 将您的 {symbols} 兑换为 Alloyed USDC，无滑点、无手续费、无价格影响。",
+          "link": "Circle 公告"
+        },
+        "zh-hk": {
+          "header": "Circle 將停止支援 Noble 上的 USDC。在應用程式內以 1:1 將您的 {symbols} 兌換為 Alloyed USDC，無滑點、無手續費、無價格影響。",
+          "link": "Circle 公告"
+        },
+        "zh-tw": {
+          "header": "Circle 將停止支援 Noble 上的 USDC。在應用程式內以 1:1 將您的 {symbols} 兌換為 Alloyed USDC，無滑點、無手續費、無價格影響。",
+          "link": "Circle 公告"
+        }
+      }
+    },
+    {
+      "denoms": [
+        "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
+      ],
+      "banner": {
+        "enTextOrLocalizationPath": "header",
+        "localStorageKey": "allusdc-axl-conversion-2026-09",
+        "link": {
+          "enTextOrLocalizationKey": "link",
+          "url": "https://www.mintscan.io/osmosis/proposals/1039",
+          "isExternal": true
+        },
+        "isWarning": false,
+        "startDate": "2026-09-11T00:00:00Z",
+        "endDate": "2026-10-05T23:59:59Z"
+      },
+      "localization": {
+        "de": {
+          "header": "Alloyed USDC ist das kanonische USDC auf Osmosis. Tausche dein {symbols} in der App 1:1 um, ohne Slippage, Gebühren oder Preisauswirkung.",
           "link": "Mehr erfahren"
         },
         "en": {
-          "header": "The BitFrost (Int3face) bridge is winding down: withdraw {symbols} liquidity if applicable, then bridge your assets out before August 15, 2026.",
+          "header": "Alloyed USDC is the canonical USDC on Osmosis. Convert your {symbols} in the app 1:1, with no slippage, no fee and no price impact.",
           "link": "Learn more"
         },
         "es": {
-          "header": "El puente BitFrost (Int3face) se está cerrando: retira tu liquidez de {symbols} si corresponde y transfiere tus activos antes del 15 de agosto de 2026.",
+          "header": "Alloyed USDC es el USDC canónico en Osmosis. Convierte tu {symbols} en la app 1:1, sin slippage, sin comisiones y sin impacto en el precio.",
           "link": "Más información"
         },
         "fa": {
-          "header": "پل BitFrost (Int3face) در حال توقف است: در صورت وجود، نقدینگی {symbols} خود را برداشت کرده و دارایی‌های خود را تا ۱۵ اوت ۲۰۲۶ منتقل کنید.",
+          "header": "‏Alloyed USDC همان USDC رسمی در Osmosis است. ‏{symbols} خود را در برنامه با نسبت ۱:۱ تبدیل کنید، بدون لغزش قیمت، کارمزد یا تأثیر بر قیمت.",
           "link": "اطلاعات بیشتر"
         },
         "fr": {
-          "header": "Le pont BitFrost (Int3face) prend fin : retirez votre liquidité {symbols} le cas échéant, puis transférez vos actifs avant le 15 août 2026.",
+          "header": "Alloyed USDC est l'USDC canonique sur Osmosis. Convertissez vos {symbols} dans l'application au taux 1:1, sans slippage, sans frais et sans impact sur le prix.",
           "link": "En savoir plus"
         },
         "gu": {
-          "header": "BitFrost (Int3face) બ્રિજ બંધ થઈ રહ્યો છે: લાગુ પડે તો તમારી {symbols} લિક્વિડિટી પાછી ખેંચો અને 15 ઓગસ્ટ 2026 પહેલાં તમારી સંપત્તિ બ્રિજ કરો.",
+          "header": "Alloyed USDC એ Osmosis પર કેનોનિકલ USDC છે. તમારા {symbols} ને એપમાં 1:1 રૂપાંતરિત કરો, કોઈ સ્લિપેજ, ફી કે કિંમત પર અસર વગર.",
           "link": "વધુ જાણો"
         },
         "hi": {
-          "header": "BitFrost (Int3face) ब्रिज बंद हो रहा है: लागू हो तो अपनी {symbols} लिक्विडिटी निकालें और 15 अगस्त 2026 से पहले अपनी संपत्ति ब्रिज करें।",
+          "header": "Alloyed USDC, Osmosis पर कैनोनिकल USDC है। अपने {symbols} को ऐप में 1:1 बदलें, बिना किसी स्लिपेज, शुल्क या मूल्य प्रभाव के।",
           "link": "अधिक जानें"
         },
         "ja": {
-          "header": "BitFrost（Int3face）ブリッジはサービス終了となります。2026年8月15日までに、必要に応じて{symbols}の流動性を引き出し、資産をブリッジしてください。",
+          "header": "Alloyed USDCはOsmosisにおける正規のUSDCです。アプリ内で{symbols}を1:1で交換できます。スリッページ、手数料、価格への影響はありません。",
           "link": "詳細はこちら"
         },
         "ko": {
-          "header": "BitFrost(Int3face) 브리지 서비스가 종료됩니다. 2026년 8월 15일까지 해당되는 경우 {symbols} 유동성을 인출하고 자산을 브리지하세요.",
+          "header": "Alloyed USDC는 Osmosis의 표준 USDC입니다. 앱에서 {symbols}을(를) 1:1로 전환하세요. 슬리피지, 수수료, 가격 영향이 없습니다.",
           "link": "자세히 보기"
         },
         "pl": {
-          "header": "Most BitFrost (Int3face) jest wycofywany: w razie potrzeby wycofaj płynność {symbols} i przenieś swoje aktywa do 15 sierpnia 2026 r.",
+          "header": "Alloyed USDC to kanoniczny USDC na Osmosis. Wymień swoje {symbols} w aplikacji w stosunku 1:1, bez poślizgu, opłat i wpływu na cenę.",
           "link": "Dowiedz się więcej"
         },
         "pt-br": {
-          "header": "A ponte BitFrost (Int3face) está sendo encerrada: retire sua liquidez de {symbols}, se aplicável, e transfira seus ativos até 15 de agosto de 2026.",
+          "header": "Alloyed USDC é o USDC canônico na Osmosis. Converta seu {symbols} no app na proporção 1:1, sem slippage, sem taxa e sem impacto no preço.",
           "link": "Saiba mais"
         },
         "ro": {
-          "header": "Podul BitFrost (Int3face) se închide: retrage-ți lichiditatea {symbols} dacă este cazul și transferă-ți activele până la 15 august 2026.",
+          "header": "Alloyed USDC este USDC canonic pe Osmosis. Convertește-ți {symbols} în aplicație 1:1, fără slippage, fără comision și fără impact asupra prețului.",
           "link": "Află mai multe"
         },
         "ru": {
-          "header": "Мост BitFrost (Int3face) прекращает работу: при необходимости выведите ликвидность {symbols} и переведите активы до 15 августа 2026 г.",
+          "header": "Alloyed USDC является каноничным USDC в Osmosis. Обменяйте свои {symbols} в приложении по курсу 1:1, без проскальзывания, комиссии и влияния на цену.",
           "link": "Подробнее"
         },
         "tr": {
-          "header": "BitFrost (Int3face) köprüsü kullanımdan kaldırılıyor: varsa {symbols} likiditenizi çekin ve varlıklarınızı 15 Ağustos 2026'ya kadar köprüden geçirin.",
+          "header": "Alloyed USDC, Osmosis üzerindeki kanonik USDC'dir. {symbols} varlığınızı uygulamada 1:1 oranında, kayma, ücret ve fiyat etkisi olmadan dönüştürün.",
           "link": "Daha fazla bilgi"
         },
         "zh-cn": {
-          "header": "BitFrost（Int3face）跨链桥即将停止服务：请在2026年8月15日前提取您的 {symbols} 流动性（如有）并将资产跨链转出。",
+          "header": "Alloyed USDC 是 Osmosis 上的规范 USDC。在应用内以 1:1 兑换您的 {symbols}，无滑点、无手续费、无价格影响。",
           "link": "了解更多"
         },
         "zh-hk": {
-          "header": "BitFrost（Int3face）跨鏈橋即將停止服務：請於2026年8月15日前提取您的 {symbols} 流動性（如有）並將資產跨鏈轉出。",
+          "header": "Alloyed USDC 是 Osmosis 上的規範 USDC。在應用程式內以 1:1 兌換您的 {symbols}，無滑點、無手續費、無價格影響。",
           "link": "了解更多"
         },
         "zh-tw": {
-          "header": "BitFrost（Int3face）跨鏈橋即將停止服務：請於2026年8月15日前提取您的 {symbols} 流動性（如有）並將資產跨鏈轉出。",
+          "header": "Alloyed USDC 是 Osmosis 上的規範 USDC。在應用程式內以 1:1 兌換您的 {symbols}，無滑點、無手續費、無價格影響。",
           "link": "了解更多"
         }
       }
