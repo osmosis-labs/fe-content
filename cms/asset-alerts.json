@@ -3,6 +3,93 @@
   "alerts": [
     {
       "denoms": [
+        "ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373"
+      ],
+      "banner": {
+        "enTextOrLocalizationPath": "header",
+        "localStorageKey": "usdy-ondo-winddown-2026-09",
+        "link": {
+          "enTextOrLocalizationKey": "link",
+          "url": "https://x.com/Ondo/status/2096025809358148023",
+          "isExternal": true
+        },
+        "isWarning": true,
+        "startDate": "2026-09-24T00:00:00Z",
+        "endDate": "2026-12-07T23:59:59Z"
+      },
+      "localization": {
+        "de": {
+          "header": "Ondo stellt USDY auf Noble und Osmosis ein. Inhaber von 1.000 USDY oder mehr können bis zum 8. Sep. 2027 zurück zu Noble bridgen und bei Ondo zum NAV einlösen. Kleinere Inhaber können ihr {symbols} bis zum 7. Dez. 2026 auf Osmosis tauschen.",
+          "link": "Ondos Ankündigung"
+        },
+        "en": {
+          "header": "Ondo is winding down USDY on Noble and Osmosis. Holders of 1,000 USDY or more can bridge back to Noble and redeem with Ondo at NAV until 8 Sep 2027. Smaller holders can swap their {symbols} on Osmosis until 7 Dec 2026.",
+          "link": "Ondo's announcement"
+        },
+        "es": {
+          "header": "Ondo está retirando USDY de Noble y Osmosis. Los titulares de 1.000 USDY o más pueden hacer bridge de vuelta a Noble y canjear con Ondo al NAV hasta el 8 sep 2027. Los titulares más pequeños pueden intercambiar su {symbols} en Osmosis hasta el 7 dic 2026.",
+          "link": "Anuncio de Ondo"
+        },
+        "fa": {
+          "header": "‏Ondo در حال توقف USDY در Noble و Osmosis است. دارندگان ۱٬۰۰۰ USDY یا بیشتر می‌توانند تا ۸ سپتامبر ۲۰۲۷ آن را به Noble برگردانند و نزد Ondo به ارزش NAV بازخرید کنند. دارندگان کوچک‌تر می‌توانند ‏{symbols} خود را تا ۷ دسامبر ۲۰۲۶ در Osmosis معاوضه کنند.",
+          "link": "اطلاعیه Ondo"
+        },
+        "fr": {
+          "header": "Ondo met fin à USDY sur Noble et Osmosis. Les détenteurs de 1 000 USDY ou plus peuvent le renvoyer vers Noble et le racheter auprès d'Ondo à la NAV jusqu'au 8 sept. 2027. Les plus petits détenteurs peuvent échanger leurs {symbols} sur Osmosis jusqu'au 7 déc. 2026.",
+          "link": "Annonce d'Ondo"
+        },
+        "gu": {
+          "header": "Ondo, Noble અને Osmosis પર USDY બંધ કરી રહ્યું છે. 1,000 કે તેથી વધુ USDY ધરાવનારા 8 સપ્ટે 2027 સુધી Noble પર પાછા બ્રિજ કરીને Ondo પાસે NAV પર રિડીમ કરી શકે છે. નાના ધારકો 7 ડિસે 2026 સુધી Osmosis પર તેમના {symbols} સ્વેપ કરી શકે છે.",
+          "link": "Ondo ની જાહેરાત"
+        },
+        "hi": {
+          "header": "Ondo, Noble और Osmosis पर USDY बंद कर रहा है। 1,000 या उससे अधिक USDY रखने वाले 8 सितं 2027 तक Noble पर वापस ब्रिज करके Ondo के साथ NAV पर रिडीम कर सकते हैं। छोटे धारक 7 दिसं 2026 तक Osmosis पर अपने {symbols} स्वैप कर सकते हैं।",
+          "link": "Ondo की घोषणा"
+        },
+        "ja": {
+          "header": "OndoはNobleとOsmosisでのUSDYの提供を終了します。1,000 USDY以上の保有者は、2027年9月8日までNobleにブリッジしてOndoでNAVにて償還できます。それ未満の保有者は、2026年12月7日までOsmosisで{symbols}をスワップできます。",
+          "link": "Ondoの発表"
+        },
+        "ko": {
+          "header": "Ondo가 Noble과 Osmosis에서 USDY 지원을 종료합니다. 1,000 USDY 이상 보유자는 2027년 9월 8일까지 Noble로 브리지한 후 Ondo에서 NAV로 상환할 수 있습니다. 소규모 보유자는 2026년 12월 7일까지 Osmosis에서 {symbols}을(를) 스왑할 수 있습니다.",
+          "link": "Ondo 공지"
+        },
+        "pl": {
+          "header": "Ondo wycofuje USDY z Noble i Osmosis. Posiadacze 1000 USDY lub więcej mogą do 8 wrz 2027 przenieść je z powrotem na Noble i wykupić w Ondo po NAV. Mniejsi posiadacze mogą wymienić swoje {symbols} na Osmosis do 7 gru 2026.",
+          "link": "Ogłoszenie Ondo"
+        },
+        "pt-br": {
+          "header": "A Ondo está encerrando o USDY na Noble e na Osmosis. Detentores de 1.000 USDY ou mais podem fazer bridge de volta para a Noble e resgatar com a Ondo pelo NAV até 8 set 2027. Detentores menores podem trocar seu {symbols} na Osmosis até 7 dez 2026.",
+          "link": "Anúncio da Ondo"
+        },
+        "ro": {
+          "header": "Ondo retrage USDY de pe Noble și Osmosis. Deținătorii a 1.000 USDY sau mai mult pot face bridge înapoi pe Noble și răscumpăra de la Ondo la NAV până la 8 sep 2027. Deținătorii mai mici își pot schimba {symbols} pe Osmosis până la 7 dec 2026.",
+          "link": "Anunțul Ondo"
+        },
+        "ru": {
+          "header": "Ondo сворачивает USDY в сетях Noble и Osmosis. Держатели 1000 USDY и более могут до 8 сент. 2027 перевести их обратно в Noble и погасить у Ondo по NAV. Держатели меньших сумм могут обменять свои {symbols} в Osmosis до 7 дек. 2026.",
+          "link": "Объявление Ondo"
+        },
+        "tr": {
+          "header": "Ondo, Noble ve Osmosis üzerindeki USDY'yi sonlandırıyor. 1.000 USDY veya daha fazlasına sahip olanlar 8 Eyl 2027'ye kadar Noble'a geri köprüleyip Ondo'da NAV üzerinden itfa edebilir. Daha küçük sahipler {symbols} varlıklarını 7 Ara 2026'ya kadar Osmosis'te takas edebilir.",
+          "link": "Ondo'nun duyurusu"
+        },
+        "zh-cn": {
+          "header": "Ondo 正在逐步停止 Noble 和 Osmosis 上的 USDY。持有 1,000 USDY 或以上者可在 2027 年 9 月 8 日前跨链回 Noble，并按 NAV 向 Ondo 赎回。较小持有者可在 2026 年 12 月 7 日前在 Osmosis 上兑换其 {symbols}。",
+          "link": "Ondo 公告"
+        },
+        "zh-hk": {
+          "header": "Ondo 正逐步停止 Noble 及 Osmosis 上的 USDY。持有 1,000 USDY 或以上者可於 2027 年 9 月 8 日前跨鏈回 Noble，並按 NAV 向 Ondo 贖回。較小持有者可於 2026 年 12 月 7 日前在 Osmosis 上兌換其 {symbols}。",
+          "link": "Ondo 公告"
+        },
+        "zh-tw": {
+          "header": "Ondo 正逐步停止 Noble 與 Osmosis 上的 USDY。持有 1,000 USDY 或以上者可於 2027 年 9 月 8 日前跨鏈回 Noble，並按 NAV 向 Ondo 贖回。較小持有者可於 2026 年 12 月 7 日前在 Osmosis 上兌換其 {symbols}。",
+          "link": "Ondo 公告"
+        }
+      }
+    },
+    {
+      "denoms": [
         "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       ],
       "banner": {
