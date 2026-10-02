@@ -27,6 +27,13 @@
       "note": "USDT.kava. Single spread-matched destination."
     },
     {
+      "fromPoolId": 1221,
+      "toPoolId": 3499,
+      "spreadFactor": "0.002000000000000000",
+      "tickSpacing": 100,
+      "note": "OSMO. Spread-matched destination for the 0.002 tier (3499), the deepest OSMO/allUSDC pool; the 0.0001 tier migrates 1464 to 3513."
+    },
+    {
       "fromPoolId": 1247,
       "toPoolId": 3540,
       "spreadFactor": "0.000500000000000000",
@@ -48,6 +55,13 @@
       "note": "nBTC. Spread-matched destination on the 0.002 tier."
     },
     {
+      "fromPoolId": 1282,
+      "toPoolId": 3506,
+      "spreadFactor": "0.000500000000000000",
+      "tickSpacing": 100,
+      "note": "ATOM. Spread-matched destination for the 0.0005 tier (3506); the 0.002 tier migrates 1251 to 3505."
+    },
+    {
       "fromPoolId": 1301,
       "toPoolId": 3509,
       "spreadFactor": "0.002000000000000000",
@@ -67,6 +81,20 @@
       "spreadFactor": "0.000100000000000000",
       "tickSpacing": 100,
       "note": "OSMO. Spread-matched destination for the 0.0001 tier (3513); not 3499, which is the 0.002 tier."
+    },
+    {
+      "fromPoolId": 1652,
+      "toPoolId": 3556,
+      "spreadFactor": "0.003000000000000000",
+      "tickSpacing": 100,
+      "note": "KYVE. Single spread-matched destination on the 0.003 tier."
+    },
+    {
+      "fromPoolId": 1835,
+      "toPoolId": 3507,
+      "spreadFactor": "0.000100000000000000",
+      "tickSpacing": 100,
+      "note": "USDT. Spread-matched destination for the 0.0001 tier (3507); the 0.0005 tier migrates 1880 to 3508."
     },
     {
       "fromPoolId": 1880,
@@ -144,6 +172,13 @@
       "spreadFactor": "0.001000000000000000",
       "tickSpacing": 100,
       "note": "NRIDE. Spread-matched destination on the 0.001 tier."
+    },
+    {
+      "fromPoolId": 3117,
+      "toPoolId": 3524,
+      "spreadFactor": "0.005000000000000000",
+      "tickSpacing": 100,
+      "note": "SOL. Spread-matched destination for the 0.005 tier (3524)."
     },
     {
       "fromPoolId": 3220,
