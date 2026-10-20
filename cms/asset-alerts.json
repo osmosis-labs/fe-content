@@ -261,6 +261,22 @@
           "link": "了解更多"
         }
       }
+    },
+    {
+      "denoms": [
+        "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+      ],
+      "banner": {
+        "enTextOrLocalizationPath": "header",
+        "localStorageKey": "wbtc-allbtc-migration-2026-10",
+        "isWarning": true,
+        "startDate": "2026-10-20T00:00:00Z"
+      },
+      "localization": {
+        "en": {
+          "header": "WBTC will be deprecated on Osmosis over the coming months. Convert your {symbols} to allBTC in the app to keep a fully supported BTC asset."
+        }
+      }
     }
   ]
 }
