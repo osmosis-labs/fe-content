@@ -15,11 +15,13 @@
       "enTitleOrLocalizationPath": "title",
       "enBodyOrLocalizationPath": "body",
       "enAfterDeadlineBodyOrLocalizationPath": "afterDeadline",
+      "enLateUnlockNoteOrLocalizationPath": "lateUnlock",
       "localization": {
         "en": {
           "title": "Convert your USDC.noble",
           "body": "Noble is leaving Circle on {deadline}, after which Noble USDC can no longer be bridged or redeemed through Circle's standard routes. Convert your {symbols} to USDC 1:1.",
-          "afterDeadline": "Noble is no longer supported by Circle's standard routes. Convert your {symbols} to USDC 1:1."
+          "afterDeadline": "Noble is no longer supported by Circle's standard routes. Convert your {symbols} to USDC 1:1.",
+          "lateUnlock": "After {deadline}, Noble USDC can only be redeemed through Circle's manual process, which may be slow."
         }
       }
     }

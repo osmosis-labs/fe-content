@@ -4,7 +4,7 @@
   "properties": {
     "migrations": {
       "type": "array",
-      "$comment": "Time-critical asset wind-downs, where holding the old asset past a point loses funds. Each entry raises an app-wide popup for wallets holding one of its fromDenoms anywhere on Osmosis (bank balances, staked, in-locks, unclaimed rewards, or pooled). The popup can be snoozed (24h, 1h from escalateDate) but not dismissed for good. Matching is strict exact-denom. Ordinary alloy nudges belong to the alloyed-assets toast, not here.",
+      "$comment": "Time-critical asset wind-downs, where holding the old asset past a point loses funds. Each entry raises an app-wide popup for wallets holding one of its fromDenoms in their bank balance, in liquidity pools (including locked and superfluid shares) or in limit orders. Positions already unlocking don't raise it. The popup can be snoozed (24h, 1h from escalateDate) but not dismissed for good. Matching is strict exact-denom. Ordinary alloy nudges belong to the alloyed-assets toast, not here.",
       "items": {
         "type": "object",
         "properties": {
@@ -63,6 +63,23 @@
             "type": "string",
             "minLength": 1,
             "$comment": "Optional. Replaces the body once deadline has passed, e.g. to say what still works."
+          },
+          "enLateUnlockNoteOrLocalizationPath": {
+            "type": "string",
+            "minLength": 1,
+            "$comment": "Optional. Shown beside a pool lock whose unlock would end after deadline: what happens to the asset then. May contain {deadline}."
+          },
+          "positionExit": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "maxSlippagePercent": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10,
+                "$comment": "How far a pool position withdrawal may fall short of its preview, and how wide a mapped position migration's price gap may be, in percent. Default 5, cap 10. The app hides the withdraw and migrate actions for a value outside (0, 10] rather than clamping it."
+              }
+            }
           },
           "link": {
             "type": "object",
