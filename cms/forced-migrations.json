@@ -9,7 +9,7 @@
       "toDenom": "factory/osmo147h5x9pcj7lm0cttlaefx6sqq5vdfnmwfcqxkmjd7exqm9gc7grqhr75m0/alloyed/allUSDC",
       "action": "convert",
       "startDate": "2026-10-27T00:00:00Z",
-      "escalateDate": "2026-12-20T00:00:00Z",
+      "escalateDate": "2026-12-01T00:00:00Z",
       "deadline": "2027-01-13T00:00:00Z",
       "minFiatValueUsd": 1,
       "enTitleOrLocalizationPath": "title",
