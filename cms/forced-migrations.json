@@ -22,24 +22,6 @@
           "afterDeadline": "Noble is no longer supported by Circle's standard routes. Convert your {symbols} to USDC 1:1."
         }
       }
-    },
-    {
-      "id": "native-wbtc",
-      "fromDenoms": [
-        "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
-      ],
-      "toDenom": "factory/osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3/alloyed/allBTC",
-      "action": "convert",
-      "startDate": "2026-10-27T00:00:00Z",
-      "minFiatValueUsd": 1,
-      "enTitleOrLocalizationPath": "title",
-      "enBodyOrLocalizationPath": "body",
-      "localization": {
-        "en": {
-          "title": "Convert your WBTC",
-          "body": "WBTC on Osmosis is being shut down. Convert your {symbols} to BTC 1:1."
-        }
-      }
     }
   ]
 }

@@ -57,7 +57,7 @@
           "enBodyOrLocalizationPath": {
             "type": "string",
             "minLength": 1,
-            "$comment": "English text or key into the localization block. May contain {symbols} (the held old assets, e.g. \"USDC, WBTC\") and {deadline} placeholders."
+            "$comment": "English text or key into the localization block. May contain {symbols} (the held old assets, e.g. \"USDC.noble\") and {deadline} placeholders."
           },
           "enAfterDeadlineBodyOrLocalizationPath": {
             "type": "string",
