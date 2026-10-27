@@ -18,8 +18,8 @@
       "localization": {
         "en": {
           "title": "Convert your USDC.noble",
-          "body": "Noble is leaving Circle on {deadline}, after which Noble USDC can no longer be bridged or redeemed through Circle's standard routes. Convert your {symbols} to USDC 1:1, or withdraw it.",
-          "afterDeadline": "Noble is no longer supported by Circle's standard routes. Convert your {symbols} to USDC 1:1, or withdraw it."
+          "body": "Noble is leaving Circle on {deadline}, after which Noble USDC can no longer be bridged or redeemed through Circle's standard routes. Convert your {symbols} to USDC 1:1.",
+          "afterDeadline": "Noble is no longer supported by Circle's standard routes. Convert your {symbols} to USDC 1:1."
         }
       }
     },
@@ -37,7 +37,7 @@
       "localization": {
         "en": {
           "title": "Convert your WBTC",
-          "body": "WBTC on Osmosis is being shut down. Convert your {symbols} to BTC 1:1, or withdraw it."
+          "body": "WBTC on Osmosis is being shut down. Convert your {symbols} to BTC 1:1."
         }
       }
     }
