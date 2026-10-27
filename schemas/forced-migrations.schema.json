@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "migrations": {
+      "type": "array",
+      "$comment": "Time-critical asset wind-downs, where holding the old asset past a point loses funds. Each entry raises an app-wide popup for wallets holding one of its fromDenoms anywhere on Osmosis (bank balances, staked, in-locks, unclaimed rewards, or pooled). The popup can be snoozed (24h, 1h from escalateDate) but not dismissed for good. Matching is strict exact-denom. Ordinary alloy nudges belong to the alloyed-assets toast, not here.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "$comment": "Unique and stable. Snoozes are stored under it, so changing it re-shows the popup to everyone who snoozed."
+          },
+          "fromDenoms": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "minItems": 1,
+            "$comment": "Minimal denoms being wound down, e.g. ibc/HASH or factory/... . Never symbols."
+          },
+          "toDenom": {
+            "type": "string",
+            "minLength": 1,
+            "$comment": "Minimal denom the old assets convert into. Must be the canonical asset (variantGroupKey) of every fromDenom, or the popup won't offer the convert."
+          },
+          "action": {
+            "type": "string",
+            "enum": ["convert"],
+            "$comment": "convert: swap each held variant into its canonical asset from the popup."
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time",
+            "$comment": "ISO 8601 date-time. The popup does not show before this."
+          },
+          "escalateDate": {
+            "type": "string",
+            "format": "date-time",
+            "$comment": "Optional. From here the snooze drops to 1h and the popup reads as a warning."
+          },
+          "deadline": {
+            "type": "string",
+            "format": "date-time",
+            "$comment": "Optional. Shown to users as a date, so only set it once the date is public. Without it there is no countdown and the copy should not name a date."
+          },
+          "minFiatValueUsd": {
+            "type": "number",
+            "minimum": 0,
+            "$comment": "Optional. Holdings worth less than this in total don't raise the popup. Holdings that can't be priced always do."
+          },
+          "enTitleOrLocalizationPath": {
+            "type": "string",
+            "minLength": 1,
+            "$comment": "English text or key into the localization block."
+          },
+          "enBodyOrLocalizationPath": {
+            "type": "string",
+            "minLength": 1,
+            "$comment": "English text or key into the localization block. May contain {symbols} (the held old assets, e.g. \"USDC, WBTC\") and {deadline} placeholders."
+          },
+          "enAfterDeadlineBodyOrLocalizationPath": {
+            "type": "string",
+            "minLength": 1,
+            "$comment": "Optional. Replaces the body once deadline has passed, e.g. to say what still works."
+          },
+          "link": {
+            "type": "object",
+            "properties": {
+              "enTextOrLocalizationKey": {
+                "type": "string",
+                "$comment": "English text or key into the localization block."
+              },
+              "url": { "type": "string" },
+              "isExternal": {
+                "type": "boolean",
+                "$comment": "External to Osmosis. Show disclaimer before linking out of app."
+              }
+            },
+            "required": ["enTextOrLocalizationKey", "url"],
+            "$comment": "Optional link with more detail."
+          },
+          "localization": {
+            "type": "object",
+            "$comment": "Locale code -> object of localization keys to translated strings.",
+            "additionalProperties": {
+              "type": "object",
+              "minProperties": 1,
+              "additionalProperties": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "required": [
+          "id",
+          "fromDenoms",
+          "toDenom",
+          "action",
+          "startDate",
+          "enTitleOrLocalizationPath",
+          "enBodyOrLocalizationPath"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["migrations"]
+}
