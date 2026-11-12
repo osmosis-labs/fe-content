@@ -1,7 +1,11 @@
 {
   "$schema": "../schemas/top-announcement-banner.schema.json",
-  "isChainHalted": false,
-  "banner": null,
+  "isChainHalted": true,
+  "banner": {
+    "enTextOrLocalizationPath": "Chain halted",
+    "isWarning": true,
+    "localStorageKey": "chain-halt-2026-11-12"
+  },
   "localization": {
     "de": {},
     "en": {},
