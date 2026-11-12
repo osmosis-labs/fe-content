@@ -273,8 +273,56 @@
         "startDate": "2026-10-20T00:00:00Z"
       },
       "localization": {
+        "de": {
+          "header": "WBTC wird in den kommenden Monaten auf Osmosis eingestellt. Tausche dein {symbols} in der App in allBTC, um ein vollständig unterstütztes BTC-Asset zu behalten."
+        },
         "en": {
           "header": "WBTC will be deprecated on Osmosis over the coming months. Convert your {symbols} to allBTC in the app to keep a fully supported BTC asset."
+        },
+        "es": {
+          "header": "WBTC quedará obsoleto en Osmosis en los próximos meses. Convierte tu {symbols} a allBTC en la app para mantener un activo BTC con soporte completo."
+        },
+        "fa": {
+          "header": "‏WBTC طی ماه‌های آینده در Osmosis منسوخ می‌شود. ‏{symbols} خود را در برنامه به allBTC تبدیل کنید تا یک دارایی BTC با پشتیبانی کامل داشته باشید."
+        },
+        "fr": {
+          "header": "WBTC sera progressivement abandonné sur Osmosis au cours des prochains mois. Convertissez vos {symbols} en allBTC dans l'application pour conserver un actif BTC entièrement pris en charge."
+        },
+        "gu": {
+          "header": "આગામી મહિનાઓમાં Osmosis પર WBTC બંધ કરવામાં આવશે. સંપૂર્ણ સપોર્ટ ધરાવતી BTC એસેટ રાખવા માટે તમારા {symbols} ને એપમાં allBTC માં રૂપાંતરિત કરો."
+        },
+        "hi": {
+          "header": "आने वाले महीनों में Osmosis पर WBTC बंद कर दिया जाएगा। पूरी तरह समर्थित BTC एसेट रखने के लिए अपने {symbols} को ऐप में allBTC में बदलें।"
+        },
+        "ja": {
+          "header": "WBTCは今後数か月のうちにOsmosisで非推奨となります。完全にサポートされるBTC資産を保持するため、アプリ内で{symbols}をallBTCに交換してください。"
+        },
+        "ko": {
+          "header": "WBTC는 앞으로 몇 달에 걸쳐 Osmosis에서 지원이 중단됩니다. 완전히 지원되는 BTC 자산을 유지하려면 앱에서 {symbols}을(를) allBTC로 전환하세요."
+        },
+        "pl": {
+          "header": "WBTC zostanie wycofany z Osmosis w ciągu najbliższych miesięcy. Wymień swoje {symbols} na allBTC w aplikacji, aby zachować w pełni wspierane aktywo BTC."
+        },
+        "pt-br": {
+          "header": "O WBTC será descontinuado na Osmosis nos próximos meses. Converta seu {symbols} para allBTC no app para manter um ativo BTC com suporte completo."
+        },
+        "ro": {
+          "header": "WBTC va fi retras de pe Osmosis în lunile următoare. Convertește-ți {symbols} în allBTC în aplicație pentru a păstra un activ BTC pe deplin suportat."
+        },
+        "ru": {
+          "header": "В ближайшие месяцы поддержка WBTC в Osmosis будет прекращена. Обменяйте свои {symbols} на allBTC в приложении, чтобы сохранить полностью поддерживаемый актив BTC."
+        },
+        "tr": {
+          "header": "WBTC önümüzdeki aylarda Osmosis'te kullanımdan kaldırılacak. Tam desteklenen bir BTC varlığına sahip olmaya devam etmek için {symbols} varlığınızı uygulamada allBTC'ye dönüştürün."
+        },
+        "zh-cn": {
+          "header": "WBTC 将在未来几个月内于 Osmosis 上停用。请在应用内将您的 {symbols} 兑换为 allBTC，以继续持有完全受支持的 BTC 资产。"
+        },
+        "zh-hk": {
+          "header": "WBTC 將於未來數月內在 Osmosis 上停用。請在應用程式內將您的 {symbols} 兌換為 allBTC，以繼續持有完全受支援的 BTC 資產。"
+        },
+        "zh-tw": {
+          "header": "WBTC 將於未來幾個月內在 Osmosis 上停用。請在應用程式內將您的 {symbols} 兌換為 allBTC，以繼續持有完全受支援的 BTC 資產。"
         }
       }
     }
