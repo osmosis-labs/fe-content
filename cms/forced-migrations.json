@@ -120,6 +120,88 @@
           "lateUnlock": "{deadline} 之後，USDC.noble 將無法在 Osmosis 上兌換為 USDC。請立即解鎖，以便及時兌換。"
         }
       }
+    },
+    {
+      "id": "wbtc-allbtc-2026-11",
+      "fromDenoms": [
+        "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+      ],
+      "toDenom": "factory/osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3/alloyed/allBTC",
+      "action": "convert",
+      "startDate": "2026-11-20T00:00:00Z",
+      "minFiatValueUsd": 1,
+      "enTitleOrLocalizationPath": "title",
+      "enBodyOrLocalizationPath": "body",
+      "localization": {
+        "de": {
+          "title": "Tausche dein WBTC in allBTC",
+          "body": "allBTC ist das wichtigste BTC-Asset auf Osmosis und wird in seinen Pools und Routen genutzt. Tausche dein {symbols} in einem Schritt 1:1 in allBTC."
+        },
+        "en": {
+          "title": "Convert your WBTC to allBTC",
+          "body": "allBTC is the main BTC asset on Osmosis, used across its pools and routes. Convert your {symbols} to allBTC 1:1 in one step."
+        },
+        "es": {
+          "title": "Convierte tu WBTC a allBTC",
+          "body": "allBTC es el principal activo BTC en Osmosis y se usa en sus pools y rutas. Convierte tu {symbols} a allBTC 1:1 en un solo paso."
+        },
+        "fa": {
+          "title": "‏WBTC خود را به allBTC تبدیل کنید",
+          "body": "‏allBTC دارایی اصلی BTC در Osmosis است و در استخرها و مسیرهای آن استفاده می‌شود. ‏{symbols} خود را در یک مرحله به‌صورت 1:1 به allBTC تبدیل کنید."
+        },
+        "fr": {
+          "title": "Convertissez vos WBTC en allBTC",
+          "body": "allBTC est le principal actif BTC sur Osmosis, utilisé dans ses pools et ses routes. Convertissez vos {symbols} en allBTC 1:1 en une seule étape."
+        },
+        "gu": {
+          "title": "તમારા WBTC ને allBTC માં રૂપાંતરિત કરો",
+          "body": "allBTC એ Osmosis પરની મુખ્ય BTC એસેટ છે, જેનો ઉપયોગ તેના પૂલ્સ અને રૂટ્સમાં થાય છે. તમારા {symbols} ને એક જ પગલામાં 1:1 દરે allBTC માં રૂપાંતરિત કરો."
+        },
+        "hi": {
+          "title": "अपने WBTC को allBTC में बदलें",
+          "body": "allBTC, Osmosis पर मुख्य BTC एसेट है, जिसका उपयोग इसके पूल और रूट में होता है। अपने {symbols} को एक ही चरण में 1:1 दर पर allBTC में बदलें।"
+        },
+        "ja": {
+          "title": "WBTCをallBTCに交換しましょう",
+          "body": "allBTCはOsmosisの主要なBTC資産で、プールやルート全体で使われています。{symbols}をワンステップで1:1でallBTCに交換できます。"
+        },
+        "ko": {
+          "title": "WBTC를 allBTC로 전환하세요",
+          "body": "allBTC는 Osmosis의 주요 BTC 자산으로, 풀과 라우팅 전반에서 사용됩니다. 한 번에 {symbols}을(를) allBTC로 1:1 전환하세요."
+        },
+        "pl": {
+          "title": "Wymień swoje WBTC na allBTC",
+          "body": "allBTC to główne aktywo BTC na Osmosis, używane w jego pulach i trasach. Wymień swoje {symbols} na allBTC 1:1 w jednym kroku."
+        },
+        "pt-br": {
+          "title": "Converta seu WBTC para allBTC",
+          "body": "O allBTC é o principal ativo BTC na Osmosis, usado em seus pools e rotas. Converta seu {symbols} para allBTC 1:1 em uma única etapa."
+        },
+        "ro": {
+          "title": "Convertește-ți WBTC în allBTC",
+          "body": "allBTC este principalul activ BTC pe Osmosis, folosit în pool-urile și rutele sale. Convertește-ți {symbols} în allBTC 1:1, într-un singur pas."
+        },
+        "ru": {
+          "title": "Обменяйте WBTC на allBTC",
+          "body": "allBTC является основным BTC-активом в Osmosis и используется в его пулах и маршрутах. Обменяйте свои {symbols} на allBTC 1:1 за один шаг."
+        },
+        "tr": {
+          "title": "WBTC'nizi allBTC'ye dönüştürün",
+          "body": "allBTC, Osmosis'teki ana BTC varlığıdır ve havuzlarında ve rotalarında kullanılır. {symbols} varlığınızı tek adımda 1:1 oranında allBTC'ye dönüştürün."
+        },
+        "zh-cn": {
+          "title": "将您的 WBTC 兑换为 allBTC",
+          "body": "allBTC 是 Osmosis 上的主要 BTC 资产，广泛用于其流动性池和交易路由。一步即可将您的 {symbols} 按 1:1 兑换为 allBTC。"
+        },
+        "zh-hk": {
+          "title": "將您的 WBTC 兌換為 allBTC",
+          "body": "allBTC 是 Osmosis 上的主要 BTC 資產，廣泛用於其流動性池及交易路由。一步即可將您的 {symbols} 按 1:1 兌換為 allBTC。"
+        },
+        "zh-tw": {
+          "title": "將您的 WBTC 兌換為 allBTC",
+          "body": "allBTC 是 Osmosis 上的主要 BTC 資產，廣泛用於其流動性池與交易路由。一步即可將您的 {symbols} 以 1:1 兌換為 allBTC。"
+        }
+      }
     }
   ]
 }
