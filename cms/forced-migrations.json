@@ -17,11 +17,107 @@
       "enAfterDeadlineBodyOrLocalizationPath": "afterDeadline",
       "enLateUnlockNoteOrLocalizationPath": "lateUnlock",
       "localization": {
+        "de": {
+          "title": "Tausche dein USDC.noble",
+          "body": "Der Umtausch von USDC.noble in USDC auf Osmosis endet am {deadline}. Noble verlässt Circle am Tag danach, und ab dann kann Noble USDC nicht mehr über die Standardwege von Circle gebridgt oder eingelöst werden. Tausche dein {symbols} vorher 1:1 in USDC.",
+          "afterDeadline": "{symbols} kann auf Osmosis nicht mehr in USDC getauscht werden. Ab dem 13. Januar 2027 kann Noble USDC nur noch über das manuelle Verfahren von Circle eingelöst werden, was lange dauern kann.",
+          "lateUnlock": "USDC.noble kann nach dem {deadline} auf Osmosis nicht mehr in USDC getauscht werden. Entsperre jetzt, damit du rechtzeitig tauschen kannst."
+        },
         "en": {
           "title": "Convert your USDC.noble",
           "body": "Converting USDC.noble to USDC on Osmosis ends on {deadline}. Noble leaves Circle the next day, and after that Noble USDC can no longer be bridged or redeemed through Circle's standard routes. Convert your {symbols} to USDC 1:1 before then.",
           "afterDeadline": "{symbols} can no longer be converted to USDC on Osmosis. From January 13, 2027, Noble USDC can only be redeemed through Circle's manual process, which may be slow.",
           "lateUnlock": "USDC.noble can't be converted to USDC on Osmosis after {deadline}. Unlock now so you can convert in time."
+        },
+        "es": {
+          "title": "Convierte tu USDC.noble",
+          "body": "La conversión de USDC.noble a USDC en Osmosis termina el {deadline}. Noble deja Circle al día siguiente y, a partir de entonces, el USDC de Noble ya no podrá transferirse por puente ni canjearse por las rutas estándar de Circle. Convierte tu {symbols} a USDC 1:1 antes de esa fecha.",
+          "afterDeadline": "{symbols} ya no se puede convertir a USDC en Osmosis. Desde el 13 de enero de 2027, el USDC de Noble solo puede canjearse mediante el proceso manual de Circle, que puede ser lento.",
+          "lateUnlock": "USDC.noble no se puede convertir a USDC en Osmosis después del {deadline}. Desbloquea ahora para poder convertir a tiempo."
+        },
+        "fa": {
+          "title": "‏USDC.noble خود را تبدیل کنید",
+          "body": "‏تبدیل USDC.noble به USDC در Osmosis در تاریخ {deadline} به پایان می‌رسد. ‏Noble روز بعد از Circle جدا می‌شود و پس از آن USDC نوبل دیگر از طریق مسیرهای استاندارد Circle قابل انتقال با پل یا بازخرید نیست. ‏{symbols} خود را پیش از آن به‌صورت 1:1 به USDC تبدیل کنید.",
+          "afterDeadline": "‏{symbols} دیگر در Osmosis قابل تبدیل به USDC نیست. ‏از 13 ژانویه 2027، USDC نوبل فقط از طریق فرایند دستی Circle قابل بازخرید است که ممکن است کند باشد.",
+          "lateUnlock": "‏USDC.noble پس از {deadline} در Osmosis قابل تبدیل به USDC نیست. ‏همین حالا آزاد کنید تا بتوانید به‌موقع تبدیل کنید."
+        },
+        "fr": {
+          "title": "Convertissez vos USDC.noble",
+          "body": "La conversion des USDC.noble en USDC sur Osmosis prend fin le {deadline}. Noble quitte Circle le lendemain, et les USDC de Noble ne pourront alors plus être transférés par bridge ni remboursés via les circuits standard de Circle. Convertissez vos {symbols} en USDC 1:1 avant cette date.",
+          "afterDeadline": "Les {symbols} ne peuvent plus être convertis en USDC sur Osmosis. Depuis le 13 janvier 2027, les USDC de Noble ne peuvent être remboursés que via la procédure manuelle de Circle, qui peut être lente.",
+          "lateUnlock": "Les USDC.noble ne pourront plus être convertis en USDC sur Osmosis après le {deadline}. Déverrouillez maintenant pour pouvoir convertir à temps."
+        },
+        "gu": {
+          "title": "તમારા USDC.noble ને રૂપાંતરિત કરો",
+          "body": "Osmosis પર USDC.noble ને USDC માં રૂપાંતરિત કરવાનું {deadline} ના રોજ સમાપ્ત થાય છે. તેના પછીના દિવસે Noble, Circle થી અલગ થાય છે, અને ત્યાર બાદ Noble USDC ને Circle ના સ્ટાન્ડર્ડ રૂટ્સ દ્વારા બ્રિજ કે રિડીમ કરી શકાશે નહીં. તે પહેલાં તમારા {symbols} ને 1:1 દરે USDC માં રૂપાંતરિત કરો.",
+          "afterDeadline": "{symbols} ને હવે Osmosis પર USDC માં રૂપાંતરિત કરી શકાતું નથી. 13 જાન્યુઆરી 2027 થી, Noble USDC ને ફક્ત Circle ની મેન્યુઅલ પ્રક્રિયા દ્વારા જ રિડીમ કરી શકાય છે, જે ધીમી હોઈ શકે છે.",
+          "lateUnlock": "{deadline} પછી Osmosis પર USDC.noble ને USDC માં રૂપાંતરિત કરી શકાશે નહીં. સમયસર રૂપાંતરિત કરી શકો તે માટે હમણાં અનલોક કરો."
+        },
+        "hi": {
+          "title": "अपने USDC.noble को बदलें",
+          "body": "Osmosis पर USDC.noble को USDC में बदलने की सुविधा {deadline} को समाप्त हो जाएगी। अगले दिन Noble, Circle से अलग हो जाएगा, और उसके बाद Noble USDC को Circle के मानक रूट से ब्रिज या रिडीम नहीं किया जा सकेगा। उससे पहले अपने {symbols} को 1:1 दर पर USDC में बदलें।",
+          "afterDeadline": "{symbols} को अब Osmosis पर USDC में नहीं बदला जा सकता। 13 जनवरी 2027 से, Noble USDC को केवल Circle की मैनुअल प्रक्रिया से ही रिडीम किया जा सकता है, जो धीमी हो सकती है।",
+          "lateUnlock": "{deadline} के बाद Osmosis पर USDC.noble को USDC में नहीं बदला जा सकेगा। समय पर बदलने के लिए अभी अनलॉक करें।"
+        },
+        "ja": {
+          "title": "USDC.nobleを交換してください",
+          "body": "OsmosisでのUSDC.nobleからUSDCへの交換は{deadline}に終了します。翌日NobleはCircleから離脱し、それ以降Noble USDCはCircleの標準ルートでブリッジや償還ができなくなります。それまでに{symbols}を1:1でUSDCに交換してください。",
+          "afterDeadline": "{symbols}はOsmosisでUSDCに交換できなくなりました。2027年1月13日以降、Noble USDCはCircleの手動手続きでのみ償還でき、時間がかかる場合があります。",
+          "lateUnlock": "{deadline}以降、OsmosisでUSDC.nobleをUSDCに交換することはできません。期限内に交換できるよう、今すぐロックを解除してください。"
+        },
+        "ko": {
+          "title": "USDC.noble을 전환하세요",
+          "body": "Osmosis에서 USDC.noble을 USDC로 전환하는 기능은 {deadline}에 종료됩니다. 다음 날 Noble이 Circle을 떠나며, 이후 Noble USDC는 Circle의 표준 경로로 브리지하거나 상환할 수 없습니다. 그 전에 {symbols}을(를) USDC로 1:1 전환하세요.",
+          "afterDeadline": "{symbols}은(는) 더 이상 Osmosis에서 USDC로 전환할 수 없습니다. 2027년 1월 13일부터 Noble USDC는 Circle의 수동 절차를 통해서만 상환할 수 있으며, 시간이 오래 걸릴 수 있습니다.",
+          "lateUnlock": "{deadline} 이후에는 Osmosis에서 USDC.noble을 USDC로 전환할 수 없습니다. 제때 전환할 수 있도록 지금 잠금을 해제하세요."
+        },
+        "pl": {
+          "title": "Wymień swoje USDC.noble",
+          "body": "Wymiana USDC.noble na USDC na Osmosis kończy się {deadline}. Następnego dnia Noble odchodzi od Circle i od tego momentu Noble USDC nie będzie już można przenieść mostem ani wykupić standardowymi ścieżkami Circle. Wymień swoje {symbols} na USDC 1:1 przed tym terminem.",
+          "afterDeadline": "{symbols} nie można już wymienić na USDC na Osmosis. Od 13 stycznia 2027 r. Noble USDC można wykupić wyłącznie w ręcznym procesie Circle, który może trwać długo.",
+          "lateUnlock": "Po {deadline} USDC.noble nie będzie można wymienić na USDC na Osmosis. Odblokuj teraz, aby zdążyć z wymianą."
+        },
+        "pt-br": {
+          "title": "Converta seu USDC.noble",
+          "body": "A conversão de USDC.noble para USDC na Osmosis termina em {deadline}. A Noble deixa a Circle no dia seguinte e, a partir daí, o USDC da Noble não poderá mais ser transferido por bridge nem resgatado pelas rotas padrão da Circle. Converta seu {symbols} para USDC 1:1 antes disso.",
+          "afterDeadline": "{symbols} não pode mais ser convertido para USDC na Osmosis. Desde 13 de janeiro de 2027, o USDC da Noble só pode ser resgatado pelo processo manual da Circle, que pode ser lento.",
+          "lateUnlock": "USDC.noble não pode ser convertido para USDC na Osmosis após {deadline}. Desbloqueie agora para converter a tempo."
+        },
+        "ro": {
+          "title": "Convertește-ți USDC.noble",
+          "body": "Conversia USDC.noble în USDC pe Osmosis se încheie pe {deadline}. Noble părăsește Circle a doua zi, iar după aceea Noble USDC nu mai poate fi transferat prin bridge sau răscumpărat prin rutele standard Circle. Convertește-ți {symbols} în USDC 1:1 înainte de această dată.",
+          "afterDeadline": "{symbols} nu mai poate fi convertit în USDC pe Osmosis. Începând cu 13 ianuarie 2027, Noble USDC poate fi răscumpărat doar prin procesul manual Circle, care poate fi lent.",
+          "lateUnlock": "USDC.noble nu mai poate fi convertit în USDC pe Osmosis după {deadline}. Deblochează acum ca să poți converti la timp."
+        },
+        "ru": {
+          "title": "Обменяйте USDC.noble",
+          "body": "Обмен USDC.noble на USDC в Osmosis завершится {deadline}. На следующий день Noble уходит от Circle, и после этого Noble USDC больше нельзя будет перевести через мост или погасить стандартными способами Circle. Обменяйте свои {symbols} на USDC 1:1 до этой даты.",
+          "afterDeadline": "{symbols} больше нельзя обменять на USDC в Osmosis. С 13 января 2027 года Noble USDC можно погасить только через ручную процедуру Circle, которая может занять много времени.",
+          "lateUnlock": "После {deadline} USDC.noble нельзя будет обменять на USDC в Osmosis. Разблокируйте сейчас, чтобы успеть обменять."
+        },
+        "tr": {
+          "title": "USDC.noble varlığınızı dönüştürün",
+          "body": "Osmosis'te USDC.noble'ı USDC'ye dönüştürme {deadline} tarihinde sona eriyor. Noble ertesi gün Circle'dan ayrılıyor ve sonrasında Noble USDC artık Circle'ın standart yollarıyla köprülenemeyecek veya itfa edilemeyecek. {symbols} varlığınızı bu tarihten önce 1:1 oranında USDC'ye dönüştürün.",
+          "afterDeadline": "{symbols} artık Osmosis'te USDC'ye dönüştürülemez. 13 Ocak 2027'den itibaren Noble USDC yalnızca Circle'ın manuel süreciyle itfa edilebilir ve bu süreç yavaş olabilir.",
+          "lateUnlock": "USDC.noble, {deadline} tarihinden sonra Osmosis'te USDC'ye dönüştürülemez. Zamanında dönüştürebilmek için kilidi şimdi açın."
+        },
+        "zh-cn": {
+          "title": "兑换您的 USDC.noble",
+          "body": "Osmosis 上 USDC.noble 兑换为 USDC 的服务将于 {deadline} 结束。次日 Noble 将脱离 Circle，此后 Noble USDC 将无法再通过 Circle 的标准渠道跨链或赎回。请在此之前将您的 {symbols} 按 1:1 兑换为 USDC。",
+          "afterDeadline": "{symbols} 已无法在 Osmosis 上兑换为 USDC。自 2027 年 1 月 13 日起，Noble USDC 只能通过 Circle 的人工流程赎回，可能耗时较长。",
+          "lateUnlock": "{deadline} 之后，USDC.noble 将无法在 Osmosis 上兑换为 USDC。请立即解锁，以便及时兑换。"
+        },
+        "zh-hk": {
+          "title": "兌換您的 USDC.noble",
+          "body": "Osmosis 上 USDC.noble 兌換為 USDC 的服務將於 {deadline} 結束。翌日 Noble 將脫離 Circle，此後 Noble USDC 將無法再透過 Circle 的標準渠道跨鏈或贖回。請在此之前將您的 {symbols} 按 1:1 兌換為 USDC。",
+          "afterDeadline": "{symbols} 已無法在 Osmosis 上兌換為 USDC。由 2027 年 1 月 13 日起，Noble USDC 只能透過 Circle 的人手流程贖回，可能需時較長。",
+          "lateUnlock": "{deadline} 之後，USDC.noble 將無法在 Osmosis 上兌換為 USDC。請立即解鎖，以便及時兌換。"
+        },
+        "zh-tw": {
+          "title": "兌換您的 USDC.noble",
+          "body": "Osmosis 上 USDC.noble 兌換為 USDC 的服務將於 {deadline} 結束。隔天 Noble 將脫離 Circle，此後 Noble USDC 將無法再透過 Circle 的標準管道跨鏈或贖回。請在此之前將您的 {symbols} 以 1:1 兌換為 USDC。",
+          "afterDeadline": "{symbols} 已無法在 Osmosis 上兌換為 USDC。自 2027 年 1 月 13 日起，Noble USDC 只能透過 Circle 的人工流程贖回，可能耗時較長。",
+          "lateUnlock": "{deadline} 之後，USDC.noble 將無法在 Osmosis 上兌換為 USDC。請立即解鎖，以便及時兌換。"
         }
       }
     }
