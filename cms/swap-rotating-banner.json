@@ -1,5 +1,23 @@
 {
   "$schema": "../schemas/swap-rotating-banner.schema.json",
   "banners": [],
-  "localization": {}
+  "localization": {
+    "de": {},
+    "en": {},
+    "es": {},
+    "fa": {},
+    "fr": {},
+    "gu": {},
+    "hi": {},
+    "ja": {},
+    "ko": {},
+    "pl": {},
+    "pt-br": {},
+    "ro": {},
+    "ru": {},
+    "tr": {},
+    "zh-cn": {},
+    "zh-hk": {},
+    "zh-tw": {}
+  }
 }
