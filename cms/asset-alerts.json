@@ -87,6 +87,93 @@
           "link": "Ondo 公告"
         }
       }
+    },
+    {
+      "denoms": [
+        "ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373"
+      ],
+      "banner": {
+        "enTextOrLocalizationPath": "header",
+        "localStorageKey": "usdy-ondo-redeem-only-2026-12",
+        "link": {
+          "enTextOrLocalizationKey": "link",
+          "url": "https://x.com/Ondo/status/2096025809358148023",
+          "isExternal": true
+        },
+        "isWarning": true,
+        "startDate": "2026-12-08T00:00:00Z",
+        "endDate": "2027-09-08T23:59:59Z"
+      },
+      "localization": {
+        "de": {
+          "header": "Ondos unterstütztes Tauschfenster für USDY auf Osmosis ist am 7. Dez. 2026 abgelaufen. Inhaber von 1.000 USDY oder mehr können ihr {symbols} weiterhin bis zum 8. Sep. 2027 zurück zu Noble bridgen und bei Ondo zum NAV einlösen. Weitere Fragen beantwortet support@ondo.finance.",
+          "link": "Ondos Ankündigung"
+        },
+        "en": {
+          "header": "Ondo's supported swap window for USDY on Osmosis closed on 7 Dec 2026. Holders of 1,000 USDY or more can still bridge their {symbols} back to Noble and redeem with Ondo at NAV until 8 Sep 2027. For other questions, contact support@ondo.finance.",
+          "link": "Ondo's announcement"
+        },
+        "es": {
+          "header": "El periodo de intercambio de USDY en Osmosis respaldado por Ondo terminó el 7 dic 2026. Los titulares de 1.000 USDY o más aún pueden hacer bridge de su {symbols} de vuelta a Noble y canjearlo con Ondo al NAV hasta el 8 sep 2027. Para otras consultas, escribe a support@ondo.finance.",
+          "link": "Anuncio de Ondo"
+        },
+        "fa": {
+          "header": "‏بازه معاوضه USDY در Osmosis با پشتیبانی Ondo در ۷ دسامبر ۲۰۲۶ به پایان رسید. دارندگان ۱٬۰۰۰ USDY یا بیشتر همچنان می‌توانند تا ۸ سپتامبر ۲۰۲۷ ‏{symbols} خود را به Noble برگردانند و نزد Ondo به ارزش NAV بازخرید کنند. برای پرسش‌های دیگر با support@ondo.finance تماس بگیرید.",
+          "link": "اطلاعیه Ondo"
+        },
+        "fr": {
+          "header": "La fenêtre d'échange de l'USDY sur Osmosis soutenue par Ondo a pris fin le 7 déc. 2026. Les détenteurs de 1 000 USDY ou plus peuvent encore renvoyer leurs {symbols} vers Noble et les racheter auprès d'Ondo à la NAV jusqu'au 8 sept. 2027. Pour toute autre question, contactez support@ondo.finance.",
+          "link": "Annonce d'Ondo"
+        },
+        "gu": {
+          "header": "Osmosis પર USDY માટે Ondo દ્વારા સમર્થિત સ્વેપ સમયગાળો 7 ડિસે 2026 ના રોજ પૂરો થયો. 1,000 કે તેથી વધુ USDY ધરાવનારા હજુ પણ 8 સપ્ટે 2027 સુધી તેમના {symbols} Noble પર પાછા બ્રિજ કરીને Ondo પાસે NAV પર રિડીમ કરી શકે છે. અન્ય પ્રશ્નો માટે support@ondo.finance નો સંપર્ક કરો.",
+          "link": "Ondo ની જાહેરાત"
+        },
+        "hi": {
+          "header": "Osmosis पर USDY के लिए Ondo समर्थित स्वैप अवधि 7 दिसं 2026 को समाप्त हो गई। 1,000 या उससे अधिक USDY रखने वाले अब भी 8 सितं 2027 तक अपने {symbols} को Noble पर वापस ब्रिज करके Ondo के साथ NAV पर रिडीम कर सकते हैं। अन्य प्रश्नों के लिए support@ondo.finance से संपर्क करें।",
+          "link": "Ondo की घोषणा"
+        },
+        "ja": {
+          "header": "OndoがサポートするOsmosisでのUSDYスワップ期間は2026年12月7日に終了しました。1,000 USDY以上の保有者は、2027年9月8日まで引き続き{symbols}をNobleにブリッジしてOndoでNAVにて償還できます。その他のお問い合わせはsupport@ondo.financeまでご連絡ください。",
+          "link": "Ondoの発表"
+        },
+        "ko": {
+          "header": "Ondo가 지원하는 Osmosis의 USDY 스왑 기간이 2026년 12월 7일에 종료되었습니다. 1,000 USDY 이상 보유자는 2027년 9월 8일까지 계속해서 {symbols}을(를) Noble로 브리지한 후 Ondo에서 NAV로 상환할 수 있습니다. 기타 문의는 support@ondo.finance로 연락하세요.",
+          "link": "Ondo 공지"
+        },
+        "pl": {
+          "header": "Wspierane przez Ondo okno wymiany USDY na Osmosis zakończyło się 7 gru 2026. Posiadacze 1000 USDY lub więcej nadal mogą do 8 wrz 2027 przenieść swoje {symbols} z powrotem na Noble i wykupić je w Ondo po NAV. W innych sprawach skontaktuj się z support@ondo.finance.",
+          "link": "Ogłoszenie Ondo"
+        },
+        "pt-br": {
+          "header": "A janela de troca de USDY na Osmosis apoiada pela Ondo terminou em 7 dez 2026. Detentores de 1.000 USDY ou mais ainda podem fazer bridge do seu {symbols} de volta para a Noble e resgatar com a Ondo pelo NAV até 8 set 2027. Para outras dúvidas, entre em contato com support@ondo.finance.",
+          "link": "Anúncio da Ondo"
+        },
+        "ro": {
+          "header": "Perioada de schimb pentru USDY pe Osmosis susținută de Ondo s-a încheiat pe 7 dec 2026. Deținătorii a 1.000 USDY sau mai mult își pot trimite în continuare {symbols} înapoi pe Noble prin bridge și le pot răscumpăra de la Ondo la NAV până la 8 sep 2027. Pentru alte întrebări, contactați support@ondo.finance.",
+          "link": "Anunțul Ondo"
+        },
+        "ru": {
+          "header": "Поддерживаемое Ondo окно обмена USDY в Osmosis закрылось 7 дек. 2026. Держатели 1000 USDY и более по-прежнему могут до 8 сент. 2027 перевести свои {symbols} обратно в Noble и погасить у Ondo по NAV. По другим вопросам обращайтесь на support@ondo.finance.",
+          "link": "Объявление Ondo"
+        },
+        "tr": {
+          "header": "Ondo destekli Osmosis USDY takas dönemi 7 Ara 2026'da sona erdi. 1.000 USDY veya daha fazlasına sahip olanlar {symbols} varlıklarını 8 Eyl 2027'ye kadar hâlâ Noble'a geri köprüleyip Ondo'da NAV üzerinden itfa edebilir. Diğer sorular için support@ondo.finance ile iletişime geçin.",
+          "link": "Ondo'nun duyurusu"
+        },
+        "zh-cn": {
+          "header": "Ondo 支持的 Osmosis 上 USDY 兑换窗口已于 2026 年 12 月 7 日关闭。持有 1,000 USDY 或以上者仍可在 2027 年 9 月 8 日前将其 {symbols} 跨链回 Noble，并按 NAV 向 Ondo 赎回。如有其他问题，请联系 support@ondo.finance。",
+          "link": "Ondo 公告"
+        },
+        "zh-hk": {
+          "header": "Ondo 支援的 Osmosis 上 USDY 兌換窗口已於 2026 年 12 月 7 日關閉。持有 1,000 USDY 或以上者仍可於 2027 年 9 月 8 日前將其 {symbols} 跨鏈回 Noble，並按 NAV 向 Ondo 贖回。如有其他問題，請聯絡 support@ondo.finance。",
+          "link": "Ondo 公告"
+        },
+        "zh-tw": {
+          "header": "Ondo 支援的 Osmosis 上 USDY 兌換期間已於 2026 年 12 月 7 日結束。持有 1,000 USDY 或以上者仍可於 2027 年 9 月 8 日前將其 {symbols} 跨鏈回 Noble，並按 NAV 向 Ondo 贖回。如有其他問題，請聯絡 support@ondo.finance。",
+          "link": "Ondo 公告"
+        }
+      }
     }
   ]
 }
